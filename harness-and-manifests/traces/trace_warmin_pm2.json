@@ -1,0 +1,1 @@
+{"ue": [6, 10, 14, 18, 22, 25, 25, 25, 25, 25], "pps_per_ue": 125000, "max_ue": 40, "phases": [{"name": "warm-in", "start": 0, "end": 10}], "source": {"note": "trace 2 warm-in v2(09-16):斜坡 6→25 五分鐘再平跑 5 分鐘(v1 為 8×25,25 顆 4 分鐘湧入兩基礎槽會把 relief/arrivals 同湧、PFCP 餓死等壓力打出來;warm-in 不計分,baseline 同規則);run_trace2.sh 收斂閘再接 --resume 段"}}

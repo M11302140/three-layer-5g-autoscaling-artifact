@@ -1,0 +1,9 @@
+B4_3.75_300: 20/20 identical
+B5_4.0_L2: 20/20 identical
+B6_0.775: 20/20 identical
+S1_2.25: 20/20 identical
+B4_3.0_300: 20/20 identical
+B5_3.5_L1: 20/20 identical
+B6_0.7: 20/20 identical
+S1_3.25: 20/20 identical
+consistency vs r62cf cache: ALL IDENTICAL (5s)

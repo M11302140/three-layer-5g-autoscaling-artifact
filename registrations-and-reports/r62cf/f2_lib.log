@@ -1,0 +1,6 @@
+S4a {'risk_on': 0.051176470588235295, 'cost_on': 1337.8405056759511, 'risk_off': 0.05110423116615067, 'cost_off': 1337.4747162022668, 'fires': 308, 'fires_dispatched': 184, 'traces_changed': 171} 81s
+S4b {'risk_on': 0.07492260061919505, 'cost_on': 1284.2118679050539, 'risk_off': 0.07528379772961816, 'cost_off': 1282.4391124870974, 'fires': 948, 'fires_dispatched': 577, 'traces_changed': 458} 84s
+v6 {'risk_on': 0.056068111455108365, 'cost_on': 1261.330536635702, 'risk_off': 0.0567595459236326, 'cost_off': 1258.8445717234213, 'fires': 1152, 'fires_dispatched': 608, 'traces_changed': 483} 59s
+B4c2 {'risk_on': 0.021888544891640868, 'cost_on': 1311.2022910216633, 'risk_off': 0.02214654282765738, 'cost_off': 1310.4346955624274, 'fires': 545, 'fires_dispatched': 216, 'traces_changed': 185} 58s
+B5c1 {'risk_on': 0.03912280701754386, 'cost_on': 1273.211929824554, 'risk_off': 0.03948400412796697, 'cost_off': 1271.4098452012313, 'fires': 1053, 'fires_dispatched': 537, 'traces_changed': 421} 58s
+B6 {'risk_on': 0.019793601651186793, 'cost_on': 1320.2716408668655, 'risk_off': 0.019803921568627453, 'cost_off': 1319.6172445820357, 'fires': 344, 'fires_dispatched': 91, 'traces_changed': 82} 80s

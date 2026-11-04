@@ -1,0 +1,53 @@
+{
+ "seed": 20261011,
+ "pool_ruled_at": "2026-10-26 05:22:28 (round 79; written and committed before sampling)",
+ "files": {
+  "/home/user/experiment/trace_ue_60min_v3_t9.json": "42da9e899d0cadd6e9255f8ac01a92cb61d378713f39c64242682c3e92c5bce8",
+  "/home/user/experiment/trace_warmin_t9.json": "ad51af724c109270e96d639345c451543100231da01c8293fb4e690d52d51ab4",
+  "/home/user/experiment/trace_warmin_t9_static.json": "1b3dd4f1370c293dfa6af7e34ff53352521de84727e2164db9de70fba739b8eb",
+  "/home/user/experiment/trace_ue_60min_v3_t10.json": "1b52865b906a739dfc612dd9c20f4753ddcf9857bd07c14d41e4e2ba3e7ee987",
+  "/home/user/experiment/trace_warmin_t10.json": "af7297bf2590f9e6ceb3032b43e4f150625f9737a34215fb1e0240a0eed5491b",
+  "/home/user/experiment/trace_warmin_t10_static.json": "e08af91313447c1bc4ec529e7b4498c2ad3c0675154d44b283303c500cf05a50"
+ },
+ "t10_band": "stress",
+ "t9": {
+  "loc": 35,
+  "date": "2026-10-24",
+  "start": 660,
+  "rank": 10,
+  "ue0": 22,
+  "stats": {
+   "mp": 0.6775,
+   "f36": 0.05,
+   "minue": 18.0,
+   "rise10": 19.0,
+   "start": 22.0,
+   "end": 23.0
+  },
+  "band": "general band (\u00a74.53 thresholds)",
+  "start_fleet": "general band: t6/t7 start rule"
+ },
+ "t10": {
+  "loc": 66,
+  "date": "2026-10-24",
+  "start": 660,
+  "rank": 42,
+  "ue0": 7,
+  "stats": {
+   "mp": 0.4145833333333333,
+   "f36": 0.016666666666666666,
+   "minue": 7.0,
+   "rise10": 32.0,
+   "start": 7.0,
+   "end": 20.0
+  },
+  "band": "stress band",
+  "start_fleet": {
+   "rep": 2,
+   "wk": 1,
+   "vy": 1,
+   "rule": "t3/t8 rule: rep=min(8,ceil(UE0/4)); wk=ceil(rep/2); vy=ceil(UE0*0.125/1.5)"
+  }
+ },
+ "log_sha256": "c80c9af214b8c7aea258e7aed569cb88edf45017cd0b7a53228d525fec94dbf2"
+}

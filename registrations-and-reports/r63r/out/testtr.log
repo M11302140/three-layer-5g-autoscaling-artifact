@@ -1,0 +1,9 @@
+t3 S4a D8 λ (2.75, 3.0) old λ [2.96, 3.5] | nest2 3 (1269) old 2 (1273) recheck 2 | v11 3 (1267) v11 fullprior 3 (1234) old 2 (1273) | split priors n2 [2, 3, 2, 2, 2, 2] v11 [2, 3, 2, 2, 2, 2]
+t3 S4b D8 λ (1.83, 2.33) old λ [1.92, 2.83] | nest2 3 (1212) old 3 (1220) recheck 3 | v11 3 (1210) v11 fullprior 5 (1163) old 3 (1218) | split priors n2 [3, 3, 3, 3, 3, 3] v11 [3, 3, 3, 3, 3, 3]
+t4 S4a D4 λ (2.71, 2.88) old λ [2.29, 2.79] | nest2 1 (1438) old 1 (1438) recheck 1 | v11 2 (1436) v11 fullprior 2 (1446) old 2 (1435) | split priors n2 [1, 1, 1, 1, 1, 1] v11 [2, 2, 2, 2, 2, 2]
+t4 S4b D4 λ (1.75, 2.0) old λ [1.54, 2.0] | nest2 1 (1423) old 3 (1397) recheck 3 | v11 4 (1420) v11 fullprior 4 (1420) old 4 (1395) | split priors n2 [1, 1, 1, 1, 1, 1] v11 [4, 4, 4, 4, 4, 4]
+t6 S4a D1 λ (2.67, 3.0) old λ [2.08, 2.25] | nest2 0 (1406) old 0 (1406) recheck 0 | v11 5 (1405) v11 fullprior 3 (1435) old 5 (1405) | split priors n2 [0, 0, 0, 0, 0, 0] v11 [5, 5, 5, 5, 5, 5]
+t6 S4b D1 λ (1.92, 2.0) old λ [1.46, 1.54] | nest2 0 (1369) old 1 (1347) recheck 1 | v11 5 (1383) v11 fullprior 5 (1397) old 5 (1361) | split priors n2 [0, 0, 0, 0, 0, 0] v11 [5, 5, 5, 5, 5, 5]
+t7 S4a D1 λ (2.67, 3.0) old λ [2.08, 2.25] | nest2 0 (1399) old 0 (1399) recheck 0 | v11 0 (1402) v11 fullprior 0 (1430) old 0 (1402) | split priors n2 [0, 0, 0, 0, 0, 0] v11 [0, 0, 0, 0, 0, 0]
+t7 S4b D1 λ (1.92, 2.0) old λ [1.46, 1.54] | nest2 0 (1388) old 0 (1368) recheck 0 | v11 2 (1392) v11 fullprior 0 (1396) old 2 (1372) | split priors n2 [0, 0, 0, 0, 0, 0] v11 [2, 2, 2, 2, 2, 2]
+runtime 10 s

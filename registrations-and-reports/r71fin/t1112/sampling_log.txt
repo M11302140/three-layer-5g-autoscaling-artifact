@@ -1,0 +1,67 @@
+# make_t1112.py run 2026-10-27 23:46:05 seed=20261011; pool ruled_at 2026-10-27 23:44:17 (r71fin; written and committed before merging and sampling)
+sha256 pool.json 8ef31efc52c97668dfa69a2f27131bb38d3157b8f026c6c6c09a406304c18222
+sha256 t6t7_thresholds.json d828f20ff5c07c1897697eeb86d2fef00a57eec7c5d93816260cbb7b962508d1
+sha256 g_thresholds.json caa103d07ef69bc69f9a66f0bf72924b1317170c8b5aec4c815f6285baa79161
+sha256 highload_thresholds.json 6885057ee37a9f6a05e50173d366339e402cbc38028a96c68ba925cebac92d9b
+sha256 make_t1112.py c0b2bfaa1ae942cd764c869c76e65105fb45207b48a018dbb04a6c31ec33d3f2
+source live2026: csv sha256 0e7217e824a62e76a416fb9b61a347997b2448c1e4da1e6dcac42164e8e9967c (pool says 0e7217e824a62e76a416fb9b61a347997b2448c1e4da1e6dcac42164e8e9967c) OK
+  live2026: sensors=2 locdays=4 windows=57
+pool total: sensors=2 locdays=4 windows=57
+rank 1: sensor 3 2026-10-26 17:00 mp=0.572 f36=0.033 minue=9 rise10=14 start/end=32/16 | general: (v) start/end=32/16 | stress: (i') mp=0.572; (iv') rise10=14; (v) start/end=32/16 | highload: (h) mp=0.572; (v) start/end=32/16 
+rank 2: sensor 4 2026-10-27 18:00 mp=0.609 f36=0.083 minue=13 rise10=13 start/end=40/17 | general: (v) start/end=40/17 | stress: (i') mp=0.609; (iv') rise10=13; (v) start/end=40/17 | highload: (h) mp=0.609; (v) start/end=40/17 
+rank 3: sensor 3 2026-10-27 18:00 mp=0.672 f36=0.067 minue=16 rise10=11 start/end=33/16 | general: (v) start/end=33/16 | stress: (i') mp=0.672; (iv') rise10=11; (v) start/end=33/16 | highload: (h) mp=0.672; (v) start/end=33/16 
+rank 4: sensor 4 2026-10-26 13:00 mp=0.754 f36=0.083 minue=21 rise10=15 start/end=36/36 | general: (i) mp=0.754; (v) start/end=36/36 | stress: (i') mp=0.754; (iv') rise10=15; (v) start/end=36/36 | highload: (v) start/end=36/36 
+rank 5: sensor 3 2026-10-27 12:00 mp=0.765 f36=0.067 minue=24 rise10=13 start/end=30/33 | general: (i) mp=0.765; (v) start/end=30/33 | stress: (i') mp=0.765; (iv') rise10=13; (v) start/end=30/33 | highload: (v) start/end=30/33 
+rank 6: sensor 3 2026-10-27 20:00 mp=0.495 f36=0.083 minue=4 rise10=11 start/end=36/4 | general: (i) mp=0.495; (iii) minue=4; (v) start/end=36/4 | stress: (iv') rise10=11; (iii) minue=4; (v) start/end=36/4 | highload: (h) mp=0.495; (iii) minue=4; (v) start/end=36/4 
+rank 7: sensor 4 2026-10-27 17:00 mp=0.608 f36=0.117 minue=12 rise10=11 start/end=30/12 | general: PASS | stress: (i') mp=0.608; (iv') rise10=11 | highload: (h) mp=0.608 **ACCEPT = t11**
+rank 8: sensor 4 2026-10-26 20:00 mp=0.505 f36=0.017 minue=7 rise10=17 start/end=29/7 | general: (i) mp=0.505 | stress: (iv') rise10=17 | highload: (h) mp=0.505 
+rank 9: sensor 3 2026-10-26 12:00 mp=0.679 f36=0.017 minue=21 rise10=19 start/end=22/40 | general: (v) start/end=22/40 | stress: (i') mp=0.679; (iv') rise10=19; (v) start/end=22/40 | highload: (h) mp=0.679; (v) start/end=22/40 
+rank 10: sensor 4 2026-10-26 11:00 mp=0.742 f36=0.133 minue=14 rise10=16 start/end=14/31 | general: (i) mp=0.742; (ii) f36=0.133; (v) start/end=14/31 | stress: (i') mp=0.742; (iv') rise10=16; (v) start/end=14/31 | highload: (v) start/end=14/31 
+rank 11: sensor 4 2026-10-26 16:00 mp=0.677 f36=0.133 minue=15 rise10=16 start/end=31/15 | general: (ii) f36=0.133; (v) start/end=31/15 | stress: (i') mp=0.677; (iv') rise10=16; (v) start/end=31/15 | highload: (h) mp=0.677; (v) start/end=31/15 
+rank 12: sensor 4 2026-10-27 16:00 mp=0.702 f36=0.150 minue=14 rise10=12 start/end=29/21 | general: (ii) f36=0.150 | stress: (i') mp=0.702; (iv') rise10=12 | highload: (h) mp=0.702 
+rank 13: sensor 4 2026-10-26 06:00 mp=0.410 f36=0.067 minue=4 rise10=21 start/end=4/32 | general: (i) mp=0.410; (iii) minue=4; (v) start/end=4/32 | stress: (iii) minue=4; (v) start/end=4/32 | highload: (h) mp=0.410; (iii) minue=4; (v) start/end=4/32 
+rank 14: sensor 4 2026-10-27 11:00 mp=0.742 f36=0.233 minue=14 rise10=14 start/end=14/26 | general: (i) mp=0.742; (ii) f36=0.233 | stress: (i') mp=0.742; (iv') rise10=14 | highload: PASS 
+rank 15: sensor 3 2026-10-27 10:00 mp=0.620 f36=0.083 minue=7 rise10=13 start/end=11/36 | general: (v) start/end=11/36 | stress: (i') mp=0.620; (iv') rise10=13; (v) start/end=11/36 | highload: (h) mp=0.620; (v) start/end=11/36 
+rank 16: sensor 4 2026-10-27 15:00 mp=0.750 f36=0.150 minue=17 rise10=12 start/end=27/25 | general: (i) mp=0.750; (ii) f36=0.150 | stress: (i') mp=0.750; (iv') rise10=12 | highload: PASS 
+rank 17: sensor 3 2026-10-27 14:00 mp=0.753 f36=0.050 minue=24 rise10=16 start/end=27/32 | general: (i) mp=0.753; (v) start/end=27/32 | stress: (i') mp=0.753; (iv') rise10=16; (v) start/end=27/32 | highload: (v) start/end=27/32 
+rank 18: sensor 3 2026-10-26 14:00 mp=0.711 f36=0.050 minue=17 rise10=20 start/end=33/34 | general: (i) mp=0.711; (v) start/end=33/34 | stress: (i') mp=0.711; (iv') rise10=20; (v) start/end=33/34 | highload: (v) start/end=33/34 
+rank 19: sensor 4 2026-10-26 08:00 mp=0.582 f36=0.100 minue=9 rise10=14 start/end=11/40 | general: (v) start/end=11/40 | stress: (i') mp=0.582; (iv') rise10=14; (v) start/end=11/40 | highload: (h) mp=0.582; (v) start/end=11/40 
+rank 20: sensor 3 2026-10-26 13:00 mp=0.690 f36=0.017 minue=17 rise10=18 start/end=26/22 | general: PASS | stress: (i') mp=0.690; (iv') rise10=18 | highload: (h) mp=0.690 
+rank 21: sensor 3 2026-10-26 18:00 mp=0.514 f36=0.067 minue=10 rise10=13 start/end=36/15 | general: (v) start/end=36/15 | stress: (iv') rise10=13; (v) start/end=36/15 | highload: (h) mp=0.514; (v) start/end=36/15 
+rank 22: sensor 4 2026-10-27 10:00 mp=0.671 f36=0.200 minue=15 rise10=14 start/end=15/27 | general: (ii) f36=0.200 | stress: (i') mp=0.671; (iv') rise10=14 | highload: (h) mp=0.671 
+rank 23: sensor 4 2026-10-26 18:00 mp=0.546 f36=0.100 minue=10 rise10=19 start/end=38/10 | general: (v) start/end=38/10 | stress: (i') mp=0.546; (iv') rise10=19; (v) start/end=38/10 | highload: (h) mp=0.546; (v) start/end=38/10 
+rank 24: sensor 3 2026-10-26 11:00 mp=0.695 f36=0.050 minue=14 rise10=16 start/end=22/29 | general: PASS | stress: (i') mp=0.695; (iv') rise10=16 | highload: (h) mp=0.695 
+rank 25: sensor 4 2026-10-26 15:00 mp=0.762 f36=0.183 minue=15 rise10=16 start/end=32/30 | general: (i) mp=0.762; (ii) f36=0.183; (v) start/end=32/30 | stress: (i') mp=0.762; (iv') rise10=16; (v) start/end=32/30 | highload: (v) start/end=32/30 
+rank 26: sensor 4 2026-10-26 19:00 mp=0.495 f36=0.050 minue=5 rise10=10 start/end=40/15 | general: (i) mp=0.495; (iii) minue=5; (v) start/end=40/15 | stress: (iv') rise10=10; (iii) minue=5; (v) start/end=40/15 | highload: (h) mp=0.495; (iii) minue=5; (v) start/end=40/15 
+rank 27: sensor 3 2026-10-27 13:00 mp=0.810 f36=0.167 minue=26 rise10=10 start/end=38/31 | general: (i) mp=0.810; (ii) f36=0.167; (v) start/end=38/31 | stress: (i') mp=0.810; (iv') rise10=10; (v) start/end=38/31 | highload: (v) start/end=38/31 
+rank 28: sensor 4 2026-10-26 14:00 mp=0.817 f36=0.233 minue=23 rise10=16 start/end=29/31 | general: (i) mp=0.817; (ii) f36=0.233; (v) start/end=29/31 | stress: (i') mp=0.817; (iv') rise10=16; (v) start/end=29/31 | highload: (v) start/end=29/31 
+rank 29: sensor 4 2026-10-27 07:00 mp=0.580 f36=0.133 minue=5 rise10=14 start/end=5/38 | general: (ii) f36=0.133; (iii) minue=5; (v) start/end=5/38 | stress: (i') mp=0.580; (iv') rise10=14; (iii) minue=5; (v) start/end=5/38 | highload: (h) mp=0.580; (iii) minue=5; (v) start/end=5/38 
+rank 30: sensor 3 2026-10-27 19:00 mp=0.500 f36=0.017 minue=8 rise10=11 start/end=40/10 | general: (i) mp=0.500; (v) start/end=40/10 | stress: (iv') rise10=11; (v) start/end=40/10 | highload: (h) mp=0.500; (v) start/end=40/10 
+rank 31: sensor 4 2026-10-26 07:00 mp=0.503 f36=0.033 minue=4 rise10=17 start/end=6/28 | general: (i) mp=0.503; (iii) minue=4 | stress: (iv') rise10=17; (iii) minue=4 | highload: (h) mp=0.503; (iii) minue=4 
+rank 32: sensor 3 2026-10-27 17:00 mp=0.741 f36=0.100 minue=20 rise10=11 start/end=29/20 | general: (i) mp=0.741 | stress: (i') mp=0.741; (iv') rise10=11 | highload: PASS **ACCEPT = t12 (highload (fallback: no stress-band passer))**
+rank 33: sensor 3 2026-10-26 19:00 mp=0.567 f36=0.050 minue=10 rise10=21 start/end=19/11 | general: PASS | stress: (i') mp=0.567 | highload: (h) mp=0.567 
+rank 34: sensor 3 2026-10-26 16:00 mp=0.649 f36=0.033 minue=9 rise10=19 start/end=27/9 | general: PASS | stress: (i') mp=0.649; (iv') rise10=19 | highload: (h) mp=0.649 
+rank 35: sensor 3 2026-10-27 09:00 mp=0.476 f36=0.033 minue=7 rise10=13 start/end=9/31 | general: (i) mp=0.476; (v) start/end=9/31 | stress: (iv') rise10=13; (v) start/end=9/31 | highload: (h) mp=0.476; (v) start/end=9/31 
+rank 36: sensor 3 2026-10-27 08:00 mp=0.439 f36=0.033 minue=7 rise10=17 start/end=7/34 | general: (i) mp=0.439; (v) start/end=7/34 | stress: (iv') rise10=17; (v) start/end=7/34 | highload: (h) mp=0.439; (v) start/end=7/34 
+rank 37: sensor 4 2026-10-27 09:00 mp=0.537 f36=0.083 minue=11 rise10=14 start/end=13/36 | general: (v) start/end=13/36 | stress: (i') mp=0.537; (iv') rise10=14; (v) start/end=13/36 | highload: (h) mp=0.537; (v) start/end=13/36 
+rank 38: sensor 3 2026-10-26 08:00 mp=0.457 f36=0.050 minue=8 rise10=19 start/end=8/40 | general: (i) mp=0.457; (v) start/end=8/40 | stress: (iv') rise10=19; (v) start/end=8/40 | highload: (h) mp=0.457; (v) start/end=8/40 
+rank 39: sensor 4 2026-10-27 12:00 mp=0.782 f36=0.233 minue=23 rise10=12 start/end=30/23 | general: (i) mp=0.782; (ii) f36=0.233 | stress: (i') mp=0.782; (iv') rise10=12 | highload: PASS 
+rank 40: sensor 3 2026-10-26 15:00 mp=0.706 f36=0.050 minue=17 rise10=20 start/end=25/22 | general: (i) mp=0.706 | stress: (i') mp=0.706; (iv') rise10=20 | highload: PASS 
+rank 41: sensor 4 2026-10-26 12:00 mp=0.779 f36=0.133 minue=24 rise10=10 start/end=27/26 | general: (i) mp=0.779; (ii) f36=0.133 | stress: (i') mp=0.779; (iv') rise10=10 | highload: PASS 
+rank 42: sensor 4 2026-10-26 17:00 mp=0.556 f36=0.067 minue=10 rise10=14 start/end=34/12 | general: (v) start/end=34/12 | stress: (i') mp=0.556; (iv') rise10=14; (v) start/end=34/12 | highload: (h) mp=0.556; (v) start/end=34/12 
+rank 43: sensor 3 2026-10-26 20:00 mp=0.583 f36=0.067 minue=6 rise10=16 start/end=24/6 | general: PASS | stress: (i') mp=0.583; (iv') rise10=16 | highload: (h) mp=0.583 
+rank 44: sensor 4 2026-10-27 13:00 mp=0.778 f36=0.167 minue=25 rise10=12 start/end=32/29 | general: (i) mp=0.778; (ii) f36=0.167; (v) start/end=32/29 | stress: (i') mp=0.778; (iv') rise10=12; (v) start/end=32/29 | highload: (v) start/end=32/29 
+rank 45: sensor 4 2026-10-27 06:00 mp=0.469 f36=0.067 minue=3 rise10=16 start/end=3/36 | general: (i) mp=0.469; (iii) minue=3; (v) start/end=3/36 | stress: (iv') rise10=16; (iii) minue=3; (v) start/end=3/36 | highload: (h) mp=0.469; (iii) minue=3; (v) start/end=3/36 
+rank 46: sensor 3 2026-10-26 07:00 mp=0.430 f36=0.033 minue=5 rise10=20 start/end=5/40 | general: (i) mp=0.430; (iii) minue=5; (v) start/end=5/40 | stress: (iv') rise10=20; (iii) minue=5; (v) start/end=5/40 | highload: (h) mp=0.430; (iii) minue=5; (v) start/end=5/40 
+rank 47: sensor 4 2026-10-27 08:00 mp=0.602 f36=0.050 minue=11 rise10=13 start/end=11/32 | general: (v) start/end=11/32 | stress: (i') mp=0.602; (iv') rise10=13; (v) start/end=11/32 | highload: (h) mp=0.602; (v) start/end=11/32 
+rank 48: sensor 4 2026-10-27 14:00 mp=0.774 f36=0.183 minue=25 rise10=12 start/end=39/29 | general: (i) mp=0.774; (ii) f36=0.183; (v) start/end=39/29 | stress: (i') mp=0.774; (iv') rise10=12; (v) start/end=39/29 | highload: (v) start/end=39/29 
+rank 49: sensor 4 2026-10-26 09:00 mp=0.583 f36=0.150 minue=7 rise10=17 start/end=7/40 | general: (ii) f36=0.150; (v) start/end=7/40 | stress: (i') mp=0.583; (iv') rise10=17; (v) start/end=7/40 | highload: (h) mp=0.583; (v) start/end=7/40 
+rank 50: sensor 4 2026-10-27 19:00 mp=0.522 f36=0.033 minue=6 rise10=11 start/end=29/9 | general: PASS | stress: (iv') rise10=11 | highload: (h) mp=0.522 
+rank 51: sensor 3 2026-10-26 09:00 mp=0.446 f36=0.050 minue=6 rise10=15 start/end=9/40 | general: (i) mp=0.446; (v) start/end=9/40 | stress: (iv') rise10=15; (v) start/end=9/40 | highload: (h) mp=0.446; (v) start/end=9/40 
+rank 52: sensor 3 2026-10-26 10:00 mp=0.586 f36=0.050 minue=8 rise10=16 start/end=8/27 | general: PASS | stress: (i') mp=0.586; (iv') rise10=16 | highload: (h) mp=0.586 
+rank 53: sensor 3 2026-10-27 11:00 mp=0.718 f36=0.067 minue=17 rise10=13 start/end=19/23 | general: (i) mp=0.718 | stress: (i') mp=0.718; (iv') rise10=13 | highload: PASS 
+rank 54: sensor 3 2026-10-27 15:00 mp=0.759 f36=0.083 minue=23 rise10=15 start/end=31/30 | general: (i) mp=0.759; (v) start/end=31/30 | stress: (i') mp=0.759; (iv') rise10=15; (v) start/end=31/30 | highload: (v) start/end=31/30 
+rank 55: sensor 4 2026-10-27 20:00 mp=0.568 f36=0.133 minue=4 rise10=13 start/end=40/6 | general: (ii) f36=0.133; (iii) minue=4; (v) start/end=40/6 | stress: (i') mp=0.568; (iv') rise10=13; (iii) minue=4; (v) start/end=40/6 | highload: (h) mp=0.568; (iii) minue=4; (v) start/end=40/6 
+rank 56: sensor 3 2026-10-27 16:00 mp=0.754 f36=0.100 minue=22 rise10=15 start/end=32/22 | general: (i) mp=0.754; (v) start/end=32/22 | stress: (i') mp=0.754; (iv') rise10=15; (v) start/end=32/22 | highload: (v) start/end=32/22 
+rank 57: sensor 4 2026-10-26 10:00 mp=0.657 f36=0.133 minue=13 rise10=16 start/end=13/28 | general: (ii) f36=0.133 | stress: (i') mp=0.657; (iv') rise10=16 | highload: (h) mp=0.657 
+general passers 8, stress passers 0, high-load passers 7 of 57

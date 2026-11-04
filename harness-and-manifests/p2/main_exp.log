@@ -1,0 +1,526 @@
+[2026-10-09 12:23:49] PROBE p15
+PROBE p15 p50 264 p95 381 p99 412 e2e 0.008 ue 40 fleet 8/8/3/4
+[2026-10-09 12:38:55] BLOCK t4 START
+[2026-10-09 12:38:55] RUN r300 t4 S4a
+[2026-10-09 14:28:26] DONE r300 t4 S4a slo=60/60 burned=717 flags=no-finish
+[2026-10-09 14:28:26] RUN r301 t4 HHRO
+[2026-10-09 14:30:15] DRIVER v1 killed (false no-finish flag bug); v2 takes over
+[2026-10-09 14:30:15] RESUME: waiting for running queue item HHRO:t4:r301
+[2026-10-09 16:13:50] DONE r301 t4 HHRO slo=58/60 burned=678 flags=ok
+[2026-10-09 16:13:50] BLOCK t4 START
+[2026-10-09 16:13:50] SKIP r300 (in ledger)
+[2026-10-09 16:13:50] SKIP r301 (in ledger)
+[2026-10-09 16:13:50] RUN r302 t4 B4c2_slo
+[2026-10-09 18:00:06] DONE r302 t4 B4c2_slo slo=57/60 burned=715 flags=start-transient
+[2026-10-09 18:00:06] RUN r303 t4 S4b
+[2026-10-09 19:45:51] DONE r303 t4 S4b slo=56/60 burned=693 flags=ok
+[2026-10-09 19:45:51] RUN r304 t4 B5c1_slo
+[2026-10-09 22:09:24] DONE r304 t4 B5c1_slo slo=21/60 burned=537 flags=daemon-panic
+[2026-10-09 22:09:24] STOP file present — exiting before B6c4_slo:t4:r305
+[2026-10-09 22:17:08] DRIVER v3 start (SKIP_ARMS=B5c1_slo pending q10 approval; r304 void daemon-panic)
+[2026-10-09 22:17:08] BLOCK t4 START
+[2026-10-09 22:17:08] SKIP r300 (in ledger)
+[2026-10-09 22:17:08] SKIP r301 (in ledger)
+[2026-10-09 22:17:08] SKIP r302 (in ledger)
+[2026-10-09 22:17:08] SKIP r303 (in ledger)
+[2026-10-09 22:17:08] SKIP r304 (in ledger)
+[2026-10-09 22:17:08] RUN r305 t4 B6c4_slo
+[2026-10-10 00:02:32] DONE r305 t4 B6c4_slo slo=59/60 burned=715 flags=ok
+[2026-10-10 00:02:32] RUN r306 t4 B1_static
+[2026-10-10 01:19:56] DONE r306 t4 B1_static slo=60/60 burned=732 flags=ok
+[2026-10-10 01:19:56] RUN r307 t4 HHRO
+[2026-10-10 03:05:07] DONE r307 t4 HHRO slo=59/60 burned=675 flags=ok
+[2026-10-10 03:05:07] STOP file present — exiting before B4c2_slo:t4:r308
+[2026-10-10 03:14:08] DRIVER v4 start (B5 back in rotation on q11; EXTRA_RETRY=B5c1_slo for r304's replacement at block end; B6 on q11 from here)
+[2026-10-10 03:14:08] BLOCK t4 START
+[2026-10-10 03:14:08] SKIP r300 (in ledger)
+[2026-10-10 03:14:08] SKIP r301 (in ledger)
+[2026-10-10 03:14:08] SKIP r302 (in ledger)
+[2026-10-10 03:14:08] SKIP r303 (in ledger)
+[2026-10-10 03:14:08] SKIP r304 (in ledger)
+[2026-10-10 03:14:08] SKIP r305 (in ledger)
+[2026-10-10 03:14:08] SKIP r306 (in ledger)
+[2026-10-10 03:14:08] SKIP r307 (in ledger)
+[2026-10-10 03:14:09] RUN r308 t4 B4c2_slo
+[2026-10-10 05:37:35] DONE r308 t4 B4c2_slo slo=60/60 burned=721 flags=ok
+[2026-10-10 05:37:35] RUN r309 t4 S4b
+[2026-10-10 07:24:27] DONE r309 t4 S4b slo=55/60 burned=698 flags=ok
+[2026-10-10 07:24:28] RUN r310 t4 B5c1_slo
+[2026-10-10 09:47:58] DONE r310 t4 B5c1_slo slo=58/60 burned=690 flags=ok
+[2026-10-10 09:47:58] RUN r311 t4 B6c4_slo
+[2026-10-10 11:33:18] DONE r311 t4 B6c4_slo slo=60/60 burned=721 flags=ok
+[2026-10-10 11:33:18] RUN r312 t4 S4a
+[2026-10-10 13:22:49] DONE r312 t4 S4a slo=59/60 burned=691 flags=ok
+[2026-10-10 13:22:50] RUN r313 t4 B4c2_slo
+[2026-10-10 15:08:07] DONE r313 t4 B4c2_slo slo=60/60 burned=721 flags=ok
+[2026-10-10 15:08:07] STOP file present — exiting before S4b:t4:r314
+[2026-10-10 15:10:16] DRIVER v4 restart (EXTRA_RETRY=B5c1_slo,B4c2_slo: replacements for r304 and r302 at block end)
+[2026-10-10 15:10:16] BLOCK t4 START
+[2026-10-10 15:10:16] SKIP r300 (in ledger)
+[2026-10-10 15:10:16] SKIP r301 (in ledger)
+[2026-10-10 15:10:16] SKIP r302 (in ledger)
+[2026-10-10 15:10:16] SKIP r303 (in ledger)
+[2026-10-10 15:10:16] SKIP r304 (in ledger)
+[2026-10-10 15:10:16] SKIP r305 (in ledger)
+[2026-10-10 15:10:16] SKIP r306 (in ledger)
+[2026-10-10 15:10:16] SKIP r307 (in ledger)
+[2026-10-10 15:10:16] SKIP r308 (in ledger)
+[2026-10-10 15:10:16] SKIP r309 (in ledger)
+[2026-10-10 15:10:16] SKIP r310 (in ledger)
+[2026-10-10 15:10:16] SKIP r311 (in ledger)
+[2026-10-10 15:10:16] SKIP r312 (in ledger)
+[2026-10-10 15:10:16] SKIP r313 (in ledger)
+[2026-10-10 15:10:17] RUN r314 t4 S4b
+[2026-10-10 16:56:10] DONE r314 t4 S4b slo=58/60 burned=685 flags=ok
+[2026-10-10 16:56:10] RUN r315 t4 B5c1_slo
+[2026-10-10 18:42:23] DONE r315 t4 B5c1_slo slo=57/60 burned=691 flags=ok
+[2026-10-10 18:42:23] RUN r316 t4 B6c4_slo
+[2026-10-10 20:22:07] OPERATOR: bounced gNB-3 + UE-3 (harness _recover_lost_departure equivalent) during r316 warm-in w3: gNB had released UE-3's PSI 2 (18:58:23) while UE kept it → uplink 'PDU session not found' → UE-3 black all three warm-in segments; harness force-reap never restarted the UE process
+[2026-10-10 21:46:31] DONE r316 t4 B6c4_slo slo=60/60 burned=736 flags=ok
+[2026-10-10 21:46:32] STOP file present — exiting before S4a:t4:r317
+[2026-10-10 21:48:50] DRIVER v4 restart (EXTRA_RETRY=B5c1_slo,B4c2_slo,HHRO: replacements for r304, r302 and r307-void at block end)
+[2026-10-10 21:48:50] BLOCK t4 START
+[2026-10-10 21:48:50] SKIP r300 (in ledger)
+[2026-10-10 21:48:50] SKIP r301 (in ledger)
+[2026-10-10 21:48:50] SKIP r302 (in ledger)
+[2026-10-10 21:48:50] SKIP r303 (in ledger)
+[2026-10-10 21:48:50] SKIP r304 (in ledger)
+[2026-10-10 21:48:50] SKIP r305 (in ledger)
+[2026-10-10 21:48:50] SKIP r306 (in ledger)
+[2026-10-10 21:48:50] SKIP r307 (in ledger)
+[2026-10-10 21:48:50] SKIP r308 (in ledger)
+[2026-10-10 21:48:50] SKIP r309 (in ledger)
+[2026-10-10 21:48:50] SKIP r310 (in ledger)
+[2026-10-10 21:48:50] SKIP r311 (in ledger)
+[2026-10-10 21:48:50] SKIP r312 (in ledger)
+[2026-10-10 21:48:50] SKIP r313 (in ledger)
+[2026-10-10 21:48:50] SKIP r314 (in ledger)
+[2026-10-10 21:48:50] SKIP r315 (in ledger)
+[2026-10-10 21:48:50] SKIP r316 (in ledger)
+[2026-10-10 21:48:50] RUN r317 t4 S4a
+[2026-10-10 23:46:20] DONE r317 t4 S4a slo=58/60 burned=698 flags=ok
+[2026-10-10 23:46:20] RUN r318 t4 HHRO
+[2026-10-11 01:31:37] DONE r318 t4 HHRO slo=59/60 burned=676 flags=ok
+[2026-10-11 01:31:37] RETRY B5c1_slo (platform-flagged earlier / EXTRA_RETRY)
+[2026-10-11 01:31:37] RUN r319 t4 B5c1_slo
+[2026-10-11 03:16:53] DONE r319 t4 B5c1_slo slo=58/60 burned=687 flags=ok
+[2026-10-11 03:16:53] RETRY B4c2_slo (platform-flagged earlier / EXTRA_RETRY)
+[2026-10-11 03:16:53] STOP file present — exiting before B4c2_slo:t4:r320
+[2026-10-11 03:17:33] DRIVER v4 restart (BLOCKS=t4 only: finish retries r320 B4c2 + r321 HHRO, probe p16, then stop for the block report; EXTRA_RETRY includes B5c1 to consume r319's id)
+[2026-10-11 03:17:33] BLOCK t4 START
+[2026-10-11 03:17:33] SKIP r300 (in ledger)
+[2026-10-11 03:17:33] SKIP r301 (in ledger)
+[2026-10-11 03:17:33] SKIP r302 (in ledger)
+[2026-10-11 03:17:33] SKIP r303 (in ledger)
+[2026-10-11 03:17:33] SKIP r304 (in ledger)
+[2026-10-11 03:17:33] SKIP r305 (in ledger)
+[2026-10-11 03:17:33] SKIP r306 (in ledger)
+[2026-10-11 03:17:33] SKIP r307 (in ledger)
+[2026-10-11 03:17:33] SKIP r308 (in ledger)
+[2026-10-11 03:17:33] SKIP r309 (in ledger)
+[2026-10-11 03:17:33] SKIP r310 (in ledger)
+[2026-10-11 03:17:33] SKIP r311 (in ledger)
+[2026-10-11 03:17:33] SKIP r312 (in ledger)
+[2026-10-11 03:17:33] SKIP r313 (in ledger)
+[2026-10-11 03:17:33] SKIP r314 (in ledger)
+[2026-10-11 03:17:33] SKIP r315 (in ledger)
+[2026-10-11 03:17:33] SKIP r316 (in ledger)
+[2026-10-11 03:17:33] SKIP r317 (in ledger)
+[2026-10-11 03:17:33] SKIP r318 (in ledger)
+[2026-10-11 03:17:33] RETRY B5c1_slo (platform-flagged earlier / EXTRA_RETRY)
+[2026-10-11 03:17:33] SKIP r319 (in ledger)
+[2026-10-11 03:17:33] RETRY B4c2_slo (platform-flagged earlier / EXTRA_RETRY)
+[2026-10-11 03:17:33] RUN r320 t4 B4c2_slo
+[2026-10-11 05:03:22] DONE r320 t4 B4c2_slo slo=58/60 burned=719 flags=ok
+[2026-10-11 05:03:22] RETRY HHRO (platform-flagged earlier / EXTRA_RETRY)
+[2026-10-11 05:03:22] RUN r321 t4 HHRO
+[2026-10-11 06:48:33] DONE r321 t4 HHRO slo=58/60 burned=673 flags=ok
+[2026-10-11 06:48:33] BLOCK t4 DONE (next id 322)
+[2026-10-11 06:48:33] PROBE p16
+PROBE p16 p50 256 p95 362 p99 394 e2e 0.012 ue 40 fleet 8/8/3/4
+[2026-10-11 07:02:34] MAIN EXPERIMENT ALL DONE
+[2026-10-11 07:02:48] DRIVER v4 start t5+t3 blocks (BLOCKS='t5 t3'; t4 block complete: 19 scheduled + 3 replacements + p15/p16)
+[2026-10-11 07:02:48] BLOCK t5 START
+[2026-10-11 07:02:48] RUN r330 t5 S4a
+[2026-10-11 08:51:32] DONE r330 t5 S4a slo=60/60 burned=709 flags=ok
+[2026-10-11 08:51:32] STOP file present — exiting before HHRO:t5:r331
+[2026-10-11 08:53:41] DRIVER v4 restart (BLOCKS=t5 only → natural pause after t5 for metrics; then BLOCKS=t3)
+[2026-10-11 08:53:41] BLOCK t5 START
+[2026-10-11 08:53:41] SKIP r330 (in ledger)
+[2026-10-11 08:53:42] RUN r331 t5 HHRO
+[2026-10-11 10:41:58] DONE r331 t5 HHRO slo=60/60 burned=717 flags=ok
+[2026-10-11 10:41:59] RUN r332 t5 B4c2_slo
+[2026-10-11 12:30:54] DONE r332 t5 B4c2_slo slo=60/60 burned=737 flags=ok
+[2026-10-11 12:30:54] RUN r333 t5 S4b
+[2026-10-11 14:19:51] DONE r333 t5 S4b slo=60/60 burned=694 flags=ok
+[2026-10-11 14:19:51] RUN r334 t5 B5c1_slo
+[2026-10-11 16:08:16] DONE r334 t5 B5c1_slo slo=60/60 burned=718 flags=ok
+[2026-10-11 16:08:16] RUN r335 t5 B6c4_slo
+[2026-10-11 17:56:32] DONE r335 t5 B6c4_slo slo=60/60 burned=726 flags=ok
+[2026-10-11 17:56:32] RUN r336 t5 B1_static
+[2026-10-11 17:57:20] STOP placed automatically after r336 started (round-29 B: t5 first round only; driver exits before r337; detached watcher)
+[2026-10-11 19:16:58] DONE r336 t5 B1_static slo=60/60 burned=736 flags=ok
+[2026-10-11 19:16:59] STOP file present — exiting before HHRO:t5:r337
+[2026-10-11 19:17:25] lib_percentiles START
+[2026-10-11 19:17:25] lib_percentiles END rc=1
+[2026-10-11 19:17:32] lib_percentiles RERUN (index bug fixed: j upper bound n-1)
+[2026-10-11 19:17:34] lib_percentiles END rc=0
+[2026-10-11 19:18:00] PROBE p17 (manual; t5 block-end probe — driver exited on STOP before BLOCK DONE)
+PROBE p17 p50 258 p95 367 p99 394 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-11 19:32:29] RUN r322 t4 S4b (manual rerun of r309 per round 29; pause after t5 round 1; p17 clean)
+[2026-10-11 19:32:41] DRIVER v4 start t3 block (BLOCKS=t3, 3 rounds per round 34; RESUME waits for r322 and records it; p18 after block)
+[2026-10-11 19:32:41] RESUME: waiting for running queue item S4b:t4:r322
+[2026-10-11 19:32:45] B23-RELAY armed: waiting for driver pid 3585617; items: B2_dasa:t1:r390,t1:r391,t1:r392 B2_dasa:t2:r393,t2:r394,t2:r395 B3_hpa:t1:r396,t1:r397,t1:r398 B3t2_hpa:t2:r399,t2:r400,t2:r401
+[2026-10-11 20:03:36] DRIVER t3 + B23-RELAY DISARMED (round 35: no t3 after r322; simulation window until 10-13 12:00; r322 to be recorded manually)
+[2026-10-11 21:18:38] DONE r322 t4 S4b slo=56/60 burned=697 flags=ok (manual record; rerun of r309; viol min20-21 common ramp, min49-50 surge on drain — same classes as r303/r314)
+[2026-10-11 21:18:38] SIMULATION WINDOW OPEN (round 35): no experiments; compute allowed until 10-13 12:00
+[2026-10-11 21:30:38] SIM: v8sim11_lib arms (library eval, 14 procs) START
+[2026-10-11 21:31:58] SIM: v8sim11_lib arms RESTART (per-arm converged start fleets)
+[2026-10-11 21:37:29] SIM: cal target 0.0568 START (v6 library risk under v8sim11)
+[2026-10-11 22:04:47] SIM: cal ABORTED (too slow: 19 s per grid point; profiling + grid reduction)
+[2026-10-11 22:05:45] SIM: cal 0.0568 RESTART (reduced grid 5x6x12, single pool)
+[2026-10-11 23:40:44] SIM: cal END rc=0
+[2026-10-11 23:40:44] SIM: cal2 (supplementary grid λ_vm 0-1.0, λ_up 1.5-3.0; λ_vm hit lower bound in splits 0-2) START
+[2026-10-11 23:40:50] SIM: gate2 on v8sim11_cal_0.0568_2026-10-11_2205.json START
+[2026-10-11 23:41:26] SIM: gate2 END
+[2026-10-12 00:44:52] SIM: cal2 END rc=0
+[2026-10-12 00:45:05] SIM: gate2(cal2 supplementary) START v8sim11_cal_0.0568_2026-10-11_2340.json
+[2026-10-12 00:45:22] SIM: gate2(cal2) END
+[2026-10-12 00:45:22] SIM: cal5 (b) START
+[2026-10-12 01:43:52] SIM: cal5 END rc=0
+[2026-10-12 01:43:52] SIM: arms (R38 on, src split) START
+[2026-10-12 01:46:27] SIM: arms r38on END
+[2026-10-12 01:46:27] SIM: arms (R38 OFF counterfactual) START
+[2026-10-12 01:49:02] SIM: arms r38off END
+[2026-10-12 01:49:02] SIM: gate2(cal5, R38 on) START
+[2026-10-12 01:49:02] SIM: gate2 cal5 on END
+[2026-10-12 01:49:02] SIM: gate2(cal5, R38 off) START
+[2026-10-12 01:49:02] SIM: gate2 cal5 off END
+[2026-10-12 01:49:02] SIM: gate1 replay t4 (R38 off) START
+[2026-10-12 01:49:05] SIM: gate1 r38off END
+[2026-10-12 01:49:05] SIM: CHAIN r36 DONE
+[2026-10-12 01:50:00] SIM: gate2 cal5 (R38 on, target 0.0568) rerun
+[2026-10-12 01:50:34] SIM: gate2 cal5 on/off rerun END
+[2026-10-12 02:26:19] REPRO burst after-fix x3 START (spec §4.67 step 2; IRQ fix applied 02:4x)
+[2026-10-12 03:06:38] REPRO burst BEFORE-fix x3 START (IRQ_BEFORE=1)
+[2026-10-12 03:46:20] REPRO burst BEFORE-fix END
+[2026-10-12 03:46:50] REPRO burst+VFIO before-fix x2 START
+[2026-10-12 04:00:59] REPRO v2: after-fix pair cancelled (before-fix v1 0/3, v2 0/1 → cannot reproduce by written criterion); letting v2 before trial 2 finish, then IRQ restore
+[2026-10-12 04:13:43] SIM: platform ladder (R38 on) START (round 35 item 6 / round 37)
+[2026-10-12 04:36:33] SIM: ladder on END rc=0
+[2026-10-12 04:36:33] SIM: platform ladder (R38 off) START
+[2026-10-12 04:59:17] SIM: ladder off END rc=0; LADDER DONE
+[2026-10-12 04:59:26] PLATFORM: worker-0 CP VF IRQs reverted to t4 state (core 4) and persisted pin block removed (round 37: cannot reproduce → no fix)
+[2026-10-12 04:59:26] DRIVER v4 start t3 block (BLOCKS=t3, 3 rounds, original 7 arms; round 37 resume after .38 investigation)
+[2026-10-12 04:59:26] BLOCK t3 START
+[2026-10-12 04:59:27] RUN r360 t3 S4a
+[2026-10-12 07:01:28] DONE r360 t3 S4a slo=58/60 burned=519 flags=ok
+[2026-10-12 07:01:28] RUN r361 t3 HHRO
+[2026-10-12 08:47:20] DONE r361 t3 HHRO slo=53/60 burned=483 flags=ok
+[2026-10-12 08:47:20] RUN r362 t3 B4c2_slo
+[2026-10-12 10:33:47] DONE r362 t3 B4c2_slo slo=57/60 burned=560 flags=ok
+[2026-10-12 10:33:47] RUN r363 t3 S4b
+[2026-10-12 12:19:37] DONE r363 t3 S4b slo=54/60 burned=488 flags=ok
+[2026-10-12 12:19:38] RUN r364 t3 B5c1_slo
+[2026-10-12 14:05:30] POST-T3 chain armed on driver pid 143803 (round 38 (a)-(e))
+[2026-10-12 14:05:34] DONE r364 t3 B5c1_slo slo=57/60 burned=519 flags=ok
+[2026-10-12 14:05:34] RUN r365 t3 B6c4_slo
+[2026-10-12 15:51:01] DONE r365 t3 B6c4_slo slo=58/60 burned=541 flags=ok
+[2026-10-12 15:51:01] RUN r366 t3 B1_static
+[2026-10-12 17:08:35] DONE r366 t3 B1_static slo=60/60 burned=736 flags=ok
+[2026-10-12 17:08:36] RUN r367 t3 HHRO
+[2026-10-12 18:54:17] DONE r367 t3 HHRO slo=53/60 burned=500 flags=ok
+[2026-10-12 18:54:17] RUN r368 t3 B4c2_slo
+[2026-10-12 19:06:54] DONE r368 t3 B4c2_slo slo=? burned=? flags=no-finish
+[2026-10-12 19:06:55] RUN r369 t3 S4b
+[2026-10-12 19:08:33] PLATFORM: TRex silent death during r368 warm-in (RPC 4501 unresponsive) → restarted (--no-watchdog, dataplane.slice, --pin) before r369 harness
+[2026-10-12 19:09:06] PLATFORM: killed 21 leftover nr-ue from crashed r368 warm-in before r369 harness (prep was restarting SCP/AMF)
+[2026-10-12 21:05:51] DONE r369 t3 S4b slo=57/60 burned=490 flags=ok
+[2026-10-12 21:05:52] RUN r370 t3 B5c1_slo
+[2026-10-12 22:24:50] NOTE r370 min33: gNB-8 NG dead by log marker (bounced twice), UE-6/8 idx_ip healed, zombies → 6.32% loss with p99 298 µs and zero slot oob = harness/platform type (same class as r309 min25, round-29 ruling: void + rerun) → r379 replacement queued before post-t3 (a)
+[2026-10-12 22:52:16] DONE r370 t3 B5c1_slo slo=30/60 burned=540 flags=ok
+[2026-10-12 22:52:16] RUN r371 t3 B6c4_slo
+[2026-10-12 23:26:20] PLATFORM: r371 warm-in min22 — UE-8 datapath black since min19 (force reap failing; gNB-8 'PDU session not found' after bounce) → manual bounce of gNB-8 + UE-8 during warm-in (r316 precedent, not scored)
+[2026-10-13 00:42:24] DONE r371 t3 B6c4_slo slo=57/60 burned=553 flags=ok
+[2026-10-13 00:42:24] RUN r372 t3 S4a
+[2026-10-13 01:21:15] STOP placed: round 39 — pause after r372 for clean gNB restart + probe before round 3
+[2026-10-13 02:28:40] DONE r372 t3 S4a slo=58/60 burned=523 flags=ok
+[2026-10-13 02:28:41] STOP file present — exiting before B4c2_slo:t3:r373
+[2026-10-13 02:28:55] R39: driver exited after r372 (STOP); starting clean gNB restart
+[2026-10-13 02:29:20] R39: killed gNBs/UEs: nr-gnb left=0 nr-ue left=0
+[2026-10-13 02:29:51] R39: AMF gNB count after kill: Number of gNBs is now 0
+[2026-10-13 02:29:51] R39: PROBE p17b (post gNB restart, pre round 3)
+PROBE p17b p50 261 p95 375 p99 396 e2e 0.008 ue 40 fleet 8/8/3/4
+[2026-10-13 02:44:50] R39: p17b in band (e2e 0.008 p99 396); nr-gnb now 44 nr-ue 0
+[2026-10-13 02:44:50] R39: DRIVER v4 restart (BLOCKS=t3 round 3 r373-r378; EXTRA_RETRY=B4c2_slo for void r368; p18 after)
+[2026-10-13 02:44:50] BLOCK t3 START
+[2026-10-13 02:44:50] SKIP r360 (in ledger)
+[2026-10-13 02:44:50] SKIP r361 (in ledger)
+[2026-10-13 02:44:50] SKIP r362 (in ledger)
+[2026-10-13 02:44:50] SKIP r363 (in ledger)
+[2026-10-13 02:44:50] SKIP r364 (in ledger)
+[2026-10-13 02:44:50] SKIP r365 (in ledger)
+[2026-10-13 02:44:50] SKIP r366 (in ledger)
+[2026-10-13 02:44:50] SKIP r367 (in ledger)
+[2026-10-13 02:44:50] SKIP r368 (in ledger)
+[2026-10-13 02:44:50] SKIP r369 (in ledger)
+[2026-10-13 02:44:50] SKIP r370 (in ledger)
+[2026-10-13 02:44:50] SKIP r371 (in ledger)
+[2026-10-13 02:44:50] SKIP r372 (in ledger)
+[2026-10-13 02:44:51] RUN r373 t3 B4c2_slo
+[2026-10-13 02:44:55] R39: new driver pid 2096291; re-arming post_t3_chain_v2
+[2026-10-13 04:30:10] DONE r373 t3 B4c2_slo slo=55/60 burned=556 flags=ok
+[2026-10-13 04:30:10] RUN r374 t3 S4b
+[2026-10-13 06:16:29] DONE r374 t3 S4b slo=55/60 burned=493 flags=ok
+[2026-10-13 06:16:29] RUN r375 t3 B5c1_slo
+[2026-10-13 08:01:54] DONE r375 t3 B5c1_slo slo=55/60 burned=521 flags=ok
+[2026-10-13 08:01:54] RUN r376 t3 B6c4_slo
+[2026-10-13 08:22:36] PLATFORM: manual bounce of black UE/gNB pairs during r376w: 19
+[2026-10-13 09:47:52] DONE r376 t3 B6c4_slo slo=53/60 burned=545 flags=ok
+[2026-10-13 09:47:52] RUN r377 t3 S4a
+[2026-10-13 11:34:26] DONE r377 t3 S4a slo=57/60 burned=519 flags=ok
+[2026-10-13 11:34:26] RUN r378 t3 HHRO
+[2026-10-13 11:52:15] PLATFORM: manual bounce of black UE/gNB pairs during r378w: 5
+[2026-10-13 13:19:48] DONE r378 t3 HHRO slo=57/60 burned=501 flags=ok
+[2026-10-13 13:19:48] RETRY B4c2_slo (platform-flagged earlier / EXTRA_RETRY)
+[2026-10-13 13:19:48] RUN r379 t3 B4c2_slo
+[2026-10-13 14:30:18] R40-prep: post_t3_chain_v2 waiter replaced by v3 (adds (0b) r382 B4c2 replacement for r379 network-outage void)
+[2026-10-13 15:09:23] DONE r379 t3 B4c2_slo slo=56/60 burned=460 flags=ok
+[2026-10-13 15:09:23] BLOCK t3 DONE (next id 380)
+[2026-10-13 15:09:23] PROBE p18
+PROBE p18 p50 154 p95 251 p99 290 e2e 0.000 ue 10 fleet 8/8/3/4
+[2026-10-13 15:23:40] MAIN EXPERIMENT ALL DONE
+[2026-10-13 15:23:47] POST-T3: STOP file present → not continuing
+[2026-10-13 16:10:50] RESUME: network restored; VyOS DNS fix applied (daemon VYOS_DNS=10.0.0.1 + vyos-0/1 live; verify ssh 5x <0.7 s); STOP removed; post_t3_chain_v3 re-armed (dummy pid) → r380 → r382 → (a)(b)(c) → p19 → r381 → B2/B3
+[2026-10-13 16:11:48] POST-T3: (0) RUN r380 t3 B5c1_slo (replacement for r370, gNB-8 NG death min33)
+[2026-10-13 16:18:49] R40: chain v3 parent killed (r380 queue pid 3134003 untouched); chain v4 armed = r380 ledger → r382 → (a)(b)(c) → p19 → r381 → r383 (B6 replacement for r376) → STOP for harness fixes
+[2026-10-13 16:37:36] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r380w: 3 
+[2026-10-13 17:58:09] POST-T3: (0) DONE r380 t3 B5c1_slo slo=56/60 burned=524
+[2026-10-13 17:58:09] POST-T3: (0b) RUN r382 t3 B4c2_slo (replacement for r379, network outage)
+[2026-10-13 18:02:08] POST-T3: (0b) DONE r382 t3 B4c2_slo slo=? burned=?
+[2026-10-13 18:02:08] POST-T3: (a) protocol v3 replay BEFORE-fix x3 START
+[2026-10-13 18:02:09] POST-T3: (a) END: 0 HIT / 0
+[2026-10-13 18:02:09] POST-T3: (b) IRQ pin applied+persisted on worker-0: 81=0 82=1 83=2 84=3 85=0 86=1 87=2 
+[2026-10-13 18:02:09] POST-T3: (c) protocol v3 replay AFTER-fix x3 START
+[2026-10-13 18:02:09] POST-T3: (c) END: 0 HIT / 0
+[2026-10-13 18:02:09] POST-T3: (d) PROBE p19
+[2026-10-13 18:03:18] R40: chain v4 killed after r382 bringup failure (UE-13 registration reject [90], SBI timeout) cascaded into (a)/(c) 0-trial aborts and (b) IRQ pin applied out of order; p19 left to finish; diagnosing before re-arming
+PROBE p19 chain failed: RuntimeError: UE 13 tun timeout PREP-DONE 
+[2026-10-13 23:15:02] POST-T3: (a) protocol v3 replay BEFORE-fix x3 START
+[2026-10-13 23:15:04] R40: PCF rollout-restarted 23:12 (client_pool exhausted since 18:01; NRF re-registration seen), UE-13 smoke registration OK (10.45.0.211, switch-off clean); chain v5 armed = (a) before-fix x3 → (b) idempotent → (c) after-fix x3 → p19b → r381 → r383 → r382 rerun → STOP; per-step gates added
+[2026-10-13 23:27:51] R40: chain v5 killed in (a) trial 2 — trial 1 invalid (e2e 65% from min0: vyos-1/vyos-2 held out 'gnb routes missing' while DL ECMP still reaches them); diagnosing fresh-VyOS route assert before retry
+[2026-10-13 23:33:57] POST-T3: (a) protocol v3 replay BEFORE-fix x3 START
+[2026-10-13 23:33:59] R40: vyos-1/vyos-2 deleted+recreated via API (provisioned 23:33: marker, ipip=3, ns=router); chain v5 re-armed from (a)
+[2026-10-14 00:03:41] R40: chain v5 stopped before (c); v6 armed (waits for (a) trial 3 pid 3732580) = p19b → r381 → r383 → r382 rerun → STOP; (c) deferred pending reviewer decision on protocol v3 defects
+[2026-10-14 00:20:45] POST-T3: (a) END (v6 takeover): 1 HIT / 3; (c) deferred to pause window (protocol v3 timing/drain-state defects, see §4.73)
+[2026-10-14 00:20:46] POST-T3: (d) PROBE p19b (p19 void: UE-13 PCF client_pool)
+PROBE p19b p50 260 p95 372 p99 396 e2e 0.006 ue 40 fleet 8/8/3/4
+[2026-10-14 00:54:08] POST-T3: (d) RUN r381 t4 HHRO (v6 confirm, post-IRQ platform)
+[2026-10-14 02:39:26] POST-T3: (d) DONE r381 t4 HHRO slo=56/60 burned=671
+[2026-10-14 02:39:28] POST-T3: (d) r381 alloc_vm=1377 (band 1350-1406), slo=56/60 (≥58)
+[2026-10-14 02:39:28] POST-T3: (d) v6 confirm out of band → STOP
+[2026-10-14 02:40:23] POST-T3: (0c) RUN r383 t3 B6c4_slo (replacement for r376, formal NG events)
+[2026-10-14 02:40:25] R40: r381 gate STOP overridden for t3 replacements only (B2/B3 remain paused): chain v7 = r383 → r382 rerun → STOP
+[2026-10-14 04:26:44] POST-T3: (0c) DONE r383 t3 B6c4_slo slo=55/60 burned=549
+[2026-10-14 04:26:44] POST-T3: (0b') RUN r382 t3 B4c2_slo (rerun; replacement for r379)
+[2026-10-14 06:12:04] POST-T3: (0b') DONE r382 t3 B4c2_slo slo=57/60 burned=537
+[2026-10-14 06:12:04] POST-T3: R40 PAUSE: chain complete through r383; STOP placed for harness fixes before B2/B3 trial run
+[2026-10-14 06:15:13] B23-TRIAL: START 12 runs (harness-fix trial run)
+[2026-10-14 06:15:13] B23-TRIAL: RUN r390 t1 B2_dasa
+[2026-10-14 07:22:25] B23-TRIAL: DONE r390 t1 B2_dasa slo=56/60 burned=627 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 07:22:25] B23-TRIAL: RUN r391 t1 B2_dasa
+[2026-10-14 08:29:27] B23-TRIAL: DONE r391 t1 B2_dasa slo=56/60 burned=630 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 08:29:27] B23-TRIAL: RUN r392 t1 B2_dasa
+[2026-10-14 09:36:31] B23-TRIAL: DONE r392 t1 B2_dasa slo=56/60 burned=636 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 09:36:31] B23-TRIAL: RUN r393 t2 B2_dasa
+[2026-10-14 10:54:17] B23-TRIAL: DONE r393 t2 B2_dasa slo=59/60 burned=678 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 10:54:17] B23-TRIAL: RUN r394 t2 B2_dasa
+[2026-10-14 12:11:48] B23-TRIAL: DONE r394 t2 B2_dasa slo=59/60 burned=673 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 12:11:48] B23-TRIAL: RUN r395 t2 B2_dasa
+[2026-10-14 13:29:23] B23-TRIAL: DONE r395 t2 B2_dasa slo=59/60 burned=677 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 13:29:23] B23-TRIAL: RUN r396 t1 B3_hpa
+[2026-10-14 14:15:06] R41: post_trial.sh armed (waits trial END + 00:05 fetch → merge → sample once → predictions → report; t6/t7 not auto-started)
+[2026-10-14 14:37:04] B23-TRIAL: DONE r396 t1 B3_hpa slo=44/60 burned=533 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 14:37:04] B23-TRIAL: RUN r397 t1 B3_hpa
+[2026-10-14 15:46:12] B23-TRIAL: DONE r397 t1 B3_hpa slo=49/60 burned=515 NG=6 warm-in-interventions=0 → FAIL
+[2026-10-14 15:46:12] B23-TRIAL: RUN r398 t1 B3_hpa
+[2026-10-14 16:55:47] B23-TRIAL: DONE r398 t1 B3_hpa slo=46/60 burned=535 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 16:55:47] B23-TRIAL: RUN r399 t2 B3t2_hpa
+[2026-10-14 18:26:57] B23-TRIAL: DONE r399 t2 B3t2_hpa slo=55/60 burned=616 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 18:26:57] B23-TRIAL: RUN r400 t2 B3t2_hpa
+[2026-10-14 19:56:04] B23-TRIAL: DONE r400 t2 B3t2_hpa slo=54/60 burned=640 NG=0 warm-in-interventions=0 → PASS
+[2026-10-14 19:56:04] B23-TRIAL: RUN r401 t2 B3t2_hpa
+[2026-10-14 21:25:32] B23-TRIAL: DONE r401 t2 B3t2_hpa slo=53/60 burned=635 NG=1 warm-in-interventions=0 → FAIL
+[2026-10-14 21:25:32] B23-TRIAL: END trial: pass=10 fail=2 → NOT PASSED (report before t6/t7)
+[2026-10-14 21:26:05] POST-TRIAL: trial END seen:  B23-TRIAL: END trial: pass=10 fail=2 → NOT PASSED (report before t6/t7)
+[2026-10-14 21:56:06] PROBE p20 (R42 pre-t6/t7 baseline; harness with gNB-log preservation)
+PROBE p20 p50 260 p95 374 p99 396 e2e 0.004 ue 40 fleet 8/8/3/4
+[2026-10-15 00:16:06] POST-TRIAL: last fetch ok: [2026-10-14T16:15:05Z .. 2026-10-14T16:15:13Z] (local 2026-10-15 00:15:05 .. 00:15:13) ok 
+[2026-10-15 00:16:16] POST-TRIAL: merge rc=0 4                   1154        1215        1246        1247         106 181                 1117        1257        1298        1311         135 
+[2026-10-15 00:16:16] POST-TRIAL: merge report flags GAP/FAIL → STOP (human)
+[2026-10-15 00:16:56] POST-TRIAL: merge GAP flags judged benign (10-11 window reset outside pool dates; one empty snapshot 10-13T15:15Z); continuing with sampling
+[2026-10-15 00:16:57] POST-TRIAL: make_newtraces rc=0: rank 1: sensor 3 2026-10-14 16:00 **ACCEPT = t6** mp=0.694 f36=0.033 minue=20 rise10=14 start/end=24/23 rank 40: sensor 4 2026-10-13 16:00 **ACCEPT = t7** mp=0.695 f36=0.117 minue=14 rise10=15 start/e
+[2026-10-15 00:17:01] POST-TRIAL: predictions rc=0 → /home/user/experiment/qsim/v8_predict_t67_2026-10-15.txt
+[2026-10-15 00:17:01] POST-TRIAL: report written: /home/user/experiment/p2/t6t7_sampling_report.md (send for review before starting t6/t7)
+PASS t6 sensor 3 ∈ 合格集合 [3, 4, 5, 6, 14, 21, 24, 30, 35, 41, 45, 47, 49, 56, 58, 63, 65, 66, 79, 84]
+PASS t6 date 2026-10-14 ∈ [2026-10-12,2026-10-14]
+PASS t6 60 minutes present (60)
+PASS t7 sensor 4 ∈ 合格集合 [3, 4, 5, 6, 14, 21, 24, 30, 35, 41, 45, 47, 49, 56, 58, 63, 65, 66, 79, 84]
+PASS t7 date 2026-10-13 ∈ [2026-10-12,2026-10-14]
+PASS t7 60 minutes present (60)
+PASS t6/t7 計數器不同 (3 vs 4)
+PASS 門檻雜湊一致 (file d828f20ff5c07c18, result n/a)
+PASS ACCEPT 兩條 (2)
+PASS 拒絕清單每條附原因 (38 條)
+PASS 預測 S4a t6/t7 齊全
+PASS 預測 S4b t6/t7 齊全
+PASS 預測 v6 t6/t7 齊全
+PASS 預測 B6u70 t6/t7 齊全
+PASS 預測 B5c1 t6/t7 齊全
+start alignment {'t6': {'rep': 6, 'wk': 3, 'vy': 2, 'd0': 24}, 't7': {'rep': 7, 'wk': 4, 'vy': 2, 'd0': 27}}
+MECH-CHECK ALL-PASS
+[2026-10-15 00:18:29] POST-TRIAL2: mechanical checks ALL-PASS → starting t6/t7 block driver main_exp5.sh (SKIP_P15=1; pre-block probe = p20)
+[2026-10-15 00:18:29] BLOCK t6 START
+[2026-10-15 00:18:30] RUN r402 t6 S4a
+[2026-10-15 02:09:36] DONE r402 t6 S4a slo=60/60 burned=689 flags=ok
+[2026-10-15 02:09:37] RUN r403 t6 HHRO
+[2026-10-15 02:19:24] RESUME: waiting for running queue item HHRO:t6:r403
+[2026-10-15 03:56:59] DONE r403 t6 HHRO slo=60/60 burned=638 flags=ok
+[2026-10-15 03:56:59] BLOCK t6 START
+[2026-10-15 03:56:59] SKIP r402 (in ledger)
+[2026-10-15 03:56:59] SKIP r403 (in ledger)
+[2026-10-15 03:56:59] RUN r404 t6 B4c2_slo
+[2026-10-15 05:44:51] DONE r404 t6 B4c2_slo slo=60/60 burned=713 flags=ok
+[2026-10-15 05:44:51] RUN r405 t6 S4b
+[2026-10-15 07:36:29] DONE r405 t6 S4b slo=60/60 burned=648 flags=ok
+[2026-10-15 07:36:30] RUN r406 t6 B5c1_slo
+[2026-10-15 09:23:02] DONE r406 t6 B5c1_slo slo=60/60 burned=692 flags=ok
+[2026-10-15 09:23:02] RUN r407 t6 B6c4_slo
+[2026-10-15 09:44:40] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r407w: 1 23
+[2026-10-15 09:46:32] PLATFORM: manual UE-1/UE-23 switched off again (harness had reaped them; leaving re-arrival to the harness to avoid duplicates) during r407w
+[2026-10-15 09:57:39] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r407w: 0 3 4 7 17 18 19 20 
+[2026-10-15 11:17:38] DONE r407 t6 B6c4_slo slo=60/60 burned=733 flags=ok
+[2026-10-15 11:17:38] RUN r408 t6 B1_static
+[2026-10-15 12:47:32] DONE r408 t6 B1_static slo=60/60 burned=730 flags=ok
+[2026-10-15 12:47:32] RUN r409 t6 HHRO
+[2026-10-15 14:34:21] DONE r409 t6 HHRO slo=60/60 burned=647 flags=ok
+[2026-10-15 14:34:21] RUN r410 t6 B4c2_slo
+[2026-10-15 16:21:56] DONE r410 t6 B4c2_slo slo=55/60 burned=732 flags=ok
+[2026-10-15 16:21:57] RUN r411 t6 S4b
+[2026-10-15 18:09:35] DONE r411 t6 S4b slo=60/60 burned=652 flags=ok
+[2026-10-15 18:09:36] RUN r412 t6 B5c1_slo
+[2026-10-15 19:56:04] DONE r412 t6 B5c1_slo slo=58/60 burned=673 flags=ok
+[2026-10-15 19:56:04] RUN r413 t6 B6c4_slo
+[2026-10-15 20:18:35] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r413w: 0 2 3 5 6 7 9 17 19 22
+[2026-10-15 20:22:53] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r413w: 0
+[2026-10-15 20:23:29] PLATFORM: correction — UE-0 at 20:22 got only steps 1-2 (switch-off + gNB kill); step 3 skipped because the harness had already respawned UE-0 (20:22:30); handed back to the harness during r413w
+[2026-10-15 21:42:59] DONE r413 t6 B6c4_slo slo=60/60 burned=706 flags=ok
+[2026-10-15 21:42:59] RUN r414 t6 S4a
+[2026-10-15 23:34:00] DONE r414 t6 S4a slo=60/60 burned=683 flags=ok
+[2026-10-15 23:34:01] RUN r415 t6 B4c2_slo
+[2026-10-16 01:20:24] DONE r415 t6 B4c2_slo slo=60/60 burned=693 flags=ok
+[2026-10-16 01:20:24] RUN r416 t6 S4b
+[2026-10-16 03:07:59] DONE r416 t6 S4b slo=60/60 burned=662 flags=ok
+[2026-10-16 03:07:59] RUN r417 t6 B5c1_slo
+[2026-10-16 03:26:26] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r417w: 0 7 8 17
+[2026-10-16 03:26:43] STOP placed: R45 stop condition (3) — non-B6 arm (B5c1 r417w) needed 3-step bounce (UE-0/7/8/17 NG-loop after vyos-1 enc-seq FROZEN eviction); driver exits before r418; report before continuing
+[2026-10-16 03:29:52] STOP removed: R46 ruling (A) — baseline-arm warm-in 3-step = operational cost; continue r418-r420 + p21; t7 stop conditions rewritten (spec §4.81)
+[2026-10-16 04:56:26] DONE r417 t6 B5c1_slo slo=60/60 burned=684 flags=ok
+[2026-10-16 04:56:26] RUN r418 t6 B6c4_slo
+[2026-10-16 05:14:35] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r418w: 5
+[2026-10-16 05:15:05] PLATFORM: correction — UE-5 at 05:14 got a duplicate: my step-3 respawn (05:14:19) raced the harness's own respawn (05:14:27); killed my instance (pid 2592858) and left the harness's; UE-5 handed back to the harness during r418w
+[2026-10-16 06:44:15] DONE r418 t6 B6c4_slo slo=60/60 burned=705 flags=ok
+[2026-10-16 06:44:15] RUN r419 t6 S4a
+[2026-10-16 08:34:49] DONE r419 t6 S4a slo=60/60 burned=689 flags=ok
+[2026-10-16 08:34:49] RUN r420 t6 HHRO
+[2026-10-16 08:34:52] STOP placed automatically after r420 started (t6 block report + rq_metrics in the idle window after p21; driver exits before t7 r430; detached watcher)
+[2026-10-16 10:21:12] DONE r420 t6 HHRO slo=55/60 burned=657 flags=ok
+[2026-10-16 10:21:12] BLOCK t6 DONE (next id 421)
+[2026-10-16 10:21:12] PROBE p21
+PROBE p21 p50 258 p95 367 p99 394 e2e 0.008 ue 40 fleet 8/8/3/4
+[2026-10-16 10:36:13] BLOCK t7 START
+[2026-10-16 10:36:14] STOP file present — exiting before S4a:t7:r430
+[2026-10-16 10:37:22] RESUME t7: t6 block done (r402-r420, 19/19 valid) + p21; idle-window compute done (rq_metrics alloc_vm, classify_minutes r410/r412/r420, warmin_interventions t6); starting t7 (BASE 430, start fleet from t6t7_start.json 7/4/3)
+[2026-10-16 10:37:22] BLOCK t7 START
+[2026-10-16 10:37:23] RUN r430 t7 S4a
+[2026-10-16 12:25:20] DONE r430 t7 S4a slo=60/60 burned=663 flags=ok
+[2026-10-16 12:25:20] RUN r431 t7 HHRO
+[2026-10-16 12:44:25] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r431w: 4
+[2026-10-16 12:44:25] STOP placed: R46 stop condition (2) — v6 (r431w) warm-in needed 3-step bounce (UE-4: gNB-4 NG-dead marker at 12:40:37/12:41:39 after NG Setup, datapath black, harness force-reap failed twice; no VyOS FROZEN this time); driver exits before r432; report before continuing
+[2026-10-16 14:13:50] DONE r431 t7 HHRO slo=60/60 burned=638 flags=ok
+[2026-10-16 14:13:50] STOP file present — exiting before B4c2_slo:t7:r432
+[2026-10-16 15:12:24] RESUME t7 from r432: R48 ruling (A) — warm-in loop re-characterized (ramp VyOS saturation + phantom 2nd session, any arm); t7 stop conditions rewritten (spec §4.83); no harness change
+[2026-10-16 15:12:24] BLOCK t7 START
+[2026-10-16 15:12:24] SKIP r430 (in ledger)
+[2026-10-16 15:12:24] SKIP r431 (in ledger)
+[2026-10-16 15:12:25] RUN r432 t7 B4c2_slo
+[2026-10-16 17:01:00] DONE r432 t7 B4c2_slo slo=60/60 burned=705 flags=ok
+[2026-10-16 17:01:00] RUN r433 t7 S4b
+[2026-10-16 18:48:56] DONE r433 t7 S4b slo=60/60 burned=645 flags=ok
+[2026-10-16 18:48:56] RUN r434 t7 B5c1_slo
+[2026-10-16 19:14:28] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r434w: 3 5 9 15 16 17 22
+[2026-10-16 19:17:01] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r434w: 13 20 21
+[2026-10-16 19:18:13] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r434w: 24
+[2026-10-16 19:34:03] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r434w: 1
+[2026-10-16 19:34:30] PLATFORM: correction — UE-1 at 19:33: the harness re-arrived UE-1 at 19:33:18 (min37) 5 s before my switch-off; my step 1 switched off the harness's fresh instance, step 3 respawned mine (single process); handed to the harness during r434w
+[2026-10-16 20:37:22] DONE r434 t7 B5c1_slo slo=60/60 burned=684 flags=ok
+[2026-10-16 20:37:22] RUN r435 t7 B6c4_slo
+[2026-10-16 20:56:12] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r435w: 3 15 17 20 21
+[2026-10-16 20:56:30] PLATFORM: correction — r435w UE-3/15/17/20/21: my step-3 respawns (20:55:4x) came up while the harness's round-2 bounce had their gNBs down (no cell in coverage); the harness then judged them 'session dead — reaping' (20:55:55-20:56:04) and switched them off → effectively steps 1-2 only; re-arrival handed to the harness
+[2026-10-16 21:03:25] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r435w: 1
+[2026-10-16 21:03:40] PLATFORM: correction — r435w UE-1 at 21:03: after my switch-off the harness reaped and re-arrived UE-1 itself (21:03:01); my step 2 killed gNB-1 right after; step 3 skipped (process present) → steps 1-2 + harness respawn; single process
+[2026-10-16 21:09:06] PLATFORM: manual 3-step bounce (switch-off → gNB → respawn) of NG-loop UEs during r435w: 4
+[2026-10-16 21:09:25] PLATFORM: correction — r435w UE-4 at 21:08: black with a stale NAS session (ps-list showed only 10.45.2.40 while the harness index pointed at 10.45.3.40); my switch-off + gNB-4 kill, then the harness reaped and re-arrived UE-4 itself (script handed back, no manual respawn); single process, TUN 10.45.7.180
+[2026-10-16 22:25:27] DONE r435 t7 B6c4_slo slo=60/60 burned=710 flags=ok
+[2026-10-16 22:25:27] RUN r436 t7 B1_static
+[2026-10-16 23:45:07] DONE r436 t7 B1_static slo=59/60 burned=733 flags=ok
+[2026-10-16 23:45:07] RUN r437 t7 HHRO
+[2026-10-17 01:32:51] DONE r437 t7 HHRO slo=60/60 burned=648 flags=ok
+[2026-10-17 01:32:51] RUN r438 t7 B4c2_slo
+[2026-10-17 01:54:28] PLATFORM: manual bounce during r438w: switch-off+gNB-kill on [20]; respawned by me [ 20]; others handed back to the harness
+[2026-10-17 01:54:36] PLATFORM: correction — r438w UE-20 at 01:54: my step-3 respawn was killed by the harness's own reap right after switch-off (steps 1-2 effective); re-arrival handed to the harness
+[2026-10-17 01:58:42] PLATFORM: manual bounce during r438w: switch-off+gNB-kill on [18 23]; respawned by me [none]; others handed back to the harness
+[2026-10-17 03:21:18] DONE r438 t7 B4c2_slo slo=60/60 burned=722 flags=ok
+[2026-10-17 03:21:18] RUN r439 t7 S4b
+[2026-10-17 05:09:20] DONE r439 t7 S4b slo=60/60 burned=640 flags=ok
+[2026-10-17 05:09:20] RUN r440 t7 B5c1_slo
+[2026-10-17 05:28:36] PLATFORM: manual bounce during r440w: switch-off+gNB-kill on [4]; respawned by me [none]; others handed back to the harness
+[2026-10-17 05:32:55] PLATFORM: manual bounce during r440w: switch-off+gNB-kill on [10]; respawned by me [none]; others handed back to the harness
+[2026-10-17 06:57:46] DONE r440 t7 B5c1_slo slo=60/60 burned=684 flags=ok
+[2026-10-17 06:57:46] RUN r441 t7 B6c4_slo
+[2026-10-17 07:12:27] PLATFORM: manual bounce during r441w: switch-off+gNB-kill on [8 16]; respawned by me [ 8]; others handed back to the harness
+[2026-10-17 08:45:21] DONE r441 t7 B6c4_slo slo=60/60 burned=719 flags=ok
+[2026-10-17 08:45:21] RUN r442 t7 S4a
+[2026-10-17 10:33:16] DONE r442 t7 S4a slo=59/60 burned=660 flags=ok
+[2026-10-17 10:33:16] RUN r443 t7 B4c2_slo
+[2026-10-17 10:52:58] PLATFORM: manual bounce during r443w: switch-off+gNB-kill on [1 18 23]; respawned by me [none]; others handed back to the harness
+[2026-10-17 10:56:15] PLATFORM: manual bounce during r443w: switch-off+gNB-kill on [2 17]; respawned by me [none]; others handed back to the harness
+[2026-10-17 11:02:51] PLATFORM: manual bounce during r443w: switch-off+gNB-kill on [12]; respawned by me [none]; others handed back to the harness
+[2026-10-17 12:23:36] DONE r443 t7 B4c2_slo slo=60/60 burned=720 flags=ok
+[2026-10-17 12:23:36] RUN r444 t7 S4b
+[2026-10-17 14:11:40] DONE r444 t7 S4b slo=60/60 burned=648 flags=ok
+[2026-10-17 14:11:40] RUN r445 t7 B5c1_slo
+[2026-10-17 14:30:12] PLATFORM: manual bounce during r445w: switch-off+gNB-kill on [0]; respawned by me [none]; others handed back to the harness
+[2026-10-17 14:31:05] PLATFORM: manual bounce during r445w: switch-off+gNB-kill on [19]; respawned by me [none]; others handed back to the harness
+[2026-10-17 16:02:08] DONE r445 t7 B5c1_slo slo=60/60 burned=671 flags=ok
+[2026-10-17 16:02:09] RUN r446 t7 B6c4_slo
+[2026-10-17 17:49:38] DONE r446 t7 B6c4_slo slo=60/60 burned=706 flags=ok
+[2026-10-17 17:49:38] RUN r447 t7 S4a
+[2026-10-17 20:17:22] DONE r447 t7 S4a slo=60/60 burned=680 flags=ok
+[2026-10-17 20:17:23] RUN r448 t7 HHRO
+[2026-10-17 22:05:47] DONE r448 t7 HHRO slo=60/60 burned=639 flags=ok
+[2026-10-17 22:05:47] BLOCK t7 DONE (next id 449)
+[2026-10-17 22:05:47] PROBE p22
+PROBE p22 p50 260 p95 372 p99 395 e2e 0.006 ue 40 fleet 8/8/3/4
+[2026-10-17 22:21:02] MAIN EXPERIMENT ALL DONE
+[2026-10-17 23:59:51] DIAG r449 v6 t4 (R51 .38 root-cause item 1): guest memory+VF samplers streaming from all workers (repro/out/mem_mem449_*.log); frozen tool-chain; not a ledger run of any block
+[2026-10-18 01:46:28] DIAG r449 v6 t4 done: 58/60 burned=680 (min20/21 = burst capacity overshoot, .38/.31 at 6 UEs); guest memory samplers: 0 reclaim on all 4 workers over 106 min, 336 oob events / 0 with memory activity → memory candidate refuted; samplers stopped
+[2026-10-18 02:10:28] VERIFY harness r34 (bounce3/stale/FROZEN-alive/boot_id): t7 B6 r450 + v6 r451 via abl_queue_main; pass = warm-in zero manual intervention, no loop, phantom <= prior, formal 60/60; not ledger runs of any block
+[2026-10-18 02:28:21] VERIFY note: r450w round1 — bounce3 respawned UE-3/15 at NG+14/10s but their gNBs' NG had NOT come back within the 8 s wait (AMF accepted only at 02:27:17/21); UEs were switched off again in round 2. Patched r34a: respawn only if NG live, else deferred (_BOUNCE3_PENDING) and done on a later scan. r450 keeps running the in-memory r34 code; r451 will load r34a.
+[2026-10-22 17:13:11] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r464w: 0 
+[2026-10-24 08:31:20] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r484w: 17 
+[2026-10-25 00:55:27] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r496w: 17 
+[2026-10-29 23:00:07] TREX-RECOVER: trex 4501 open; HugePages_Free: 533; nr-gnb=0 nr-ue=0; AMF: Number of gNBs is now 0
+[2026-10-30 05:23:57] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r571w: 22 
+[2026-10-30 18:36:13] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r578w: 13 23 
+[2026-10-30 23:13:06] PLATFORM: 3-step bounce (switch-off → gNB → respawn) of black UEs during r580w2: 2 3 4 7 11 15 16 

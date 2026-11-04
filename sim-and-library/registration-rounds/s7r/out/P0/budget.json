@@ -1,0 +1,45 @@
+{
+ "run_minutes_last20": [
+  101.7,
+  101.6,
+  108.5,
+  103.0,
+  104.5,
+  103.5,
+  104.4,
+  113.3,
+  113.9,
+  105.7,
+  112.0,
+  107.4,
+  108.1,
+  106.8,
+  109.2,
+  110.2,
+  106.8,
+  108.5,
+  103.5,
+  105.0
+ ],
+ "p50": 106.8,
+ "p90": 112.0,
+ "mean": 106.9,
+ "probe_minutes_typical": 14.5,
+ "account_hours_at_mean": {
+  "formal_48": 85.5,
+  "pilot_4": 7.1,
+  "reserve_7": 12.5,
+  "probes_4": 1.0,
+  "total": 106.1
+ },
+ "account_hours_at_p90": {
+  "formal_48": 89.6,
+  "pilot_4": 7.5,
+  "reserve_7": 13.1,
+  "probes_4": 1.0,
+  "total": 111.1
+ },
+ "window": "P5 10/28 00:00-10/31 24:00 = 96 h (pilot on 10/27)",
+ "fits": false,
+ "note": "formal 48 + 7 reserve + 4 probes alone = 98.9 h at the mean (> 96 h); with pilots 106.1 h. Per protocol \u00a712: the full-baseline campaign commitment is stopped and reported; a different (e.g. 36-run) protocol needs the user's decision, not ours."
+}

@@ -1,0 +1,5 @@
+reference only (computed after the gate, not registered, not in any decision): S4a/S4b on t9/t10, frozen simulators
+t9 S4a: fleet 60/60 cost 1438 | per-slot 52/60 viol [11, 12, 33, 34, 41, 42, 55, 56] cost 1436
+t9 S4b: fleet 59/60 cost 1393 | per-slot 52/60 viol [11, 12, 33, 34, 41, 42, 55, 56] cost 1390
+t10 S4a: fleet 59/60 cost 1189 | per-slot 58/60 viol [14, 15] cost 1199
+t10 S4b: fleet 59/60 cost 1087 | per-slot 58/60 viol [14, 15] cost 1092

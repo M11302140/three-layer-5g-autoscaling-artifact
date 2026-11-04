@@ -1,0 +1,3040 @@
+== ablation S4a 12:38:55
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r300 12:39:02
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 347us
+worker-min=240  vyos-min=178   burned core-min: wk=506 vy=212 TOTAL=717
+offered total      : 14.06 G pkts
+== queue ALL DONE 14:28:19
+== ablation S4a done 14:28:19
+== restore base manifest 14:28:19
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:28:26
+== ablation HHRO 14:28:26
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r301 14:28:32
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 441us
+worker-min=235  vyos-min=158   burned core-min: wk=494 vy=184 TOTAL=678
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r301 not 60/60 16:13:03 — continuing
+== queue ALL DONE 16:13:33
+== ablation HHRO done 16:13:33
+== restore base manifest 16:13:33
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:13:39
+== ablation B4c2_slo 16:13:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r302 16:13:58
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 356us
+worker-min=237  vyos-min=174   burned core-min: wk=510 vy=205 TOTAL=715
+offered total      : 14.03 G pkts
+== queue NOTE: t4:r302 not 60/60 17:59:29 — continuing
+== queue ALL DONE 17:59:59
+== ablation B4c2_slo done 17:59:59
+== restore base manifest 17:59:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:00:06
+== ablation S4b 18:00:06
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r303 18:00:13
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 445us
+worker-min=238  vyos-min=172   burned core-min: wk=490 vy=203 TOTAL=693
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r303 not 60/60 19:45:13 — continuing
+== queue ALL DONE 19:45:43
+== ablation S4b done 19:45:43
+== restore base manifest 19:45:43
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 19:45:51
+== ablation B5c1_slo 19:45:51
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r304 19:45:58
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 2000us
+worker-min=239  vyos-min=120   burned core-min: wk=402 vy=135 TOTAL=537
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r304 not 60/60 22:08:47 — continuing
+== queue ALL DONE 22:09:17
+== ablation B5c1_slo done 22:09:17
+== restore base manifest 22:09:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 22:09:24
+== ablation B6c4_slo 22:17:08
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q9
+{"enabled":false}
+
+== queue start t4:r305 22:17:15
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 340us
+worker-min=239  vyos-min=178   burned core-min: wk=507 vy=208 TOTAL=715
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r305 not 60/60 00:01:55 — continuing
+== queue ALL DONE 00:02:25
+== ablation B6c4_slo done 00:02:25
+== restore base manifest 00:02:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 00:02:32
+== ablation B1_static 00:02:32
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r306 00:02:39
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 335us
+worker-min=240  vyos-min=180   burned core-min: wk=524 vy=207 TOTAL=732
+offered total      : 14.06 G pkts
+== queue ALL DONE 01:19:48
+== ablation B1_static done 01:19:48
+== restore base manifest 01:19:48
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 01:19:56
+== ablation HHRO 01:19:56
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r307 01:20:02
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 422us
+worker-min=235  vyos-min=158   burned core-min: wk=490 vy=185 TOTAL=675
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r307 not 60/60 03:04:30 — continuing
+== queue ALL DONE 03:05:00
+== ablation HHRO done 03:05:00
+== restore base manifest 03:05:00
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 03:05:07
+== ablation B4c2_slo 03:14:09
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r308 03:14:15
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 337us
+worker-min=239  vyos-min=177   burned core-min: wk=511 vy=209 TOTAL=721
+offered total      : 14.06 G pkts
+== queue ALL DONE 05:37:27
+== ablation B4c2_slo done 05:37:27
+== restore base manifest 05:37:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 05:37:35
+== ablation S4b 05:37:35
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r309 05:37:42
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 446us
+worker-min=239  vyos-min=172   burned core-min: wk=496 vy=202 TOTAL=698
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r309 not 60/60 07:23:50 — continuing
+== queue ALL DONE 07:24:20
+== ablation S4b done 07:24:20
+== restore base manifest 07:24:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 07:24:27
+== ablation B5c1_slo 07:24:28
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r310 07:24:34
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 404us
+worker-min=239  vyos-min=167   burned core-min: wk=496 vy=194 TOTAL=690
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r310 not 60/60 09:47:20 — continuing
+== queue ALL DONE 09:47:50
+== ablation B5c1_slo done 09:47:50
+== restore base manifest 09:47:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 09:47:58
+== ablation B6c4_slo 09:47:58
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r311 09:48:05
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 338us
+worker-min=238  vyos-min=178   burned core-min: wk=513 vy=208 TOTAL=721
+offered total      : 14.06 G pkts
+== queue ALL DONE 11:33:11
+== ablation B6c4_slo done 11:33:11
+== restore base manifest 11:33:11
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 11:33:18
+== ablation S4a 11:33:18
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r312 11:33:25
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 387us
+worker-min=240  vyos-min=178   burned core-min: wk=484 vy=207 TOTAL=691
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r312 not 60/60 13:22:12 — continuing
+== queue ALL DONE 13:22:42
+== ablation S4a done 13:22:42
+== restore base manifest 13:22:42
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 13:22:49
+== ablation B4c2_slo 13:22:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r313 13:22:56
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 347us
+worker-min=239  vyos-min=177   burned core-min: wk=512 vy=209 TOTAL=721
+offered total      : 14.06 G pkts
+== queue ALL DONE 15:07:59
+== ablation B4c2_slo done 15:07:59
+== restore base manifest 15:07:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 15:08:07
+== ablation S4b 15:10:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r314 15:10:24
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 431us
+worker-min=239  vyos-min=172   burned core-min: wk=483 vy=202 TOTAL=685
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r314 not 60/60 16:55:32 — continuing
+== queue ALL DONE 16:56:02
+== ablation S4b done 16:56:02
+== restore base manifest 16:56:02
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:56:10
+== ablation B5c1_slo 16:56:10
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r315 16:56:17
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 420us
+worker-min=238  vyos-min=167   burned core-min: wk=494 vy=197 TOTAL=691
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r315 not 60/60 18:41:46 — continuing
+== queue ALL DONE 18:42:16
+== ablation B5c1_slo done 18:42:16
+== restore base manifest 18:42:16
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:42:23
+== ablation B6c4_slo 18:42:23
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r316 18:42:30
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 335us
+worker-min=240  vyos-min=180   burned core-min: wk=528 vy=208 TOTAL=736
+offered total      : 14.06 G pkts
+== queue ALL DONE 21:46:24
+== ablation B6c4_slo done 21:46:24
+== restore base manifest 21:46:24
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 21:46:31
+== ablation S4a 21:48:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r317 21:48:58
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 392us
+worker-min=240  vyos-min=178   burned core-min: wk=487 vy=211 TOTAL=698
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r317 not 60/60 23:45:43 — continuing
+== queue ALL DONE 23:46:13
+== ablation S4a done 23:46:13
+== restore base manifest 23:46:13
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 23:46:20
+== ablation HHRO 23:46:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r318 23:46:26
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 420us
+worker-min=235  vyos-min=158   burned core-min: wk=491 vy=185 TOTAL=676
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r318 not 60/60 01:31:01 — continuing
+== queue ALL DONE 01:31:31
+== ablation HHRO done 01:31:31
+== restore base manifest 01:31:31
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 01:31:37
+== ablation B5c1_slo 01:31:37
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r319 01:31:44
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 418us
+worker-min=238  vyos-min=167   burned core-min: wk=490 vy=197 TOTAL=687
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r319 not 60/60 03:16:15 — continuing
+== queue ALL DONE 03:16:45
+== ablation B5c1_slo done 03:16:45
+== restore base manifest 03:16:45
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 03:16:53
+== ablation B4c2_slo 03:17:33
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r320 03:17:40
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 456us
+worker-min=238  vyos-min=177   burned core-min: wk=509 vy=211 TOTAL=719
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r320 not 60/60 05:02:45 — continuing
+== queue ALL DONE 05:03:15
+== ablation B4c2_slo done 05:03:15
+== restore base manifest 05:03:15
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 05:03:21
+== ablation HHRO 05:03:22
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r321 05:03:28
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 421us
+worker-min=235  vyos-min=158   burned core-min: wk=490 vy=183 TOTAL=673
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r321 not 60/60 06:47:57 — continuing
+== queue ALL DONE 06:48:27
+== ablation HHRO done 06:48:27
+== restore base manifest 06:48:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 06:48:33
+== ablation S4a 07:02:48
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t5:r330 07:02:55
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 321us
+worker-min=240  vyos-min=180   burned core-min: wk=502 vy=206 TOTAL=709
+offered total      : 13.94 G pkts
+== queue ALL DONE 08:51:25
+== ablation S4a done 08:51:25
+== restore base manifest 08:51:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 08:51:32
+== ablation HHRO 08:53:42
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t5:r331 08:53:48
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 336us
+worker-min=240  vyos-min=177   burned core-min: wk=506 vy=211 TOTAL=717
+offered total      : 13.94 G pkts
+== queue ALL DONE 10:41:52
+== ablation HHRO done 10:41:52
+== restore base manifest 10:41:52
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:41:58
+== ablation B4c2_slo 10:41:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t5:r332 10:42:06
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 336us
+worker-min=240  vyos-min=180   burned core-min: wk=530 vy=208 TOTAL=737
+offered total      : 13.94 G pkts
+== queue ALL DONE 12:30:47
+== ablation B4c2_slo done 12:30:47
+== restore base manifest 12:30:47
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:30:54
+== ablation S4b 12:30:54
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t5:r333 12:31:02
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 319us
+worker-min=240  vyos-min=180   burned core-min: wk=486 vy=207 TOTAL=694
+offered total      : 13.94 G pkts
+== queue ALL DONE 14:19:43
+== ablation S4b done 14:19:43
+== restore base manifest 14:19:43
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:19:51
+== ablation B5c1_slo 14:19:51
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t5:r334 14:19:58
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 331us
+worker-min=240  vyos-min=180   burned core-min: wk=509 vy=209 TOTAL=718
+offered total      : 13.94 G pkts
+== queue ALL DONE 16:08:08
+== ablation B5c1_slo done 16:08:08
+== restore base manifest 16:08:08
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:08:16
+== ablation B6c4_slo 16:08:16
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t5:r335 16:08:23
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 334us
+worker-min=240  vyos-min=180   burned core-min: wk=516 vy=210 TOTAL=726
+offered total      : 13.94 G pkts
+== queue ALL DONE 17:56:25
+== ablation B6c4_slo done 17:56:25
+== restore base manifest 17:56:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 17:56:32
+== ablation B1_static 17:56:32
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t5:r336 17:56:39
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 325us
+worker-min=240  vyos-min=180   burned core-min: wk=527 vy=209 TOTAL=736
+offered total      : 13.94 G pkts
+== queue ALL DONE 19:16:51
+== ablation B1_static done 19:16:51
+== restore base manifest 19:16:51
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 19:16:58
+== ablation S4b 19:32:29
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r322 19:32:36
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 440us
+worker-min=238  vyos-min=172   burned core-min: wk=496 vy=201 TOTAL=697
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r322 not 60/60 21:17:39 — continuing
+== queue ALL DONE 21:18:09
+== ablation S4b done 21:18:09
+== restore base manifest 21:18:09
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 21:18:17
+== ablation S4a 04:59:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t3:r360 04:59:34
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 353us
+worker-min=222  vyos-min=138   burned core-min: wk=358 vy=161 TOTAL=519
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r360 not 60/60 07:00:51 — continuing
+== queue ALL DONE 07:01:21
+== ablation S4a done 07:01:21
+== restore base manifest 07:01:21
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 07:01:28
+== ablation HHRO 07:01:28
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r361 07:01:34
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 507us
+worker-min=208  vyos-min=130   burned core-min: wk=334 vy=149 TOTAL=483
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r361 not 60/60 08:46:44 — continuing
+== queue ALL DONE 08:47:14
+== ablation HHRO done 08:47:14
+== restore base manifest 08:47:14
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 08:47:20
+== ablation B4c2_slo 08:47:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r362 08:47:27
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 436us
+worker-min=215  vyos-min=138   burned core-min: wk=400 vy=160 TOTAL=560
+offered total      : 8.68 G pkts
+== queue NOTE: t3:r362 not 60/60 10:33:09 — continuing
+== queue ALL DONE 10:33:39
+== ablation B4c2_slo done 10:33:39
+== restore base manifest 10:33:39
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:33:47
+== ablation S4b 10:33:47
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t3:r363 10:33:54
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 555us
+worker-min=199  vyos-min=129   burned core-min: wk=340 vy=148 TOTAL=488
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r363 not 60/60 12:19:00 — continuing
+== queue ALL DONE 12:19:30
+== ablation S4b done 12:19:30
+== restore base manifest 12:19:30
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:19:37
+== ablation B5c1_slo 12:19:38
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r364 12:19:44
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 456us
+worker-min=204  vyos-min=125   burned core-min: wk=375 vy=144 TOTAL=519
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r364 not 60/60 14:04:56 — continuing
+== queue ALL DONE 14:05:26
+== ablation B5c1_slo done 14:05:26
+== restore base manifest 14:05:26
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:05:34
+== ablation B6c4_slo 14:05:34
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r365 14:05:41
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 401us
+worker-min=213  vyos-min=135   burned core-min: wk=380 vy=161 TOTAL=541
+offered total      : 8.66 G pkts
+== queue NOTE: t3:r365 not 60/60 15:50:24 — continuing
+== queue ALL DONE 15:50:54
+== ablation B6c4_slo done 15:50:54
+== restore base manifest 15:50:54
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 15:51:01
+== ablation B1_static 15:51:01
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r366 15:51:08
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 298us
+worker-min=240  vyos-min=180   burned core-min: wk=526 vy=210 TOTAL=736
+offered total      : 8.69 G pkts
+== queue ALL DONE 17:08:28
+== ablation B1_static done 17:08:28
+== restore base manifest 17:08:28
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 17:08:35
+== ablation HHRO 17:08:36
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r367 17:08:41
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 554us
+worker-min=196  vyos-min=130   burned core-min: wk=350 vy=149 TOTAL=500
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r367 not 60/60 18:53:41 — continuing
+== queue ALL DONE 18:54:11
+== ablation HHRO done 18:54:11
+== restore base manifest 18:54:11
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:54:17
+== ablation B4c2_slo 18:54:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r368 18:54:25
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+== trace2 r368 18:54:31
+LAUNCHED v7r368w 19:01:16
+harness gone trace_v7_r368w.log 19:06:47
+== queue STOP: t3:r368 did not finish cleanly 19:06:47
+== ablation B4c2_slo done 19:06:47
+== restore base manifest 19:06:47
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 19:06:54
+== ablation S4b 19:06:55
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t3:r369 19:07:01
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 473us
+worker-min=199  vyos-min=129   burned core-min: wk=342 vy=147 TOTAL=490
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r369 not 60/60 21:05:14 — continuing
+== queue ALL DONE 21:05:44
+== ablation S4b done 21:05:44
+== restore base manifest 21:05:44
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 21:05:51
+== ablation B5c1_slo 21:05:52
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r370 21:05:58
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 455us
+worker-min=207  vyos-min=125   burned core-min: wk=397 vy=143 TOTAL=540
+offered total      : 8.67 G pkts
+== queue NOTE: t3:r370 not 60/60 22:51:38 — continuing
+== queue ALL DONE 22:52:08
+== ablation B5c1_slo done 22:52:08
+== restore base manifest 22:52:08
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 22:52:16
+== ablation B6c4_slo 22:52:16
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r371 22:52:23
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 396us
+worker-min=217  vyos-min=138   burned core-min: wk=394 vy=159 TOTAL=553
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r371 not 60/60 00:41:47 — continuing
+== queue ALL DONE 00:42:17
+== ablation B6c4_slo done 00:42:17
+== restore base manifest 00:42:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== ABLATION ALL DONE 00:42:24
+== ablation S4a 00:42:24
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r372 00:42:31
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 367us
+worker-min=218  vyos-min=139   burned core-min: wk=362 vy=161 TOTAL=523
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r372 not 60/60 02:28:03 — continuing
+== queue ALL DONE 02:28:33
+== ablation S4a done 02:28:33
+== restore base manifest 02:28:33
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 02:28:40
+== ablation B4c2_slo 02:44:51
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r373 02:44:57
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 459us
+worker-min=217  vyos-min=136   burned core-min: wk=398 vy=158 TOTAL=556
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r373 not 60/60 04:29:32 — continuing
+== queue ALL DONE 04:30:02
+== ablation B4c2_slo done 04:30:02
+== restore base manifest 04:30:02
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 04:30:10
+== ablation S4b 04:30:10
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t3:r374 04:30:17
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 475us
+worker-min=202  vyos-min=129   burned core-min: wk=345 vy=149 TOTAL=493
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r374 not 60/60 06:15:52 — continuing
+== queue ALL DONE 06:16:22
+== ablation S4b done 06:16:22
+== restore base manifest 06:16:22
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 06:16:29
+== ablation B5c1_slo 06:16:29
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r375 06:16:36
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 463us
+worker-min=202  vyos-min=125   burned core-min: wk=376 vy=145 TOTAL=521
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r375 not 60/60 08:01:16 — continuing
+== queue ALL DONE 08:01:46
+== ablation B5c1_slo done 08:01:46
+== restore base manifest 08:01:46
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 08:01:54
+== ablation B6c4_slo 08:01:54
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r376 08:02:00
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 444us
+worker-min=216  vyos-min=133   burned core-min: wk=394 vy=151 TOTAL=545
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r376 not 60/60 09:47:15 — continuing
+== queue ALL DONE 09:47:45
+== ablation B6c4_slo done 09:47:45
+== restore base manifest 09:47:45
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 09:47:52
+== ablation S4a 09:47:52
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t3:r377 09:47:59
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 415us
+worker-min=222  vyos-min=137   burned core-min: wk=360 vy=159 TOTAL=519
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r377 not 60/60 11:33:48 — continuing
+== queue ALL DONE 11:34:18
+== ablation S4a done 11:34:18
+== restore base manifest 11:34:18
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 11:34:25
+== ablation HHRO 11:34:26
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r378 11:34:32
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 455us
+worker-min=196  vyos-min=130   burned core-min: wk=354 vy=147 TOTAL=501
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r378 not 60/60 13:19:11 — continuing
+== queue ALL DONE 13:19:41
+== ablation HHRO done 13:19:41
+== restore base manifest 13:19:41
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 13:19:48
+== ablation B4c2_slo 13:19:48
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r379 13:19:55
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 374us
+worker-min=191  vyos-min=112   burned core-min: wk=332 vy=128 TOTAL=460
+offered total      : 7.76 G pkts
+== queue NOTE: t3:r379 not 60/60 15:08:46 — continuing
+== queue ALL DONE 15:09:16
+== ablation B4c2_slo done 15:09:16
+== restore base manifest 15:09:16
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 15:09:23
+== ablation B5c1_slo 16:11:48
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r380 16:11:55
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 504us
+worker-min=203  vyos-min=125   burned core-min: wk=380 vy=145 TOTAL=524
+offered total      : 8.68 G pkts
+== queue NOTE: t3:r380 not 60/60 17:57:07 — continuing
+== queue ALL DONE 17:57:37
+== ablation B5c1_slo done 17:57:37
+== restore base manifest 17:57:37
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 17:57:45
+== ablation B4c2_slo 17:58:09
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r382 17:58:16
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+assoc: 1 1 1 1 1 1 1 1 
+RuntimeError: UE 13 tun timeout
+PREP-DONE
+== queue STOP: t3:r382 did not finish cleanly 18:02:01
+== ablation B4c2_slo done 18:02:01
+== restore base manifest 18:02:01
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:02:08
+== ablation HHRO 00:54:08
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t4:r381 00:54:14
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 470us
+worker-min=234  vyos-min=158   burned core-min: wk=487 vy=184 TOTAL=671
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r381 not 60/60 02:38:50 — continuing
+== queue ALL DONE 02:39:20
+== ablation HHRO done 02:39:20
+== restore base manifest 02:39:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 02:39:26
+== ablation B6c4_slo 02:40:23
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r383 02:40:30
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 435us
+worker-min=216  vyos-min=131   burned core-min: wk=395 vy=153 TOTAL=549
+offered total      : 8.68 G pkts
+== queue NOTE: t3:r383 not 60/60 04:26:06 — continuing
+== queue ALL DONE 04:26:36
+== ablation B6c4_slo done 04:26:36
+== restore base manifest 04:26:36
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 04:26:44
+== ablation B4c2_slo 04:26:44
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t3:r382 04:26:51
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 465us
+worker-min=215  vyos-min=138   burned core-min: wk=378 vy=158 TOTAL=537
+offered total      : 8.68 G pkts
+== queue NOTE: t3:r382 not 60/60 06:11:27 — continuing
+== queue ALL DONE 06:11:57
+== ablation B4c2_slo done 06:11:57
+== restore base manifest 06:11:57
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 06:12:04
+== ablation B2_dasa 06:15:13
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t1:r390 06:15:20
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 400us
+worker-min=240  vyos-min=98   burned core-min: wk=510 vy=117 TOTAL=627
+offered total      : 8.93 G pkts
+== queue NOTE: t1:r390 not 60/60 07:21:48 — continuing
+== queue ALL DONE 07:22:18
+== ablation B2_dasa done 07:22:18
+== restore base manifest 07:22:18
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 07:22:25
+== ablation B2_dasa 07:22:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t1:r391 07:22:32
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 395us
+worker-min=240  vyos-min=98   burned core-min: wk=512 vy=117 TOTAL=630
+offered total      : 8.94 G pkts
+== queue NOTE: t1:r391 not 60/60 08:28:50 — continuing
+== queue ALL DONE 08:29:20
+== ablation B2_dasa done 08:29:20
+== restore base manifest 08:29:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 08:29:27
+== ablation B2_dasa 08:29:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t1:r392 08:29:34
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 393us
+worker-min=240  vyos-min=98   burned core-min: wk=519 vy=117 TOTAL=636
+offered total      : 8.94 G pkts
+== queue NOTE: t1:r392 not 60/60 09:35:55 — continuing
+== queue ALL DONE 09:36:25
+== ablation B2_dasa done 09:36:25
+== restore base manifest 09:36:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 09:36:31
+== ablation B2_dasa 09:36:31
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t2:r393 09:36:39
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 373us
+worker-min=240  vyos-min=130   burned core-min: wk=526 vy=151 TOTAL=678
+offered total      : 11.91 G pkts
+== queue NOTE: t2:r393 not 60/60 10:53:40 — continuing
+== queue ALL DONE 10:54:10
+== ablation B2_dasa done 10:54:10
+== restore base manifest 10:54:10
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:54:17
+== ablation B2_dasa 10:54:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t2:r394 10:54:25
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 372us
+worker-min=240  vyos-min=130   burned core-min: wk=523 vy=150 TOTAL=673
+offered total      : 11.91 G pkts
+== queue NOTE: t2:r394 not 60/60 12:11:11 — continuing
+== queue ALL DONE 12:11:41
+== ablation B2_dasa done 12:11:41
+== restore base manifest 12:11:41
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:11:48
+== ablation B2_dasa 12:11:48
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t2:r395 12:11:55
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 374us
+worker-min=240  vyos-min=130   burned core-min: wk=525 vy=152 TOTAL=677
+offered total      : 11.91 G pkts
+== queue NOTE: t2:r395 not 60/60 13:28:46 — continuing
+== queue ALL DONE 13:29:16
+== ablation B2_dasa done 13:29:16
+== restore base manifest 13:29:16
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 13:29:23
+== ablation B3_hpa 13:29:23
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t1:r396 13:29:30
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 956us
+worker-min=170  vyos-min=180   burned core-min: wk=328 vy=205 TOTAL=533
+offered total      : 8.94 G pkts
+== queue NOTE: t1:r396 not 60/60 14:36:26 — continuing
+== queue ALL DONE 14:36:56
+== ablation B3_hpa done 14:36:56
+== restore base manifest 14:36:56
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:37:04
+== ablation B3_hpa 14:37:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t1:r397 14:37:11
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 658us
+worker-min=173  vyos-min=180   burned core-min: wk=312 vy=203 TOTAL=515
+offered total      : 8.94 G pkts
+== queue NOTE: t1:r397 not 60/60 15:45:35 — continuing
+== queue ALL DONE 15:46:05
+== ablation B3_hpa done 15:46:05
+== restore base manifest 15:46:05
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 15:46:12
+== ablation B3_hpa 15:46:12
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t1:r398 15:46:19
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 814us
+worker-min=175  vyos-min=180   burned core-min: wk=331 vy=204 TOTAL=535
+offered total      : 8.94 G pkts
+== queue NOTE: t1:r398 not 60/60 16:55:09 — continuing
+== queue ALL DONE 16:55:39
+== ablation B3_hpa done 16:55:39
+== restore base manifest 16:55:39
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:55:47
+== ablation B3t2_hpa 16:55:47
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t2:r399 16:55:54
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 489us
+worker-min=207  vyos-min=180   burned core-min: wk=412 vy=204 TOTAL=616
+offered total      : 11.91 G pkts
+== queue NOTE: t2:r399 not 60/60 18:26:20 — continuing
+== queue ALL DONE 18:26:50
+== ablation B3t2_hpa done 18:26:50
+== restore base manifest 18:26:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:26:57
+== ablation B3t2_hpa 18:26:57
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t2:r400 18:27:04
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 512us
+worker-min=228  vyos-min=180   burned core-min: wk=434 vy=206 TOTAL=640
+offered total      : 11.91 G pkts
+== queue NOTE: t2:r400 not 60/60 19:55:26 — continuing
+== queue ALL DONE 19:55:56
+== ablation B3t2_hpa done 19:55:56
+== restore base manifest 19:55:56
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 19:56:04
+== ablation B3t2_hpa 19:56:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t2:r401 19:56:11
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 588us
+worker-min=209  vyos-min=180   burned core-min: wk=429 vy=205 TOTAL=635
+offered total      : 11.91 G pkts
+== queue NOTE: t2:r401 not 60/60 21:24:55 — continuing
+== queue ALL DONE 21:25:25
+== ablation B3t2_hpa done 21:25:25
+== restore base manifest 21:25:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 21:25:32
+== ablation S4a 00:18:30
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t6:r402 00:18:37
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 324us
+worker-min=240  vyos-min=174   burned core-min: wk=484 vy=205 TOTAL=689
+offered total      : 12.49 G pkts
+== queue ALL DONE 02:09:29
+== ablation S4a done 02:09:29
+== restore base manifest 02:09:29
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 02:09:36
+== ablation HHRO 02:09:37
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t6:r403 02:09:43
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 340us
+worker-min=231  vyos-min=152   burned core-min: wk=461 vy=177 TOTAL=638
+offered total      : 12.49 G pkts
+== queue ALL DONE 03:56:24
+== ablation HHRO done 03:56:24
+== restore base manifest 03:56:24
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 03:56:30
+== ablation B4c2_slo 03:56:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t6:r404 03:57:06
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 314us
+worker-min=240  vyos-min=174   burned core-min: wk=509 vy=205 TOTAL=713
+offered total      : 12.49 G pkts
+== queue ALL DONE 05:44:44
+== ablation B4c2_slo done 05:44:44
+== restore base manifest 05:44:44
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 05:44:51
+== ablation S4b 05:44:51
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t6:r405 05:44:58
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 326us
+worker-min=236  vyos-min=165   burned core-min: wk=456 vy=193 TOTAL=648
+offered total      : 12.43 G pkts
+== queue ALL DONE 07:36:22
+== ablation S4b done 07:36:22
+== restore base manifest 07:36:22
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 07:36:29
+== ablation B5c1_slo 07:36:30
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r406 07:36:36
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 315us
+worker-min=240  vyos-min=171   burned core-min: wk=495 vy=197 TOTAL=692
+offered total      : 12.49 G pkts
+== queue ALL DONE 09:22:55
+== ablation B5c1_slo done 09:22:55
+== restore base manifest 09:22:55
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 09:23:02
+== ablation B6c4_slo 09:23:02
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r407 09:23:09
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 326us
+worker-min=240  vyos-min=180   burned core-min: wk=524 vy=209 TOTAL=733
+offered total      : 12.49 G pkts
+== queue ALL DONE 11:17:31
+== ablation B6c4_slo done 11:17:31
+== restore base manifest 11:17:31
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 11:17:38
+== ablation B1_static 11:17:38
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t6:r408 11:17:45
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 309us
+worker-min=240  vyos-min=180   burned core-min: wk=521 vy=209 TOTAL=730
+offered total      : 12.49 G pkts
+== queue ALL DONE 12:47:24
+== ablation B1_static done 12:47:24
+== restore base manifest 12:47:24
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:47:32
+== ablation HHRO 12:47:32
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t6:r409 12:47:38
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 353us
+worker-min=227  vyos-min=152   burned core-min: wk=471 vy=176 TOTAL=647
+offered total      : 12.49 G pkts
+== queue ALL DONE 14:34:15
+== ablation HHRO done 14:34:15
+== restore base manifest 14:34:15
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:34:21
+== ablation B4c2_slo 14:34:21
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t6:r410 14:34:28
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 317us
+worker-min=240  vyos-min=180   burned core-min: wk=522 vy=210 TOTAL=732
+offered total      : 12.49 G pkts
+== queue NOTE: t6:r410 not 60/60 16:21:19 — continuing
+== queue ALL DONE 16:21:49
+== ablation B4c2_slo done 16:21:49
+== restore base manifest 16:21:49
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:21:56
+== ablation S4b 16:21:57
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t6:r411 16:22:03
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 339us
+worker-min=237  vyos-min=167   burned core-min: wk=453 vy=198 TOTAL=652
+offered total      : 12.49 G pkts
+== queue ALL DONE 18:09:27
+== ablation S4b done 18:09:27
+== restore base manifest 18:09:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:09:35
+== ablation B5c1_slo 18:09:36
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r412 18:09:42
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 318us
+worker-min=240  vyos-min=171   burned core-min: wk=476 vy=197 TOTAL=673
+offered total      : 12.49 G pkts
+== queue NOTE: t6:r412 not 60/60 19:55:26 — continuing
+== queue ALL DONE 19:55:56
+== ablation B5c1_slo done 19:55:56
+== restore base manifest 19:55:56
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 19:56:04
+== ablation B6c4_slo 19:56:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r413 19:56:11
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 332us
+worker-min=240  vyos-min=169   burned core-min: wk=508 vy=198 TOTAL=706
+offered total      : 12.49 G pkts
+== queue ALL DONE 21:42:52
+== ablation B6c4_slo done 21:42:52
+== restore base manifest 21:42:52
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 21:42:59
+== ablation S4a 21:42:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t6:r414 21:43:06
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 329us
+worker-min=240  vyos-min=175   burned core-min: wk=480 vy=203 TOTAL=683
+offered total      : 12.49 G pkts
+== queue ALL DONE 23:33:53
+== ablation S4a done 23:33:53
+== restore base manifest 23:33:53
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 23:34:00
+== ablation B4c2_slo 23:34:01
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t6:r415 23:34:07
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 315us
+worker-min=240  vyos-min=180   burned core-min: wk=481 vy=212 TOTAL=693
+offered total      : 12.49 G pkts
+== queue ALL DONE 01:20:17
+== ablation B4c2_slo done 01:20:17
+== restore base manifest 01:20:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 01:20:24
+== ablation S4b 01:20:24
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t6:r416 01:20:31
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 330us
+worker-min=236  vyos-min=167   burned core-min: wk=464 vy=198 TOTAL=662
+offered total      : 12.49 G pkts
+== queue ALL DONE 03:07:52
+== ablation S4b done 03:07:52
+== restore base manifest 03:07:52
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 03:07:59
+== ablation B5c1_slo 03:07:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r417 03:08:06
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 316us
+worker-min=240  vyos-min=171   burned core-min: wk=485 vy=199 TOTAL=684
+offered total      : 12.49 G pkts
+== queue ALL DONE 04:56:19
+== ablation B5c1_slo done 04:56:19
+== restore base manifest 04:56:19
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 04:56:26
+== ablation B6c4_slo 04:56:26
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r418 04:56:33
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 327us
+worker-min=240  vyos-min=169   burned core-min: wk=508 vy=197 TOTAL=705
+offered total      : 12.49 G pkts
+== queue ALL DONE 06:44:08
+== ablation B6c4_slo done 06:44:08
+== restore base manifest 06:44:08
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 06:44:15
+== ablation S4a 06:44:15
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t6:r419 06:44:22
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 333us
+worker-min=240  vyos-min=172   burned core-min: wk=486 vy=203 TOTAL=689
+offered total      : 12.49 G pkts
+== queue ALL DONE 08:34:41
+== ablation S4a done 08:34:41
+== restore base manifest 08:34:41
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 08:34:49
+== ablation HHRO 08:34:49
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t6:r420 08:34:55
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 430us
+worker-min=232  vyos-min=152   burned core-min: wk=479 vy=178 TOTAL=657
+offered total      : 12.49 G pkts
+== queue NOTE: t6:r420 not 60/60 10:20:36 — continuing
+== queue ALL DONE 10:21:06
+== ablation HHRO done 10:21:06
+== restore base manifest 10:21:06
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:21:12
+== ablation S4a 10:37:23
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t7:r430 10:37:30
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 322us
+worker-min=238  vyos-min=172   burned core-min: wk=465 vy=197 TOTAL=663
+offered total      : 12.51 G pkts
+== queue ALL DONE 12:25:12
+== ablation S4a done 12:25:12
+== restore base manifest 12:25:12
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:25:20
+== ablation HHRO 12:25:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t7:r431 12:25:26
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 361us
+worker-min=230  vyos-min=154   burned core-min: wk=457 vy=181 TOTAL=638
+offered total      : 12.51 G pkts
+== queue ALL DONE 14:13:44
+== ablation HHRO done 14:13:44
+== restore base manifest 14:13:44
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:13:50
+== ablation B4c2_slo 15:12:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t7:r432 15:12:32
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 327us
+worker-min=240  vyos-min=167   burned core-min: wk=514 vy=191 TOTAL=705
+offered total      : 12.51 G pkts
+== queue ALL DONE 17:00:52
+== ablation B4c2_slo done 17:00:52
+== restore base manifest 17:00:52
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 17:01:00
+== ablation S4b 17:01:00
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t7:r433 17:01:07
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 346us
+worker-min=234  vyos-min=169   burned core-min: wk=448 vy=197 TOTAL=645
+offered total      : 12.51 G pkts
+== queue ALL DONE 18:48:48
+== ablation S4b done 18:48:48
+== restore base manifest 18:48:48
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:48:56
+== ablation B5c1_slo 18:48:56
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t7:r434 18:49:03
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 324us
+worker-min=240  vyos-min=159   burned core-min: wk=499 vy=184 TOTAL=684
+offered total      : 12.51 G pkts
+== queue ALL DONE 20:37:14
+== ablation B5c1_slo done 20:37:14
+== restore base manifest 20:37:14
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 20:37:22
+== ablation B6c4_slo 20:37:22
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t7:r435 20:37:29
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 327us
+worker-min=240  vyos-min=173   burned core-min: wk=508 vy=202 TOTAL=710
+offered total      : 12.51 G pkts
+== queue ALL DONE 22:25:20
+== ablation B6c4_slo done 22:25:20
+== restore base manifest 22:25:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 22:25:27
+== ablation B1_static 22:25:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t7:r436 22:25:34
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 323us
+worker-min=240  vyos-min=180   burned core-min: wk=526 vy=207 TOTAL=733
+offered total      : 12.51 G pkts
+== queue NOTE: t7:r436 not 60/60 23:44:29 — continuing
+== queue ALL DONE 23:44:59
+== ablation B1_static done 23:44:59
+== restore base manifest 23:44:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 23:45:07
+== ablation HHRO 23:45:07
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t7:r437 23:45:13
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 355us
+worker-min=230  vyos-min=154   burned core-min: wk=470 vy=179 TOTAL=648
+offered total      : 12.51 G pkts
+== queue ALL DONE 01:32:44
+== ablation HHRO done 01:32:44
+== restore base manifest 01:32:44
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 01:32:50
+== ablation B4c2_slo 01:32:51
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t7:r438 01:32:58
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 327us
+worker-min=240  vyos-min=167   burned core-min: wk=525 vy=197 TOTAL=722
+offered total      : 12.51 G pkts
+== queue ALL DONE 03:21:11
+== ablation B4c2_slo done 03:21:11
+== restore base manifest 03:21:11
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 03:21:18
+== ablation S4b 03:21:18
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t7:r439 03:21:25
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 342us
+worker-min=233  vyos-min=168   burned core-min: wk=446 vy=195 TOTAL=640
+offered total      : 12.51 G pkts
+== queue ALL DONE 05:09:13
+== ablation S4b done 05:09:13
+== restore base manifest 05:09:13
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 05:09:20
+== ablation B5c1_slo 05:09:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t7:r440 05:09:27
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 322us
+worker-min=240  vyos-min=159   burned core-min: wk=501 vy=184 TOTAL=684
+offered total      : 12.51 G pkts
+== queue ALL DONE 06:57:39
+== ablation B5c1_slo done 06:57:39
+== restore base manifest 06:57:39
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 06:57:46
+== ablation B6c4_slo 06:57:46
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t7:r441 06:57:53
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 327us
+worker-min=240  vyos-min=173   burned core-min: wk=520 vy=199 TOTAL=719
+offered total      : 12.51 G pkts
+== queue ALL DONE 08:45:13
+== ablation B6c4_slo done 08:45:13
+== restore base manifest 08:45:13
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 08:45:21
+== ablation S4a 08:45:21
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t7:r442 08:45:28
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 323us
+worker-min=238  vyos-min=172   burned core-min: wk=464 vy=196 TOTAL=660
+offered total      : 12.51 G pkts
+== queue NOTE: t7:r442 not 60/60 10:32:38 — continuing
+== queue ALL DONE 10:33:08
+== ablation S4a done 10:33:08
+== restore base manifest 10:33:08
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:33:16
+== ablation B4c2_slo 10:33:16
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t7:r443 10:33:23
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 327us
+worker-min=240  vyos-min=167   burned core-min: wk=524 vy=196 TOTAL=720
+offered total      : 12.51 G pkts
+== queue ALL DONE 12:23:29
+== ablation B4c2_slo done 12:23:29
+== restore base manifest 12:23:29
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:23:36
+== ablation S4b 12:23:36
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t7:r444 12:23:43
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 343us
+worker-min=233  vyos-min=169   burned core-min: wk=448 vy=199 TOTAL=648
+offered total      : 12.51 G pkts
+== queue ALL DONE 14:11:33
+== ablation S4b done 14:11:33
+== restore base manifest 14:11:33
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:11:40
+== ablation B5c1_slo 14:11:40
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t7:r445 14:11:47
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 327us
+worker-min=240  vyos-min=160   burned core-min: wk=488 vy=183 TOTAL=671
+offered total      : 12.51 G pkts
+== queue ALL DONE 16:02:01
+== ablation B5c1_slo done 16:02:01
+== restore base manifest 16:02:01
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:02:08
+== ablation B6c4_slo 16:02:09
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t7:r446 16:02:15
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 323us
+worker-min=240  vyos-min=174   burned core-min: wk=502 vy=204 TOTAL=706
+offered total      : 12.51 G pkts
+== queue ALL DONE 17:49:31
+== ablation B6c4_slo done 17:49:31
+== restore base manifest 17:49:31
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 17:49:38
+== ablation S4a 17:49:38
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t7:r447 17:49:45
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 322us
+worker-min=239  vyos-min=172   burned core-min: wk=483 vy=198 TOTAL=680
+offered total      : 12.51 G pkts
+== queue ALL DONE 20:17:15
+== ablation S4a done 20:17:15
+== restore base manifest 20:17:15
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 20:17:22
+== ablation HHRO 20:17:23
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t7:r448 20:17:29
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 350us
+worker-min=230  vyos-min=154   burned core-min: wk=462 vy=178 TOTAL=639
+offered total      : 12.51 G pkts
+== queue ALL DONE 22:05:41
+== ablation HHRO done 22:05:41
+== restore base manifest 22:05:41
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 22:05:47
+== ablation B4c2_slo_em 01:55:13
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6e
+{"enabled":false}
+
+== queue start t6:r460 01:55:20
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 315us
+worker-min=240  vyos-min=180   burned core-min: wk=510 vy=210 TOTAL=720
+offered total      : 12.49 G pkts
+== queue ALL DONE 03:42:53
+== ablation B4c2_slo_em done 03:42:53
+== restore base manifest 03:42:53
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 03:43:00
+== ablation B5c1_slo_em 03:43:01
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11e
+{"enabled":false}
+
+== queue start t6:r461 03:43:08
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 313us
+worker-min=240  vyos-min=171   burned core-min: wk=488 vy=199 TOTAL=687
+offered total      : 12.49 G pkts
+== queue ALL DONE 05:29:24
+== ablation B5c1_slo_em done 05:29:24
+== restore base manifest 05:29:24
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 05:29:31
+== ablation B6c4_slo_em 05:29:32
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11e
+{"enabled":false}
+
+== queue start t6:r462 05:29:38
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+DONE trace_v7_r462w3.log 07:31:17
+warm-in 3 tail30 loss=28.552%
+warm-in never converged (28.552%)
+== queue STOP: t6:r462 did not finish cleanly 07:31:17
+== ablation B6c4_slo_em done 07:31:17
+== restore base manifest 07:31:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 07:31:25
+== ablation B5c1_slo_em 14:29:33
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11e
+{"enabled":false}
+
+== queue start t6:r463 14:29:40
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 323us
+worker-min=240  vyos-min=171   burned core-min: wk=494 vy=197 TOTAL=691
+offered total      : 12.49 G pkts
+== queue ALL DONE 16:51:31
+== ablation B5c1_slo_em done 16:51:31
+== restore base manifest 16:51:31
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:51:38
+== ablation B6c4_slo_em 16:51:39
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11e
+{"enabled":false}
+
+== queue start t6:r464 16:51:45
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 325us
+worker-min=240  vyos-min=169   burned core-min: wk=512 vy=199 TOTAL=710
+offered total      : 12.49 G pkts
+== queue ALL DONE 18:39:04
+== ablation B6c4_slo_em done 18:39:04
+== restore base manifest 18:39:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:39:11
+== ablation B4c2_slo_em 18:39:12
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6e
+{"enabled":false}
+
+== queue start t6:r465 18:39:18
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 321us
+worker-min=240  vyos-min=180   burned core-min: wk=514 vy=210 TOTAL=724
+offered total      : 12.49 G pkts
+== queue ALL DONE 20:26:07
+== ablation B4c2_slo_em done 20:26:07
+== restore base manifest 20:26:07
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 20:26:14
+== ablation B6c4_slo_em 21:25:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11e
+{"enabled":false}
+
+== queue start t6:r466 21:25:35
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 330us
+worker-min=240  vyos-min=169   burned core-min: wk=512 vy=200 TOTAL=712
+offered total      : 12.49 G pkts
+== queue ALL DONE 23:12:50
+== ablation B6c4_slo_em done 23:12:50
+== restore base manifest 23:12:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 23:12:58
+== ablation S4a 23:45:44
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t8:r470 23:45:52
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+== ablation S4a 02:25:18
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t8:r471 02:25:25
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 334us
+worker-min=196  vyos-min=130   burned core-min: wk=282 vy=147 TOTAL=428
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r471 not 60/60 04:06:20 — continuing
+== queue ALL DONE 04:06:50
+== ablation S4a done 04:06:50
+== restore base manifest 04:06:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 04:06:57
+== ablation HHRO 04:22:12
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t8:r472 04:22:18
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+WARN warm-in fleet not (6,2,3) — 09-22 r111w: 7→6 hold 12 min → worker 刪除來不及
+LAUNCHED v7r472 05:02:20
+TIMEOUT trace_v7_r472.log
+== queue STOP: t8:r472 did not finish cleanly 06:32:23
+== ablation HHRO done 06:32:23
+== restore base manifest 06:32:23
+ssh: connect to host 10.0.0.50 port 22: No route to host
+lost connection
+
+== ABLATION ALL DONE 06:32:38
+== ablation S4b 06:32:41
+ssh: connect to host 10.0.0.50 port 22: No route to host
+lost connection
+
+== queue start t8:r473 06:32:44
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+== ablation B6c4_slo 13:24:36
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t8:r474 13:24:43
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 303us
+worker-min=191  vyos-min=129   burned core-min: wk=290 vy=148 TOTAL=438
+offered total      : 6.20 G pkts
+== queue ALL DONE 15:06:06
+== ablation B6c4_slo done 15:06:06
+== restore base manifest 15:06:06
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 15:06:13
+== ablation HHRO 15:06:13
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t8:r475 15:06:19
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 396us
+worker-min=166  vyos-min=125   burned core-min: wk=280 vy=145 TOTAL=424
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r475 not 60/60 16:54:08 — continuing
+== queue ALL DONE 16:54:38
+== ablation HHRO done 16:54:38
+== restore base manifest 16:54:38
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 16:54:45
+== ablation S4b 16:54:45
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t8:r476 16:54:52
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 417us
+worker-min=187  vyos-min=131   burned core-min: wk=261 vy=149 TOTAL=410
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r476 not 60/60 18:37:04 — continuing
+== queue ALL DONE 18:37:34
+== ablation S4b done 18:37:34
+== restore base manifest 18:37:34
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 18:37:42
+== ablation B6c4_slo 18:37:42
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t8:r477 18:37:49
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 411us
+worker-min=185  vyos-min=129   burned core-min: wk=313 vy=147 TOTAL=459
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r477 not 60/60 20:21:32 — continuing
+== queue ALL DONE 20:22:02
+== ablation B6c4_slo done 20:22:02
+== restore base manifest 20:22:02
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 20:22:09
+== ablation S4a 20:22:09
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t8:r478 20:22:16
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 392us
+worker-min=195  vyos-min=139   burned core-min: wk=264 vy=159 TOTAL=423
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r478 not 60/60 22:05:04 — continuing
+== queue ALL DONE 22:05:34
+== ablation S4a done 22:05:34
+== restore base manifest 22:05:34
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 22:05:41
+== ablation HHRO 22:05:41
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== queue start t8:r479 22:05:47
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 414us
+worker-min=172  vyos-min=120   burned core-min: wk=264 vy=142 TOTAL=406
+offered total      : 6.18 G pkts
+== queue NOTE: t8:r479 not 60/60 23:49:28 — continuing
+== queue ALL DONE 23:49:58
+== ablation HHRO done 23:49:58
+== restore base manifest 23:49:58
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 23:50:04
+== ablation S4b 23:50:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t8:r480 23:50:11
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 395us
+worker-min=186  vyos-min=129   burned core-min: wk=260 vy=147 TOTAL=407
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r480 not 60/60 01:38:35 — continuing
+== queue ALL DONE 01:39:05
+== ablation S4b done 01:39:05
+== restore base manifest 01:39:05
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 01:39:12
+== ablation S4b 02:03:22
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t8:r481 02:03:28
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 401us
+worker-min=189  vyos-min=129   burned core-min: wk=278 vy=149 TOTAL=427
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r481 not 60/60 03:46:25 — continuing
+== queue ALL DONE 03:46:55
+== ablation S4b done 03:46:55
+== restore base manifest 03:46:55
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== ABLATION ALL DONE 03:47:02
+== ablation B6c5_h 04:20:06
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r482 04:20:13
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 452us
+worker-min=226  vyos-min=132   burned core-min: wk=357 vy=155 TOTAL=512
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r482 not 60/60 06:05:34 — continuing
+== queue ALL DONE 06:06:04
+== ablation B6c5_h done 06:06:04
+== restore base manifest 06:06:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 06:06:11
+== ablation B6c5_h 06:06:12
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r483 06:06:19
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 301us
+worker-min=240  vyos-min=164   burned core-min: wk=502 vy=192 TOTAL=694
+offered total      : 8.69 G pkts
+== queue ALL DONE 07:59:26
+== ablation B6c5_h done 07:59:26
+== restore base manifest 07:59:26
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 07:59:33
+== ablation B6c5_h 07:59:34
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r484 07:59:40
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 432us
+worker-min=231  vyos-min=150   burned core-min: wk=453 vy=178 TOTAL=631
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r484 not 60/60 09:52:52 — continuing
+== queue ALL DONE 09:53:22
+== ablation B6c5_h done 09:53:22
+== restore base manifest 09:53:22
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 09:53:29
+== ablation B6c5_h 10:03:40
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r490 10:03:47
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+assoc: 1 1 1 1 1 1 1 1 
+RuntimeError: UE 13 tun timeout
+PREP-DONE
+== queue STOP: t6:r490 did not finish cleanly 10:07:20
+== ablation B6c5_h done 10:07:20
+== restore base manifest 10:07:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:07:27
+== ablation B6c5_h 10:29:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r491 10:29:57
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 321us
+worker-min=240  vyos-min=175   burned core-min: wk=522 vy=203 TOTAL=725
+offered total      : 12.49 G pkts
+== queue ALL DONE 12:15:25
+== ablation B6c5_h done 12:15:25
+== restore base manifest 12:15:25
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:15:33
+== ablation B6c5_h 12:15:33
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r492 12:15:40
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 314us
+worker-min=240  vyos-min=175   burned core-min: wk=522 vy=205 TOTAL=727
+offered total      : 12.49 G pkts
+== queue ALL DONE 14:07:27
+== ablation B6c5_h done 14:07:27
+== restore base manifest 14:07:27
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 14:07:34
+== ablation B6c5_h 18:51:31
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r493 18:51:38
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 445us
+worker-min=208  vyos-min=130   burned core-min: wk=359 vy=149 TOTAL=508
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r493 not 60/60 20:38:20 — continuing
+== queue ALL DONE 20:38:50
+== ablation B6c5_h done 20:38:50
+== restore base manifest 20:38:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 20:38:57
+== ablation B6c5_h 20:38:57
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r494 20:39:04
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 538us
+worker-min=210  vyos-min=130   burned core-min: wk=410 vy=151 TOTAL=561
+offered total      : 8.59 G pkts
+== queue NOTE: t3:r494 not 60/60 22:26:29 — continuing
+== queue ALL DONE 22:26:59
+== ablation B6c5_h done 22:26:59
+== restore base manifest 22:26:59
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== ABLATION ALL DONE 22:27:06
+== ablation B6c5_h 22:27:06
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r495 22:27:13
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 860us
+worker-min=206  vyos-min=129   burned core-min: wk=366 vy=150 TOTAL=516
+offered total      : 8.66 G pkts
+== queue NOTE: t3:r495 not 60/60 00:14:34 — continuing
+== queue ALL DONE 00:15:04
+== ablation B6c5_h done 00:15:04
+== restore base manifest 00:15:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 00:15:11
+== ablation B6c5_h 00:29:46
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r496 00:29:53
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+SESSION-GATE round 3: sessions=27 ue=24 orphans=[31:10.45.2.150 31:10.45.2.155 31:10.45.2.156] 01:17:29
+SESSION-GATE-FAIL sessions=27 ue=24 orphans=[31:10.45.2.150 31:10.45.2.155 31:10.45.2.156]
+SESSION-GATE-FAIL (r34b) — not launching formal segment
+== queue STOP: t6:r496 did not finish cleanly 01:17:29
+== ablation B6c5_h done 01:17:29
+== restore base manifest 01:17:29
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 01:17:36
+== ablation B6c5_h 01:17:36
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r497 01:17:43
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+orphan keepalive pings killed: 0
+RESIDUAL-SESSIONS=2
+prep abort: RESIDUAL-SESSIONS=2 (r34b gate)
+== queue STOP: t6:r497 did not finish cleanly 01:32:20
+== ablation B6c5_h done 01:32:20
+== restore base manifest 01:32:20
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 01:32:27
+== ablation B6c5_h 01:36:22
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r498 01:36:29
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 335us
+worker-min=240  vyos-min=167   burned core-min: wk=486 vy=197 TOTAL=682
+offered total      : 12.49 G pkts
+== queue ALL DONE 03:23:04
+== ablation B6c5_h done 03:23:04
+== restore base manifest 03:23:04
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 03:23:10
+== ablation B6c5_h 03:23:11
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t6:r499 03:23:17
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 310us
+worker-min=240  vyos-min=174   burned core-min: wk=498 vy=203 TOTAL=701
+offered total      : 12.49 G pkts
+== queue ALL DONE 05:12:18
+== ablation B6c5_h done 05:12:18
+== restore base manifest 05:12:18
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 05:12:26
+== ablation S4b 08:16:02
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t3:r501 08:16:08
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 462us
+worker-min=203  vyos-min=129   burned core-min: wk=347 vy=150 TOTAL=497
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r501 not 60/60 10:02:06 — continuing
+== queue ALL DONE 10:02:36
+== ablation S4b done 10:02:36
+== restore base manifest 10:02:36
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:02:43
+== ablation S4a 10:18:16
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r502 10:18:23
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 351us
+worker-min=239  vyos-min=178   burned core-min: wk=498 vy=208 TOTAL=707
+offered total      : 14.06 G pkts
+== queue ALL DONE 12:08:21
+== ablation S4a done 12:08:21
+== restore base manifest 12:08:21
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:08:28
+== ablation B6c4_slo 12:08:29
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r503 12:08:35
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 318us
+worker-min=217  vyos-min=132   burned core-min: wk=394 vy=154 TOTAL=549
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r503 not 60/60 13:54:40 — continuing
+== queue ALL DONE 13:55:10
+== ablation B6c4_slo done 13:55:10
+== restore base manifest 13:55:10
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 13:55:17
+== ablation B6c5_h 13:55:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t3:r505 13:55:24
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 436us
+worker-min=209  vyos-min=130   burned core-min: wk=394 vy=149 TOTAL=544
+offered total      : 8.69 G pkts
+== queue NOTE: t3:r505 not 60/60 15:43:13 — continuing
+== queue ALL DONE 15:43:43
+== ablation B6c5_h done 15:43:43
+== restore base manifest 15:43:43
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 15:43:50
+== ablation B6c4_slo 15:43:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t8:r504 15:43:57
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 394us
+worker-min=187  vyos-min=129   burned core-min: wk=316 vy=146 TOTAL=462
+offered total      : 6.19 G pkts
+== queue NOTE: t8:r504 not 60/60 17:26:43 — continuing
+== queue ALL DONE 17:27:13
+== ablation B6c4_slo done 17:27:13
+== restore base manifest 17:27:13
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 17:27:20
+== ablation S4b 17:27:21
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t8:r500 17:27:27
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 400us
+worker-min=187  vyos-min=129   burned core-min: wk=260 vy=148 TOTAL=408
+offered total      : 6.20 G pkts
+== queue NOTE: t8:r500 not 60/60 19:11:47 — continuing
+== queue ALL DONE 19:12:17
+== ablation S4b done 19:12:17
+== restore base manifest 19:12:17
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 19:12:24
+== ablation S4b 05:00:28
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r520 05:00:34
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 454us
+worker-min=238  vyos-min=172   burned core-min: wk=489 vy=201 TOTAL=689
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r520 not 60/60 06:45:37 — continuing
+== queue ALL DONE 06:46:07
+== ablation S4b done 06:46:07
+== restore base manifest 06:46:07
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 06:46:14
+== ablation B5c1_slo 06:46:15
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r521 06:46:22
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 416us
+worker-min=239  vyos-min=162   burned core-min: wk=491 vy=190 TOTAL=680
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r521 not 60/60 08:33:13 — continuing
+== queue ALL DONE 08:33:43
+== ablation B5c1_slo done 08:33:43
+== restore base manifest 08:33:43
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 08:33:50
+== ablation S4b 08:33:50
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r522 08:33:57
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 457us
+worker-min=239  vyos-min=172   burned core-min: wk=490 vy=203 TOTAL=693
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r522 not 60/60 10:18:58 — continuing
+== queue ALL DONE 10:19:28
+== ablation S4b done 10:19:28
+== restore base manifest 10:19:28
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 10:19:35
+== ablation B5c1_slo 10:19:35
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r523 10:19:42
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 421us
+worker-min=239  vyos-min=163   burned core-min: wk=498 vy=190 TOTAL=688
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r523 not 60/60 12:06:24 — continuing
+== queue ALL DONE 12:06:54
+== ablation B5c1_slo done 12:06:54
+== restore base manifest 12:06:54
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 12:07:02
+== ablation S4b 12:07:02
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r524 12:07:09
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 415us
+worker-min=239  vyos-min=172   burned core-min: wk=486 vy=199 TOTAL=685
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r524 not 60/60 13:52:10 — continuing
+== queue ALL DONE 13:52:40
+== ablation S4b done 13:52:40
+== restore base manifest 13:52:40
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 13:52:47
+== ablation B5c1_slo 13:52:47
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q11
+{"enabled":false}
+
+== queue start t4:r525 13:52:54
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 
+p99 avg            : 421us
+worker-min=238  vyos-min=167   burned core-min: wk=496 vy=195 TOTAL=691
+offered total      : 14.06 G pkts
+== queue NOTE: t4:r525 not 60/60 15:38:22 — continuing
+== queue ALL DONE 15:38:52
+== ablation B5c1_slo done 15:38:52
+== restore base manifest 15:38:52
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-q6
+{"enabled":false}
+
+== ABLATION ALL DONE 15:39:00
+== ablation S4a 15:39:00
+deployment.apps/hhro-daemon configured
+deployment "hhro-daemon" successfully rolled out
+hhro-daemon:6.0-s4
+{"enabled":false}
+
+== queue start t4:r526 15:39:07
+   seg-rss pre-run: 3-VyOS 艦隊:wk_1 收 3 台、wk_2 收 0 台 ✓ 最佳落點:三台全在 wk_1(= 09-23 狀態,峰值 p50 ≈ 300 µs) 

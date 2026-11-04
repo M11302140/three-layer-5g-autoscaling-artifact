@@ -1,0 +1,56 @@
+{
+ "seed": 20261011,
+ "pool_mode": "C-prime: same qualifying sensors, dates outside the prior library (collected live, 2026-10)",
+ "thresholds_frozen_at": "2026-10-11 19:17:32",
+ "files": {
+  "/home/user/experiment/trace_ue_60min_v3_t6.json": "c2e4dfb108cb4e11d62a028711b5bd789644da746842d8dde6d114cb982379c3",
+  "/home/user/experiment/trace_warmin_t6.json": "e3e303680f96449bb1d742feeb85e6813f3958f424b27291b8d82c6d630f1370",
+  "/home/user/experiment/trace_warmin_t6_static.json": "f16433e1e510277c6383a64f89e6edf287408dd74174db9ecbada478534e0d7f",
+  "/home/user/experiment/trace_ue_60min_v3_t7.json": "037a885bc2218028a9b53173ccd9995ce98e99c376861437ed29e45d0123ca64",
+  "/home/user/experiment/trace_warmin_t7.json": "eb09de3a19b6c2364fe09cfec2f83ec12e36f8d262742754138fac89ccd1e742",
+  "/home/user/experiment/trace_warmin_t7_static.json": "ed748b0123a01ac74d0cafdba8204885a61465705860d43c63e4e3368e66541b"
+ },
+ "t6": {
+  "loc": 3,
+  "date": "2026-10-14",
+  "start": 960,
+  "rank": 1,
+  "ue0": 24,
+  "stats": {
+   "mp": 0.69375,
+   "f36": 0.03333333333333333,
+   "minue": 20.0,
+   "rise10": 14.0,
+   "start": 24.0,
+   "end": 23.0
+  },
+  "start_fleet": {
+   "rep": 6,
+   "wk": 3,
+   "vy": 2,
+   "rule": "rep=min(8,ceil(UE0/4)); wk=ceil(rep/2); vy=ceil(UE0*0.125Mpps/1.5Mpps) \u2014 same as t3 6/3/2, t4 5/3/2, t5 8/4/3"
+  }
+ },
+ "t7": {
+  "loc": 4,
+  "date": "2026-10-13",
+  "start": 960,
+  "rank": 40,
+  "ue0": 27,
+  "stats": {
+   "mp": 0.6950000000000001,
+   "f36": 0.11666666666666667,
+   "minue": 14.0,
+   "rise10": 15.0,
+   "start": 27.0,
+   "end": 15.0
+  },
+  "start_fleet": {
+   "rep": 7,
+   "wk": 4,
+   "vy": 3,
+   "rule": "rep=min(8,ceil(UE0/4)); wk=ceil(rep/2); vy=ceil(UE0*0.125Mpps/1.5Mpps) \u2014 same as t3 6/3/2, t4 5/3/2, t5 8/4/3"
+  }
+ },
+ "log_sha256": "1d07de25adf04bbd7f4973053749b8ac760079e074edc72be5679e0bc61996bf"
+}

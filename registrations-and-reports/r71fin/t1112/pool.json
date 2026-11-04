@@ -1,0 +1,91 @@
+{
+ "mode": "t11/t12 pool (spec \u00a74.139 item 2 = \u00a74.132 item 4 rule): live 2026 pool, Melbourne local dates after 2026-10-25 that are complete at merge time (10-26, 10-27); every used (sensor, date) excluded (t6-t10; all outside the date range). The S7R sealed pool (\u00a74.128: Melbourne 10-26..27) was never scored; it is not excluded (\u00a74.132 item 4) and this is disclosed.",
+ "ruled_at": "2026-10-27 23:44:17 (r71fin; written and committed before merging and sampling)",
+ "sources": [
+  {
+   "name": "live2026",
+   "csv": "/home/user/experiment/qsim/r71fin/t1112/ped2026_merged_1028.csv",
+   "csv_sha256": "0e7217e824a62e76a416fb9b61a347997b2448c1e4da1e6dcac42164e8e9967c",
+   "date_lo": "2026-10-26",
+   "date_hi": "2026-10-27",
+   "locdays_excluded": [
+    [
+     3,
+     "2026-10-14"
+    ],
+    [
+     4,
+     "2026-10-13"
+    ],
+    [
+     35,
+     "2026-10-17"
+    ],
+    [
+     35,
+     "2026-10-24"
+    ],
+    [
+     66,
+     "2026-10-24"
+    ]
+   ],
+   "locdays_excluded_note": "t6, t7, t8, t9, t10 (all outside the date range)"
+  }
+ ],
+ "sensors_allowed": [
+  3,
+  4,
+  6,
+  14,
+  21,
+  24,
+  30,
+  35,
+  41,
+  45,
+  47,
+  49,
+  56,
+  58,
+  63,
+  65,
+  66,
+  79,
+  84,
+  5
+ ],
+ "min_rows": 1200,
+ "min_peak": 20.0,
+ "starts": [
+  360,
+  420,
+  480,
+  540,
+  600,
+  660,
+  720,
+  780,
+  840,
+  900,
+  960,
+  1020,
+  1080,
+  1140,
+  1200
+ ],
+ "seed": 20261011,
+ "bands": {
+  "general": "t6t7_thresholds.json (\u00a74.53)",
+  "stress": "gtrace/g_thresholds.json (\u00a74.114 G)",
+  "highload_fallback": "t910/highload_thresholds.json (\u00a74.127)"
+ },
+ "rule": "candidates (loc,date,start) sorted, random.Random(20261011).shuffle; t11 = first passing the general band; t12 = first passing the stress band with (loc,date) != t11; if no stress passer in the whole pool: t12 = first passing the high-load band with (loc,date) != t11. Sampler r71fin/t1112/make_t1112.py (copy of t910/make_t910.py) runs once; rejection count = accepted rank - 1, full log in sampling_log.txt.",
+ "merge": {
+  "rows": 25808,
+  "snapshots": 253,
+  "unreadable": 3,
+  "mismatch": 0,
+  "note": "only sensors 3 and 4 reach min_rows 1200 on both dates (counts only, no shapes looked at)"
+ }
+}

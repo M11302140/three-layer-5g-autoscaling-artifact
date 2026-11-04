@@ -1,0 +1,49 @@
+{
+ "trace": "t1",
+ "identical_prefix_events": 1,
+ "legacy": [
+  "8:exec-worker:worker-1",
+  "8:b5-worker:worker-2",
+  "12:slot+:31",
+  "16:worker-:2",
+  "28:slot+:32",
+  "31:vy+",
+  "32:exec-worker:worker-2",
+  "32:b5-worker:worker-3",
+  "36:slot+:34",
+  "36:slot+:35",
+  "40:slot+:36",
+  "42:vy+",
+  "48:slot+:37",
+  "85:vy-",
+  "104:slot-:38",
+  "108:vy-",
+  "109:slot-:37",
+  "114:slot-:36",
+  "119:slot-:35"
+ ],
+ "q10": [
+  "8:b5-worker:worker-1",
+  "12:slot+:31",
+  "28:slot+:32",
+  "31:vy+",
+  "32:b5-worker:worker-2",
+  "36:slot+:34",
+  "36:slot+:35",
+  "39:b5-worker:worker-3",
+  "42:vy+",
+  "43:slot+:36",
+  "48:slot+:37",
+  "85:vy-",
+  "104:slot-:38",
+  "108:vy-",
+  "109:slot-:37",
+  "114:slot-:36",
+  "119:slot-:35"
+ ],
+ "legacy_double_creation_ticks": [
+  8,
+  32
+ ],
+ "first_diff": "event#1 (tick 8) legacy=8:worker+:worker-2 q10=12:slot+:31; legacy first double-creation tick=8"
+}

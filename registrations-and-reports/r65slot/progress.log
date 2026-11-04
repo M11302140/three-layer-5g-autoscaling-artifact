@@ -1,0 +1,68 @@
+[22:58:47] start
+[23:00:15] seed 1 coarse 12/108  88s
+[23:01:00] seed 0 coarse 12/108  133s
+[23:02:13] seed 1 coarse 24/108  207s
+[23:02:26] seed 0 coarse 24/108  219s
+[23:04:02] seed 1 coarse 36/108  316s
+[23:04:16] seed 0 coarse 36/108  330s
+[23:05:30] seed 1 coarse 48/108  403s
+[23:06:17] seed 0 coarse 48/108  451s
+[23:07:35] seed 1 coarse 60/108  528s
+[23:07:51] seed 0 coarse 60/108  544s
+[23:09:02] seed 1 coarse 72/108  615s
+[23:10:08] seed 0 coarse 72/108  681s
+[23:10:29] seed 1 coarse 84/108  702s
+[23:11:56] seed 1 coarse 96/108  790s
+[23:12:25] seed 0 coarse 84/108  818s
+[23:13:24] seed 1 coarse 108/108  877s
+[23:14:42] seed 0 coarse 96/108  956s
+[23:14:52] seed 1 target 0.02: pick 0.75/5.75 cal 0.0176/1360.1 ho 0.0143/1352.0  | v11@nest2 2.0/2.0: ho 0.0761/1285.4
+[23:16:22] seed 1 target 0.005: pick 2.25/7.25 cal 0.0040/1404.6 ho 0.0016/1398.2  EDGE | v11@nest2 2.75/3.25: ho 0.0442/1343.6
+[23:16:59] seed 0 coarse 108/108  1093s
+[23:17:49] seed 2 coarse 12/108  87s
+[23:19:15] seed 2 coarse 24/108  173s
+[23:19:21] seed 0 target 0.02: pick 0.75/5.5 cal 0.0184/1338.1 ho 0.0173/1354.6  | v11@nest2 1.75/2.0: ho 0.0773/1288.2
+[23:20:57] seed 0 target 0.005: pick 2.25/6.75 cal 0.0048/1385.5 ho 0.0030/1398.1  | v11@nest2 3.0/3.0: ho 0.0524/1346.0
+[23:21:17] seed 2 coarse 36/108  296s
+[23:22:24] seed 3 coarse 12/108  87s
+[23:23:36] seed 2 coarse 48/108  434s
+[23:23:50] seed 3 coarse 24/108  173s
+[23:25:16] seed 3 coarse 36/108  259s
+[23:25:54] seed 2 coarse 60/108  572s
+[23:26:42] seed 3 coarse 48/108  345s
+[23:28:06] seed 2 coarse 72/108  704s
+[23:28:18] seed 3 coarse 60/108  441s
+[23:29:32] seed 2 coarse 84/108  790s
+[23:30:37] seed 3 coarse 72/108  581s
+[23:30:59] seed 2 coarse 96/108  877s
+[23:32:25] seed 2 coarse 108/108  963s
+[23:32:56] seed 3 coarse 84/108  720s
+[23:33:53] seed 2 target 0.02: pick 0.75/5.25 cal 0.0196/1346.2 ho 0.0199/1344.0  | v11@nest2 1.75/2.0: ho 0.0744/1275.8
+[23:35:16] seed 3 coarse 96/108  859s
+[23:35:21] seed 2 target 0.005: pick 1.5/7.0 cal 0.0044/1379.8 ho 0.0052/1378.8  EDGE | v11@nest2 2.5/3.0: ho 0.0534/1327.9
+[23:36:49] seed 4 coarse 12/108  88s
+[23:37:34] seed 3 coarse 108/108  998s
+[23:38:25] seed 4 coarse 24/108  184s
+[23:39:34] seed 3 target 0.02: pick 0.75/5.0 cal 0.0199/1341.4 ho 0.0206/1341.4  | v11@nest2 2.0/2.0: ho 0.0757/1285.9
+[23:40:11] seed 4 coarse 36/108  289s
+[23:41:03] seed 3 target 0.005: pick 2.0/6.5 cal 0.0047/1384.7 ho 0.0054/1384.7  | v11@nest2 2.5/3.25: ho 0.0432/1337.5
+[23:42:07] seed 4 coarse 48/108  405s
+[23:42:58] seed 5 coarse 12/108  115s
+[23:44:07] seed 4 coarse 60/108  525s
+[23:44:23] seed 5 coarse 24/108  200s
+[23:45:48] seed 5 coarse 36/108  285s
+[23:46:15] seed 4 coarse 72/108  654s
+[23:47:43] seed 4 coarse 84/108  742s
+[23:48:02] seed 5 coarse 48/108  420s
+[23:49:11] seed 4 coarse 96/108  829s
+[23:50:21] seed 5 coarse 60/108  558s
+[23:50:43] seed 4 coarse 108/108  922s
+[23:51:50] seed 5 coarse 72/108  647s
+[23:53:06] seed 4 target 0.02: pick 1.0/5.0 cal 0.0192/1349.8 ho 0.0220/1340.7  | v11@nest2 1.75/2.0: ho 0.0805/1273.9
+[23:53:16] seed 5 coarse 84/108  733s
+[23:54:41] seed 4 target 0.005: pick 1.75/7.0 cal 0.0049/1387.7 ho 0.0057/1381.7  EDGE | v11@nest2 2.75/3.25: ho 0.0464/1333.8
+[23:55:13] seed 5 coarse 96/108  850s
+[23:56:37] seed 5 coarse 108/108  934s
+[23:58:03] seed 5 target 0.02: pick 0.75/5.25 cal 0.0199/1345.4 ho 0.0170/1349.8  | v11@nest2 2.0/2.0: ho 0.0705/1288.5
+[23:59:30] seed 5 target 0.005: pick 2.0/6.5 cal 0.0034/1390.6 ho 0.0041/1391.0  | v11@nest2 3.0/3.0: ho 0.0470/1341.1
+[23:59:30] all splits done

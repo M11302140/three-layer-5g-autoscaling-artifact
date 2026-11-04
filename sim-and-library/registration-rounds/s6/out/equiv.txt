@@ -1,0 +1,5 @@
+(1) sim_s6 sigma vs v8sim10.sim_nest2: 120 cases -> IDENTICAL
+(2) sim_s6 trend path (slope=0, sigma_res:=sigma win) vs v8sim10.sim_nest2: 120 cases -> IDENTICAL
+(3) CtlS6 trend=False vs v8sim11.run('S'): 12 cases -> IDENTICAL; trend path patched -> IDENTICAL
+(4) trend on (Lr=L, lambda 1.83/2.00): traces whose events differ from S4 out of 20: {3: 20, 5: 20}
+

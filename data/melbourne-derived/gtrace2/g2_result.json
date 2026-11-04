@@ -1,0 +1,32 @@
+{
+ "seed": 20261011,
+ "pool_mode": "C-double-prime: same source (ped_poll live collection), same 20 allowed sensors, dates 2026-10-15..10-21 (G pool round 68 option 1)",
+ "thresholds_frozen_at": "2026-10-22 00:58:40",
+ "files": {
+  "/home/user/experiment/trace_ue_60min_v3_t8.json": "e59a4ad6d49674ce88d666bbd2761a193a785734050fbd8efb3ca5ef1c36c951",
+  "/home/user/experiment/trace_warmin_t8.json": "8e75a51a806632fa91376fef7c456e81e57ff21c09c43951c72af8de46eebe3e",
+  "/home/user/experiment/trace_warmin_t8_static.json": "23cc63abc5eb2186fdea6f0456645fec34dc38bfb39872446d262779a52fd6ee"
+ },
+ "t8": {
+  "loc": 35,
+  "date": "2026-10-17",
+  "start": 720,
+  "rank": 7,
+  "ue0": 13,
+  "stats": {
+   "mp": 0.34875,
+   "f36": 0.016666666666666666,
+   "minue": 10.0,
+   "rise10": 27.0,
+   "start": 13.0,
+   "end": 12.0
+  },
+  "start_fleet": {
+   "rep": 4,
+   "wk": 2,
+   "vy": 2,
+   "rule": "rep=min(8,ceil(UE0/4)); wk=ceil(rep/2); vy=ceil(UE0*0.125Mpps/1.5Mpps) \u2014 same as t3 6/3/2, t4 5/3/2, t5 8/4/3"
+  }
+ },
+ "log_sha256": "d864a0d26f5b5140ea438850c92e2a5c7002ec5ca19f176e412d56f8fa733b00"
+}

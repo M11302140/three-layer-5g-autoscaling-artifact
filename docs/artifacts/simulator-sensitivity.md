@@ -1,0 +1,5 @@
+<!-- artifact file of the paper "Risk-Calibrated Autoscaling of a Three-Layer 5G User Plane" (docs/paper), written 2026-10-20 when the main paper and the supplementary material were merged into one PDF (spec §4.103). Content moved from A-appendix.md A.2; numbers unchanged. -->
+
+# Simulator sensitivity: burst-placement overflow rule switched off
+
+The simulator's rule "≥7 arrivals in a minute while fewer than 8 slots are ready or the slot layer changed within 300 s lowers the knee of slot .38 from 5 to 4 UEs" approximates burst placement overflow on one slot only. <!-- §4.91 item 3 --> Switching it off corresponds to a zero slot lead time, a situation the testbed cannot produce, so the tables with the rule off (spec §4.66 Table B, §4.69 Table D, and the per-run t4 counterfactual) are reported here as a sensitivity only and are not used in the main text. <!-- §4.93 item 3 --> The simulator does not model the slot-instance overflow type observed in r410 (slot .32 overflowing at 4 UEs with no VM or pod operation in the window). <!-- §4.82, §4.93 item 3 -->

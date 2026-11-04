@@ -1,0 +1,70 @@
+{
+ "EXP_ROOT": "/home/user/experiment",
+ "DAEMON_ROOT": "/home/user/hhro-daemon-s7r (git worktree, branch s7r from 1bd509b = source of image 6.0-s4; original /home/user/hhro-daemon untouched)",
+ "SPEC_PATH": "/home/user/docs/proposals/v8-echelon-algorithm-spec-2026-10.md",
+ "run_ledgers": [
+  "/home/user/experiment/p2/main_exp_ledger.tsv",
+  "/home/user/experiment/p2/g_ledger.tsv",
+  "/home/user/experiment/p2/ab_ledger.tsv",
+  "/home/user/experiment/p2/rr_exp.log",
+  "/home/user/experiment/paper_out_new/valid_runs.tsv"
+ ],
+ "harness": {
+  "trace_run": "/home/user/experiment/trace_run.py (r34c, comment lines 45-47, commit 8e93587)",
+  "agent": "/home/user/experiment/rehome_agent.py (r15, SLOT_DRAIN_TTL_S=360 per-entry on_ts, lines 828-861)",
+  "drain_reader": "trace_run.py:214-233 slot_draining_dnns",
+  "placement": "trace_run.py:1677-1678 least-loaded (prefer occ<4; occ = live sessions + in-flight move targets; ties internet(.38),internet2(.31),...)",
+  "departures": "trace_run.py:1534-1541 LIFO",
+  "arrivals": "trace_run.py:1598-1693 serial spawns, budget deadline-20 s; measured arrival offsets p50 6-10 s, p90 14-20 s",
+  "session_gate": "p2/run_trace2.sh:48-49 session_gate.sh",
+  "drivers": [
+   "p2/main_exp7.sh",
+   "p2/abl_queue_main.sh",
+   "p2/run_chain.sh",
+   "p2/run_trace2.sh"
+  ],
+  "scoring": "p2/score_run.py:20-38 (SLO minute = e2e_pct<=0.1 and lat_p99_us<=1000); alloc_vm paper_out_new/rq_metrics.py:54-77"
+ },
+ "daemon_call_chain": {
+  "tick": "cmd/hhro-daemon/main.go:33,142 MID_INTERVAL 30 s -> daemon.go tickMid",
+  "observe": "daemon.go:152 col.Collect (collect.go:90); daemon.go:154-160 UE count via ssh nr-cli dump; daemon.go:174 buildSystemState",
+  "decide": "controller.go:382 Decide -> V6Shadow.Tick (v6shadow.go:740) -> decideQuantile (qplan.go:164) -> V6Decisions (controller.go:100)",
+  "D_sigma": "v6shadow.go:771 UECount*PerUEBidir when V6_SIGMA_D_FROM_UE (default true)",
+  "emergency": "planner.go:649 EmergencyV6; v6shadow.go:885-901; controller.go:242-290 force",
+  "executor": "daemon.go:188-213 one disruptive per tick; executeHBODecisionFrom daemon.go:295 (ScaleOutUP 323, ScaleInUP 406 DrainAndDelete eupf.go:743, CreateWorker 433, DeleteWorker 461, DeployVyOS 494, DeleteVyOS 504/546)",
+  "relief": "daemon.go:216 PoolRelief only when no decisions; 233 hot-slot relief",
+  "drain_announce": "rehome.go:501 SetSlotDrain; eupf.go:774/777-783 retract (10 s budget)",
+  "reversible_drain": "daemon.go:326-331",
+  "ready": "collect.go:187-188 (slots), 294 (VyOS VM list) + admitted ulpool (v6shadow.go:777-781), 94/241 (workers); inflight done v6shadow.go:683-705; measuredTReady sigma.go:130",
+  "equivalence": "internal/hbo/equiv_test.go:315 TestDecisionEquivalenceDump + experiment/qsim/equiv_compare.py vs v8sim10.sim_nest2"
+ },
+ "images": {
+  "S4a/S4b": "hhro-daemon:6.0-s4 (df907d3 ~ 1bd509b; clean-build provenance UNVERIFIED)",
+  "v6": "6.0-q6 (3a5d8c9; binary sha256 prefix 1dc896dd)",
+  "B1/B2/B3/B4c2": "6.0-q6",
+  "B5c1/B6": "6.0-q11 (working tree; binary prefix f0e0b574)",
+  "B4c2+E": "6.0-q6e (experiment/p2/ab_emerg/src_q6e)",
+  "B5c1+E/B6+E": "6.0-q11e (src_q11e)",
+  "B2+E/B3+E": "NOT EXISTING: no _em manifest; hook code path reaches b2/b3 but untested (P4 §7.2 must add tests)"
+ },
+ "simulators": {
+  "nest2": "qsim/v8sim10.py sim_nest2 (frozen)",
+  "per_slot_legacy": "qsim/v8sim11.py (R38 rule = PHYS knee38; legacy diagnostic only)",
+  "library": "qsim/prior_traces.json (1615 windows, 125 (loc,date) groups)",
+  "splits": "qsim/s7r/splits.py -> out/P0/splits.json"
+ },
+ "replay_data": {
+  "per_run": "p2/trace_v7_<run>.log (1 s), trace_v7_<run>_1s.csv, v7<run>_daemon.log (ns, 30 s ticks), host_vmcpu_v7<run>.csv (5 s), prom/v7<run>_*.csv (15 s incl. upf_sessions per slot)",
+  "gap": "per-UE agent moves only in /tmp/rehome_agent.log (no date, not archived per run): per-UE placement must be rebuilt; per-slot session counts (prom 15 s) are the comparable assignment state"
+ },
+ "tools": {
+  "python": "python3 (numpy, pandas)",
+  "go": "NOT AVAILABLE on host; previous practice = sudo docker run golang:1.26 (p2/equiv_gate.sh) -> blocked by the permission classifier in this session"
+ },
+ "resources": {
+  "cpu": "AMD Ryzen 7 7700 (16 threads); this session's affinity 0,8,13,14 (VPP/TRex on dataplane cores)",
+  "ram_gib_total": 30,
+  "ram_gib_available_at_audit": 8,
+  "compute_host": "sender only (no separate compute host) -> simulation and testbed runs must be time-shared"
+ }
+}

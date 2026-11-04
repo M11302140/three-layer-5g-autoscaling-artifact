@@ -1,0 +1,2 @@
+equivalence check: 20 random traces (seed 20261020) × 3 λ sets × 2 acct × variants e/full/single_lambda vs v8sim10.sim_nest2 → IDENTICAL (slo/alloc/ev/traj/pct/permin); traces where variant differs from full (λ 1.83/2.00): {'independent': 4, 'independent_full': 10, 'fixed_dwell': 20, 'lock_only': 20}
+

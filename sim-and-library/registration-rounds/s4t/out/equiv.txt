@@ -1,0 +1,4 @@
+(1) sim_s4t (k3=None) vs v8sim10.sim_nest2: 240 cases -> IDENTICAL
+(2) CtlS4T (k3=None) vs v8sim11.run('S'): 12 cases -> IDENTICAL
+(3) traces changed with R3 on (fleet of 40, per-slot of 6): {4: (0, 0), 5: (0, 0), 6: (3, 1)}; 16s
+

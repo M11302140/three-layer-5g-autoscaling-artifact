@@ -1,0 +1,1 @@
+{"t6": {"rep": 6, "wk": 3, "vy": 2, "d0": 24}, "t7": {"rep": 7, "wk": 4, "vy": 3, "d0": 27}, "rule": "pre-registered (make_newtraces t6t7_result.json): rep=min(8,ceil(UE0/4)); wk=ceil(rep/2); vy=ceil(UE0*0.125Mpps/1.5Mpps); corrected 10-15 02:30 (post_trial2 had used vy=ceil((d0+5)/16.55) \u2192 t7 vy 2)"}

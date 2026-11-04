@@ -1,0 +1,9 @@
+fold 0: groups fit/cal/val 52/23/50; traces fit 652 cal 300/325 val 638; outer==frozen True; disjoint True; covers True; dev loc-days in library []
+fold 1: groups fit/cal/val 52/23/50; traces fit 685 cal 300/300 val 630; outer==frozen True; disjoint True; covers True; dev loc-days in library []
+fold 2: groups fit/cal/val 52/23/50; traces fit 685 cal 285/285 val 645; outer==frozen True; disjoint True; covers True; dev loc-days in library []
+fold 3: groups fit/cal/val 52/23/50; traces fit 683 cal 298/298 val 634; outer==frozen True; disjoint True; covers True; dev loc-days in library []
+fold 4: groups fit/cal/val 52/23/50; traces fit 675 cal 300/311 val 629; outer==frozen True; disjoint True; covers True; dev loc-days in library []
+fold 5: groups fit/cal/val 52/23/50; traces fit 681 cal 295/295 val 639; outer==frozen True; disjoint True; covers True; dev loc-days in library []
+final dev split: fit groups 88, cal groups 37, cal traces 300
+library dates 2024-06-06..2024-06-19; sealed pool dates 2026-10-26..2026-10-27 -> date overlap with library: False; with dev traces: []
+all checks pass: True  sha256 461bc225f7731e0c0b20333fee661f934a42938452ec419de1301f016a8e8827

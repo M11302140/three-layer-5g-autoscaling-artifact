@@ -1,0 +1,45 @@
+ M cmd/hhro-daemon/baseline.go
+ M deploy/ablation/A1_hold_off.yaml
+ M deploy/ablation/A2_lead2.yaml
+ M deploy/ablation/A3a_lambda_x4.yaml
+ M deploy/ablation/A3b_lambda_d4.yaml
+ M deploy/ablation/A3c_lambda_x16.yaml
+ M deploy/ablation/A4_layered.yaml
+ M deploy/ablation/B1_static.yaml
+ M deploy/ablation/B2_dasa.yaml
+ M deploy/ablation/B3_hpa.yaml
+ M deploy/ablation/B3t2_hpa.yaml
+ M deploy/ablation/B4_dasahpa.yaml
+ M deploy/ablation/B5_pred.yaml
+A  deploy/ablation/B6c5_h.yaml
+ M deploy/ablation/Q02.yaml
+ M deploy/ablation/Q05.yaml
+ M deploy/ablation/Q05r0.yaml
+ M deploy/ablation/Q10.yaml
+ M deploy/ablation/Q10r0.yaml
+ M deploy/ablation/Q20.yaml
+ M deploy/ablation/S1.yaml
+ M deploy/ablation/S2a.yaml
+ M deploy/ablation/S2b.yaml
+ M deploy/ablation/S3a.yaml
+ M deploy/ablation/S3b.yaml
+ M deploy/ablation/S4a.yaml
+ M deploy/ablation/S4b.yaml
+ M deploy/manifest.yaml
+?? cmd/hhro-daemon/baseline_b5_equiv_test.go
+?? cmd/hhro-daemon/baseline_b6.go
+?? cmd/hhro-daemon/baseline_b6_equiv_test.go
+?? cmd/hhro-daemon/testdata/
+?? deploy/ablation/B4c1_slo.yaml
+?? deploy/ablation/B4c2_slo.yaml
+?? deploy/ablation/B4c2_slo_em.yaml
+?? deploy/ablation/B4c3_slo.yaml
+?? deploy/ablation/B5c1_slo.yaml
+?? deploy/ablation/B5c1_slo_em.yaml
+?? deploy/ablation/B5c2_slo.yaml
+?? deploy/ablation/B6c1_slo.yaml
+?? deploy/ablation/B6c2_slo.yaml
+?? deploy/ablation/B6c3_slo.yaml
+?? deploy/ablation/B6c4_slo.yaml
+?? deploy/ablation/B6c4_slo_em.yaml
+?? deploy/ablation/gen_b6.py

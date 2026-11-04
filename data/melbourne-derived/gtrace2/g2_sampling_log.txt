@@ -1,0 +1,12 @@
+# make_newtraces.py run 2026-10-22 23:29:21  seed=20261011
+thresholds frozen_at 2026-10-22 00:58:40 (library sha 7d5a247b06b6566b…); pool ruled_at 2026-10-22 (round 68: user chose option 1; thresholds unchanged = gtrace/g_thresholds.json sha256 caa103d0...); written before sampling mode=C-double-prime: same source (ped_poll live collection), same 20 allowed sensors, dates 2026-10-15..10-21 (G pool round 68 option 1)
+g_thresholds sha256 caa103d07ef69bc69f9a66f0bf72924b1317170c8b5aec4c815f6285baa79161; g2_pool sha256 e0d068ba90cb826842a60b8c0cbbc9ad37673b713f17ea3545a8e1904c7ce8d9
+CSV sha256 d0ef33ac40a3782aaff9cb8564af42d4e83b5b20113568238771753570c2f8b3
+pool: sensors=6 locdays=25 windows=349
+rank 1: sensor 35 2026-10-19 08:00 REJECT (iv') rise10=20 < 21
+rank 2: sensor 35 2026-10-18 13:00 REJECT (i') mp=0.737 > 0.532; (iv') rise10=14 < 21; (v) start/end=29/31 > 30
+rank 3: sensor 3 2026-10-20 19:00 REJECT (i') mp=0.567 > 0.532; (iv') rise10=9 < 21; (v) start/end=35/11 > 30
+rank 4: sensor 35 2026-10-17 15:00 REJECT (i') mp=0.806 > 0.532; (iv') rise10=12 < 21; (v) start/end=28/36 > 30
+rank 5: sensor 66 2026-10-17 08:00 REJECT (iv') rise10=17 < 21; (iii) minue=2 < 6
+rank 6: sensor 63 2026-10-18 10:00 REJECT (i') mp=0.606 > 0.532
+rank 7: sensor 35 2026-10-17 12:00 **ACCEPT = t8** mp=0.349 f36=0.017 minue=10 rise10=27 start/end=13/12

@@ -1,0 +1,3 @@
+# hhro-daemon-q11
+
+Source snapshot of the controller program `hhro-daemon` for the image named in `../IMAGES.md` (tag, git identity, image and binary digests, arms). Build: `docker build -t hhro-daemon:<tag> .` from this directory (Go, see `go.mod`). Credentials and testbed addresses were removed as described in `../../SANITIZATION.md`; the required environment variables are listed in the root `README.md` (How to run). The controller's design and control laws are described in the paper and its technical report; the operating points per arm are the manifests under `deploy/` where present. The repository's own Chinese design notes and README were not copied into this record.

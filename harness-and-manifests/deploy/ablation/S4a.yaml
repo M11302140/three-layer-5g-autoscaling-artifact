@@ -1,0 +1,330 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: hhro-system
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: hhro-daemon
+  namespace: hhro-system
+---
+# Cluster-wide perms: only what the actuator needs.
+# - Secrets in kube-system: create bootstrap-token-* for kubeadm join
+# - Nodes: read for state, drain (later)
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: hhro-daemon
+rules:
+- apiGroups: [""]
+  resources: [secrets]
+  verbs: [create, delete, get, list]
+- apiGroups: [""]
+  resources: [nodes]
+  verbs: [get, list, watch, patch, delete]
+- apiGroups: [""]
+  resources: [pods/eviction]
+  verbs: [create]
+- apiGroups: [""]
+  resources: [pods]
+  verbs: [get, list, watch, delete, create]  # v5.0: eUPF slot activation = bare pod create
+- apiGroups: [apps]
+  resources: [deployments]
+  verbs: [get, list, watch, patch, create, delete]
+# Phase 2b: UPF actuator clones configmaps/services from seed release and
+# delete them on scale-in; also patches SMF configmap.
+- apiGroups: [""]
+  resources: [configmaps, services]
+  verbs: [get, list, watch, create, patch, update, delete]
+- apiGroups: [autoscaling]
+  resources: [horizontalpodautoscalers]
+  verbs: [get, list, watch, delete]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRoleBinding
+metadata:
+  name: hhro-daemon
+roleRef:
+  kind: ClusterRole
+  name: hhro-daemon
+  apiGroup: rbac.authorization.k8s.io
+subjects:
+- kind: ServiceAccount
+  name: hhro-daemon
+  namespace: hhro-system
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hhro-daemon
+  namespace: hhro-system
+  labels: {app: hhro-daemon}
+spec:
+  replicas: 1
+  selector: {matchLabels: {app: hhro-daemon}}
+  template:
+    metadata:
+      labels: {app: hhro-daemon}
+    spec:
+      serviceAccountName: hhro-daemon
+      # Pin to control-plane: daemon must NOT run on the workers it manages,
+      # otherwise scale_in / drain evicts itself mid-flight.
+      nodeSelector:
+        node-role.kubernetes.io/control-plane: ""
+      tolerations:
+      - key: node-role.kubernetes.io/control-plane
+        operator: Exists
+        effect: NoSchedule
+      containers:
+      - name: daemon
+        image: hhro-daemon:6.0-s4
+        imagePullPolicy: IfNotPresent
+        env:
+        - {name: PROM_URL, value: "http://kps-kube-prometheus-stack-prometheus.monitoring.svc:9090"}
+        - {name: MID_INTERVAL,  value: "30s"}
+        - {name: SLOW_INTERVAL, value: "180s"}
+        - {name: MAX_BW_BPS,    value: "25e9"}
+        - {name: MAX_DROP_PPS,  value: "4000"}  # v4.41: 1000->4000, migration drop spikes (~1.6-2.3k) no longer max the dropUP term
+        - {name: MAX_LAT_US,    value: "50000"}
+        # Actuator
+        - {name: HARVESTER_URL,        value: "https://10.0.0.193:6443"}
+        - {name: HARVESTER_NAMESPACE,  value: "default"}
+        - {name: WORKER_NAME_PREFIX,   value: "worker-"}
+        - {name: WORKER_MGMT_PREFIX,   value: "10.0.0."}
+        - {name: WORKER_MGMT_BASE,     value: "52"}
+        - {name: WORKER_MGMT_GATEWAY,  value: "10.0.0.1"}
+        - {name: WORKER_DATA_PREFIX,   value: "10.0.1."}
+        - {name: WORKER_DATA_BASE,     value: "14"}
+        - {name: WORKER_IMAGE_REF,   value: "default/worker-vm-template-v8-30g"}
+        - {name: WORKER_STORAGECLASS,  value: "longhorn-worker-vm-template-v8-30g"}
+        - {name: WORKER_NETWORK,       value: "default/anon-valn-1"}
+        - {name: WORKER_VF_RESOURCE,   value: "mellanox.com/MT27800_FAMILY_CONNECTX5_VIRTUAL_FUNCTION"}
+        - {name: WORKER_CPU_CORES,     value: "3"}
+        - {name: WORKER_VF_COUNT,      value: "2"}
+        - {name: WORKER_MEMORY_GI,     value: "3"}
+        - {name: WORKER_DISK_GI,       value: "30"}
+        - {name: VM_COOLDOWN,          value: "5m"}
+        - {name: VM_STUCK_REAP_AFTER,  value: "30m"}  # measured from first-seen non-Running (NOT creation); worker-0 excluded entirely
+        # ---- v5.0 eUPF ----
+        - {name: EUPF_ENABLED,      value: "true"}
+        - {name: HOST_MEM_RESERVE_GI, value: "3"}
+        - {name: UP_PRESSURE_PPS_CAP, value: "1200000"}
+        - {name: UP_SCALEIN_PPS_CAP,  value: "780000"}
+        - {name: WORKER_PRECREATE_FREE_M, value: "2500"}
+        - {name: EUPF_PPS_CAP,      value: "1200000"}
+        - {name: VYOS_THRU_CAP,     value: "3800000"}
+        - {name: EUPF_IMAGE,        value: "docker.io/library/eupf:0.6.0-vftx7"}
+        - {name: EUPF_IMAGE_TAR_URL, value: "http://10.0.0.50:8899/arc_eupf_0.6.0-vftx7.tar.gz"}
+        - {name: EUPF_VF_RX_RING,   value: "2048"}
+        - {name: VYOS_RX_DESC,      value: "16384"}
+        - {name: VYOS_BUFFERS,      value: "65536"}
+        - {name: V6_VY_DEPLOY_CONFIRM_TICKS, value: "2"}
+        - {name: V6_WK_LEAD_BATCHES,  value: "1"}
+        - {name: V6_DEMAND_MODEL,     value: "sigma"}
+        - {name: V6_LAMBDA_VM,        value: "2.83"}
+        - {name: V6_TREADY_MEASURED, value: "true"}
+        - {name: V6_LAMBDA_UP,        value: "3.08"}
+        - {name: V6_RELEASE_RULE,     value: "r1"}
+        - {name: V6_RHO,              value: "0.30"}
+        - {name: V6_DWELL_K,          value: "2"}
+        - {name: V6_EPS,              value: "0.05"}
+        - {name: BASELINE_MODE,       value: ""}       # v6.0.105:""=HHRO;b1 static/b2 DASA/b3 HPA/b4 DASA+HPA(deploy/ablation/B*.yaml)
+        - {name: V6_PLANNER_LAYERED,  value: "false"}
+        - {name: V6_IRREV_HOLD,       value: "true"}
+        - {name: V6_VM_SCALEOUT_DWELL_S, value: "600"}
+        - {name: V6_WK_DELETE_SLOT_DWELL_S, value: "120"}
+        - {name: V6_UP_LOOKAHEAD_BATCHES, value: "-1"}
+        - {name: V6_LAMBDA,           value: "0.002"}
+        - {name: V6_RESID_FLOOR,      value: "3e-5"}
+        - {name: EUPF_RULECHAIN_K,  value: "144"}
+        - {name: HOST_HK_CORES, value: "0 1 2 3 16 17 18 19 29"}
+        - {name: UP_REBALANCE_DONOR_MIN, value: "5"}
+        - {name: V6_ENABLED,        value: "true"}
+        - {name: V6_UMIN,           value: "0"}
+        - {name: DN_VF_MAC,         value: "92:74:24:e0:37:88"}
+        - {name: CP_VF_MAC,         value: "02:00:00:00:0b:0a"}
+        - {name: SENDER_PF_MAC,     value: "50:7c:6f:14:e4:b2"}
+        # Join provider
+        - {name: K8S_API_SERVER,    value: "10.0.0.50:6443"}
+        - {name: K8S_CA_CERT_HASH,  value: "sha256:702af49c33ae8c99acec5e39943588d80efc766975f7c23a1335790fd1e14aa0"}
+        # VyOS actuator (Phase 2a)
+        # v1.27 — align with test-vyos (manually bumped to 3 vcpu 2026-05-27)
+        # so pool-average cpu_v is apples-to-apples across test-vyos + vyos-N.
+        - {name: VYOS_CPU_CORES,    value: "2"}
+        - {name: VYOS_NAME_PREFIX,  value: "vyos-"}
+        - {name: VYOS_MGMT_BASE,    value: "57"}
+        - {name: VYOS_DATA_BASE,    value: "4"}
+        - {name: VYOS_SENDER_RANGE, value: "10.0.1.100-10.0.1.145"}  # v4.38: 30→32+ UE (gNB IPs to .132); was default .130. daemon hhroFwBase allow rule (UPF data path, all VyOS).
+        # v23 — rebaked image with /etc/udev/rules.d/60-vyos-net-by-driver.rules
+        # pinning eth0=virtio_net, eth1=mlx5_core. Survives KubeVirt PCI slot
+        # flipping for SR-IOV hostDevices. Old image-5r5rv was vulnerable.
+        - {name: VYOS_IMAGE_REF,    value: "default/vyos-vpp-golden-v4"}
+        - {name: VYOS_STORAGECLASS, value: "longhorn-vyos-vpp-golden-v4"}
+        # Stateless L3 forwarder doesn't need 6Gi (default in vyos.go). 3Gi
+        # matches the conservative drop the operator applied to test-vyos
+        # (6→3Gi, verified Mem 22% used post-restart). Saves 3Gi per VM ×
+        # MAX_VYOS=4 = 12Gi cluster-wide vs the 6Gi default — enough to fix
+        # Harvester OOM on simultaneous scale_out, less aggressive than 2Gi.
+        - {name: VYOS_MEMORY_GI,    value: "3"}
+        - {name: REHOME_ENABLED,   value: "true"}
+        - {name: REHOME_AGENT_URLS, value: "http://10.0.1.100:9800,http://10.0.0.146:9801"}
+        - {name: VYOS_VF_PCI,      value: "0000:0e:00.0"}
+        - {name: IPSEC_SECGW,      value: "true"}
+        - {name: IPSEC_SUITE,      value: "cbc256-sha384"}
+        - {name: IPSEC_SEG_MGMT,   value: "10.0.0.146:22"}
+        # UPF actuator (Phase 2b) — SSH creds for worker-0 / UERANSIM
+        - {name: UPF_SEED_RELEASE,  value: "open5gs-upf-2"}
+        # Base=20 so daemon UPFs idx2..5 → .22/.23/.24/.25 (internet2..internet5),
+        # avoiding base UPF/AMF .11 and worker data IPs .14/.15. Contiguous DNNs
+        # match the 5-session subscriber provisioning. Requires VyOS FORWARD
+        # range widened to 10.0.1.11-40 (test-vyos + daemon-managed VyOS).
+        - {name: UPF_EXTERNALIP_BASE, value: "20"}
+        - {name: SMF_STATIC_POOL, value: "true"}
+        - {name: UERANSIM_HOST,     value: "10.0.0.146:22"}
+        - {name: WORKER_HOST,       value: "10.0.0.52:22"}
+        - {name: HOST_SSH_USER,     value: "user"}
+        - name: HOST_SSH_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: hhro-host-ssh
+              key: password
+              optional: true
+        # --- dual-leg NAT (Option 3: single PF0 + VLAN). Default OFF = v4.22 behaviour.
+        - {name: DATA_PF,              value: "enp1s0f0np0"}
+        - {name: HARVESTER_HOST_SSH,   value: "10.0.0.193:22"}
+        - {name: HARVESTER_SSH_USER,   value: "rancher"}
+        - {name: HARVESTER_KUBECONFIG_PATH, value: "/etc/rancher/rke2/rke2.yaml"}
+        - {name: HARVESTER_KUBECTL,    value: "/var/lib/rancher/rke2/bin/kubectl"}
+        # HARVESTER_SSH_PASSWORD falls back to HOST_SSH_PASSWORD secret (shared user)
+        # Autoscale (Phase B). NOTE: experiment_hbo.py toggles this at RUNTIME via
+        # /autoscale/{enable,disable} (atomic flag, not this env) — so for experiment-
+        # driven HHRO runs the env default is immaterial. Set true here to match the
+        # live deployment that produced run#13 (v4.37 checkpoint). For the STATIC
+        # baseline, autoscale is left disabled (see deploy/manifest-static.yaml).
+        - {name: AUTOSCALE_ENABLED,    value: "false"}  # v4.40: revert to documented default — experiment toggles at runtime; true caused spurious scale-on-redeploy
+        - {name: AUTOSCALE_MAX_REPLICAS, value: "6"}   # inert (not read by code); kept to match live env
+        # --- HBO-HHRO thresholds ---
+        # UPF cpu is normalized by min(limit, UP_EFF_CAP_CORES): the open5gs
+        # data plane is single-threaded, so a pod saturates at ~1 core no
+        # matter the cgroup limit (1500m only buys kernel/softirq headroom).
+        # UP_HIGH gates the COMPOSITE C_up (cpu weighs 0.50, so steady-state
+        # saturation plateaus ≈0.5); the primary scale-out trigger is
+        # UP_CPU_HIGH on sustained per-pod cpu (P90 over 60s).
+        - {name: UP_EFF_CAP_CORES,    value: "1.0"}
+        # idle UPF burns ~this many cores at 0 traffic (event loop+metrics).
+        # Subtracted per-pod before normalizing so idle pods read 0 → C_up/SumCpuUP
+        # track REAL load → scale-in fires in ramp-down (v4.15: floored C_up=0.34
+        # kept scale-in blocked till 6min into cool).
+        # v4.35: 0.18 → 0.50. run#9 regression of per-pod CPU vs pps measured the
+        # TRUE idle intercept at 0.50 core (cores = 0.504 + 0.00267·kpps), not 0.18.
+        # The 4× too-low floor left every idle UPF reading ~0.39 busy → C_up ~0.5
+        # regardless of load → UPF over-scaled to max early AND scale-in stayed
+        # blocked ("C_up not low") until very low load. 0.50 makes idle pods read ~0.
+        - {name: UP_IDLE_FLOOR_CORES, value: "0.50"}
+        - {name: UP_CPU_HIGH,         value: "0.90"}  # (v4.17: no longer a scale-out trigger; kept inert)
+        - {name: UP_HIGH,             value: "0.55"}
+        - {name: UP_LOW,              value: "0.12"}
+        - {name: CP_HIGH,             value: "0.70"}
+        - {name: CP_LOW,              value: "0.01"}
+        # v4.53 — VyOS band on the BUSIEST node's REAL telegraf CPU (norm=100 → p.Vyos
+        # = busiest CPU%/100). Scale-OUT: busiest Robust60 ≥ VYOS_HIGH. Scale-IN:
+        # PREDICTIVE (guards.go) — busiest P90_60 × N/(N-1) ≤ VYOS_HIGH × VYOS_IN_SAFETY_FRAC
+        # (removal can't re-trip scale-out → rebound-free). VYOS_HIGH=0.55 → scale out
+        # when busiest sustains ~55% (≈ru2 with 1 VyOS at 800k, ru3 with 2 at 1.2M);
+        # PROVISIONAL — read vy_cpu_max_p90 per stage from the run and tune so out lands
+        # at ru2/ru3 and in at rd2/rd3 + cool. VYOS_LOW is now only the no-telegraf fallback.
+        - {name: VYOS_HIGH,           value: "0.60"}
+        - {name: VYOS_LOW,            value: "0.25"}
+        - {name: VYOS_IN_SAFETY_FRAC, value: "0.95"}  # v4.55: 0.85->0.95. run29 VyOS 1st scale-in (3→2) timed perfectly at rd2, but 2nd (2→1) slipped to cool (P90_60 lag + 180s tick alignment). 0.95 relaxes the predictive gate so 2→1 fires at rd3 — safe: ramp-down load is low/falling, the lone survivor won't re-saturate (no rebound).
+        - {name: VYOS_CPU_NORM,       value: "100"}
+        - {name: UP_CRITICAL,         value: "0.85"}
+        - {name: CP_CRITICAL,         value: "0.90"}
+        - {name: VYOS_CRITICAL,       value: "0.85"}  # v5.0
+        - {name: CP_CPU_NORM,         value: "1.0"}
+        - {name: RISK_HIGH,           value: "0.01"}
+        - {name: RISK_CRITICAL,       value: "0.05"}
+        - {name: MIN_ACTION_GAIN,     value: "0.005"}
+        - {name: LOW_DWELL_TICKS,     value: "2"}
+        - {name: DROP_SAFE,           value: "0.01"}
+        - {name: DROP_SAFE_RATIO,     value: "0.005"}
+        - {name: DIRECTION_LOCK_UP,   value: "300s"}
+        - {name: DIRECTION_LOCK_VYOS, value: "600s"}
+        - {name: DIRECTION_LOCK_WORKER, value: "300s"}
+        - {name: UP_SCALE_OUT_COOLDOWN, value: "90s"}
+        - {name: UP_SCALE_IN_COOLDOWN, value: "45s"}  # v4.41: faster UPF scale-in so VyOS gets ticks
+        - {name: VYOS_SCALE_IN_COOLDOWN, value: "600s"}
+        - {name: VYOS_SCALE_OUT_COOLDOWN, value: "120s"}
+        - {name: WORKER_SCALE_IN_COOLDOWN, value: "180s"}  # v4.20: 90→180 middle ground — v4.19 mid-loop 30s+90s too eager for a VM resource (re-create ~3min); 180s cooldown + idle-age 300s = less aggressive than v4.19, faster than v4.18 slow-loop-only
+        - {name: WORKER_SCALE_OUT_COOLDOWN, value: "120s"}
+        - {name: WINDOW_LONG, value: "180s"}
+        - {name: WINDOW_IDLE, value: "300s"}
+        - {name: MAX_UP,              value: "8"}
+        - {name: MAX_VYOS,            value: "3"}
+        - {name: VYOS_MAX,            value: "3"}
+        - {name: MIN_WORKERS,         value: "1"}
+        - {name: MAX_WORKERS,         value: "4"}
+        # Legacy (kept for old Decisioner compat, not used by HBO)
+        # O1 — UE-count signal alongside C^up (cuts ramp_mid detection lag)
+        # O5 — default freeze dwell when /hint/transition is POSTed without ?dwell
+        - {name: TRANSITION_FREEZE_DEFAULT, value: "30s"}
+        # Tier B (D9) — cross-direction hysteresis: block opposite scale op
+        # for this duration after a scale fires. Addresses v12 peak flap.
+        # D9c — peak-steady detector: ticks of C^up in (UpLow,UpHigh) before
+        # raising SteadyGate / out-of-band ticks before dropping it.
+        # SteadyGate suppresses scale_in_up + rebalance quarantine while
+        # active; HIGH path still fires on real surge.
+        # Phase 2c — SCALE_VYOS auto loop (HHRO §3.4) — values aligned with experiment.py DEMO_THRESHOLDS
+        - {name: VYOS_COOLDOWN,            value: "2m"}
+        # Phase 2e — load-aware UPF / VyOS rebalance (separate from scale)
+        # D1 fix — drain trapped sessions off a quarantined-but-still-hot UPF.
+        # Default off; experiment.py DEMO_THRESHOLDS opts in.
+        - {name: UERANSIM_NR_CLI,               value: "/home/user/UERANSIM/build/nr-cli"}
+        - {name: UPF_SHARED_DNN,           value: "internet"}
+        # Phase C — pod-level scale (CP=AMF, UP=UPF)
+        - {name: OPEN5GS_NS,        value: "open5gs"}
+        - {name: CP_DEPLOY,         value: "open5gs-amf"}
+        - {name: UP_DEPLOY,         value: "open5gs-upf"}
+        - {name: MIN_FREE_CPU_M,    value: "1700"}  # 1500m UPF request + 200m slack: KSM free-CPU ran ~100m ahead of the scheduler (v44 upf-5/6 stranded at exactly 1500m "free")
+        - {name: CP_COOLDOWN,       value: "60s"}
+        - {name: UP_COOLDOWN,       value: "60s"}
+        - {name: UPF_COOLDOWN,      value: "45s"}  # READ by actuate/upf.go resetCooldown; default 3m would slow scaling. Matches run#13 live.
+        ports:
+        - {name: http, containerPort: 8080}
+        resources:
+          requests: {cpu: 50m, memory: 64Mi}
+          limits:   {cpu: 500m, memory: 256Mi}
+        readinessProbe: {httpGet: {path: /healthz, port: http}, periodSeconds: 5}
+        livenessProbe:  {httpGet: {path: /healthz, port: http}, periodSeconds: 30}
+        volumeMounts:
+        - {name: harvester-creds, mountPath: /var/run/secrets/harvester, readOnly: true}
+      volumes:
+      - name: harvester-creds
+        secret:
+          secretName: harvester-creds
+          items:
+          - {key: token,  path: token}
+          - {key: ca.crt, path: ca.crt}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: hhro-daemon
+  namespace: hhro-system
+  labels: {app: hhro-daemon, release: kps}
+spec:
+  selector: {app: hhro-daemon}
+  ports:
+  - {name: http, port: 8080, targetPort: http}
+---
+apiVersion: monitoring.coreos.com/v1
+kind: ServiceMonitor
+metadata:
+  name: hhro-daemon
+  namespace: hhro-system
+  labels: {release: kps}
+spec:
+  selector: {matchLabels: {app: hhro-daemon}}
+  namespaceSelector: {any: true}
+  endpoints:
+  - {port: http, path: /metrics, interval: 30s}

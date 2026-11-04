@@ -1,0 +1,100 @@
+# make_newtraces.py run 2026-10-15 00:16:56  seed=20261011
+thresholds frozen_at 2026-10-11 19:17:32 (library sha 7d5a247b06b6566b…); pool ruled_at 2026-10-11 16:45 (review round 33; written before any collected-data shape was seen; first snapshot 2026-10-11 16:41 covers only 2026-10-11, outside the range) mode=C-prime: same qualifying sensors, dates outside the prior library (collected live, 2026-10)
+CSV sha256 29be937b14edbba97d7cb9fe91d8da787d47440b44105f32b5cf026159c09433
+pool: sensors=2 locdays=6 windows=86
+rank 1: sensor 3 2026-10-14 16:00 **ACCEPT = t6** mp=0.694 f36=0.033 minue=20 rise10=14 start/end=24/23
+rank 2: sensor 4 2026-10-13 20:00 REJECT (i) mp=0.474 not in [0.509,0.705]; (iii) minue=3 < 6; (v) start/end=40/3 > 30
+rank 3: sensor 3 2026-10-14 11:00 REJECT (i) mp=0.722 not in [0.509,0.705]; (ii) f36=0.150 > 0.117; (v) start/end=15/31 > 30
+rank 4: sensor 3 2026-10-14 13:00 REJECT (i) mp=0.821 not in [0.509,0.705]; (ii) f36=0.217 > 0.117; (v) start/end=29/33 > 30
+rank 5: sensor 3 2026-10-12 10:00 REJECT (v) start/end=6/34 > 30
+rank 6: sensor 4 2026-10-12 06:00 REJECT (i) mp=0.444 not in [0.509,0.705]; (iii) minue=3 < 6; (v) start/end=3/35 > 30
+rank 7: sensor 4 2026-10-12 18:00 REJECT (i) mp=0.487 not in [0.509,0.705]; (v) start/end=37/9 > 30
+rank 8: sensor 4 2026-10-13 08:00 REJECT (v) start/end=11/33 > 30
+rank 9: sensor 3 2026-10-14 20:00 REJECT (iii) minue=3 < 6
+rank 10: sensor 4 2026-10-14 16:00 REJECT (i) mp=0.718 not in [0.509,0.705]; (ii) f36=0.183 > 0.117
+rank 11: sensor 3 2026-10-13 07:00 REJECT (i) mp=0.362 not in [0.509,0.705]; (iii) minue=2 < 6; (iv) rise10=27 > 23
+rank 12: sensor 3 2026-10-14 17:00 REJECT same sensor as t6 (rule: t7 must differ)
+rank 13: sensor 3 2026-10-14 14:00 REJECT (i) mp=0.746 not in [0.509,0.705]; (ii) f36=0.167 > 0.117; (v) start/end=22/40 > 30
+rank 14: sensor 3 2026-10-13 09:00 REJECT (i) mp=0.419 not in [0.509,0.705]
+rank 15: sensor 4 2026-10-13 14:00 REJECT (i) mp=0.770 not in [0.509,0.705]
+rank 16: sensor 4 2026-10-14 17:00 REJECT (ii) f36=0.167 > 0.117; (v) start/end=36/20 > 30
+rank 17: sensor 4 2026-10-12 07:00 REJECT (i) mp=0.495 not in [0.509,0.705]; (iii) minue=3 < 6; (v) start/end=5/37 > 30
+rank 18: sensor 4 2026-10-12 20:00 REJECT (i) mp=0.482 not in [0.509,0.705]; (iii) minue=5 < 6
+rank 19: sensor 3 2026-10-13 19:00 REJECT (v) start/end=40/10 > 30
+rank 20: sensor 3 2026-10-12 17:00 REJECT (i) mp=0.732 not in [0.509,0.705]
+rank 21: sensor 3 2026-10-12 19:00 REJECT (v) start/end=36/13 > 30
+rank 22: sensor 4 2026-10-14 14:00 REJECT (i) mp=0.756 not in [0.509,0.705]; (ii) f36=0.167 > 0.117; (v) start/end=28/36 > 30
+rank 23: sensor 4 2026-10-12 13:00 REJECT (i) mp=0.791 not in [0.509,0.705]; (ii) f36=0.133 > 0.117; (v) start/end=36/32 > 30
+rank 24: sensor 4 2026-10-14 08:00 REJECT (v) start/end=14/36 > 30
+rank 25: sensor 4 2026-10-12 19:00 REJECT (v) start/end=33/10 > 30
+rank 26: sensor 4 2026-10-14 18:00 REJECT (i) mp=0.501 not in [0.509,0.705]; (v) start/end=35/10 > 30
+rank 27: sensor 4 2026-10-13 18:00 REJECT (v) start/end=35/13 > 30
+rank 28: sensor 4 2026-10-14 15:00 REJECT (i) mp=0.766 not in [0.509,0.705]; (ii) f36=0.183 > 0.117
+rank 29: sensor 3 2026-10-13 11:00 REJECT same sensor as t6 (rule: t7 must differ)
+rank 30: sensor 4 2026-10-13 19:00 REJECT (v) start/end=37/10 > 30
+rank 31: sensor 4 2026-10-13 06:00 REJECT (i) mp=0.355 not in [0.509,0.705]; (iii) minue=3 < 6; (iv) rise10=25 > 23
+rank 32: sensor 4 2026-10-12 17:00 REJECT (ii) f36=0.200 > 0.117; (v) start/end=38/13 > 30
+rank 33: sensor 4 2026-10-12 15:00 REJECT (i) mp=0.779 not in [0.509,0.705]; (ii) f36=0.217 > 0.117
+rank 34: sensor 4 2026-10-13 09:00 REJECT (v) start/end=10/36 > 30
+rank 35: sensor 3 2026-10-13 14:00 REJECT (i) mp=0.757 not in [0.509,0.705]; (v) start/end=22/33 > 30
+rank 36: sensor 4 2026-10-14 20:00 REJECT (iii) minue=5 < 6; (v) start/end=40/5 > 30
+rank 37: sensor 3 2026-10-13 17:00 REJECT (i) mp=0.721 not in [0.509,0.705]
+rank 38: sensor 3 2026-10-14 18:00 REJECT (v) start/end=32/13 > 30
+rank 39: sensor 3 2026-10-13 15:00 REJECT (i) mp=0.784 not in [0.509,0.705]
+rank 40: sensor 4 2026-10-13 16:00 **ACCEPT = t7** mp=0.695 f36=0.117 minue=14 rise10=15 start/end=27/15
+{
+ "seed": 20261011,
+ "pool_mode": "C-prime: same qualifying sensors, dates outside the prior library (collected live, 2026-10)",
+ "thresholds_frozen_at": "2026-10-11 19:17:32",
+ "t6": {
+  "loc": 3,
+  "date": "2026-10-14",
+  "start": 960,
+  "rank": 1,
+  "ue0": 24,
+  "stats": {
+   "mp": 0.69375,
+   "f36": 0.03333333333333333,
+   "minue": 20.0,
+   "rise10": 14.0,
+   "start": 24.0,
+   "end": 23.0
+  },
+  "start_fleet": {
+   "rep": 6,
+   "wk": 3,
+   "vy": 2,
+   "rule": "rep=min(8,ceil(UE0/4)); wk=ceil(rep/2); vy=ceil(UE0*0.125Mpps/1.5Mpps) \u2014 same as t3 6/3/2, t4 5/3/2, t5 8/4/3"
+  }
+ },
+ "t7": {
+  "loc": 4,
+  "date": "2026-10-13",
+  "start": 960,
+  "rank": 40,
+  "ue0": 27,
+  "stats": {
+   "mp": 0.6950000000000001,
+   "f36": 0.11666666666666667,
+   "minue": 14.0,
+   "rise10": 15.0,
+   "start": 27.0,
+   "end": 15.0
+  },
+  "start_fleet": {
+   "rep": 7,
+   "wk": 4,
+   "vy": 3,
+   "rule": "rep=min(8,ceil(UE0/4)); wk=ceil(rep/2); vy=ceil(UE0*0.125Mpps/1.5Mpps) \u2014 same as t3 6/3/2, t4 5/3/2, t5 8/4/3"
+  }
+ },
+ "log_sha256": "1d07de25adf04bbd7f4973053749b8ac760079e074edc72be5679e0bc61996bf"
+}
+files: {
+ "/home/user/experiment/trace_ue_60min_v3_t6.json": "c2e4dfb108cb4e11d62a028711b5bd789644da746842d8dde6d114cb982379c3",
+ "/home/user/experiment/trace_warmin_t6.json": "e3e303680f96449bb1d742feeb85e6813f3958f424b27291b8d82c6d630f1370",
+ "/home/user/experiment/trace_warmin_t6_static.json": "f16433e1e510277c6383a64f89e6edf287408dd74174db9ecbada478534e0d7f",
+ "/home/user/experiment/trace_ue_60min_v3_t7.json": "037a885bc2218028a9b53173ccd9995ce98e99c376861437ed29e45d0123ca64",
+ "/home/user/experiment/trace_warmin_t7.json": "eb09de3a19b6c2364fe09cfec2f83ec12e36f8d262742754138fac89ccd1e742",
+ "/home/user/experiment/trace_warmin_t7_static.json": "ed748b0123a01ac74d0cafdba8204885a61465705860d43c63e4e3368e66541b"
+}

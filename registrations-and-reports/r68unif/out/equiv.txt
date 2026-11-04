@@ -1,0 +1,2 @@
+(1) nest2gen variants full/independent_full/fixed_dwell vs frozen v8sim10_abl.sim_nest2: 120 cases -> IDENTICAL; 'apl' differs from independent_full on 20/20
+(2) CtlGen (flags off) vs v8sim11.CtlSigma, R38 off: 20 cases -> IDENTICAL; CtlGen(w=1600) vs CtlS7(B=None, w=1600): 6 cases -> IDENTICAL; per-slot A-PL differs on 20/20

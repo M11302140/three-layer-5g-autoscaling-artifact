@@ -1,0 +1,12 @@
+=== 凍結版預測 2026-10-07 02:46:35 nest2 (v8sim10.sim_nest2) λ={'S4a': {'vy': 2.83, 'wk': 2.83, 'up': 3.08}, 'S4b': {'vy': 1.83, 'wk': 1.83, 'up': 2.0}}
+ grp  trace  peakUE  SLO(dispatch)  alloc_dispatch  alloc_vmexist  events(min:action:layer)
+ S4a  t1     40     60/60           1163           1149      4:out:vy 4:out:up 9:in:up 14:out:wk 14:out:up 14:wait-position:up 15:wait-position:up 15:wait-position:up 16:out:up 16:out:up 18:out:wk 18:wait-position:up 18:w
+ S4a  t2     40     60/60           1415           1413      4:out:up 9:in:up 11:cancel-drain:up 14:in:up 17:out:up 40:in:up 46:in:up 48:in:vy 57:in:up 59:in:up
+ S4a  t3     40     57/60           1266           1257      3:out:vy 3:out:up 3:out:up 8:in:up 11:in:up 12:cancel-drain:up 21:in:up 23:in:vy 23:in:up 24:cancel-drain:up 28:in:up 30:in:up 33:out:up 33:in:wk 47:out:up 51:o
+ S4a  t4     40     60/60           1455           1454      1:out:vy 1:out:up 7:out:up 12:in:up 15:out:up
+ S4a  t5     40     60/60           1464           1464      45:in:up 47:cancel-drain:up 49:in:up 51:cancel-drain:up 53:in:up 55:cancel-drain:up 59:in:up
+ S4b  t1     40     59/60           1096           1080      4:out:up 14:out:vy 14:out:wk 14:out:up 16:out:up 18:out:up 20:out:wk 20:wait-position:up 20:wait-position:up 21:wait-position:up 21:wait-position:up 22:out:up 2
+ S4b  t2     40     60/60           1348           1338      2:in:up 3:cancel-drain:up 4:out:vy 8:in:up 9:cancel-drain:up 16:in:vy 17:out:vy 22:out:up 37:in:up 43:in:up 45:in:vy 48:in:wk 49:in:up 51:cancel-drain:up 54:in:
+ S4b  t3     40     57/60           1144           1129      3:out:vy 3:out:wk 3:wait-position:up 3:wait-position:up 4:wait-position:up 4:wait-position:up 5:out:up 5:out:up 10:in:up 13:in:up 13:in:vy 16:in:wk 22:in:up 24:
+ S4b  t4     40     59/60           1430           1427      1:out:wk 1:out:up 1:wait-position:up 5:out:vy 5:out:up 20:out:up 48:in:up 49:cancel-drain:up
+ S4b  t5     40     60/60           1454           1454      5:in:up 6:cancel-drain:up 37:in:up 47:out:up 52:in:up 59:in:up

@@ -1,0 +1,32 @@
+capVY16 {'t3': {'fleet': 47, 'other': 8, 'placement': 16}, 't4': {'fleet': 14, 'placement': 16, 'other': 2}, 't6': {'placement': 11, 'other': 1}, 't7': {'placement': 1, 'other': 1}, 'all': {'fleet': 61, 'placement': 44, 'other': 12}}
+capVY16.55 {'t3': {'fleet': 47, 'other': 8, 'placement': 16}, 't4': {'fleet': 14, 'placement': 16, 'other': 2}, 't6': {'placement': 11, 'other': 1}, 't7': {'placement': 1, 'other': 1}, 'all': {'fleet': 61, 'placement': 44, 'other': 12}}
+capVY18(vy_knee) {'t3': {'fleet': 47, 'other': 8, 'placement': 16}, 't4': {'fleet': 11, 'placement': 19, 'other': 2}, 't6': {'placement': 11, 'other': 1}, 't7': {'placement': 1, 'other': 1}, 'all': {'fleet': 58, 'placement': 47, 'other': 12}}
+slot-only {'t3': {'fleet': 47, 'other': 8, 'placement': 16}, 't4': {'fleet': 11, 'placement': 19, 'other': 2}, 't6': {'placement': 11, 'other': 1}, 't7': {'placement': 1, 'other': 1}, 'all': {'fleet': 58, 'placement': 47, 'other': 12}}
+VY-only {'t3': {'fleet': 28, 'placement': 35, 'other': 8}, 't4': {'fleet': 7, 'placement': 22, 'other': 3}, 't6': {'placement': 11, 'other': 1}, 't7': {'placement': 1, 'other': 1}, 'all': {'fleet': 35, 'placement': 69, 'other': 13}}
+ready <= 2*worker_n holds in all violating minutes: True
+arm ('t3', 'B4c2_slo') {'fleet': 9, 'placement': 2}
+arm ('t3', 'B5c1_slo') {'fleet': 8, 'placement': 3, 'other': 1}
+arm ('t3', 'B6c4_slo') {'fleet': 6, 'placement': 3, 'other': 1}
+arm ('t3', 'HHRO') {'fleet': 9, 'other': 2, 'placement': 6}
+arm ('t3', 'S4a') {'fleet': 6, 'placement': 1}
+arm ('t3', 'S4b') {'fleet': 9, 'other': 4, 'placement': 1}
+arm ('t4', 'B4c2_slo') {'other': 1, 'placement': 1}
+arm ('t4', 'B5c1_slo') {'fleet': 3, 'placement': 3, 'other': 1}
+arm ('t4', 'B6c4_slo') {'placement': 1}
+arm ('t4', 'HHRO') {'fleet': 8, 'placement': 1}
+arm ('t4', 'S4a') {'placement': 3}
+arm ('t4', 'S4b') {'fleet': 3, 'placement': 7}
+arm ('t6', 'B4c2_slo') {'placement': 5}
+arm ('t6', 'B5c1_slo') {'placement': 2}
+arm ('t6', 'HHRO') {'placement': 4, 'other': 1}
+arm ('t7', 'B1_static') {'placement': 1}
+arm ('t7', 'S4a') {'other': 1}
+p99 hist t3 {'[0,500)': 1084, '[2000,3000)': 41, '[3000,inf)': 11, '[500,800)': 1, '[900,1000)': 1, '[1100,2000)': 2}
+p99 hist t4 {'[0,500)': 1179, '[3000,inf)': 5, '[500,800)': 2, '[2000,3000)': 13, '[800,900)': 1}
+p99 hist t5 {'[0,500)': 420}
+p99 hist t6 {'[0,500)': 1136, '[500,800)': 2, '[2000,3000)': 2}
+p99 hist t7 {'[0,500)': 1140}
+p99 hist all {'[0,500)': 4959, '[3000,inf)': 16, '[500,800)': 5, '[2000,3000)': 56, '[800,900)': 1, '[900,1000)': 1, '[1100,2000)': 2}
+minutes with lat_n == 0: 0 | max p99 <= 1000: 946.0 | min p99 > 1000: 1436.0
+p99 in [900,1100]: [('t3', 'r363', 'S4b', '10', 946.0, 0.0)]
+violating on p99 alone (p99>1000, loss<=0.1): [('t4', 'r320', 'B4c2_slo', '1', 4077.0, 0.0), ('t3', 'r363', 'S4b', '7', 2391.0, 0.02), ('t3', 'r363', 'S4b', '9', 2732.0, 0.1), ('t3', 'r375', 'B5c1_slo', '8', 1436.0, 0.0), ('t3', 'r380', 'B5c1_slo', '7', 2864.0, 0.05)]

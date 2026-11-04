@@ -1,0 +1,56 @@
+== valid runs: 84 violation minutes: 117 {'capacity': 83, 'tail': 10, 'nodist': 1, 'type2': 11, 'non-slot': 12}
+  t3: n_runs=19 viol=71 {'capacity': 56, 'tail': 5, 'type2': 2, 'non-slot': 8}
+  t4: n_runs=20 viol=32 {'capacity': 21, 'tail': 4, 'nodist': 1, 'type2': 4, 'non-slot': 2}
+  t5: n_runs=7 viol=0 {}
+  t6: n_runs=19 viol=12 {'type2': 5, 'capacity': 5, 'tail': 1, 'non-slot': 1}
+  t7: n_runs=19 viol=2 {'capacity': 1, 'non-slot': 1}
+== independent type2 (<5 UE, no capacity event on same slot in previous minute): block arm run min slot ue oobM loss% p99
+   t4 B5c1_slo r315 21 38 4 0.72 0.28 383
+   t4 B5c1_slo r319 20 38 4 1.76 0.73 2964
+   t4 B5c1_slo r319 21 38 4 0.72 0.3 375
+   t4 B4c2_slo r320 2 32 4 0.57 0.33 4051
+   t3 HHRO r361 3 38 4 0.41 0.24 2934
+   t3 B5c1_slo r380 3 38 4 0.58 0.35 2975
+   t6 B4c2_slo r410 10 32 4 1.15 0.58 299
+   t6 B4c2_slo r410 14 32 4 0.46 0.25 299
+   t6 HHRO r420 9 34 4 0.29 0.14 390
+   t6 HHRO r420 10 34 4 0.45 0.24 380
+   t6 HHRO r420 13 34 2 0.75 0.43 327
+== per-run violating minutes (min,class,slot,ue)
+  r301 t4 HHRO      58/60  [(20, 'capacity', '38', 5), (21, 'tail', '38', 4)]
+  r303 t4 S4b       56/60  [(20, 'capacity', '38', 5), (21, 'tail', '38', 4), (49, 'capacity', '31', 5), (50, 'capacity', '31', 6)]
+  r305 t4 B6c4_slo  59/60  [(5, 'capacity', '33', 5)]
+  r310 t4 B5c1_slo  58/60  [(20, 'capacity', '38', 5), (21, 'tail', '38', 4)]
+  r312 t4 S4a       59/60  [(20, 'capacity', '38', 5)]
+  r314 t4 S4b       58/60  [(20, 'capacity', '38', 5), (21, 'capacity', '38', 5)]
+  r315 t4 B5c1_slo  57/60  [(20, 'nodist', '38', None), (21, 'type2', '38', 4), (22, 'non-slot', '38', 4)]
+  r317 t4 S4a       58/60  [(20, 'capacity', '38', 5), (21, 'capacity', '38', 5)]
+  r318 t4 HHRO      59/60  [(20, 'capacity', '38', 6)]
+  r319 t4 B5c1_slo  58/60  [(20, 'type2', '38', 4), (21, 'type2', '38', 4)]
+  r320 t4 B4c2_slo  58/60  [(1, 'non-slot', '31', 5), (2, 'type2', '32', 4)]
+  r321 t4 HHRO      58/60  [(20, 'capacity', '38', 6), (21, 'capacity', '38', 5)]
+  r322 t4 S4b       56/60  [(20, 'capacity', '38', 5), (21, 'tail', '38', 4), (49, 'capacity', '31', 5), (50, 'capacity', '31', 5)]
+  r360 t3 S4a       58/60  [(3, 'capacity', '38', 5), (4, 'tail', '38', 4)]
+  r361 t3 HHRO      53/60  [(3, 'type2', '38', 4), (4, 'capacity', '38', 7), (5, 'capacity', '38', 6), (6, 'non-slot', '38', 5), (18, 'capacity', '38', 5), (19, 'capacity', '38', 5), (21, 'non-slot', '33', 4)]
+  r362 t3 B4c2_slo  57/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 7), (5, 'capacity', '38', 6)]
+  r363 t3 S4b       54/60  [(3, 'capacity', '38', 7), (4, 'capacity', '38', 7), (5, 'capacity', '38', 7), (6, 'non-slot', '33', 7), (7, 'non-slot', '36', 6), (9, 'capacity', '36', 6)]
+  r364 t3 B5c1_slo  57/60  [(3, 'capacity', '38', 6), (4, 'capacity', '38', 7), (5, 'capacity', '38', 7)]
+  r365 t3 B6c4_slo  58/60  [(4, 'capacity', '38', 5), (5, 'capacity', '38', 6)]
+  r367 t3 HHRO      53/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 7), (5, 'capacity', '38', 7), (6, 'capacity', '38', 7), (7, 'capacity', '37', 6), (8, 'capacity', '37', 6), (9, 'capacity', '37', 6)]
+  r369 t3 S4b       57/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 7), (5, 'capacity', '33', 7)]
+  r371 t3 B6c4_slo  57/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 5), (5, 'capacity', '32', 5)]
+  r372 t3 S4a       58/60  [(3, 'capacity', '38', 5), (4, 'tail', '38', 4)]
+  r373 t3 B4c2_slo  55/60  [(3, 'capacity', '38', 6), (4, 'capacity', '38', 7), (5, 'capacity', '38', 6), (6, 'tail', '38', 4), (55, 'capacity', '38', 5)]
+  r374 t3 S4b       55/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 7), (5, 'capacity', '38', 7), (6, 'non-slot', '33', 7), (7, 'non-slot', '38', 3)]
+  r375 t3 B5c1_slo  55/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 7), (5, 'capacity', '38', 7), (8, 'non-slot', '37', 5), (9, 'capacity', '37', 5)]
+  r377 t3 S4a       57/60  [(3, 'capacity', '38', 5), (4, 'tail', '38', 4), (5, 'tail', '38', 4)]
+  r378 t3 HHRO      57/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 7), (5, 'capacity', '38', 6)]
+  r380 t3 B5c1_slo  56/60  [(3, 'type2', '38', 4), (4, 'capacity', '38', 6), (5, 'capacity', '38', 7), (7, 'capacity', '37', 5)]
+  r381 t4 HHRO      56/60  [(20, 'capacity', '38', 5), (21, 'capacity', '38', 6), (51, 'capacity', '38', 6), (52, 'capacity', '38', 6)]
+  r382 t3 B4c2_slo  57/60  [(3, 'capacity', '38', 5), (4, 'capacity', '38', 6), (5, 'capacity', '38', 5)]
+  r383 t3 B6c4_slo  55/60  [(3, 'capacity', '38', 6), (4, 'capacity', '38', 6), (5, 'capacity', '38', 7), (6, 'capacity', '38', 7), (7, 'non-slot', '38', 3)]
+  r410 t6 B4c2_slo  55/60  [(10, 'type2', '32', 4), (14, 'type2', '32', 4), (16, 'capacity', '32', 5), (17, 'capacity', '32', 5), (18, 'tail', '32', 4)]
+  r412 t6 B5c1_slo  58/60  [(16, 'capacity', '32', 5), (20, 'capacity', '32', 5)]
+  r420 t6 HHRO      55/60  [(9, 'type2', '34', 4), (10, 'type2', '34', 4), (13, 'type2', '34', 2), (18, 'non-slot', '33', 4), (19, 'capacity', '33', 6)]
+  r436 t7 B1_static 59/60  [(27, 'capacity', '35', 5)]
+  r442 t7 S4a       59/60  [(44, 'non-slot', '38', 5)]

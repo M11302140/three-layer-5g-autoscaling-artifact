@@ -1,0 +1,74 @@
+{
+ "r584": {
+  "3": "fleet",
+  "4": "fleet",
+  "5": "fleet"
+ },
+ "r589": {
+  "3": "fleet",
+  "4": "fleet",
+  "5": "fleet",
+  "6": "placement"
+ },
+ "r596": {
+  "3": "fleet",
+  "4": "fleet",
+  "5": "fleet",
+  "6": "placement"
+ },
+ "r590": {
+  "3": "fleet",
+  "4": "fleet",
+  "5": "fleet",
+  "6": "placement",
+  "7": "placement",
+  "10": "placement",
+  "12": "placement"
+ },
+ "r598": {
+  "3": "fleet",
+  "4": "fleet",
+  "5": "fleet",
+  "6": "placement",
+  "7": "other"
+ },
+ "r600": {
+  "3": "fleet",
+  "4": "fleet",
+  "5": "fleet",
+  "6": "placement",
+  "7": "other"
+ },
+ "r586": {
+  "35": "placement",
+  "36": "placement",
+  "37": "placement",
+  "38": "placement",
+  "39": "placement"
+ },
+ "r597": {},
+ "r602": {
+  "1": "placement"
+ },
+ "r592": {
+  "20": "fleet",
+  "21": "other"
+ },
+ "r604": {
+  "20": "fleet",
+  "21": "placement",
+  "22": "placement",
+  "23": "other"
+ },
+ "r588": {
+  "20": "fleet",
+  "21": "placement",
+  "22": "other"
+ },
+ "r595": {
+  "20": "fleet",
+  "21": "placement",
+  "22": "placement",
+  "23": "other"
+ }
+}

@@ -1,0 +1,41 @@
+[23:46:07] S8 2 c 0.9625: risk 2.287 % cost 1265.9 flaps 2.90
+[23:46:30] S8 2 c 0.9650: risk 2.119 % cost 1269.8 flaps 2.92
+[23:46:54] S8 2 c 0.9675: risk 2.119 % cost 1269.8 flaps 2.92
+[23:47:23] S8 2 c 0.9700: risk 2.119 % cost 1269.8 flaps 2.92
+[23:47:47] S8 2 c 0.9725: risk 2.119 % cost 1269.8 flaps 2.92
+[23:48:10] S8 2 c 0.9750: risk 2.119 % cost 1269.8 flaps 2.92
+[23:48:34] S8 2 c 0.9775: risk 2.119 % cost 1269.8 flaps 2.92
+[23:48:57] S4p 2 c 0.9625: risk 2.287 % cost 1264.8 flaps 2.91
+[23:49:20] S4p 2 c 0.9650: risk 2.287 % cost 1264.8 flaps 2.91
+[23:49:43] S4p 2 c 0.9675: risk 2.287 % cost 1264.8 flaps 2.91
+[23:50:06] S4p 2 c 0.9700: risk 2.025 % cost 1266.3 flaps 3.10
+[23:50:29] S4p 2 c 0.9725: risk 2.025 % cost 1266.3 flaps 3.10
+[23:50:52] S4p 2 c 0.9750: risk 2.025 % cost 1266.3 flaps 3.10
+[23:51:15] S4p 2 c 0.9775: risk 2.025 % cost 1266.3 flaps 3.10
+[23:51:38] APL 05 c 0.9225: risk 0.404 % cost 1331.7 flaps 9.77
+[23:52:01] APL 05 c 0.9250: risk 0.404 % cost 1331.7 flaps 9.77
+[23:52:24] APL 05 c 0.9275: risk 0.404 % cost 1331.7 flaps 9.77
+[23:52:47] APL 05 c 0.9300: risk 0.404 % cost 1331.7 flaps 9.77
+[23:53:11] APL 05 c 0.9325: risk 0.399 % cost 1332.7 flaps 9.71
+[23:53:34] APL 05 c 0.9350: risk 0.385 % cost 1334.5 flaps 9.59
+[23:53:57] APL 05 c 0.9375: risk 0.385 % cost 1334.5 flaps 9.59
+chosen S4 2: [1.0]
+[23:54:20] S4 2 c 1.0000: risk 2.183 % cost 1282.0 flaps 7.87
+chosen APL 2: [0.85]
+[23:54:43] APL 2 c 0.8500: risk 2.196 % cost 1267.9 flaps 12.09
+chosen S8 2: [0.9625, 0.965]
+chosen S4p 2: [0.9675, 0.97]
+chosen S4 05: [1.0]
+[23:55:07] S4 05 c 1.0000: risk 0.452 % cost 1337.1 flaps 6.29
+chosen APL 05: [0.9225]
+chosen S8 05: [0.98]
+[23:55:30] S8 05 c 0.9800: risk 0.442 % cost 1329.9 flaps 4.06
+chosen S4p 05: [0.96]
+[23:55:54] S4p 05 c 0.9600: risk 0.446 % cost 1316.6 flaps 4.22
+[23:56:07] base B4_3.75_300: equiv True
+[23:56:21] base B5_4.0_L2: equiv True
+[23:56:42] base B6_0.775: equiv True
+[23:56:55] base B4_3.0_300: equiv True
+[23:57:09] base B5_3.5_L1: equiv True
+[23:57:30] base B6_0.7: equiv True
+DONE

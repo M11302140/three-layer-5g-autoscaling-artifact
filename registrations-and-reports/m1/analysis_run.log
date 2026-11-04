@@ -1,0 +1,55 @@
+written /home/user/docs/paper/figs/fig_m1_risk_vs_burst.pdf
+## A.2 Library deciles by rise10 percentile rank (mid-rank for ties; ties share a decile)
+
+| decile | rise10 range | n windows | S4a mean risk (%) | S4b mean risk (%) | v6 mean risk (%) | S4a frac. windows with >=1 viol. min (%) | S4b frac. windows with >=1 viol. min (%) | v6 frac. windows with >=1 viol. min (%) | S4a mean alloc | S4b mean alloc | v6 mean alloc | traces |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| D1 (P0-P10) | 4-10 | 137 | 0.01 | 0.18 | 0.26 | 0.7 | 9.5 | 12.4 | 1348 | 1295 | 1288 |  |
+| D2 (P10-P20) | 11-12 | 185 | 0.05 | 0.68 | 0.71 | 2.7 | 34.6 | 29.7 | 1392 | 1347 | 1329 | t4 |
+| D3 (P20-P30) | 13-13 | 106 | 0.06 | 1.08 | 1.27 | 3.8 | 51.9 | 44.3 | 1389 | 1347 | 1326 | t2,t5 |
+| D4 (P30-P40) | 14-15 | 261 | 0.22 | 1.53 | 1.79 | 12.6 | 57.1 | 63.2 | 1395 | 1349 | 1332 | t6,t7 |
+| D5 (P40-P50) | 16-16 | 156 | 0.30 | 1.66 | 2.08 | 13.5 | 67.3 | 67.9 | 1360 | 1305 | 1283 |  |
+| D6 (P50-P60) | 17-17 | 108 | 0.31 | 1.64 | 2.48 | 15.7 | 60.2 | 69.4 | 1357 | 1303 | 1284 | t1 |
+| D7 (P60-P70) | 18-19 | 218 | 0.53 | 2.14 | 2.87 | 23.9 | 70.2 | 84.9 | 1314 | 1254 | 1234 |  |
+| D8 (P70-P80) | 20-20 | 94 | 0.69 | 3.00 | 3.48 | 37.2 | 88.3 | 90.4 | 1300 | 1237 | 1211 |  |
+| D9 (P80-P90) | 21-22 | 174 | 0.80 | 2.94 | 3.92 | 37.9 | 86.2 | 90.8 | 1281 | 1209 | 1192 | t3 |
+| D10 (P90-P100) | 23-34 | 176 | 1.60 | 3.90 | 4.90 | 54.5 | 92.6 | 94.3 | 1235 | 1156 | 1131 |  |
+
+Library-wide mean risk: S4a 0.467%, S4b 1.886%, v6 2.388% (n = 1615).
+
+Trace placement: t1: rise10 = 17, percentile rank 55.7 -> D6; t2: rise10 = 13, percentile rank 23.2 -> D3; t3: rise10 = 22, percentile rank 86.5 -> D9; t4: rise10 = 12, percentile rank 16.8 -> D2; t5: rise10 = 13, percentile rank 23.2 -> D3; t6: rise10 = 14, percentile rank 30.9 -> D4; t7: rise10 = 15, percentile rank 38.9 -> D4
+
+## A.3 Pre-registered rule: decile mean simulated risk vs measured hardware risk (3 runs x 60 min)
+
+| trace | decile | arm | sim. risk of the exact trace (%) | decile mean sim. risk (%) | measured risk (%) | ratio = decile mean / measured | verdict |
+|---|---|---|---|---|---|---|---|
+| t3 | D9 (21-22) | S4b | 5.00 | 2.94 | 7.78 (14/180) | 0.38 | simulator under-estimates tail risk by factor 2.64 |
+| t3 | D9 (21-22) | S4a | 5.00 | 0.80 | 3.89 (7/180) | 0.20 | simulator under-estimates tail risk by factor 4.89 |
+| t3 | D9 (21-22) | v6 | 5.00 | 3.92 | 9.44 (17/180) | 0.41 | simulator under-estimates tail risk by factor 2.41 |
+| t4 | D2 (11-12) | S4b | 1.67 | 0.68 | 5.56 (10/180) | 0.12 | simulator under-estimates tail risk by factor 8.22 |
+| t4 | D2 (11-12) | S4a | 0.00 | 0.05 | 1.67 (3/180) | 0.03 | simulator under-estimates tail risk by factor 37.00 |
+| t4 | D2 (11-12) | v6 | 5.00 | 0.71 | 2.78 (5/180) | 0.26 | simulator under-estimates tail risk by factor 3.90 |
+| t6 | D4 (14-15) | S4b | 0.00 | 1.53 | 0.00 (0/180) | n/a (measured 0) | (rule pre-registered for t3/t4 only; shown for reference) |
+| t6 | D4 (14-15) | S4a | 0.00 | 0.22 | 0.00 (0/180) | n/a (measured 0) | (rule pre-registered for t3/t4 only; shown for reference) |
+| t6 | D4 (14-15) | v6 | 3.33 | 1.79 | 2.78 (5/180) | 0.64 | (rule pre-registered for t3/t4 only; shown for reference) |
+| t7 | D4 (14-15) | S4b | 0.00 | 1.53 | 0.00 (0/180) | n/a (measured 0) | (rule pre-registered for t3/t4 only; shown for reference) |
+| t7 | D4 (14-15) | S4a | 0.00 | 0.22 | 0.56 (1/180) | 0.40 | (rule pre-registered for t3/t4 only; shown for reference) |
+| t7 | D4 (14-15) | v6 | 0.00 | 1.79 | 0.00 (0/180) | n/a (measured 0) | (rule pre-registered for t3/t4 only; shown for reference) |
+
+## A.4 Effective sample size
+
+- library windows: 1615; distinct sensors (loc): 18; distinct dates: 14
+- (loc, date) groups = **effective n = 125**
+- windows per group: mean 12.92, min 1, max 15; distribution {windows: groups} = 1: 1, 4: 2, 6: 2, 7: 1, 8: 5, 9: 4, 10: 4, 11: 4, 12: 8, 13: 24, 14: 31, 15: 39
+- start field is in real minutes of day (values 360..1200); each window covers 240 real minutes (4 real min = 1 trace min)
+- consecutive-window start gaps within a group: delta=60 min: 1488 pairs, delta=120 min: 1 pairs, delta=300 min: 1 pairs (1490 consecutive pairs)
+- overlap = max(0, 240 - delta_start)/240: mean 0.749, median 0.750, min 0.000, max 0.750; fraction of pairs with overlap 0.75: 99.9%
+- for reference, non-overlapping 240-min windows per group would be at most 4 -> about 500 independent windows if every group were fully covered (actual coverage is lower, see distribution above)
+
+## Verdict (rule A.3, pre-registered)
+- t3 / S4b: ratio 0.38 -> simulator under-estimates tail risk by factor 2.64
+- t3 / S4a: ratio 0.20 -> simulator under-estimates tail risk by factor 4.89
+- t3 / v6: ratio 0.41 -> simulator under-estimates tail risk by factor 2.41
+- t4 / S4b: ratio 0.12 -> simulator under-estimates tail risk by factor 8.22
+- t4 / S4a: ratio 0.03 -> simulator under-estimates tail risk by factor 37.00
+- t4 / v6: ratio 0.26 -> simulator under-estimates tail risk by factor 3.90
+wrote /home/user/experiment/qsim/m1/REPORT.md; runtime 0.3 s

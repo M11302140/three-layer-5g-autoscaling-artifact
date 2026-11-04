@@ -1,0 +1,14 @@
+=== H 登記預測 2026-10-24 04:04:20  B6 u=0.775 (offline ε=2 %, R38-off recalibration r62cf) vs deployed 0.70
+ sim_b6   u=0.775 t3  SLO 57/60 viol 3  alloc(dispatch) 1173
+ v8sim11 R38 on  u=0.775 t3  SLO 55/60 viol 5 (min [3, 4, 5, 9, 10])  alloc_vm 1175
+ v8sim11 R38 off u=0.775 t3  SLO 55/60 viol 5 (min [3, 4, 5, 9, 10])  alloc_vm 1175
+ sim_b6   u=0.775 t6  SLO 60/60 viol 0  alloc(dispatch) 1435
+ v8sim11 R38 on  u=0.775 t6  SLO 60/60 viol 0 (min [])  alloc_vm 1431
+ v8sim11 R38 off u=0.775 t6  SLO 60/60 viol 0 (min [])  alloc_vm 1431
+ sim_b6   u=0.7 t3  SLO 57/60 viol 3  alloc(dispatch) 1230
+ v8sim11 R38 on  u=0.7 t3  SLO 55/60 viol 5 (min [3, 4, 5, 9, 10])  alloc_vm 1218
+ v8sim11 R38 off u=0.7 t3  SLO 55/60 viol 5 (min [3, 4, 5, 9, 10])  alloc_vm 1218
+ sim_b6   u=0.7 t6  SLO 60/60 viol 0  alloc(dispatch) 1449
+ v8sim11 R38 on  u=0.7 t6  SLO 60/60 viol 0 (min [])  alloc_vm 1437
+ v8sim11 R38 off u=0.7 t6  SLO 60/60 viol 0 (min [])  alloc_vm 1437
+判讀 §4.116:(a) |Δ alloc_vm| ≤ 2 % 且 |Δ 違規/場| ≤ 2 對 S4b 同 trace 均值(t3 S4b 4.67 min @1137.0;t6 0 @1390.3)

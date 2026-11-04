@@ -1,0 +1,67 @@
+written /home/user/docs/paper/figs/fig_m1_risk_vs_burst_rise1.pdf
+## Supplement R58-2 (spec §4.99 A (5) and (6), added 10-20)
+
+Generated 2026-10-20 15:45:11 by /home/user/experiment/qsim/m1/m1_supplement.py (`cd /home/user/experiment/qsim && nice -n 19 taskset -c 13,14 python3 m1/m1_supplement.py | tee m1/supplement_run.log`).
+
+### (5) Three-level prediction table: rise10-decile mean vs registered per-trace vs per-slot (v8sim11) per-trace vs measured
+
+Units: violating minutes per 60-minute run. Registered = nest2 exact trace at deployed λ, acct = vmexist (S4a/S4b), v8sim2.sim_v6 (v6); values are those in m1/risk_per_trace.csv, which were verified equal to the registered prediction files. v8sim11 = `import v8sim11 as V; V.cfg_prior(); r = V.run(tr, arm)` with arm names exactly "S4a", "S4b", "v6" (v8sim11.make_ctl: S4a/S4b -> CtlSigma with its own LAM table = deployed λ, v6 -> CtlV6), start = None (initial_fleet), phys = None, no kwargs; R38 (slot .38 overflow rule) is on by default via v8sim11.PHYS and was left at its defaults: {'knee': 5, 'knee38': 4, 'a38': 7, 'churn38_s': 300, 'hold38_s': 60, 'PHYS_OVERRIDE env': None}; violating minutes = 60 - slo = len(viol). Decile mean = rise10 decile mean risk x 60 (from §A.2 table). Measured = 3-run total / 3. Ratios are measured / prediction; n/a when the prediction is 0.
+
+| trace | arm | rise10 decile | decile mean (min/run, %) | registered (min/run) | v8sim11 (min/run; minutes; alloc_vm) | measured (min/run) | measured / registered | measured / v8sim11 | measured / decile mean |
+|---|---|---|---|---|---|---|---|---|---|
+| t3 | S4a | D9 | 0.48 (0.80%) | 3 | 3; [3, 4, 5]; 1254 | 2.33 (7/3) | 0.78 | 0.78 | 4.89 |
+| t3 | S4b | D9 | 1.76 (2.94%) | 3 | 5; [3, 4, 5, 7, 8]; 1138 | 4.67 (14/3) | 1.56 | 0.93 | 2.64 |
+| t3 | v6 | D9 | 2.35 (3.92%) | 3 | 5; [3, 4, 5, 7, 8]; 1119 | 5.67 (17/3) | 1.89 | 1.13 | 2.41 |
+| t4 | S4a | D2 | 0.03 (0.05%) | 0 | 2; [20, 21]; 1452 | 1.00 (3/3) | ∞ (pred 0) | 0.50 | 37.00 |
+| t4 | S4b | D2 | 0.41 (0.68%) | 1 | 4; [20, 21, 49, 50]; 1425 | 3.33 (10/3) | 3.33 | 0.83 | 8.22 |
+| t4 | v6 | D2 | 0.43 (0.71%) | 3 | 2; [20, 21]; 1382 | 1.67 (5/3) | 0.56 | 0.83 | 3.90 |
+| t6 | S4a | D4 | 0.13 (0.22%) | 0 | 3; [17, 43, 44]; 1448 | 0.00 (0/3) | n/a (pred 0) | 0.00 | 0.00 |
+| t6 | S4b | D4 | 0.92 (1.53%) | 0 | 5; [17, 18, 32, 33, 43]; 1397 | 0.00 (0/3) | n/a (pred 0) | 0.00 | 0.00 |
+| t6 | v6 | D4 | 1.07 (1.79%) | 2 | 2; [17, 18]; 1365 | 1.67 (5/3) | 0.83 | 0.83 | 1.55 |
+| t7 | S4a | D4 | 0.13 (0.22%) | 0 | 0; -; 1432 | 0.33 (1/3) | ∞ (pred 0) | ∞ (pred 0) | 2.49 |
+| t7 | S4b | D4 | 0.92 (1.53%) | 0 | 0; -; 1396 | 0.00 (0/3) | n/a (pred 0) | n/a (pred 0) | 0.00 |
+| t7 | v6 | D4 | 1.07 (1.79%) | 0 | 1; [43]; 1368 | 0.00 (0/3) | n/a (pred 0) | 0.00 | 0.00 |
+
+v8sim11 violation sources (viol_src per violating minute): t3/S4a: {3: ['R38', 'capacity', 'slot'], 4: ['R38', 'capacity', 'slot', 'vy'], 5: ['slot']}; t3/S4b: {3: ['R38', 'capacity', 'slot'], 4: ['capacity', 'slot', 'vy'], 5: ['R38', 'capacity', 'slot'], 7: ['slot'], 8: ['slot']}; t3/v6: {3: ['R38', 'capacity', 'slot'], 4: ['capacity', 'slot', 'vy'], 5: ['R38', 'capacity', 'slot'], 7: ['slot'], 8: ['slot']}; t4/S4a: {20: ['R38'], 21: ['R38']}; t4/S4b: {20: ['R38', 'capacity', 'slot'], 21: ['R38'], 49: ['R38'], 50: ['R38']}; t4/v6: {20: ['R38', 'capacity', 'slot', 'vy'], 21: ['R38']}; t6/S4a: {17: ['R38'], 43: ['R38'], 44: ['R38']}; t6/S4b: {17: ['R38'], 18: ['R38'], 32: ['R38'], 33: ['R38', 'slot'], 43: ['R38']}; t6/v6: {17: ['R38'], 18: ['R38']}; t7/v6: {43: ['R38']}
+
+### (6) Re-bucketing by rise1 (max one-minute rise), same decile method (percentile rank, mid-rank ties)
+
+rise1 is integer-valued with heavy ties (library P10/P50/P90 = 7/9/14), so some deciles are empty and others wide; empty deciles are shown as '-' and omitted from the figure.
+
+| decile | rise1 range | n windows | S4a mean risk (%) | S4b mean risk (%) | v6 mean risk (%) | traces |
+|---|---|---|---|---|---|---|
+| D1 (P0-P10) | 4-6 | 122 | 0.05 | 0.29 | 0.64 | t2,t5 |
+| D2 (P10-P20) | 7-7 | 222 | 0.07 | 1.02 | 1.65 | t6,t7 |
+| D3 (P20-P30) | 8-8 | 268 | 0.16 | 1.18 | 1.85 |  |
+| D4 (P30-P40) | - | 0 | - | - | - |  |
+| D5 (P40-P50) | 9-9 | 230 | 0.15 | 1.50 | 1.95 | t4 |
+| D6 (P50-P60) | 10-10 | 201 | 0.39 | 2.16 | 2.55 |  |
+| D7 (P60-P70) | 11-11 | 174 | 0.42 | 2.16 | 2.51 |  |
+| D8 (P70-P80) | 12-12 | 143 | 0.75 | 2.86 | 3.65 | t1,t3 |
+| D9 (P80-P90) | 13-13 | 69 | 1.01 | 3.33 | 3.02 |  |
+| D10 (P90-P100) | 14-22 | 186 | 1.76 | 3.63 | 4.24 |  |
+
+Trace placement by rise1: t1: rise1 = 12, percentile rank 79.8 -> D8; t2: rise1 = 5, percentile rank 1.7 -> D1; t3: rise1 = 12, percentile rank 79.8 -> D8; t4: rise1 = 9, percentile rank 45.0 -> D5; t5: rise1 = 6, percentile rank 5.2 -> D1; t6: rise1 = 7, percentile rank 14.4 -> D2; t7: rise1 = 7, percentile rank 14.4 -> D2. By rise10 the same traces were: t1 -> D6; t2 -> D3; t3 -> D9; t4 -> D2; t5 -> D3; t6 -> D4; t7 -> D4.
+
+| trace | rise1 decile | arm | decile mean sim. risk (%) | measured (%) | ratio = decile mean / measured | verdict (rule A.3, t3/t4) | rise10 decile mean (%) / ratio |
+|---|---|---|---|---|---|---|---|
+| t3 | D8 (12-12) | S4b | 2.86 | 7.78 (14/180) | 0.37 | simulator under-estimates tail risk by factor 2.72 | 2.94 / 0.38 |
+| t3 | D8 (12-12) | S4a | 0.75 | 3.89 (7/180) | 0.19 | simulator under-estimates tail risk by factor 5.21 | 0.80 / 0.20 |
+| t3 | D8 (12-12) | v6 | 3.65 | 9.44 (17/180) | 0.39 | simulator under-estimates tail risk by factor 2.59 | 3.92 / 0.41 |
+| t4 | D5 (9-9) | S4b | 1.50 | 5.56 (10/180) | 0.27 | simulator under-estimates tail risk by factor 3.70 | 0.68 / 0.12 |
+| t4 | D5 (9-9) | S4a | 0.15 | 1.67 (3/180) | 0.09 | simulator under-estimates tail risk by factor 10.95 | 0.05 / 0.03 |
+| t4 | D5 (9-9) | v6 | 1.95 | 2.78 (5/180) | 0.70 | within [0.5, 2] | 0.71 / 0.26 |
+| t6 | D2 (7-7) | S4b | 1.02 | 0.00 (0/180) | n/a (measured 0) | (reference only) | 1.53 / nan |
+| t6 | D2 (7-7) | S4a | 0.07 | 0.00 (0/180) | n/a (measured 0) | (reference only) | 0.22 / nan |
+| t6 | D2 (7-7) | v6 | 1.65 | 2.78 (5/180) | 0.59 | (reference only) | 1.79 / 0.64 |
+| t7 | D2 (7-7) | S4b | 1.02 | 0.00 (0/180) | n/a (measured 0) | (reference only) | 1.53 / nan |
+| t7 | D2 (7-7) | S4a | 0.07 | 0.56 (1/180) | 0.12 | (reference only) | 0.22 / 0.40 |
+| t7 | D2 (7-7) | v6 | 1.65 | 0.00 (0/180) | n/a (measured 0) | (reference only) | 1.79 / nan |
+
+t4 outcome: rise1 = 9 (library percentile rank 45.0) -> D5; by rise10 it was D2: t4 moves to a higher decile. Decile mean risk at t4's rise1 decile: S4a 0.15%, S4b 1.50%, v6 1.95% vs at its rise10 decile: S4a 0.05%, S4b 0.68%, v6 0.71%.
+
+Verdicts (rule A.3 with rise1 deciles): t3/S4b: ratio 0.37 -> simulator under-estimates tail risk by factor 2.72; t3/S4a: ratio 0.19 -> simulator under-estimates tail risk by factor 5.21; t3/v6: ratio 0.39 -> simulator under-estimates tail risk by factor 2.59; t4/S4b: ratio 0.27 -> simulator under-estimates tail risk by factor 3.70; t4/S4a: ratio 0.09 -> simulator under-estimates tail risk by factor 10.95; t4/v6: ratio 0.70 -> within [0.5, 2]
+
+Figure: /home/user/docs/paper/figs/fig_m1_risk_vs_burst_rise1.pdf (single column; same encoding as fig_m1_risk_vs_burst.pdf, x = rise1 decile; empty deciles omitted).
+
+Runtime: v8sim11 12 runs + cfg_prior 0.3 s; whole script 2.5 s.

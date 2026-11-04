@@ -1,0 +1,21 @@
+{
+ "pps_per_ue": 125000,
+ "max_ue": 40,
+ "ue": [
+  40,
+  40,
+  40,
+  40,
+  40
+ ],
+ "phases": [
+  {
+   "name": "peak-probe",
+   "start": 0,
+   "end": 5
+  }
+ ],
+ "source": {
+  "note": "10-04 \u6df1\u591c:sender \u5834\u5730\u63a2\u91dd\u2014\u2014\u975c\u614b\u8266\u968a 8/3/4(B1 \u6a21\u5f0f)\u4e0b 40 UE \u00d7 8 \u5206\u9418,\u91cf\u5cf0\u503c p50/p95/p99;\u76ee\u6a19 p50 270-320 \u00b5s(09-23 \u72c0\u614b)"
+ }
+}

@@ -1,0 +1,1 @@
+{"pps_per_ue": 125000, "max_ue": 40, "ue": [6, 10, 14, 18, 19, 19, 19, 19, 19, 19], "phases": [], "source": {"note": "warm-in for t4: +4 UE/min ramp to 19 UE then plateau (not scored)"}}

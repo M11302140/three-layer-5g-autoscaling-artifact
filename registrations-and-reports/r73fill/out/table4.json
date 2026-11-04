@@ -1,0 +1,56 @@
+{
+ "t3|S4p2": {
+  "B4c2": "dominates",
+  "B5c1": "equal",
+  "B6": "trade-off",
+  "B6*": "dominates",
+  "CR": "trade-off"
+ },
+ "t3|S4p05": {
+  "B4c2": "trade-off",
+  "B5c1": "dominated",
+  "B6": "trade-off",
+  "B6*": "dominated",
+  "CR": "trade-off"
+ },
+ "t5|S4p2": {
+  "B4c2": "dominates",
+  "B5c1": "dominates",
+  "B6": "dominates",
+  "CR": "dominated"
+ },
+ "t5|S4p05": {
+  "B4c2": "equal",
+  "B5c1": "equal",
+  "B6": "equal",
+  "CR": "dominated"
+ },
+ "t7|S4p2": {
+  "B4c2": "trade-off",
+  "B5c1": "trade-off",
+  "B6": "trade-off",
+  "CR": "dominated"
+ },
+ "t7|S4p05": {
+  "B4c2": "dominates",
+  "B5c1": "dominated",
+  "B6": "dominates",
+  "CR": "equal"
+ },
+ "t4|S4p2": {
+  "B4*": "trade-off",
+  "B6*": "trade-off"
+ },
+ "t4|S4p05": {
+  "B4*": "dominated",
+  "B6*": "dominated"
+ },
+ "t8|S4p2": {
+  "B4*": "dominated",
+  "B6*": "dominates"
+ },
+ "t8|S4p05": {
+  "B4*": "trade-off",
+  "B6*": "trade-off"
+ }
+}

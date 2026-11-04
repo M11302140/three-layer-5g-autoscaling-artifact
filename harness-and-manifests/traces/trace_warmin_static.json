@@ -1,0 +1,1 @@
+{"pps_per_ue": 125000, "max_ue": 40, "ue": [6, 10, 14, 18, 22, 25, 25, 25, 25, 25], "phases": [{"name": "warm-in", "start": 0, "end": 10}], "source": {"note": "09-25 B1 static trace 2 warm-in:斜坡 6→25 五分鐘 + 25 UE 平跑 5 分鐘;艦隊靜態(8 槽/3 VyOS/4 worker)不需收斂,只讓 UE 就位"}}

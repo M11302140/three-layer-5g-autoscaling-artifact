@@ -1,0 +1,7 @@
+thr T50/T85 = (6.0, 9.0)
+(1) sim_s9 (all off) vs v8sim10.sim_nest2: 240 cases -> IDENTICAL
+(2) CtlS9 (all off) vs v8sim11.run('S'): 12 cases -> IDENTICAL
+(3) regime on, equal lambdas, cond off, trend off vs S4: 46 cases (40 nest2 + 6 per-slot) -> IDENTICAL
+(4) traces changed (of 40): per-bucket lambda 40, conditional sigma 34, burst trend 14, R2 w=1600 39; per-slot all on (of 6) 6
+minute regime share on the 40 traces: {'calm': 0.6129166666666667, 'normal': 0.2658333333333333, 'burst': 0.12125}; total 27s
+

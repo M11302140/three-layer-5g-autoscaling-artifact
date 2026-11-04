@@ -1,0 +1,20 @@
+[2026-10-26 05:20:14] === S6 calibration: 18 jobs, 0 done, 18 to run, nproc 4, affinity [0, 8, 13, 14], pid 3333972
+[2026-10-26 05:31:38] split0 target 0.02 (1/18) 684s sims 28876 | Lr 1.75/2.0 | lam 1.0/1.25 ws 5 cal 0.0193/1308.6 | ho risk 0.0192 vm 1321.6 disp 1332.9 fl 8.83 | eta 11629s
+[2026-10-26 05:32:21] split1 target 0.02 (2/18) 727s sims 28860 | Lr 2.0/2.0 | lam 0.75/1.5 ws 5 cal 0.0189/1343.4 | ho risk 0.0178 vm 1317.7 disp 1328.6 fl 8.37 | eta 5813s
+[2026-10-26 05:32:21] split2 target 0.02 (3/18) 681s sims 28890 | Lr 1.75/2.0 | lam 1.0/1.25 ws 5 cal 0.0200/1319.7 | ho risk 0.0193 vm 1310.3 disp 1322.5 fl 8.73 | eta 3633s
+[2026-10-26 05:32:21] split3 target 0.02 (4/18) 721s sims 28868 | Lr 2.0/2.0 | lam 0.75/1.25 ws 5 cal 0.0199/1316.8 | ho risk 0.0226 vm 1308.2 disp 1318.9 fl 8.12 | eta 2543s
+[2026-10-26 05:43:10] split4 target 0.02 (5/18) 695s sims 28858 | Lr 1.75/2.0 | lam 1.0/1.25 ws 5 cal 0.0189/1334.8 | ho risk 0.0215 vm 1307.0 disp 1318.9 fl 8.92 | eta 3577s
+[2026-10-26 05:43:10] split5 target 0.02 (6/18) 664s sims 28878 | Lr 2.0/2.0 | lam 1.0/1.25 ws 5 cal 0.0195/1320.6 | ho risk 0.0182 vm 1313.7 disp 1324.3 fl 7.84 | eta 2752s
+[2026-10-26 05:43:53] split0 target 0.005 (7/18) 697s sims 28876 | Lr 3.0/3.0 | lam 1.25/2.5 ws 5 cal 0.0050/1352.9 | ho risk 0.0052 vm 1365.3 disp 1372.1 fl 6.78 | eta 2229s
+[2026-10-26 05:43:53] split1 target 0.005 (8/18) 642s sims 28860 | Lr 2.75/3.25 | lam 2.25/2.25 ws 5 cal 0.0047/1381.4 | ho risk 0.0042 vm 1363.0 disp 1370.2 fl 5.57 | eta 1773s
+[2026-10-26 05:54:01] split2 target 0.005 (9/18) 678s sims 28890 | Lr 2.5/3.0 | lam 1.5/2.25 ws 5 cal 0.0044/1359.2 | ho risk 0.0060 vm 1354.5 disp 1362.9 fl 7.18 | eta 2026s
+[2026-10-26 05:54:05] split3 target 0.005 (10/18) 662s sims 28868 | Lr 2.5/3.25 | lam 1.75/2.5 ws 5 cal 0.0048/1371.7 | ho risk 0.0042 vm 1362.6 disp 1370.2 fl 6.28 | eta 1625s
+[2026-10-26 05:54:36] split4 target 0.005 (11/18) 686s sims 28858 | Lr 2.75/3.25 | lam 1.5/2.25 ws 5 cal 0.0047/1372.3 | ho risk 0.0058 vm 1352.9 disp 1360.4 fl 5.97 | eta 1312s
+[2026-10-26 05:54:55] split5 target 0.005 (12/18) 662s sims 28878 | Lr 3.0/3.0 | lam 1.75/2.25 ws 5 cal 0.0049/1364.4 | ho risk 0.0042 vm 1360.0 disp 1367.2 fl 5.99 | eta 1040s
+[2026-10-26 06:05:33] split0 target eps_v6 (13/18) 693s sims 28876 | Lr 1.5/2.0 | lam 0.75/1.25 ws 5 cal 0.0221/1303.1 | ho risk 0.0214 vm 1316.9 disp 1328.5 fl 8.97 | eta 1046s
+[2026-10-26 06:05:33] split1 target eps_v6 (14/18) 653s sims 28860 | Lr 1.5/2.0 | lam 0.75/1.25 ws 5 cal 0.0224/1336.2 | ho risk 0.0220 vm 1307.7 disp 1319.4 fl 8.31 | eta 777s
+[2026-10-26 06:05:44] split2 target eps_v6 (15/18) 667s sims 28890 | Lr 1.5/2.0 | lam 0.75/1.25 ws 5 cal 0.0222/1315.1 | ho risk 0.0220 vm 1305.0 disp 1317.5 fl 8.80 | eta 546s
+[2026-10-26 06:06:15] split3 target eps_v6 (16/18) 680s sims 28868 | Lr 1.5/2.0 | lam 0.75/1.25 ws 5 cal 0.0215/1316.1 | ho risk 0.0235 vm 1306.5 disp 1318.2 fl 8.77 | eta 345s
+[2026-10-26 06:12:53] split4 target eps_v6 (17/18) 474s sims 28858 | Lr 1.25/2.0 | lam 0.75/1.25 ws 5 cal 0.0221/1330.2 | ho risk 0.0251 vm 1301.2 disp 1314.2 fl 9.53 | eta 186s
+[2026-10-26 06:13:00] split5 target eps_v6 (18/18) 446s sims 28878 | Lr 1.75/2.0 | lam 0.75/1.25 ws 5 cal 0.0208/1316.5 | ho risk 0.0195 vm 1308.8 disp 1319.7 fl 7.89 | eta 0s
+[2026-10-26 06:13:00] === DONE 3165s

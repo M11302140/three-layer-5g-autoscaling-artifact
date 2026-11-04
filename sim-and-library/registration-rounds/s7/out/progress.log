@@ -1,0 +1,39 @@
+[2026-10-27 02:46:19] === S7 phase 1: 18 table tasks (210 points x 300 cal traces each), nproc 4, affinity [0, 8, 13, 14], pid 3653202
+[2026-10-27 03:09:59] table split0 P85 (1/18) 1420s | cheapest <=2%: lam 1.5/2.0 w 400 risk 0.0192 cost 1267.3 | eta 24145s
+[2026-10-27 03:09:59] table split0 P90 (2/18) 1415s | cheapest <=2%: lam 1.5/1.5 w 1600 risk 0.0182 cost 1262.2 | eta 11363s
+[2026-10-27 03:10:39] table split0 P95 (3/18) 1461s | cheapest <=2%: lam 1.5/1.5 w 400 risk 0.0168 cost 1272.0 | eta 7304s
+[2026-10-27 03:10:51] table split1 P85 (4/18) 1473s | cheapest <=2%: lam 1.5/2.0 w 1600 risk 0.0171 cost 1302.4 | eta 5155s
+[2026-10-27 03:34:08] table split1 P90 (5/18) 1454s | cheapest <=2%: lam 1.5/1.5 w 1600 risk 0.0191 cost 1292.8 | eta 7461s
+[2026-10-27 03:34:40] table split1 P95 (6/18) 1481s | cheapest <=2%: lam 1.5/1.5 w 400 risk 0.0180 cost 1301.4 | eta 5803s
+[2026-10-27 03:35:09] table split2 P85 (7/18) 1470s | cheapest <=2%: lam 1.5/2.0 w 400 risk 0.0189 cost 1279.8 | eta 4605s
+[2026-10-27 03:35:37] table split2 P90 (8/18) 1486s | cheapest <=2%: lam 1.5/1.5 w 1600 risk 0.0173 cost 1271.9 | eta 3698s
+[2026-10-27 03:57:48] table split2 P95 (9/18) 1420s | cheapest <=2%: lam 1.5/1.5 w 0 risk 0.0163 cost 1281.5 | eta 4290s
+[2026-10-27 03:58:38] table split3 P85 (10/18) 1438s | cheapest <=2%: lam 1.5/2.0 w 1600 risk 0.0166 cost 1282.5 | eta 3472s
+[2026-10-27 03:58:47] table split3 P90 (11/18) 1418s | cheapest <=2%: lam 1.5/1.5 w 1600 risk 0.0190 cost 1269.6 | eta 2767s
+[2026-10-27 03:59:31] table split3 P95 (12/18) 1433s | cheapest <=2%: lam 1.5/1.5 w 0 risk 0.0181 cost 1281.7 | eta 2196s
+[2026-10-27 04:21:27] table split4 P85 (13/18) 1419s | cheapest <=2%: lam 2.0/1.5 w 400 risk 0.0198 cost 1299.3 | eta 2196s
+[2026-10-27 04:22:22] table split4 P90 (14/18) 1423s | cheapest <=2%: lam 1.5/1.5 w 1600 risk 0.0174 cost 1291.2 | eta 1647s
+[2026-10-27 04:22:31] table split4 P95 (15/18) 1424s | cheapest <=2%: lam 1.5/1.5 w 400 risk 0.0162 cost 1300.1 | eta 1155s
+[2026-10-27 04:23:26] table split5 P85 (16/18) 1436s | cheapest <=2%: lam 1.5/2.0 w 1600 risk 0.0188 cost 1278.3 | eta 728s
+[2026-10-27 04:37:29] table split5 P90 (17/18) 962s | cheapest <=2%: lam 1.5/2.0 w 1600 risk 0.0188 cost 1278.4 | eta 392s
+[2026-10-27 04:37:55] table split5 P95 (18/18) 933s | cheapest <=2%: lam 1.5/1.5 w 0 risk 0.0192 cost 1277.6 | eta 0s
+[2026-10-27 04:37:55] === S7 phase 2: 18 selection jobs
+[2026-10-27 04:39:19] split0 0.02: lam 1.5/1.25 w 1600 P90 cal 0.0182/1262.0 | ho risk 0.0187 vm 1278.1 disp 1285.0 fl 2.95
+[2026-10-27 04:39:20] split1 0.02: lam 1.5/1.25 w 1600 P90 cal 0.0192/1292.7 | ho risk 0.0197 vm 1270.0 disp 1277.1 fl 2.74
+[2026-10-27 04:39:24] split2 0.02: lam 1.5/1.25 w 1600 P90 cal 0.0174/1271.8 | ho risk 0.0202 vm 1264.7 disp 1272.0 fl 2.81
+[2026-10-27 04:39:24] split3 0.02: lam 1.5/1.25 w 1600 P90 cal 0.0191/1269.5 | ho risk 0.0210 vm 1268.1 disp 1275.6 fl 3.07
+[2026-10-27 04:40:43] split4 0.02: lam 1.5/1.25 w 1600 P90 cal 0.0175/1291.1 | ho risk 0.0218 vm 1261.7 disp 1269.3 fl 3.27
+[2026-10-27 04:40:50] split5 0.02: lam 1.5/1.25 w 0 P95 cal 0.0195/1277.5 | ho risk 0.0178 vm 1276.6 disp 1285.2 fl 7.01
+[2026-10-27 04:40:50] split0 0.005: lam 2.5/1.25 w 1600 P95 cal 0.0047/1315.2 | ho risk 0.0067 vm 1330.0 disp 1335.9 fl 3.70
+[2026-10-27 04:40:52] split1 0.005: lam 3.0/1.25 w 1600 P95 cal 0.0050/1352.8 | ho risk 0.0051 vm 1336.4 disp 1341.4 fl 2.98
+[2026-10-27 04:42:10] split2 0.005: lam 2.5/3.0 w 0 P85 cal 0.0050/1331.6 | ho risk 0.0056 vm 1328.8 disp 1334.5 fl 5.43
+[2026-10-27 04:42:10] split3 0.005: lam 2.5/3.0 w 1600 P85 cal 0.0050/1335.6 | ho risk 0.0053 vm 1330.9 disp 1336.5 fl 3.31
+[2026-10-27 04:42:17] split4 0.005: lam 3.0/2.25 w 1600 P95 cal 0.0050/1352.6 | ho risk 0.0058 vm 1329.1 disp 1334.6 fl 3.34
+[2026-10-27 04:42:19] split5 0.005: lam 2.5/3.0 w 1600 P85 cal 0.0048/1336.6 | ho risk 0.0041 vm 1336.1 disp 1341.7 fl 3.23
+[2026-10-27 04:43:24] split0 eps_v6: lam 1.5/1.25 w 400 P90 cal 0.0221/1253.0 | ho risk 0.0233 vm 1267.8 disp 1276.0 fl 5.26
+[2026-10-27 04:43:42] split1 eps_v6: lam 1.5/1.5 w 400 P90 cal 0.0237/1284.9 | ho risk 0.0239 vm 1258.4 disp 1266.8 fl 4.81
+[2026-10-27 04:43:45] split2 eps_v6: lam 1.5/1.25 w 400 P90 cal 0.0224/1264.4 | ho risk 0.0250 vm 1252.9 disp 1261.6 fl 5.10
+[2026-10-27 04:43:45] split3 eps_v6: lam 1.5/1.25 w 400 P90 cal 0.0235/1262.0 | ho risk 0.0258 vm 1258.9 disp 1267.6 fl 5.17
+[2026-10-27 04:44:27] split4 eps_v6: lam 1.5/1.25 w 400 P85 cal 0.0259/1277.1 | ho risk 0.0298 vm 1247.2 disp 1256.1 fl 5.06
+[2026-10-27 04:44:39] split5 eps_v6: lam 1.5/1.25 w 1600 P90 cal 0.0213/1265.2 | ho risk 0.0186 vm 1267.3 disp 1274.8 fl 2.90
+[2026-10-27 04:44:39] === DONE 7100s

@@ -1,0 +1,8 @@
+run	block	arm	slo	burned	flags	time
+r460	t6	B4c2_slo_em	60/60	720	ok	2026-10-22 03:43:00
+r461	t6	B5c1_slo_em	60/60	687	ok	2026-10-22 05:29:31
+r462	t6	B6c4_slo_em	?	?	chain-abort no-finish	2026-10-22 07:31:25
+r463	t6	B5c1_slo_em	60/60	691	ok	2026-10-22 16:51:38
+r464	t6	B6c4_slo_em	60/60	710	ok	2026-10-22 18:39:11
+r465	t6	B4c2_slo_em	60/60	724	ok	2026-10-22 20:26:14
+r466	t6	B6c4_slo_em	60/60	712	ok	2026-10-22 23:12:58

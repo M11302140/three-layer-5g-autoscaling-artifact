@@ -1,0 +1,302 @@
+[2026-10-28 00:48:51] PROBE p35
+PROBE p35 p50 266 p95 380 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-28 01:02:50] probe p35: PROBE p35 p50 266 p95 380 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-28 01:02:50] C START
+[2026-10-28 01:02:50] PCF-REFRESH: rollout restart open5gs-pcf
+[2026-10-28 01:03:38] RUN r530 t6 S4p05
+[2026-10-28 02:53:18] DONE r530 C t6 S4p05 flags=ok class=ok
+[2026-10-28 02:53:19] COMMIT raw r530 5f74f72 
+[2026-10-28 02:53:19] RUN r531 t6 S4p2
+[2026-10-28 04:40:09] DONE r531 C t6 S4p2 flags=ok class=ok
+[2026-10-28 04:40:10] COMMIT raw r531 e1ef4d7 
+[2026-10-28 04:40:10] RUN r532 t4 S4p2
+[2026-10-28 06:26:00] DONE r532 C t4 S4p2 flags=ok class=ok
+[2026-10-28 06:26:01] COMMIT raw r532 53538ea 
+[2026-10-28 06:26:01] RUN r533 t4 S4p2
+[2026-10-28 08:11:46] DONE r533 C t4 S4p2 flags=ok class=ok
+[2026-10-28 08:11:46] COMMIT raw r533 1a26ab1 
+[2026-10-28 08:11:47] RUN r534 t8 S4p2
+[2026-10-28 09:55:47] DONE r534 C t8 S4p2 flags=ok class=ok
+[2026-10-28 09:55:48] COMMIT raw r534 364f06d 
+[2026-10-28 09:55:48] RUN r535 t8 S4p2
+[2026-10-28 11:43:46] DONE r535 C t8 S4p2 flags=ok class=ok
+[2026-10-28 11:43:47] COMMIT raw r535 3d30f97 
+[2026-10-28 11:43:47] RUN r536 t4 S4p2
+[2026-10-28 13:30:52] DONE r536 C t4 S4p2 flags=ok class=ok
+[2026-10-28 13:30:53] COMMIT raw r536 1e76bd4 
+[2026-10-28 13:30:53] RUN r537 t6 S4p05
+[2026-10-28 15:19:57] DONE r537 C t6 S4p05 flags=ok class=ok
+[2026-10-28 15:19:58] COMMIT raw r537 c5cff19 
+[2026-10-28 15:19:58] RUN r538 t6 S4p2
+[2026-10-28 17:06:48] DONE r538 C t6 S4p2 flags=ok class=ok
+[2026-10-28 17:06:49] COMMIT raw r538 a772acc 
+[2026-10-28 17:06:49] RUN r539 t6 S4p2
+[2026-10-28 18:53:39] DONE r539 C t6 S4p2 flags=ok class=ok
+[2026-10-28 18:53:40] COMMIT raw r539 aec4a98 
+[2026-10-28 18:53:40] RUN r540 t6 S4p05
+[2026-10-28 20:43:20] DONE r540 C t6 S4p05 flags=ok class=ok
+[2026-10-28 20:43:20] COMMIT raw r540 3b5d2fb 
+[2026-10-28 20:43:20] RUN r541 t4 S4p05
+[2026-10-28 22:31:56] DONE r541 C t4 S4p05 flags=ok class=ok
+[2026-10-28 22:31:56] COMMIT raw r541 1e3a1e9 
+[2026-10-28 22:31:57] RUN r542 t8 S4p05
+[2026-10-29 00:18:13] DONE r542 C t8 S4p05 flags=ok class=ok
+[2026-10-29 00:18:13] COMMIT raw r542 5c127ba 
+[2026-10-29 00:18:14] RUN r543 t8 S4p05
+[2026-10-29 02:06:29] DONE r543 C t8 S4p05 flags=ok class=ok
+[2026-10-29 02:06:30] COMMIT raw r543 6807422 
+[2026-10-29 02:06:30] RUN r544 t4 S4p05
+[2026-10-29 03:56:41] DONE r544 C t4 S4p05 flags=ok class=ok
+[2026-10-29 03:56:41] COMMIT raw r544 1e71a82 
+[2026-10-29 03:56:42] RUN r545 t8 S4p05
+[2026-10-29 05:44:02] DONE r545 C t8 S4p05 flags=ok class=ok
+[2026-10-29 05:44:02] COMMIT raw r545 f5c2236 
+[2026-10-29 05:44:03] RUN r546 t4 S4p05
+[2026-10-29 07:34:10] DONE r546 C t4 S4p05 flags=ok class=ok
+[2026-10-29 07:34:11] COMMIT raw r546 17b3b14 
+[2026-10-29 07:34:11] RUN r547 t8 S4p2
+[2026-10-29 09:18:05] DONE r547 C t8 S4p2 flags=ok class=ok
+[2026-10-29 09:18:06] COMMIT raw r547 04b0745 
+[2026-10-29 09:18:06] C ALL DONE
+[2026-10-29 09:18:06] PROBE p36
+PROBE p36 p50 264 p95 379 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-29 09:33:14] probe p36: PROBE p36 p50 264 p95 379 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-29 09:33:14] D START
+[2026-10-29 09:33:14] PCF-REFRESH: rollout restart open5gs-pcf
+[2026-10-29 09:34:03] RUN r560 t12 B5c1_slo
+[2026-10-29 11:22:50] DONE r560 D t12 B5c1_slo flags=ok class=ok
+[2026-10-29 11:22:50] COMMIT raw r560 66f1690 
+[2026-10-29 11:22:51] RUN r561 t11 B4A_375_300
+[2026-10-29 13:11:43] DONE r561 D t11 B4A_375_300 flags=ok class=ok
+[2026-10-29 13:11:44] COMMIT raw r561 22a097d 
+[2026-10-29 13:11:44] RUN r562 t11 S4p2
+[2026-10-29 15:02:16] DONE r562 D t11 S4p2 flags=ok class=ok
+[2026-10-29 15:02:16] COMMIT raw r562 07a8e7a 
+[2026-10-29 15:02:16] RUN r563 t11 B5c1_slo
+[2026-10-29 16:52:15] DONE r563 D t11 B5c1_slo flags=ok class=ok
+[2026-10-29 16:52:15] COMMIT raw r563 01d362c 
+[2026-10-29 16:52:16] RUN r564 t11 S4p2
+[2026-10-29 18:41:13] DONE r564 D t11 S4p2 flags=ok class=ok
+[2026-10-29 18:41:14] COMMIT raw r564 4d6a844 
+[2026-10-29 18:41:14] RUN r565 t12 B5c1_slo
+[2026-10-29 20:31:05] DONE r565 D t12 B5c1_slo flags=ok class=ok
+[2026-10-29 20:31:06] COMMIT raw r565 70ead8e 
+[2026-10-29 20:31:06] RUN r566 t11 B6c5_h
+[2026-10-29 20:44:57] DONE r566 D t11 B6c5_h flags=no-finish class=harness-fault
+[2026-10-29 20:44:58] COMMIT raw r566 6361d0e 
+[2026-10-29 20:44:58] RUN r567 t12 B6c5_h
+[2026-10-29 21:05:39] DONE r567 D t12 B6c5_h flags=chain-abort no-finish class=harness-fault
+[2026-10-29 21:05:39] COMMIT raw r567 1b4a6b3 
+[2026-10-29 21:05:39] STOP (§4.81 t7 condition 3): chain-abort no-finish in r567 — report before continuing
+[2026-10-29 23:00:24] PROBE p36b
+PROBE p36b p50 269 p95 383 p99 398 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-29 23:16:45] probe p36b: PROBE p36b p50 269 p95 383 p99 398 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-29 23:16:45] D START (resume)
+[2026-10-29 23:16:45] PCF-REFRESH: rollout restart open5gs-pcf
+[2026-10-29 23:17:32] SKIP r560 (in ledger)
+[2026-10-29 23:17:32] SKIP r561 (in ledger)
+[2026-10-29 23:17:32] SKIP r562 (in ledger)
+[2026-10-29 23:17:32] SKIP r563 (in ledger)
+[2026-10-29 23:17:32] SKIP r564 (in ledger)
+[2026-10-29 23:17:32] SKIP r565 (in ledger)
+[2026-10-29 23:17:32] SKIP r566 (in ledger)
+[2026-10-29 23:17:32] SKIP r567 (in ledger)
+[2026-10-29 23:17:33] RUN r568 t11 B4A_375_300
+[2026-10-30 01:06:24] DONE r568 D t11 B4A_375_300 flags=ok class=ok
+[2026-10-30 01:06:25] COMMIT raw r568 5d9ead0 
+[2026-10-30 01:06:25] RUN r569 t11 S4b
+[2026-10-30 02:55:23] DONE r569 D t11 S4b flags=ok class=ok
+[2026-10-30 02:55:24] COMMIT raw r569 7bb11f1 
+[2026-10-30 02:55:24] RUN r570 t12 S4p2
+[2026-10-30 04:44:29] DONE r570 D t12 S4p2 flags=ok class=ok
+[2026-10-30 04:44:30] COMMIT raw r570 bd0e506 
+[2026-10-30 04:44:30] RUN r571 t12 B4A_375_300
+[2026-10-30 05:23:25] WARMIN-GUARD: r571w (B4A_375_300) repeated black: UE-22  → bounce_black.sh r571w
+UE-22: (1) switch-off imsi-999700000000023: De-registration procedure triggered. UE device will be switched off.
+    UE-22 old session 10.45.5.86: STILL ON SLOT (zombie) — r34b: log only
+UE-22: (2) kill gNB-22 pid 1707919
+UE-22: (3) respawn nr-ue (log /tmp/hbo-ue-22.log)
+[2026-10-30 06:32:22] DONE r571 D t12 B4A_375_300 flags=ok class=ok
+[2026-10-30 06:32:22] COMMIT raw r571 d18eba6 
+[2026-10-30 06:32:23] RUN r572 t12 S4b
+[2026-10-30 08:20:09] DONE r572 D t12 S4b flags=ok class=ok
+[2026-10-30 08:20:09] COMMIT raw r572 9913ff4 
+[2026-10-30 08:20:09] RUN r573 t11 B5c1_slo
+[2026-10-30 10:50:33] DONE r573 D t11 B5c1_slo flags=ok class=ok
+[2026-10-30 10:50:34] COMMIT raw r573 cab8af5 
+[2026-10-30 10:50:34] RUN r574 t11 B6c5_h
+[2026-10-30 12:40:41] DONE r574 D t11 B6c5_h flags=ok class=ok
+[2026-10-30 12:40:42] COMMIT raw r574 dacc24e 
+[2026-10-30 12:40:42] RUN r575 t12 S4p2
+[2026-10-30 14:31:17] DONE r575 D t12 S4p2 flags=ok class=ok
+[2026-10-30 14:31:18] COMMIT raw r575 a55a797 
+[2026-10-30 14:31:18] RUN r576 t12 B4A_375_300
+[2026-10-30 16:20:14] DONE r576 D t12 B4A_375_300 flags=ok class=ok
+[2026-10-30 16:20:14] COMMIT raw r576 c342467 
+[2026-10-30 16:20:14] RUN r577 t11 S4b
+[2026-10-30 18:08:02] DONE r577 D t11 S4b flags=ok class=ok
+[2026-10-30 18:08:02] COMMIT raw r577 ce3c239 
+[2026-10-30 18:08:02] RUN r578 t12 B6c5_h
+[2026-10-30 18:35:08] WARMIN-GUARD: r578w (B6c5_h) repeated black: UE-13 UE-23  → bounce_black.sh r578w
+UE-13: (1) switch-off imsi-999700000000014: De-registration procedure triggered. UE device will be switched off.
+    UE-13 old session 10.45.4.170: STILL ON SLOT (zombie) — r34b: log only
+UE-13: (2) kill gNB-13 pid 3169573
+UE-13: (3) respawn nr-ue (log /tmp/hbo-ue-13.log)
+UE-23: (1) switch-off imsi-999700000000024: De-registration procedure triggered. UE device will be switched off.
+    UE-23 old session 10.45.6.7: STILL ON SLOT (zombie) — r34b: log only
+UE-23: (2) kill gNB-23 pid 2123955
+UE-23: (3) respawn nr-ue (log /tmp/hbo-ue-23.log)
+[2026-10-30 19:59:36] DONE r578 D t12 B6c5_h flags=ok class=ok
+[2026-10-30 19:59:37] COMMIT raw r578 529f6fc 
+[2026-10-30 19:59:37] RUN r579 t12 S4b
+[2026-10-30 21:47:22] DONE r579 D t12 S4b flags=ok class=ok
+[2026-10-30 21:47:23] COMMIT raw r579 197db22 
+[2026-10-30 21:47:23] RETRY B6c5_h t11 (harness-fault) as r580
+[2026-10-30 21:47:23] RUN r580 t11 B6c5_h
+[2026-10-30 23:10:18] WARMIN-GUARD: r580w2 (B6c5_h) repeated black: UE-11 UE-2 UE-3 UE-4 UE-15 UE-16 UE-7  → bounce_black.sh r580w2
+UE-2: (1) switch-off imsi-999700000000003: De-registration procedure triggered. UE device will be switched off.
+    UE-2 old session 10.45.2.38: released ✓
+UE-2: (2) kill gNB-2 pid 2086995
+UE-2: (3) respawn nr-ue (log /tmp/hbo-ue-2.log)
+UE-3: (1) switch-off imsi-999700000000004: De-registration procedure triggered. UE device will be switched off.
+    UE-3 old session 10.45.2.35: released ✓
+UE-3: (2) kill gNB-3 pid 1676762
+UE-3: (3) respawn nr-ue (log /tmp/hbo-ue-3.log)
+UE-4: (1) switch-off imsi-999700000000005: De-registration procedure triggered. UE device will be switched off.
+    UE-4 old session 10.45.2.242: released ✓
+UE-4: (2) kill gNB-4 pid 1682528
+bounce_black.sh: line 10: 3685685 Killed                  setsid nohup taskset -c 13-14 bash -c "echo "$SUDO_PASS" | sudo -S -p '' /home/user/UERANSIM/build/nr-ue -c $UC/mue-$i.yaml -n 1" > /tmp/hbo-ue-$i.log 2>&1 < /dev/null
+bounce_black.sh: line 10: 3686310 Killed                  setsid nohup taskset -c 13-14 bash -c "echo "$SUDO_PASS" | sudo -S -p '' /home/user/UERANSIM/build/nr-ue -c $UC/mue-$i.yaml -n 1" > /tmp/hbo-ue-$i.log 2>&1 < /dev/null
+UE-4: (3) respawn nr-ue (log /tmp/hbo-ue-4.log)
+    UE-4: TUN interface[uesimtun3, 10.45.0.239]
+UE-7: (1) switch-off imsi-999700000000008: De-registration procedure triggered. UE device will be switched off.
+    UE-7 old session 10.45.2.16: released ✓
+UE-7: (2) kill gNB-7 pid 3601244
+UE-7: (3) respawn nr-ue (log /tmp/hbo-ue-7.log)
+bounce_black.sh: line 10: 3688430 Killed                  setsid nohup taskset -c 13-14 bash -c "echo "$SUDO_PASS" | sudo -S -p '' /home/user/UERANSIM/build/nr-ue -c $UC/mue-$i.yaml -n 1" > /tmp/hbo-ue-$i.log 2>&1 < /dev/null
+    UE-7: TUN interface[uesimtun28, 10.45.2.41]
+UE-11: (1) switch-off imsi-999700000000012: De-registration procedure triggered. UE device will be switched off.
+    UE-11 old session 10.45.2.15: released ✓
+UE-11: (2) kill gNB-11 pid 3611472
+UE-11: (3) respawn nr-ue (log /tmp/hbo-ue-11.log)
+UE-15: (1) switch-off imsi-999700000000016: De-registration procedure triggered. UE device will be switched off.
+    UE-15 old session 10.45.2.31: released ✓
+UE-15: (2) kill gNB-15 pid 3629303
+UE-15: (3) respawn nr-ue (log /tmp/hbo-ue-15.log)
+UE-16: (1) switch-off imsi-999700000000017: De-registration procedure triggered. UE device will be switched off.
+    UE-16 old session 10.45.2.20: released ✓
+UE-16: (2) kill gNB-16 pid 1468368
+UE-16: (3) respawn nr-ue (log /tmp/hbo-ue-16.log)
+[2026-10-31 00:59:58] DONE r580 D-retry t11 B6c5_h flags=ok class=ok
+[2026-10-31 00:59:58] COMMIT raw r580 aaf5882 
+[2026-10-31 00:59:58] RETRY B6c5_h t12 (harness-fault) as r581
+[2026-10-31 00:59:58] RUN r581 t12 B6c5_h
+[2026-10-31 02:49:58] DONE r581 D-retry t12 B6c5_h flags=ok class=ok
+[2026-10-31 02:49:59] COMMIT raw r581 3c14377 
+[2026-10-31 02:49:59] D ALL DONE
+[2026-10-31 02:49:59] PROBE p37
+PROBE p37 p50 266 p95 381 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-31 03:03:52] probe p37: PROBE p37 p50 266 p95 381 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-31 03:03:52] C+D ALL DONE
+[2026-10-31 05:28:12] pre-flight ok: md5 frozen, image sha256:9f29a2fe8d93
+[2026-10-31 05:28:12] PROBE p38
+PROBE p38 p50 268 p95 382 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-31 05:42:03] probe p38: PROBE p38 p50 268 p95 382 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-10-31 05:42:03] F START
+[2026-10-31 05:42:03] PCF-REFRESH: rollout restart open5gs-pcf
+[2026-10-31 05:42:51] RUN r582 t5 S4p2
+[2026-10-31 07:31:31] DONE r582 F t5 S4p2 flags=ok class=ok
+[2026-10-31 07:31:32] COMMIT raw r582 7e5cf69 
+[2026-10-31 07:31:32] RUN r583 t7 S4p05
+[2026-10-31 09:22:37] DONE r583 F t7 S4p05 flags=ok class=ok
+[2026-10-31 09:22:37] COMMIT raw r583 0fb272c 
+[2026-10-31 09:22:38] RUN r584 t3 S4p2
+[2026-10-31 11:11:46] DONE r584 F t3 S4p2 flags=ok class=ok
+[2026-10-31 11:11:46] COMMIT raw r584 500cba2 
+[2026-10-31 11:11:47] RUN r585 t8 B4A_375_300
+[2026-10-31 12:57:55] DONE r585 F t8 B4A_375_300 flags=ng-dead class=harness-fault
+[2026-10-31 12:57:56] COMMIT raw r585 bb98f88 
+[2026-10-31 12:57:56] RUN r586 t7 S4p2
+[2026-10-31 14:50:07] DONE r586 F t7 S4p2 flags=ok class=ok
+[2026-10-31 14:50:08] COMMIT raw r586 7a82255 
+[2026-10-31 14:50:08] RUN r587 t4 B6c5_h
+[2026-10-31 16:38:42] DONE r587 F t4 B6c5_h flags=ok class=ok
+[2026-10-31 16:38:43] COMMIT raw r587 8a6cf7c 
+[2026-10-31 16:38:43] RUN r588 t8 B6c5_h
+[2026-10-31 18:22:26] DONE r588 F t8 B6c5_h flags=ok class=ok
+[2026-10-31 18:22:26] COMMIT raw r588 f1d08d3 
+[2026-10-31 18:22:26] RUN r589 t3 S4p2
+[2026-10-31 20:09:45] DONE r589 F t3 S4p2 flags=ok class=ok
+[2026-10-31 20:09:46] COMMIT raw r589 15d0520 
+[2026-10-31 20:09:46] RUN r590 t3 S4p05
+[2026-10-31 21:56:48] DONE r590 F t3 S4p05 flags=ok class=ok
+[2026-10-31 21:56:49] COMMIT raw r590 bf95fdf 
+[2026-10-31 21:56:49] RUN r591 t7 S4p2
+[2026-11-01 00:01:42] DONE r591 F t7 S4p2 flags=chain-abort no-finish class=harness-fault
+[2026-11-01 00:01:43] COMMIT raw r591 17d6be8 
+[2026-11-01 00:01:43] STOP (§4.81 t7 condition 3): chain-abort no-finish in r591 — report before continuing
+[2026-11-01 03:29:04] pre-flight ok: md5 frozen, image sha256:9f29a2fe8d93
+[2026-11-01 03:29:04] probe p38: PROBE p38 p50 268 p95 382 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-11-01 03:29:04] F START
+[2026-11-01 03:29:04] PCF-REFRESH: rollout restart open5gs-pcf
+[2026-11-01 03:29:51] RETRY-SEED B4A_375_300:t8 (from ledger)
+[2026-11-01 03:29:51] RETRY-SEED S4p2:t7 (from ledger)
+[2026-11-01 03:29:51] SKIP r582 (in ledger)
+[2026-11-01 03:29:51] SKIP r583 (in ledger)
+[2026-11-01 03:29:51] SKIP r584 (in ledger)
+[2026-11-01 03:29:51] SKIP r585 (in ledger)
+[2026-11-01 03:29:51] SKIP r586 (in ledger)
+[2026-11-01 03:29:51] SKIP r587 (in ledger)
+[2026-11-01 03:29:51] SKIP r588 (in ledger)
+[2026-11-01 03:29:51] SKIP r589 (in ledger)
+[2026-11-01 03:29:51] SKIP r590 (in ledger)
+[2026-11-01 03:29:51] SKIP r591 (in ledger)
+[2026-11-01 03:29:51] RUN r592 t8 B4A_375_300
+[2026-11-01 05:17:49] DONE r592 F t8 B4A_375_300 flags=ok class=ok
+[2026-11-01 05:17:50] COMMIT raw r592 bad24d9 
+[2026-11-01 05:17:50] RUN r593 t5 S4p05
+[2026-11-01 07:07:55] DONE r593 F t5 S4p05 flags=ok class=ok
+[2026-11-01 07:07:56] COMMIT raw r593 27a6baa 
+[2026-11-01 07:07:56] RUN r594 t7 S4p05
+[2026-11-01 08:58:59] DONE r594 F t7 S4p05 flags=ok class=ok
+[2026-11-01 08:59:00] COMMIT raw r594 c59e584 
+[2026-11-01 08:59:00] RUN r595 t8 B6c5_h
+[2026-11-01 10:43:33] DONE r595 F t8 B6c5_h flags=ok class=ok
+[2026-11-01 10:43:33] COMMIT raw r595 2431cab 
+[2026-11-01 10:43:34] RUN r596 t3 S4p2
+[2026-11-01 12:30:57] DONE r596 F t3 S4p2 flags=ok class=ok
+[2026-11-01 12:30:58] COMMIT raw r596 24c0baf 
+[2026-11-01 12:30:58] RUN r597 t4 B4A_375_300
+[2026-11-01 14:58:03] DONE r597 F t4 B4A_375_300 flags=ok class=ok
+[2026-11-01 14:58:04] COMMIT raw r597 ba1577c 
+[2026-11-01 14:58:04] RUN r598 t3 S4p05
+[2026-11-01 16:46:21] DONE r598 F t3 S4p05 flags=ok class=ok
+[2026-11-01 16:46:22] COMMIT raw r598 13f2678 
+[2026-11-01 16:46:22] RUN r599 t7 S4p2
+[2026-11-01 18:39:07] DONE r599 F t7 S4p2 flags=ok class=ok
+[2026-11-01 18:39:08] COMMIT raw r599 4a7e629 
+[2026-11-01 18:39:08] RUN r600 t3 S4p05
+[2026-11-01 20:26:07] DONE r600 F t3 S4p05 flags=ok class=ok
+[2026-11-01 20:26:08] COMMIT raw r600 fdd9071 
+[2026-11-01 20:26:08] RUN r601 t7 S4p05
+[2026-11-01 22:17:14] DONE r601 F t7 S4p05 flags=ok class=ok
+[2026-11-01 22:17:15] COMMIT raw r601 16d73f3 
+[2026-11-01 22:17:15] RUN r602 t4 B4A_375_300
+[2026-11-02 00:05:19] DONE r602 F t4 B4A_375_300 flags=ok class=ok
+[2026-11-02 00:05:19] COMMIT raw r602 2b2c99a 
+[2026-11-02 00:05:19] RUN r603 t4 B6c5_h
+[2026-11-02 01:52:59] DONE r603 F t4 B6c5_h flags=ok class=ok
+[2026-11-02 01:52:59] COMMIT raw r603 6674d36 
+[2026-11-02 01:52:59] RETRY B4A_375_300 t8 (harness-fault) as r604
+[2026-11-02 01:52:59] RUN r604 t8 B4A_375_300
+[2026-11-02 03:36:36] DONE r604 F-retry t8 B4A_375_300 flags=ok class=ok
+[2026-11-02 03:36:37] COMMIT raw r604 e6b2e02 
+[2026-11-02 03:36:37] RETRY S4p2 t7 (harness-fault) as r605
+[2026-11-02 03:36:37] RUN r605 t7 S4p2
+[2026-11-02 05:31:33] DONE r605 F-retry t7 S4p2 flags=ok class=ok
+[2026-11-02 05:31:34] COMMIT raw r605 e23eb3d 
+[2026-11-02 05:31:34] F ALL DONE
+[2026-11-02 05:31:34] PROBE p39
+PROBE p39 p50 266 p95 381 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-11-02 05:46:44] probe p39: PROBE p39 p50 266 p95 381 p99 397 e2e 0.010 ue 40 fleet 8/8/3/4
+[2026-11-02 05:46:44] F ALL DONE

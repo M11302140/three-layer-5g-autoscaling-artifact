@@ -1,0 +1,50 @@
+{
+ "APL_2": {
+  "a": 2.0,
+  "b": 2.83,
+  "flags": {
+   "indep": true,
+   "indep_rel": true,
+   "plain": true
+  },
+  "w": null,
+  "n": 6,
+  "inf": 0
+ },
+ "APL_05": {
+  "a": 3.08,
+  "b": 3.71,
+  "flags": {
+   "indep": true,
+   "indep_rel": true,
+   "plain": true
+  },
+  "w": null,
+  "n": 6,
+  "inf": 0
+ },
+ "S4p_2": {
+  "a": 1.5,
+  "b": 1.92,
+  "flags": {
+   "indep": true,
+   "indep_rel": true,
+   "plain": false
+  },
+  "w": 1600,
+  "n": 6,
+  "inf": 0
+ },
+ "S4p_05": {
+  "a": 2.33,
+  "b": 3.33,
+  "flags": {
+   "indep": true,
+   "indep_rel": true,
+   "plain": false
+  },
+  "w": 1600,
+  "n": 6,
+  "inf": 0
+ }
+}

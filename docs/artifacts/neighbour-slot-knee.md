@@ -1,0 +1,5 @@
+<!-- artifact file of the paper (docs/paper), written 2026-10-22 (spec §4.113 equal-trade cut d) when the Limitations paragraph on the neighbour-slot interrupt knee was moved out of the results chapter for the page limit; text and source comments verbatim from the 2026-10-21 R4rev version of 04-results.md §11; numbers unchanged. -->
+
+# Neighbour-slot interrupt knee (removed before the campaign)
+
+Neighbour-slot interrupt knee (removed before the campaign). A slot at five UEs overflowed when a sibling slot on the same worker VM began serving two UEs and its VF interrupt rate crossed about 35 k/s (3 of 3 faithful replays, victim per-packet cost up 4 to 5 times). <!-- §4.32 items 8 to 10 --> Fixed interrupt coalescing on the eUPF VFs (rx-usecs 64, rx-frames 128, CQE moderation off), baked into the worker image of every block, removed it: 13 of 13 post-fix replays had zero hits. <!-- §4.39 items 1 and 2, §4.41 steps 1 and 2, §4.88 E --> After the fix, a residual rise of 1.6 to 2.4 times in the victim vCPU's busy fraction remains, far from saturation. <!-- §4.37, §4.39 item 1 -->

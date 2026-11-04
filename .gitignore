@@ -1,0 +1,6 @@
+# per-run raw output is distributed as the release asset raw-runs.tar.zst
+raw-runs/*
+!raw-runs/README.md
+!raw-runs/RUN_INDEX.csv
+__pycache__/
+*.pyc

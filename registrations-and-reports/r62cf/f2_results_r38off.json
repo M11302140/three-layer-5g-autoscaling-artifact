@@ -1,0 +1,530 @@
+[
+{
+"arm": "S4a",
+"trace": "t3",
+"equiv": true,
+"slo_off": 57.0,
+"alloc_off": 1255.3666666666595,
+"viol_off": [
+3,
+4,
+5
+],
+"slo_on": 57.0,
+"alloc_on": 1255.3666666666595,
+"viol_on": [
+3,
+4,
+5
+],
+"fires": [],
+"latched": 5,
+"skips": {
+"no_action:slots_at_max_8": 5
+},
+"acts_off": 17,
+"acts_on": 17
+},
+{
+"arm": "S4a",
+"trace": "t4",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1451.6166666666556,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1451.6166666666556,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 6,
+"acts_on": 6
+},
+{
+"arm": "S4a",
+"trace": "t6",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1447.8999999999946,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1447.8999999999946,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 9,
+"acts_on": 9
+},
+{
+"arm": "S4a",
+"trace": "t7",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1432.2666666666646,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1432.2666666666646,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 10,
+"acts_on": 10
+},
+{
+"arm": "S4b",
+"trace": "t3",
+"equiv": true,
+"slo_off": 55.0,
+"alloc_off": 1137.6666666666645,
+"viol_off": [
+3,
+4,
+5,
+7,
+8
+],
+"slo_on": 55.0,
+"alloc_on": 1137.6666666666645,
+"viol_on": [
+3,
+4,
+5,
+7,
+8
+],
+"fires": [
+[
+270,
+"up(noworker,worker booting)",
+false,
+0.0135,
+0.00285
+]
+],
+"latched": 8,
+"skips": {
+"controller_scaled_out": 2,
+"refractory": 1,
+"no_action:slots_at_max_8": 4
+},
+"acts_off": 14,
+"acts_on": 14
+},
+{
+"arm": "S4b",
+"trace": "t4",
+"equiv": true,
+"slo_off": 59.0,
+"alloc_off": 1425.2499999999845,
+"viol_off": [
+20
+],
+"slo_on": 59.0,
+"alloc_on": 1425.2499999999845,
+"viol_on": [
+20
+],
+"fires": [],
+"latched": 1,
+"skips": {
+"no_action:slots_at_max_8": 1
+},
+"acts_off": 6,
+"acts_on": 6
+},
+{
+"arm": "S4b",
+"trace": "t6",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1389.6666666666604,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1389.6666666666604,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 13,
+"acts_on": 13
+},
+{
+"arm": "S4b",
+"trace": "t7",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1396.3333333333426,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1396.3333333333426,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 12,
+"acts_on": 12
+},
+{
+"arm": "v6",
+"trace": "t3",
+"equiv": true,
+"slo_off": 55.0,
+"alloc_off": 1119.3999999999976,
+"viol_off": [
+3,
+4,
+5,
+7,
+8
+],
+"slo_on": 55.0,
+"alloc_on": 1119.3999999999976,
+"viol_on": [
+3,
+4,
+5,
+7,
+8
+],
+"fires": [
+[
+270,
+"up(noworker,worker booting)",
+false,
+0.0135,
+0.00285
+]
+],
+"latched": 8,
+"skips": {
+"controller_scaled_out": 2,
+"refractory": 1,
+"no_action:slots_at_max_8": 4
+},
+"acts_off": 14,
+"acts_on": 14
+},
+{
+"arm": "v6",
+"trace": "t4",
+"equiv": true,
+"slo_off": 59.0,
+"alloc_off": 1381.64999999999,
+"viol_off": [
+20
+],
+"slo_on": 59.0,
+"alloc_on": 1381.64999999999,
+"viol_on": [
+20
+],
+"fires": [],
+"latched": 1,
+"skips": {
+"no_action:slots_at_max_8": 1
+},
+"acts_off": 5,
+"acts_on": 5
+},
+{
+"arm": "v6",
+"trace": "t6",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1360.2833333333235,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1360.2833333333235,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 10,
+"acts_on": 10
+},
+{
+"arm": "v6",
+"trace": "t7",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1367.6333333333273,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1367.6333333333273,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 8,
+"acts_on": 8
+},
+{
+"arm": "B4c2",
+"trace": "t3",
+"equiv": true,
+"slo_off": 57.0,
+"alloc_off": 1233.7333333333288,
+"viol_off": [
+3,
+4,
+5
+],
+"slo_on": 57.0,
+"alloc_on": 1233.7333333333288,
+"viol_on": [
+3,
+4,
+5
+],
+"fires": [
+[
+270,
+"up(noworker,worker booting)",
+false,
+0.0135,
+0.00285
+]
+],
+"latched": 5,
+"skips": {
+"refractory": 2,
+"controller_scaled_out": 1,
+"no_action:slots_at_max_8": 1
+},
+"acts_off": 12,
+"acts_on": 12
+},
+{
+"arm": "B4c2",
+"trace": "t4",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1447.0499999999895,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1447.0499999999895,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 4,
+"acts_on": 4
+},
+{
+"arm": "B4c2",
+"trace": "t6",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1448.0999999999892,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1448.0999999999892,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 2,
+"acts_on": 2
+},
+{
+"arm": "B4c2",
+"trace": "t7",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1441.8333333333123,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1441.8333333333123,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 4,
+"acts_on": 4
+},
+{
+"arm": "B5c1",
+"trace": "t3",
+"equiv": true,
+"slo_off": 55.0,
+"alloc_off": 1163.3166666666677,
+"viol_off": [
+3,
+4,
+5,
+9,
+10
+],
+"slo_on": 55.0,
+"alloc_on": 1163.3166666666677,
+"viol_on": [
+3,
+4,
+5,
+9,
+10
+],
+"fires": [
+[
+270,
+"up(noworker,worker booting)",
+false,
+0.0135,
+0.00285
+]
+],
+"latched": 9,
+"skips": {
+"controller_scaled_out": 1,
+"refractory": 2,
+"no_action:slots_at_max_8": 5
+},
+"acts_off": 15,
+"acts_on": 15
+},
+{
+"arm": "B5c1",
+"trace": "t4",
+"equiv": true,
+"slo_off": 59.0,
+"alloc_off": 1409.749999999986,
+"viol_off": [
+20
+],
+"slo_on": 59.0,
+"alloc_on": 1409.749999999986,
+"viol_on": [
+20
+],
+"fires": [],
+"latched": 1,
+"skips": {
+"no_action:slots_at_max_8": 1
+},
+"acts_off": 5,
+"acts_on": 5
+},
+{
+"arm": "B5c1",
+"trace": "t6",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1375.3166666666496,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1375.3166666666496,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 5,
+"acts_on": 5
+},
+{
+"arm": "B5c1",
+"trace": "t7",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1410.4999999999825,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1410.4999999999825,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 5,
+"acts_on": 5
+},
+{
+"arm": "B6",
+"trace": "t3",
+"equiv": true,
+"slo_off": 55.0,
+"alloc_off": 1218.0999999999963,
+"viol_off": [
+3,
+4,
+5,
+9,
+10
+],
+"slo_on": 55.0,
+"alloc_on": 1218.0999999999963,
+"viol_on": [
+3,
+4,
+5,
+9,
+10
+],
+"fires": [
+[
+270,
+"up(noworker,worker booting)",
+false,
+0.0135,
+0.00285
+]
+],
+"latched": 5,
+"skips": {
+"controller_scaled_out": 1,
+"refractory": 2,
+"no_action:slots_at_max_8": 1
+},
+"acts_off": 15,
+"acts_on": 15
+},
+{
+"arm": "B6",
+"trace": "t4",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1447.4499999999894,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1447.4499999999894,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 4,
+"acts_on": 4
+},
+{
+"arm": "B6",
+"trace": "t6",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1436.566666666655,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1436.566666666655,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 4,
+"acts_on": 4
+},
+{
+"arm": "B6",
+"trace": "t7",
+"equiv": true,
+"slo_off": 60.0,
+"alloc_off": 1448.1999999999866,
+"viol_off": [],
+"slo_on": 60.0,
+"alloc_on": 1448.1999999999866,
+"viol_on": [],
+"fires": [],
+"latched": 0,
+"skips": {},
+"acts_off": 3,
+"acts_on": 3
+}
+]

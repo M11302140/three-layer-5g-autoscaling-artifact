@@ -1,0 +1,102 @@
+{
+ "version": "s7r-protocol-v1 (P0 registration part)",
+ "registered_at": "2026-10-26 07:38:25",
+ "source_protocol": "S7R_Claude_Code_執行規格.md proposal-v1 2026-10-26 (user)",
+ "splits": {
+  "file": "out/P0/splits.json",
+  "sha256": "461bc225f7731e0c0b20333fee661f934a42938452ec419de1301f016a8e8827",
+  "outer": "v8sim3.grouped_split seeds 0-5 (60/40)",
+  "inner": "fit/cal 70/30 random.Random(20261026+s) over outer-train groups",
+  "cal_traces": "<=300, groups ordered by sha256([loc,date]), round-robin, traces by sha256([loc,date,start])",
+  "final": "whole library, seed 20261026, fit/cal 70/30"
+ },
+ "development_material": "t1-t10 and their loc-days, the prior library, the t9/t10 pool (2026-10-15..10-25, stats seen in t910/sampling_log.txt)",
+ "sealed_test_pool": {
+  "source": "ped_poll live collection (qsim/ped2026 snapshots), merged after the last date completes",
+  "dates_melbourne_local": [
+   "2026-10-26",
+   "2026-10-27"
+  ],
+  "sensors_allowed": [
+   3,
+   4,
+   6,
+   14,
+   21,
+   24,
+   30,
+   35,
+   41,
+   45,
+   47,
+   49,
+   56,
+   58,
+   63,
+   65,
+   66,
+   79,
+   84,
+   5
+  ],
+  "min_rows": 1200,
+  "min_peak": 20.0,
+  "starts": "06:00-20:00 hourly",
+  "excluded_locdays": "none in range (all development loc-days are earlier)",
+  "bands": {
+   "general": "t6t7_thresholds.json",
+   "stress": "gtrace/g_thresholds.json"
+  },
+  "seed": 20261026,
+  "rule": "candidates sorted, random.Random(20261026).shuffle; general = first passing the general band; stress = first passing the stress band with (loc,date) != general; no stress passer -> report missing (no substitute). Trace ids = next unused (t11/t12 if unused at draw time).",
+  "draw_time": "after Melbourne 2026-10-27 is complete (~2026-10-27 15:15Z rollover) and before any method score on these dates; P0 checks data quality only"
+ },
+ "budget": "out/P0/budget.json",
+ "P1_replay": {
+  "registered_at": "2026-10-26 07:51:16",
+  "profiling_runs": [
+   "r500",
+   "r502",
+   "r505",
+   "gate-1 runs of v8sim11 (t1/t2/t4, r272-r320 era; v8sim11 PHYS)"
+  ],
+  "model_validation_runs": [
+   "r460",
+   "r461",
+   "r463",
+   "r464",
+   "r465",
+   "r466",
+   "r471",
+   "r474",
+   "r475",
+   "r476",
+   "r477",
+   "r478",
+   "r479",
+   "r483",
+   "r484",
+   "r491",
+   "r492",
+   "r493",
+   "r495",
+   "r498",
+   "r499",
+   "r503",
+   "r504"
+  ],
+  "selection_rule": "every run flagged ok in ab/g/h/rr ledgers from 2026-10-22 on (harness r34a/b/c, complete per-run logs), minus the profiling runs; fixed before any event_phys output on hardware data",
+  "modes": {
+   "observed_event_replay": "inject observed dispatches, observed arrivals/departures with their slots, observed VyOS dataplane-ready and slot API times where logged; compare reconstructed per-slot UE counts with prom upf_sessions (15 s) at minute ends with no move/drain in flight; other minutes UNKNOWN",
+   "causal_replay": "inject only the observed controller dispatch times (scale-out/in slot, VyOS deploy/delete, worker create/delete) and the trace targets; start = observed fleet and per-slot counts at formal t0; ready, placement, relief, drains, loss, cost from event_phys with the fixed profiling constants"
+  },
+  "hardware_classes": "per-minute SLO (e2e<=0.1 % and p99<=1 ms) and classes fleet/placement/other from qsim/r66rr/hit/classify_b2.py (unchanged)",
+  "metrics": {
+   "event": "episode = maximal run of consecutive hardware minutes classified fleet or placement; recalled if the causal replay marks a bad minute in [first-1, last+1]",
+   "recall_gate": ">= 0.80 with >= 5 separated episodes over >= 3 runs (else BLOCKED)",
+   "false_alarm_gate": "model bad minutes among hardware-clean minutes / hardware-clean minutes <= 0.05 (exact minute)",
+   "cost_gate": "mean over runs of |model alloc_vm - hardware alloc_vm| / hardware alloc_vm <= 0.03 (hardware alloc_vm from paper_out_new/rq/rq_metrics.csv or rq_metrics.py)",
+   "state_gate": "observed replay: comparable minutes with per-slot count mismatch = 0"
+  }
+ }
+}

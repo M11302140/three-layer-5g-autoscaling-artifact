@@ -1,0 +1,373 @@
+=== S4a_t10_exact_d150: qsim alloc 1203 SLO 59 | daemon alloc 1203 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t10_exact_d150_fail: qsim alloc 1203 SLO 59 | daemon alloc 1202 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t10_exact_d30: qsim alloc 1198 SLO 59 | daemon alloc 1198 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t10_pps_d150: qsim alloc 1203 SLO 59 | daemon alloc 1203 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t11_exact_d150: qsim alloc 1365 SLO 60 | daemon alloc 1357 SLO 60 | differing (min,act) cells 2 FAIL
+   min39 DELETE_VYOS    qsim 0 daemon 1
+   min43 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t11_exact_d150_fail: qsim alloc 1365 SLO 60 | daemon alloc 1357 SLO 60 | differing (min,act) cells 2 FAIL
+   min39 DELETE_VYOS    qsim 0 daemon 1
+   min43 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t11_exact_d30: qsim alloc 1353 SLO 60 | daemon alloc 1345 SLO 60 | differing (min,act) cells 2 FAIL
+   min39 DELETE_VYOS    qsim 0 daemon 1
+   min43 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t11_pps_d150: qsim alloc 1365 SLO 60 | daemon alloc 1357 SLO 60 | differing (min,act) cells 4 FAIL
+   min39 DELETE_VYOS    qsim 0 daemon 1
+   min40 SCALE_IN_UP    qsim 0 daemon 1
+   min41 SCALE_IN_UP    qsim 1 daemon 0
+   min43 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t12_exact_d150: qsim alloc 1457 SLO 60 | daemon alloc 1457 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t12_exact_d150_fail: qsim alloc 1457 SLO 60 | daemon alloc 1456 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t12_exact_d30: qsim alloc 1453 SLO 60 | daemon alloc 1453 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t12_pps_d150: qsim alloc 1457 SLO 60 | daemon alloc 1457 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t1_exact_d150: qsim alloc 1163 SLO 60 | daemon alloc 1163 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t1_exact_d150_fail: qsim alloc 1163 SLO 60 | daemon alloc 1163 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t1_exact_d30: qsim alloc 1155 SLO 60 | daemon alloc 1155 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t1_pps_d150: qsim alloc 1163 SLO 60 | daemon alloc 1163 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t2_exact_d150: qsim alloc 1415 SLO 60 | daemon alloc 1415 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t2_exact_d150_fail: qsim alloc 1415 SLO 60 | daemon alloc 1414 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t2_exact_d30: qsim alloc 1409 SLO 60 | daemon alloc 1409 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t2_pps_d150: qsim alloc 1415 SLO 60 | daemon alloc 1415 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t3_exact_d150: qsim alloc 1266 SLO 57 | daemon alloc 1252 SLO 57 | differing (min,act) cells 2 FAIL
+   min16 DELETE_VYOS    qsim 0 daemon 1
+   min23 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t3_exact_d150_fail: qsim alloc 1266 SLO 57 | daemon alloc 1251 SLO 57 | differing (min,act) cells 6 FAIL
+   min 3 SCALE_OUT_UP   qsim 2 daemon 1
+   min 4 SCALE_OUT_UP   qsim 0 daemon 1
+   min 8 SCALE_IN_UP    qsim 1 daemon 0
+   min 9 SCALE_IN_UP    qsim 0 daemon 1
+   min16 DELETE_VYOS    qsim 0 daemon 1
+   min23 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t3_exact_d30: qsim alloc 1263 SLO 57 | daemon alloc 1248 SLO 57 | differing (min,act) cells 4 FAIL
+   min16 DELETE_VYOS    qsim 0 daemon 1
+   min23 DELETE_VYOS    qsim 1 daemon 0
+   min33 DELETE_WORKER  qsim 0 daemon 1
+   min34 DELETE_WORKER  qsim 1 daemon 0
+=== S4a_t3_pps_d150: qsim alloc 1266 SLO 57 | daemon alloc 1251 SLO 57 | differing (min,act) cells 5 FAIL
+   min16 DELETE_VYOS    qsim 0 daemon 1
+   min20 SCALE_IN_UP    qsim 0 daemon 1
+   min21 SCALE_IN_UP    qsim 1 daemon 0
+   min23 DELETE_VYOS    qsim 1 daemon 0
+   min59 SCALE_IN_UP    qsim 0 daemon 1
+=== S4a_t4_exact_d150: qsim alloc 1455 SLO 60 | daemon alloc 1455 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t4_exact_d150_fail: qsim alloc 1455 SLO 60 | daemon alloc 1454 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t4_exact_d30: qsim alloc 1453 SLO 60 | daemon alloc 1453 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t4_pps_d150: qsim alloc 1455 SLO 60 | daemon alloc 1455 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t5_exact_d150: qsim alloc 1464 SLO 60 | daemon alloc 1464 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t5_exact_d150_fail: qsim alloc 1464 SLO 60 | daemon alloc 1464 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t5_exact_d30: qsim alloc 1461 SLO 60 | daemon alloc 1461 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t5_pps_d150: qsim alloc 1464 SLO 60 | daemon alloc 1464 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t6_exact_d150: qsim alloc 1451 SLO 60 | daemon alloc 1441 SLO 60 | differing (min,act) cells 2 FAIL
+   min53 DELETE_VYOS    qsim 0 daemon 1
+   min58 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t6_exact_d150_fail: qsim alloc 1451 SLO 60 | daemon alloc 1441 SLO 60 | differing (min,act) cells 2 FAIL
+   min53 DELETE_VYOS    qsim 0 daemon 1
+   min58 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t6_exact_d30: qsim alloc 1446 SLO 60 | daemon alloc 1436 SLO 60 | differing (min,act) cells 2 FAIL
+   min53 DELETE_VYOS    qsim 0 daemon 1
+   min58 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t6_pps_d150: qsim alloc 1451 SLO 60 | daemon alloc 1441 SLO 60 | differing (min,act) cells 4 FAIL
+   min53 DELETE_VYOS    qsim 0 daemon 1
+   min55 SCALE_IN_UP    qsim 0 daemon 1
+   min56 SCALE_IN_UP    qsim 1 daemon 0
+   min58 DELETE_VYOS    qsim 1 daemon 0
+=== S4a_t7_exact_d150: qsim alloc 1436 SLO 60 | daemon alloc 1436 SLO 60 | differing (min,act) cells 2 FAIL
+   min42 DELETE_VYOS    qsim 0 daemon 1
+   min43 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4a_t7_exact_d150_fail: qsim alloc 1436 SLO 60 | daemon alloc 1436 SLO 60 | differing (min,act) cells 2 FAIL
+   min42 DELETE_VYOS    qsim 0 daemon 1
+   min43 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4a_t7_exact_d30: qsim alloc 1432 SLO 60 | daemon alloc 1432 SLO 60 | differing (min,act) cells 2 FAIL
+   min42 DELETE_VYOS    qsim 0 daemon 1
+   min43 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4a_t7_pps_d150: qsim alloc 1436 SLO 60 | daemon alloc 1436 SLO 60 | differing (min,act) cells 2 ok
+   min42 DELETE_VYOS    qsim 0 daemon 1
+   min43 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4a_t8_exact_d150: qsim alloc 1068 SLO 59 | daemon alloc 1068 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t8_exact_d150_fail: qsim alloc 1068 SLO 59 | daemon alloc 1068 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t8_exact_d30: qsim alloc 1063 SLO 59 | daemon alloc 1063 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t8_pps_d150: qsim alloc 1068 SLO 59 | daemon alloc 1068 SLO 59 | differing (min,act) cells 0 ok
+=== S4a_t9_exact_d150: qsim alloc 1438 SLO 60 | daemon alloc 1438 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t9_exact_d150_fail: qsim alloc 1438 SLO 60 | daemon alloc 1438 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t9_exact_d30: qsim alloc 1432 SLO 60 | daemon alloc 1432 SLO 60 | differing (min,act) cells 0 ok
+=== S4a_t9_pps_d150: qsim alloc 1438 SLO 60 | daemon alloc 1440 SLO 60 | differing (min,act) cells 4 FAIL
+   min 0 SCALE_OUT_UP   qsim 0 daemon 1
+   min 2 SCALE_IN_UP    qsim 1 daemon 0
+   min 5 SCALE_IN_UP    qsim 0 daemon 1
+   min 6 SCALE_OUT_UP   qsim 1 daemon 0
+=== S4b_t10_exact_d150: qsim alloc 1102 SLO 59 | daemon alloc 1102 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t10_exact_d150_fail: qsim alloc 1102 SLO 59 | daemon alloc 1102 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t10_exact_d30: qsim alloc 1097 SLO 59 | daemon alloc 1097 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t10_pps_d150: qsim alloc 1102 SLO 59 | daemon alloc 1102 SLO 59 | differing (min,act) cells 2 ok
+   min51 SCALE_IN_UP    qsim 0 daemon 1
+   min52 SCALE_IN_UP    qsim 1 daemon 0
+=== S4b_t11_exact_d150: qsim alloc 1302 SLO 60 | daemon alloc 1281 SLO 60 | differing (min,act) cells 2 FAIL
+   min32 DEPLOY_VYOS    qsim 1 daemon 0
+   min42 DELETE_VYOS    qsim 1 daemon 0
+=== S4b_t11_exact_d150_fail: qsim alloc 1302 SLO 60 | daemon alloc 1280 SLO 60 | differing (min,act) cells 2 FAIL
+   min32 DEPLOY_VYOS    qsim 1 daemon 0
+   min42 DELETE_VYOS    qsim 1 daemon 0
+=== S4b_t11_exact_d30: qsim alloc 1293 SLO 60 | daemon alloc 1272 SLO 60 | differing (min,act) cells 2 FAIL
+   min32 DEPLOY_VYOS    qsim 1 daemon 0
+   min42 DELETE_VYOS    qsim 1 daemon 0
+=== S4b_t11_pps_d150: qsim alloc 1302 SLO 60 | daemon alloc 1281 SLO 60 | differing (min,act) cells 2 ok
+   min32 DEPLOY_VYOS    qsim 1 daemon 0
+   min42 DELETE_VYOS    qsim 1 daemon 0
+=== S4b_t12_exact_d150: qsim alloc 1451 SLO 60 | daemon alloc 1451 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t12_exact_d150_fail: qsim alloc 1451 SLO 60 | daemon alloc 1451 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t12_exact_d30: qsim alloc 1444 SLO 60 | daemon alloc 1444 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t12_pps_d150: qsim alloc 1451 SLO 60 | daemon alloc 1451 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t1_exact_d150: qsim alloc 1096 SLO 59 | daemon alloc 1096 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t1_exact_d150_fail: qsim alloc 1096 SLO 59 | daemon alloc 1095 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t1_exact_d30: qsim alloc 1088 SLO 59 | daemon alloc 1088 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t1_pps_d150: qsim alloc 1096 SLO 59 | daemon alloc 1096 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t2_exact_d150: qsim alloc 1348 SLO 60 | daemon alloc 1348 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t2_exact_d150_fail: qsim alloc 1348 SLO 60 | daemon alloc 1347 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t2_exact_d30: qsim alloc 1342 SLO 60 | daemon alloc 1342 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t2_pps_d150: qsim alloc 1348 SLO 60 | daemon alloc 1348 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t3_exact_d150: qsim alloc 1144 SLO 57 | daemon alloc 1144 SLO 57 | differing (min,act) cells 0 ok
+=== S4b_t3_exact_d150_fail: qsim alloc 1144 SLO 57 | daemon alloc 1144 SLO 57 | differing (min,act) cells 0 ok
+=== S4b_t3_exact_d30: qsim alloc 1138 SLO 57 | daemon alloc 1138 SLO 57 | differing (min,act) cells 0 ok
+=== S4b_t3_pps_d150: qsim alloc 1144 SLO 57 | daemon alloc 1146 SLO 57 | differing (min,act) cells 7 FAIL
+   min21 SCALE_IN_UP    qsim 0 daemon 1
+   min22 SCALE_IN_UP    qsim 1 daemon 0
+   min24 SCALE_OUT_UP   qsim 0 daemon 1
+   min27 SCALE_IN_UP    qsim 1 daemon 0
+   min31 SCALE_IN_UP    qsim 0 daemon 1
+   min32 DELETE_WORKER  qsim 1 daemon 0
+=== S4b_t4_exact_d150: qsim alloc 1430 SLO 59 | daemon alloc 1426 SLO 59 | differing (min,act) cells 2 FAIL
+   min 5 DEPLOY_VYOS    qsim 1 daemon 0
+   min 7 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4b_t4_exact_d150_fail: qsim alloc 1430 SLO 59 | daemon alloc 1425 SLO 59 | differing (min,act) cells 2 FAIL
+   min 5 DEPLOY_VYOS    qsim 1 daemon 0
+   min 7 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4b_t4_exact_d30: qsim alloc 1429 SLO 59 | daemon alloc 1425 SLO 59 | differing (min,act) cells 2 FAIL
+   min 5 DEPLOY_VYOS    qsim 1 daemon 0
+   min 7 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4b_t4_pps_d150: qsim alloc 1430 SLO 59 | daemon alloc 1426 SLO 59 | differing (min,act) cells 2 ok
+   min 5 DEPLOY_VYOS    qsim 1 daemon 0
+   min 7 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4b_t5_exact_d150: qsim alloc 1454 SLO 60 | daemon alloc 1454 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t5_exact_d150_fail: qsim alloc 1454 SLO 60 | daemon alloc 1454 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t5_exact_d30: qsim alloc 1449 SLO 60 | daemon alloc 1449 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t5_pps_d150: qsim alloc 1454 SLO 60 | daemon alloc 1454 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t6_exact_d150: qsim alloc 1401 SLO 60 | daemon alloc 1401 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t6_exact_d150_fail: qsim alloc 1401 SLO 60 | daemon alloc 1401 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t6_exact_d30: qsim alloc 1396 SLO 60 | daemon alloc 1396 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t6_pps_d150: qsim alloc 1401 SLO 60 | daemon alloc 1401 SLO 60 | differing (min,act) cells 0 ok
+=== S4b_t7_exact_d150: qsim alloc 1409 SLO 60 | daemon alloc 1404 SLO 60 | differing (min,act) cells 3 FAIL
+   min 1 DEPLOY_VYOS    qsim 0 daemon 1
+   min43 CREATE_WORKER  qsim 1 daemon 0
+   min44 CREATE_WORKER  qsim 0 daemon 1
+=== S4b_t7_exact_d150_fail: qsim alloc 1409 SLO 60 | daemon alloc 1404 SLO 60 | differing (min,act) cells 3 FAIL
+   min 1 DEPLOY_VYOS    qsim 0 daemon 1
+   min43 CREATE_WORKER  qsim 1 daemon 0
+   min44 CREATE_WORKER  qsim 0 daemon 1
+=== S4b_t7_exact_d30: qsim alloc 1405 SLO 60 | daemon alloc 1400 SLO 60 | differing (min,act) cells 3 FAIL
+   min 1 DEPLOY_VYOS    qsim 0 daemon 1
+   min43 CREATE_WORKER  qsim 1 daemon 0
+   min44 CREATE_WORKER  qsim 0 daemon 1
+=== S4b_t7_pps_d150: qsim alloc 1409 SLO 60 | daemon alloc 1404 SLO 60 | differing (min,act) cells 5 FAIL
+   min 1 DEPLOY_VYOS    qsim 0 daemon 1
+   min43 CREATE_WORKER  qsim 1 daemon 0
+   min44 CREATE_WORKER  qsim 0 daemon 1
+   min55 SCALE_IN_UP    qsim 0 daemon 1
+   min56 SCALE_IN_UP    qsim 1 daemon 0
+=== S4b_t8_exact_d150: qsim alloc 1026 SLO 59 | daemon alloc 1026 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t8_exact_d150_fail: qsim alloc 1026 SLO 59 | daemon alloc 1026 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t8_exact_d30: qsim alloc 1021 SLO 59 | daemon alloc 1021 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t8_pps_d150: qsim alloc 1026 SLO 59 | daemon alloc 1026 SLO 59 | differing (min,act) cells 0 ok
+=== S4b_t9_exact_d150: qsim alloc 1398 SLO 59 | daemon alloc 1396 SLO 59 | differing (min,act) cells 4 FAIL
+   min 8 DEPLOY_VYOS    qsim 1 daemon 0
+   min11 DEPLOY_VYOS    qsim 0 daemon 1
+   min18 DELETE_VYOS    qsim 1 daemon 0
+   min21 DEPLOY_VYOS    qsim 1 daemon 0
+=== S4b_t9_exact_d150_fail: qsim alloc 1398 SLO 59 | daemon alloc 1395 SLO 59 | differing (min,act) cells 4 FAIL
+   min 8 DEPLOY_VYOS    qsim 1 daemon 0
+   min11 DEPLOY_VYOS    qsim 0 daemon 1
+   min18 DELETE_VYOS    qsim 1 daemon 0
+   min21 DEPLOY_VYOS    qsim 1 daemon 0
+=== S4b_t9_exact_d30: qsim alloc 1392 SLO 59 | daemon alloc 1390 SLO 59 | differing (min,act) cells 4 FAIL
+   min 8 DEPLOY_VYOS    qsim 1 daemon 0
+   min11 DEPLOY_VYOS    qsim 0 daemon 1
+   min18 DELETE_VYOS    qsim 1 daemon 0
+   min21 DEPLOY_VYOS    qsim 1 daemon 0
+=== S4b_t9_pps_d150: qsim alloc 1398 SLO 59 | daemon alloc 1396 SLO 59 | differing (min,act) cells 6 FAIL
+   min 3 SCALE_IN_UP    qsim 0 daemon 1
+   min 4 SCALE_IN_UP    qsim 1 daemon 0
+   min 8 DEPLOY_VYOS    qsim 1 daemon 0
+   min11 DEPLOY_VYOS    qsim 0 daemon 1
+   min18 DELETE_VYOS    qsim 1 daemon 0
+   min21 DEPLOY_VYOS    qsim 1 daemon 0
+=== S4p05_t10_exact_d150: qsim alloc 1134 SLO 59 | daemon alloc 1134 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t10_exact_d150_fail: qsim alloc 1134 SLO 59 | daemon alloc 1134 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t10_exact_d30: qsim alloc 1129 SLO 59 | daemon alloc 1129 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t10_pps_d150: qsim alloc 1134 SLO 59 | daemon alloc 1134 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t11_exact_d150: qsim alloc 1347 SLO 60 | daemon alloc 1341 SLO 60 | differing (min,act) cells 2 FAIL
+   min36 DELETE_VYOS    qsim 0 daemon 1
+   min39 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t11_exact_d150_fail: qsim alloc 1347 SLO 60 | daemon alloc 1341 SLO 60 | differing (min,act) cells 2 FAIL
+   min36 DELETE_VYOS    qsim 0 daemon 1
+   min39 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t11_exact_d30: qsim alloc 1340 SLO 60 | daemon alloc 1334 SLO 60 | differing (min,act) cells 2 FAIL
+   min36 DELETE_VYOS    qsim 0 daemon 1
+   min39 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t11_pps_d150: qsim alloc 1347 SLO 60 | daemon alloc 1341 SLO 60 | differing (min,act) cells 2 ok
+   min36 DELETE_VYOS    qsim 0 daemon 1
+   min39 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t12_exact_d150: qsim alloc 1462 SLO 60 | daemon alloc 1462 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t12_exact_d150_fail: qsim alloc 1462 SLO 60 | daemon alloc 1462 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t12_exact_d30: qsim alloc 1459 SLO 60 | daemon alloc 1459 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t12_pps_d150: qsim alloc 1462 SLO 60 | daemon alloc 1462 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t1_exact_d150: qsim alloc 1173 SLO 60 | daemon alloc 1173 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t1_exact_d150_fail: qsim alloc 1173 SLO 60 | daemon alloc 1173 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t1_exact_d30: qsim alloc 1169 SLO 60 | daemon alloc 1169 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t1_pps_d150: qsim alloc 1173 SLO 60 | daemon alloc 1173 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t2_exact_d150: qsim alloc 1420 SLO 60 | daemon alloc 1420 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t2_exact_d150_fail: qsim alloc 1420 SLO 60 | daemon alloc 1420 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t2_exact_d30: qsim alloc 1416 SLO 60 | daemon alloc 1416 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t2_pps_d150: qsim alloc 1420 SLO 60 | daemon alloc 1420 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t3_exact_d150: qsim alloc 1190 SLO 57 | daemon alloc 1184 SLO 57 | differing (min,act) cells 2 FAIL
+   min13 DELETE_VYOS    qsim 0 daemon 1
+   min16 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t3_exact_d150_fail: qsim alloc 1190 SLO 57 | daemon alloc 1184 SLO 57 | differing (min,act) cells 2 FAIL
+   min13 DELETE_VYOS    qsim 0 daemon 1
+   min16 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t3_exact_d30: qsim alloc 1185 SLO 57 | daemon alloc 1179 SLO 57 | differing (min,act) cells 2 FAIL
+   min13 DELETE_VYOS    qsim 0 daemon 1
+   min16 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t3_pps_d150: qsim alloc 1190 SLO 57 | daemon alloc 1184 SLO 57 | differing (min,act) cells 2 ok
+   min13 DELETE_VYOS    qsim 0 daemon 1
+   min16 DELETE_VYOS    qsim 1 daemon 0
+=== S4p05_t4_exact_d150: qsim alloc 1452 SLO 60 | daemon alloc 1452 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t4_exact_d150_fail: qsim alloc 1452 SLO 60 | daemon alloc 1452 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t4_exact_d30: qsim alloc 1452 SLO 60 | daemon alloc 1452 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t4_pps_d150: qsim alloc 1452 SLO 60 | daemon alloc 1452 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t5_exact_d150: qsim alloc 1464 SLO 60 | daemon alloc 1464 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t5_exact_d150_fail: qsim alloc 1464 SLO 60 | daemon alloc 1464 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t5_exact_d30: qsim alloc 1464 SLO 60 | daemon alloc 1464 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t5_pps_d150: qsim alloc 1464 SLO 60 | daemon alloc 1464 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t6_exact_d150: qsim alloc 1431 SLO 60 | daemon alloc 1431 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t6_exact_d150_fail: qsim alloc 1431 SLO 60 | daemon alloc 1431 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t6_exact_d30: qsim alloc 1428 SLO 60 | daemon alloc 1428 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t6_pps_d150: qsim alloc 1431 SLO 60 | daemon alloc 1431 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t7_exact_d150: qsim alloc 1438 SLO 60 | daemon alloc 1438 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t7_exact_d150_fail: qsim alloc 1438 SLO 60 | daemon alloc 1438 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t7_exact_d30: qsim alloc 1432 SLO 60 | daemon alloc 1432 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t7_pps_d150: qsim alloc 1438 SLO 60 | daemon alloc 1438 SLO 60 | differing (min,act) cells 0 ok
+=== S4p05_t8_exact_d150: qsim alloc 1086 SLO 59 | daemon alloc 1086 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t8_exact_d150_fail: qsim alloc 1086 SLO 59 | daemon alloc 1086 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t8_exact_d30: qsim alloc 1085 SLO 59 | daemon alloc 1085 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t8_pps_d150: qsim alloc 1086 SLO 59 | daemon alloc 1086 SLO 59 | differing (min,act) cells 0 ok
+=== S4p05_t9_exact_d150: qsim alloc 1438 SLO 60 | daemon alloc 1434 SLO 60 | differing (min,act) cells 2 FAIL
+   min18 DELETE_VYOS    qsim 0 daemon 1
+   min21 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4p05_t9_exact_d150_fail: qsim alloc 1438 SLO 60 | daemon alloc 1433 SLO 60 | differing (min,act) cells 2 FAIL
+   min18 DELETE_VYOS    qsim 0 daemon 1
+   min21 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4p05_t9_exact_d30: qsim alloc 1435 SLO 60 | daemon alloc 1431 SLO 60 | differing (min,act) cells 2 FAIL
+   min18 DELETE_VYOS    qsim 0 daemon 1
+   min21 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4p05_t9_pps_d150: qsim alloc 1438 SLO 60 | daemon alloc 1434 SLO 60 | differing (min,act) cells 2 ok
+   min18 DELETE_VYOS    qsim 0 daemon 1
+   min21 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4p2_t10_exact_d150: qsim alloc 977 SLO 58 | daemon alloc 977 SLO 58 | differing (min,act) cells 0 ok
+=== S4p2_t10_exact_d150_fail: qsim alloc 977 SLO 58 | daemon alloc 976 SLO 58 | differing (min,act) cells 0 ok
+=== S4p2_t10_exact_d30: qsim alloc 975 SLO 58 | daemon alloc 975 SLO 58 | differing (min,act) cells 0 ok
+=== S4p2_t10_pps_d150: qsim alloc 977 SLO 58 | daemon alloc 977 SLO 58 | differing (min,act) cells 0 ok
+=== S4p2_t11_exact_d150: qsim alloc 1303 SLO 60 | daemon alloc 1303 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t11_exact_d150_fail: qsim alloc 1303 SLO 60 | daemon alloc 1302 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t11_exact_d30: qsim alloc 1297 SLO 60 | daemon alloc 1297 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t11_pps_d150: qsim alloc 1303 SLO 60 | daemon alloc 1302 SLO 60 | differing (min,act) cells 2 ok
+   min23 DELETE_VYOS    qsim 0 daemon 1
+   min24 DELETE_VYOS    qsim 1 daemon 0
+=== S4p2_t12_exact_d150: qsim alloc 1440 SLO 60 | daemon alloc 1440 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t12_exact_d150_fail: qsim alloc 1440 SLO 60 | daemon alloc 1439 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t12_exact_d30: qsim alloc 1435 SLO 60 | daemon alloc 1435 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t12_pps_d150: qsim alloc 1440 SLO 60 | daemon alloc 1440 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t1_exact_d150: qsim alloc 1099 SLO 58 | daemon alloc 1113 SLO 58 | differing (min,act) cells 3 FAIL
+   min 4 CREATE_WORKER  qsim 1 daemon 0
+   min 4 SCALE_OUT_UP   qsim 0 daemon 1
+   min 6 SCALE_OUT_UP   qsim 1 daemon 0
+=== S4p2_t1_exact_d150_fail: qsim alloc 1099 SLO 58 | daemon alloc 1112 SLO 58 | differing (min,act) cells 3 FAIL
+   min 4 CREATE_WORKER  qsim 1 daemon 0
+   min 4 SCALE_OUT_UP   qsim 0 daemon 1
+   min 6 SCALE_OUT_UP   qsim 1 daemon 0
+=== S4p2_t1_exact_d30: qsim alloc 1094 SLO 58 | daemon alloc 1108 SLO 58 | differing (min,act) cells 3 FAIL
+   min 4 CREATE_WORKER  qsim 1 daemon 0
+   min 4 SCALE_OUT_UP   qsim 0 daemon 1
+   min 6 SCALE_OUT_UP   qsim 1 daemon 0
+=== S4p2_t1_pps_d150: qsim alloc 1099 SLO 58 | daemon alloc 1111 SLO 58 | differing (min,act) cells 6 FAIL
+   min 0 CREATE_WORKER  qsim 0 daemon 1
+   min 4 CREATE_WORKER  qsim 1 daemon 0
+   min 4 SCALE_OUT_UP   qsim 0 daemon 1
+   min 6 SCALE_OUT_UP   qsim 1 daemon 0
+   min44 DELETE_VYOS    qsim 0 daemon 1
+   min45 DELETE_VYOS    qsim 1 daemon 0
+=== S4p2_t2_exact_d150: qsim alloc 1357 SLO 59 | daemon alloc 1357 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t2_exact_d150_fail: qsim alloc 1357 SLO 59 | daemon alloc 1356 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t2_exact_d30: qsim alloc 1353 SLO 59 | daemon alloc 1353 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t2_pps_d150: qsim alloc 1357 SLO 59 | daemon alloc 1356 SLO 59 | differing (min,act) cells 1 ok
+   min 0 SCALE_OUT_UP   qsim 0 daemon 1
+=== S4p2_t3_exact_d150: qsim alloc 1159 SLO 57 | daemon alloc 1159 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t3_exact_d150_fail: qsim alloc 1159 SLO 57 | daemon alloc 1159 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t3_exact_d30: qsim alloc 1154 SLO 57 | daemon alloc 1154 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t3_pps_d150: qsim alloc 1159 SLO 57 | daemon alloc 1159 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t4_exact_d150: qsim alloc 1400 SLO 57 | daemon alloc 1400 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t4_exact_d150_fail: qsim alloc 1400 SLO 57 | daemon alloc 1399 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t4_exact_d30: qsim alloc 1400 SLO 57 | daemon alloc 1400 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t4_pps_d150: qsim alloc 1400 SLO 57 | daemon alloc 1400 SLO 57 | differing (min,act) cells 0 ok
+=== S4p2_t5_exact_d150: qsim alloc 1459 SLO 60 | daemon alloc 1459 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t5_exact_d150_fail: qsim alloc 1459 SLO 60 | daemon alloc 1459 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t5_exact_d30: qsim alloc 1456 SLO 60 | daemon alloc 1456 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t5_pps_d150: qsim alloc 1459 SLO 60 | daemon alloc 1460 SLO 60 | differing (min,act) cells 2 ok
+   min46 DELETE_VYOS    qsim 0 daemon 1
+   min47 DEPLOY_VYOS    qsim 0 daemon 1
+=== S4p2_t6_exact_d150: qsim alloc 1372 SLO 59 | daemon alloc 1372 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t6_exact_d150_fail: qsim alloc 1372 SLO 59 | daemon alloc 1372 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t6_exact_d30: qsim alloc 1369 SLO 59 | daemon alloc 1369 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t6_pps_d150: qsim alloc 1372 SLO 59 | daemon alloc 1372 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t7_exact_d150: qsim alloc 1405 SLO 60 | daemon alloc 1396 SLO 60 | differing (min,act) cells 2 FAIL
+   min44 CREATE_WORKER  qsim 1 daemon 0
+   min47 CREATE_WORKER  qsim 0 daemon 1
+=== S4p2_t7_exact_d150_fail: qsim alloc 1405 SLO 60 | daemon alloc 1396 SLO 60 | differing (min,act) cells 2 FAIL
+   min44 CREATE_WORKER  qsim 1 daemon 0
+   min47 CREATE_WORKER  qsim 0 daemon 1
+=== S4p2_t7_exact_d30: qsim alloc 1400 SLO 60 | daemon alloc 1391 SLO 60 | differing (min,act) cells 2 FAIL
+   min44 CREATE_WORKER  qsim 1 daemon 0
+   min47 CREATE_WORKER  qsim 0 daemon 1
+=== S4p2_t7_pps_d150: qsim alloc 1405 SLO 60 | daemon alloc 1395 SLO 60 | differing (min,act) cells 4 FAIL
+   min40 DELETE_VYOS    qsim 0 daemon 1
+   min41 DELETE_VYOS    qsim 1 daemon 0
+   min44 CREATE_WORKER  qsim 1 daemon 0
+   min47 CREATE_WORKER  qsim 0 daemon 1
+=== S4p2_t8_exact_d150: qsim alloc 1049 SLO 59 | daemon alloc 1049 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t8_exact_d150_fail: qsim alloc 1049 SLO 59 | daemon alloc 1048 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t8_exact_d30: qsim alloc 1047 SLO 59 | daemon alloc 1047 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t8_pps_d150: qsim alloc 1049 SLO 59 | daemon alloc 1049 SLO 59 | differing (min,act) cells 0 ok
+=== S4p2_t9_exact_d150: qsim alloc 1390 SLO 60 | daemon alloc 1390 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t9_exact_d150_fail: qsim alloc 1390 SLO 60 | daemon alloc 1390 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t9_exact_d30: qsim alloc 1386 SLO 60 | daemon alloc 1386 SLO 60 | differing (min,act) cells 0 ok
+=== S4p2_t9_pps_d150: qsim alloc 1390 SLO 60 | daemon alloc 1390 SLO 60 | differing (min,act) cells 4 FAIL
+   min53 SCALE_IN_UP    qsim 0 daemon 1
+   min54 SCALE_IN_UP    qsim 1 daemon 0
+   min58 SCALE_IN_UP    qsim 0 daemon 1
+   min59 SCALE_IN_UP    qsim 1 daemon 0
+summary (group, scenario): traces, differing cells total
+  ('S4a', 'exact_d150'): 12, 8
+  ('S4a', 'exact_d150_fail'): 12, 12
+  ('S4a', 'exact_d30'): 12, 10
+  ('S4a', 'pps_d150'): 12, 19
+  ('S4b', 'exact_d150'): 12, 11
+  ('S4b', 'exact_d150_fail'): 12, 11
+  ('S4b', 'exact_d30'): 12, 11
+  ('S4b', 'pps_d150'): 12, 24
+  ('S4p05', 'exact_d150'): 12, 6
+  ('S4p05', 'exact_d150_fail'): 12, 6
+  ('S4p05', 'exact_d30'): 12, 6
+  ('S4p05', 'pps_d150'): 12, 6
+  ('S4p2', 'exact_d150'): 12, 5
+  ('S4p2', 'exact_d150_fail'): 12, 5
+  ('S4p2', 'exact_d30'): 12, 5
+  ('S4p2', 'pps_d150'): 12, 19
+GATE: FAIL (49 failing: ['S4a_t11_exact_d150', 'S4a_t11_exact_d150_fail', 'S4a_t11_exact_d30', 'S4a_t11_pps_d150', 'S4a_t3_exact_d150', 'S4a_t3_exact_d150_fail', 'S4a_t3_exact_d30', 'S4a_t3_pps_d150', 'S4a_t6_exact_d150', 'S4a_t6_exact_d150_fail', 'S4a_t6_exact_d30', 'S4a_t6_pps_d150', 'S4a_t7_exact_d150', 'S4a_t7_exact_d150_fail', 'S4a_t7_exact_d30', 'S4a_t9_pps_d150', 'S4b_t11_exact_d150', 'S4b_t11_exact_d150_fail', 'S4b_t11_exact_d30', 'S4b_t3_pps_d150', 'S4b_t4_exact_d150', 'S4b_t4_exact_d150_fail', 'S4b_t4_exact_d30', 'S4b_t7_exact_d150', 'S4b_t7_exact_d150_fail', 'S4b_t7_exact_d30', 'S4b_t7_pps_d150', 'S4b_t9_exact_d150', 'S4b_t9_exact_d150_fail', 'S4b_t9_exact_d30', 'S4b_t9_pps_d150', 'S4p05_t11_exact_d150', 'S4p05_t11_exact_d150_fail', 'S4p05_t11_exact_d30', 'S4p05_t3_exact_d150', 'S4p05_t3_exact_d150_fail', 'S4p05_t3_exact_d30', 'S4p05_t9_exact_d150', 'S4p05_t9_exact_d150_fail', 'S4p05_t9_exact_d30', 'S4p2_t1_exact_d150', 'S4p2_t1_exact_d150_fail', 'S4p2_t1_exact_d30', 'S4p2_t1_pps_d150', 'S4p2_t7_exact_d150', 'S4p2_t7_exact_d150_fail', 'S4p2_t7_exact_d30', 'S4p2_t7_pps_d150', 'S4p2_t9_pps_d150'])

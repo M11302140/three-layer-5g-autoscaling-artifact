@@ -1,0 +1,60 @@
+[2026-10-21 00:58:12] [E_base_p90] start: lib /home/user/experiment/qsim/prior_traces.json n 1615 groups 125 h {'up': 30, 'vy': 150, 'wk': 120} win {'up': 60, 'vy': 180, 'wk': 180} d {'up': 150, 'vy': 60, 'wk': 90} rates False refine True; pid 2097844 affinity [13, 14]
+[2026-10-21 00:58:18] [E_base_p90] equivalence vs frozen v8sim10.sim_nest2 (dispatch+vmexist, 3 λ sets × 20 traces): 60/60 identical
+[2026-10-21 00:58:33] [E_base_p90]     point 1.0/1.5: 15s
+[2026-10-21 00:58:49] [E_base_p90]     point 1.0/2.0: 16s
+[2026-10-21 00:59:04] [E_base_p90]     point 1.0/2.5: 16s
+[2026-10-21 00:59:20] [E_base_p90]     point 1.0/3.0: 16s
+[2026-10-21 00:59:29] [E_base_p90]     point 1.0/3.5: 9s
+[2026-10-21 00:59:43] [E_base_p90]     point 1.0/4.0: 14s
+[2026-10-21 00:59:59] [E_base_p90]     point 1.0/4.5: 16s
+[2026-10-21 01:00:15] [E_base_p90]     point 1.5/1.5: 15s
+[2026-10-21 01:00:31] [E_base_p90]     point 1.5/2.0: 16s
+[2026-10-21 01:00:46] [E_base_p90]     point 1.5/2.5: 16s
+[2026-10-21 01:01:02] [E_base_p90]     point 1.5/3.0: 16s
+[2026-10-21 01:01:18] [E_base_p90]     point 1.5/3.5: 16s
+[2026-10-21 01:01:33] [E_base_p90]     point 1.5/4.0: 15s
+[2026-10-21 01:01:50] [E_base_p90]     point 1.5/4.5: 16s
+[2026-10-21 01:02:05] [E_base_p90]     point 2.0/1.5: 16s
+[2026-10-21 01:02:21] [E_base_p90]     point 2.0/2.0: 16s
+[2026-10-21 01:02:37] [E_base_p90]     point 2.0/2.5: 16s
+[2026-10-21 01:02:52] [E_base_p90]     point 2.0/3.0: 16s
+[2026-10-21 01:03:08] [E_base_p90]     point 2.0/3.5: 16s
+[2026-10-21 01:03:25] [E_base_p90]     point 2.0/4.0: 16s
+[2026-10-21 01:03:40] [E_base_p90]     point 2.0/4.5: 15s
+[2026-10-21 01:03:55] [E_base_p90]     point 2.5/1.5: 15s
+[2026-10-21 01:04:08] [E_base_p90]     point 2.5/2.0: 13s
+[2026-10-21 01:04:16] [E_base_p90]     point 2.5/2.5: 8s
+[2026-10-21 01:04:24] [E_base_p90]     point 2.5/3.0: 8s
+[2026-10-21 01:04:33] [E_base_p90]     point 2.5/3.5: 8s
+[2026-10-21 01:04:41] [E_base_p90]     point 2.5/4.0: 8s
+[2026-10-21 01:04:49] [E_base_p90]     point 2.5/4.5: 8s
+[2026-10-21 01:04:58] [E_base_p90]     point 3.0/1.5: 8s
+[2026-10-21 01:05:07] [E_base_p90]     point 3.0/2.0: 10s
+[2026-10-21 01:05:16] [E_base_p90]     point 3.0/2.5: 8s
+[2026-10-21 01:05:24] [E_base_p90]     point 3.0/3.0: 8s
+[2026-10-21 01:05:32] [E_base_p90]     point 3.0/3.5: 8s
+[2026-10-21 01:05:47] [E_base_p90]     point 3.0/4.0: 15s
+[2026-10-21 01:06:04] [E_base_p90]     point 3.0/4.5: 16s
+[2026-10-21 01:06:20] [E_base_p90]     point 3.5/1.5: 16s
+[2026-10-21 01:06:36] [E_base_p90]     point 3.5/2.0: 16s
+[2026-10-21 01:06:52] [E_base_p90]     point 3.5/2.5: 16s
+[2026-10-21 01:07:00] [E_base_p90]     point 3.5/3.0: 8s
+[2026-10-21 01:07:14] [E_base_p90]     point 3.5/3.5: 14s
+[2026-10-21 01:07:30] [E_base_p90]     point 3.5/4.0: 16s
+[2026-10-21 01:07:46] [E_base_p90]     point 3.5/4.5: 16s
+[2026-10-21 01:07:46] [E_base_p90] coarse grid done: 581s
+[2026-10-21 01:08:09] [E_base_p90]   target 0.02 split0: λ 1.75/2.0 cal 0.0186 alloc 1273.4 | ho n 638 risk 0.0190 alloc_vm 1288.5 (disp 1295.9)
+[2026-10-21 01:08:17] [E_base_p90]   target 0.02 split1: λ 2.0/2.0 cal 0.0182 alloc 1311.0 | ho n 630 risk 0.0175 alloc_vm 1288.8 (disp 1296.3)
+[2026-10-21 01:08:29] [E_base_p90]   target 0.02 split2: λ 1.75/2.0 cal 0.0193 alloc 1284.3 | ho n 645 risk 0.0205 alloc_vm 1274.8 (disp 1282.7)
+[2026-10-21 01:08:44] [E_base_p90]   target 0.02 split3: λ 1.75/2.0 cal 0.0199 alloc 1283.2 | ho n 634 risk 0.0214 alloc_vm 1280.8 (disp 1288.3)
+[2026-10-21 01:08:50] [E_base_p90]   target 0.02 split4: λ 1.75/2.0 cal 0.0191 alloc 1300.9 | ho n 629 risk 0.0211 alloc_vm 1275.4 (disp 1283.4)
+[2026-10-21 01:08:53] [E_base_p90]   target 0.02 split5: λ 2.0/2.0 cal 0.0187 alloc 1286.3 | ho n 639 risk 0.0169 alloc_vm 1286.7 (disp 1294.2)
+[2026-10-21 01:09:06] [E_base_p90]   target 0.005 split0: λ 3.0/3.0 cal 0.0048 alloc 1330.2 | ho n 638 risk 0.0050 alloc_vm 1346.9 (disp 1351.9)
+[2026-10-21 01:09:30] [E_base_p90]   target 0.005 split1: λ 2.75/3.25 cal 0.0041 alloc 1363.7 | ho n 630 risk 0.0037 alloc_vm 1345.9 (disp 1350.9)
+[2026-10-21 01:09:53] [E_base_p90]   target 0.005 split2: λ 2.75/3.0 cal 0.0048 alloc 1333.9 | ho n 645 risk 0.0053 alloc_vm 1331.6 (disp 1337.4)
+[2026-10-21 01:10:19] [E_base_p90]   target 0.005 split3: λ 2.25/3.25 cal 0.0047 alloc 1340.8 | ho n 634 risk 0.0062 alloc_vm 1337.0 (disp 1342.6)
+[2026-10-21 01:10:31] [E_base_p90]   target 0.005 split4: λ 3.0/3.0 cal 0.0048 alloc 1356.2 | ho n 629 risk 0.0054 alloc_vm 1333.4 (disp 1338.9)
+[2026-10-21 01:10:47] [E_base_p90]   target 0.005 split5: λ 2.25/3.25 cal 0.0049 alloc 1337.4 | ho n 639 risk 0.0053 alloc_vm 1336.6 (disp 1342.1)
+[2026-10-21 01:10:47] [E_base_p90] SUMMARY target 0.02: λ 1.83±0.12/2.00±0.00 cal 0.0190 ho risk 0.0194±0.0017 alloc_vm 1282.5±5.9 (disp 1290.1) n 6 infeasible 0
+[2026-10-21 01:10:47] [E_base_p90] SUMMARY target 0.005: λ 2.67±0.31/3.12±0.12 cal 0.0047 ho risk 0.0051±0.0007 alloc_vm 1338.6±5.8 (disp 1344.0) n 6 infeasible 0
+[2026-10-21 01:10:48] [E_base_p90] DONE 762s (sim 749s, 90205 trace-sims) libstats {'n': 1615, 'groups': 125, 'rise1': [7.0, 9.0, 14.0], 'rise10': [11.0, 16.0, 23.0]}

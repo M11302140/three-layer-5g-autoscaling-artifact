@@ -1,0 +1,6 @@
+B1 full fleet (8/3/4) per-slot t3: viol 0 [] alloc_vm 1464
+B1 full fleet (8/3/4) per-slot t4: viol 0 [] alloc_vm 1464
+B1 full fleet (8/3/4) per-slot t8: viol 0 [] alloc_vm 1464
+B1 full fleet (8/3/4) per-slot t6: viol 0 [] alloc_vm 1464
+B1 full fleet (8/3/4) per-slot t7: viol 0 [] alloc_vm 1464
+B1 dominance check done

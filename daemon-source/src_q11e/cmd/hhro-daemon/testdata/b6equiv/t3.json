@@ -1,0 +1,25 @@
+{
+ "trace": "t3",
+ "u": "0.70",
+ "alloc": 1213.699999999997,
+ "slo": 57,
+ "worst": 25,
+ "events": [
+  "0:out:up",
+  "6:out:vy",
+  "6:out:wk",
+  "10:out:up",
+  "10:out:up",
+  "24:in:up",
+  "26:in:vy",
+  "50:in:up",
+  "55:in:wk",
+  "64:in:up",
+  "74:in:up",
+  "76:out:up",
+  "94:out:up",
+  "104:out:wk",
+  "108:out:up",
+  "111:out:vy"
+ ]
+}

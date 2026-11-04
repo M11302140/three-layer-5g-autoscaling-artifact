@@ -1,0 +1,6 @@
+=== v6 模擬預測 2026-10-07 15:06:53 (v8sim2.sim_v6, cfg_measured; 口徑 = 該模擬的 alloc)
+ v6  t1  peakUE  40  {'slo': 58, 'alloc': 1080.6333333333287}
+ v6  t2  peakUE  40  {'slo': 59, 'alloc': 1296.1499999999946}
+ v6  t3  peakUE  40  {'slo': 57, 'alloc': 1104.4666666666633}
+ v6  t4  peakUE  40  {'slo': 57, 'alloc': 1387.1833333333234}
+ v6  t5  peakUE  40  {'slo': 60, 'alloc': 1451.199999999992}

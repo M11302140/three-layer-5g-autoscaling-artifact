@@ -1,0 +1,1 @@
+{"ue": [25, 25, 25, 25, 25, 25, 25, 25], "pps_per_ue": 125000, "max_ue": 40, "phases": [{"name": "warm-in", "start": 0, "end": 8}], "source": {"note": "trace 2 warm-in:\u4ee5 v3_pm \u8d77\u9ede\u8ca0\u8f09(25 UE)\u5e73\u8dd1 8 \u5206\u9418\u8b93\u63a7\u5236\u5668\u6536\u6582,\u4e4b\u5f8c --resume \u63a5\u6b63\u5f0f 60 \u5206\u9418(harness adopt \u65e2\u6709 UE)"}}

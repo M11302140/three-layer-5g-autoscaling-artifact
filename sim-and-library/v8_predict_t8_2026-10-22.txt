@@ -1,0 +1,12 @@
+=== t8 登記預測 2026-10-22 23:29:48  peakUE=40 UE0=13
+[fleet-level]
+ S4a nest2  SLO 59/60  viol 1  alloc_vmexist(登記) 1060  dispatch 1068
+ S4b nest2  SLO 59/60  viol 1  alloc_vmexist(登記) 1017  dispatch 1026
+ v6 sim_v6  SLO 59/60  viol 1  alloc 971
+ B6u70 sim_b6  SLO 59/60  viol 1  alloc 1081
+[per-slot v8sim11]
+ S4a v8sim11  SLO 58/60  viol 2 (min [20, 21])  alloc_vm 1085
+ S4b v8sim11  SLO 58/60  viol 2 (min [20, 21])  alloc_vm 1041
+ v6 v8sim11  SLO 58/60  viol 2 (min [20, 21])  alloc_vm 956
+ B6 v8sim11  SLO 58/60  viol 2 (min [20, 21])  alloc_vm 1078
+違規閘(§4.17 比率換算 2 場 = 120 分):S4a ≤ 1/120、S4b ≤ 4/120;無同事件連續 ≥3 分鐘(僅報告)

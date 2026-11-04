@@ -1,0 +1,22 @@
+import timeit  # stdlib first (qsim/timeit.py shadows it)
+import sys, time, json
+sys.path.insert(0, '/home/user/experiment/qsim')
+import os; os.chdir('/home/user/experiment/qsim')
+import v8sim11 as V, v8sim_b6 as B, v8sim10 as N, v8sim2 as S, v8sim7 as M
+lib = json.load(open('prior_traces.json'))
+t0=time.time(); V.cfg_prior(); print("prior", time.time()-t0, flush=True)
+cfg=M.cfg_measured(); mk=B.load_models()
+idx=list(range(0,1615,81))
+def T(name, f):
+    t0=time.time()
+    for i in idx: f(lib[i]["ue"][:60])
+    print(f"{name}: {(time.time()-t0)/len(idx):.4f} s/run", flush=True)
+T("v11 B4c2", lambda u: V.run(u,"B4c2"))
+T("v11 B5c1", lambda u: V.run(u,"B5c1"))
+T("v11 B6", lambda u: V.run(u,"B6",u=0.7))
+T("v11 S4b", lambda u: V.run(u,"S4b"))
+T("v11 v6", lambda u: V.run(u,"v6"))
+T("sim_b6", lambda u: B.sim_b6(u,cfg,0.7,mk))
+_,pr=V.cfg_prior()
+T("nest2 S4b", lambda u: N.sim_nest2(u,cfg,pr,{"vy":1.83,"wk":1.83,"up":2.0},acct='vmexist'))
+T("sim_v6", lambda u: S.sim_v6(u,cfg))

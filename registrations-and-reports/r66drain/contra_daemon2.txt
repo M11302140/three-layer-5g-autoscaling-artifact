@@ -1,0 +1,20 @@
+r214 affected 3 contradictions 0
+r240 affected 1 contradictions 0
+r242 affected 3 contradictions 0
+r250 affected 1 contradictions 0
+r254 affected 1 contradictions 0
+r300 affected 1 contradictions 0
+r309 affected 5 contradictions 0
+r361 affected 10 contradictions 0
+r362 affected 14 contradictions 0
+r363 affected 10 contradictions 0
+r370 affected 4 contradictions 0
+r371 affected 4 contradictions 0
+r372 affected 7 contradictions 0
+r374 affected 6 contradictions 0
+r377 affected 5 contradictions 0
+r382 affected 8 contradictions 0
+r383 affected 34 contradictions 0
+r419 affected 1 contradictions 0
+r446 affected 2 contradictions 0
+TOTAL runs 253 affected 120 contradictions 0

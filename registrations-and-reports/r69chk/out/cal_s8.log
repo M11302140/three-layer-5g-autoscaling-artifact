@@ -1,0 +1,13 @@
+[21:14:27] S8 split0 0.02: lam 1.5/1.75 inf False cal 0.0186 | ho risk 0.0193 vm 1281.2 fl 2.71
+[21:14:27] S8 split0 0.005: lam 2.5/2.75 inf False cal 0.0042 | ho risk 0.0062 vm 1332.2 fl 3.12
+[21:15:46] S8 split1 0.02: lam 1.5/1.75 inf False cal 0.0189 | ho risk 0.0201 vm 1274.4 fl 2.49
+[21:15:46] S8 split1 0.005: lam 3.0/2.75 inf False cal 0.0047 | ho risk 0.0047 vm 1337.0 fl 2.59
+[21:22:07] S8 split2 0.02: lam 1.5/1.75 inf False cal 0.0175 | ho risk 0.0200 vm 1268.5 fl 2.55
+[21:22:07] S8 split2 0.005: lam 2.25/3.0 inf False cal 0.0046 | ho risk 0.0060 vm 1325.3 fl 3.23
+[21:22:07] S8 split3 0.02: lam 1.5/1.75 inf False cal 0.0189 | ho risk 0.0218 vm 1270.7 fl 2.89
+[21:22:07] S8 split3 0.005: lam 2.5/3.0 inf False cal 0.0050 | ho risk 0.0053 vm 1330.9 fl 3.31
+[21:25:16] S8 split4 0.02: lam 1.5/1.75 inf False cal 0.0176 | ho risk 0.0222 vm 1263.8 fl 2.92
+[21:25:16] S8 split4 0.005: lam 2.75/3.0 inf False cal 0.0044 | ho risk 0.0051 vm 1327.6 fl 3.41
+[21:29:58] S8 split5 0.02: lam 1.75/1.75 inf False cal 0.0178 | ho risk 0.0158 vm 1277.0 fl 2.61
+[21:29:58] S8 split5 0.005: lam 2.5/3.0 inf False cal 0.0048 | ho risk 0.0041 vm 1336.1 fl 3.23
+DONE 1246s

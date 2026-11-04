@@ -1,0 +1,11 @@
+{
+ "frozen_at": "2026-10-26 05:23:09",
+ "rule": "spec \u00a74.127 \u00a73 fallback high-load band (used only if no stress-band passer in the whole pool): mp >= library P75 (\u00a74.53 percentile table); minue >= 6; start,end <= 30; f36 unrestricted",
+ "source_percentiles": "t6t7_thresholds.json (library sha256 7d5a247b06b6566b7c2baffc2322a9801c1c4661ccd85a9efcde30ba14ceebbb)",
+ "thresholds": {
+  "mp_min": 0.7054166666666666,
+  "minue_min": 6.0,
+  "start_max": 30.0,
+  "end_max": 30.0
+ }
+}

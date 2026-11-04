@@ -1,0 +1,276 @@
+[
+ {
+  "trace": "t4",
+  "point": "2",
+  "arm": "S4p",
+  "a_alloc": 1393.7499999999898,
+  "d_alloc": 1393.7499999999898,
+  "dpct": 0.0,
+  "a_viol": [
+   20
+  ],
+  "d_viol": [
+   20
+  ],
+  "a_flaps": 0,
+  "d_flaps": 0,
+  "a_acts": 5,
+  "d_acts": 5,
+  "sensitive": false
+ },
+ {
+  "trace": "t4",
+  "point": "2",
+  "arm": "S4",
+  "a_alloc": 1425.2499999999845,
+  "d_alloc": 1420.249999999985,
+  "dpct": -0.35081564637780005,
+  "a_viol": [
+   20
+  ],
+  "d_viol": [
+   20,
+   44,
+   45
+  ],
+  "a_flaps": 0,
+  "d_flaps": 0,
+  "a_acts": 6,
+  "d_acts": 8,
+  "sensitive": true
+ },
+ {
+  "trace": "t4",
+  "point": "05",
+  "arm": "S4p",
+  "a_alloc": 1447.0499999999895,
+  "d_alloc": 1447.0499999999895,
+  "dpct": 0.0,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 1,
+  "d_flaps": 1,
+  "a_acts": 5,
+  "d_acts": 5,
+  "sensitive": false
+ },
+ {
+  "trace": "t4",
+  "point": "05",
+  "arm": "S4",
+  "a_alloc": 1451.6166666666556,
+  "d_alloc": 1451.6166666666556,
+  "dpct": 0.0,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 2,
+  "d_flaps": 2,
+  "a_acts": 6,
+  "d_acts": 7,
+  "sensitive": false
+ },
+ {
+  "trace": "t6",
+  "point": "2",
+  "arm": "S4p",
+  "a_alloc": 1367.3166666666596,
+  "d_alloc": 1365.9166666666595,
+  "dpct": -0.10239032655201541,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 2,
+  "d_flaps": 2,
+  "a_acts": 8,
+  "d_acts": 8,
+  "sensitive": false
+ },
+ {
+  "trace": "t6",
+  "point": "2",
+  "arm": "S4",
+  "a_alloc": 1389.6666666666604,
+  "d_alloc": 1386.299999999994,
+  "dpct": -0.2422643319740736,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 5,
+  "d_flaps": 7,
+  "a_acts": 13,
+  "d_acts": 14,
+  "sensitive": false
+ },
+ {
+  "trace": "t6",
+  "point": "05",
+  "arm": "S4p",
+  "a_alloc": 1426.566666666656,
+  "d_alloc": 1425.1666666666558,
+  "dpct": -0.09813771993364417,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 2,
+  "d_flaps": 2,
+  "a_acts": 6,
+  "d_acts": 7,
+  "sensitive": false
+ },
+ {
+  "trace": "t6",
+  "point": "05",
+  "arm": "S4",
+  "a_alloc": 1447.8999999999946,
+  "d_alloc": 1435.299999999991,
+  "dpct": -0.870225844326511,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 5,
+  "d_flaps": 8,
+  "a_acts": 9,
+  "d_acts": 11,
+  "sensitive": false
+ },
+ {
+  "trace": "t8",
+  "point": "2",
+  "arm": "S4p",
+  "a_alloc": 1050.0333333333217,
+  "d_alloc": 1050.0333333333217,
+  "dpct": 0.0,
+  "a_viol": [
+   20,
+   21
+  ],
+  "d_viol": [
+   20,
+   21
+  ],
+  "a_flaps": 4,
+  "d_flaps": 4,
+  "a_acts": 12,
+  "d_acts": 12,
+  "sensitive": false
+ },
+ {
+  "trace": "t8",
+  "point": "2",
+  "arm": "S4",
+  "a_alloc": 1041.333333333331,
+  "d_alloc": 1033.3666666666672,
+  "dpct": -0.7650448143403099,
+  "a_viol": [
+   20,
+   21
+  ],
+  "d_viol": [
+   20,
+   21
+  ],
+  "a_flaps": 7,
+  "d_flaps": 8,
+  "a_acts": 14,
+  "d_acts": 15,
+  "sensitive": false
+ },
+ {
+  "trace": "t8",
+  "point": "05",
+  "arm": "S4p",
+  "a_alloc": 1095.9833333333254,
+  "d_alloc": 1095.9833333333254,
+  "dpct": 0.0,
+  "a_viol": [
+   20,
+   21
+  ],
+  "d_viol": [
+   20,
+   21
+  ],
+  "a_flaps": 4,
+  "d_flaps": 4,
+  "a_acts": 9,
+  "d_acts": 9,
+  "sensitive": false
+ },
+ {
+  "trace": "t8",
+  "point": "05",
+  "arm": "S4",
+  "a_alloc": 1084.899999999995,
+  "d_alloc": 1077.9999999999964,
+  "dpct": -0.6360033182780667,
+  "a_viol": [
+   20,
+   21
+  ],
+  "d_viol": [
+   20,
+   21
+  ],
+  "a_flaps": 11,
+  "d_flaps": 11,
+  "a_acts": 18,
+  "d_acts": 18,
+  "sensitive": false
+ },
+ {
+  "trace": "t11",
+  "point": "2",
+  "arm": "S4p",
+  "a_alloc": 1297.800000000003,
+  "d_alloc": 1296.8000000000025,
+  "dpct": -0.07705347511176575,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 0,
+  "d_flaps": 0,
+  "a_acts": 7,
+  "d_acts": 7,
+  "sensitive": false
+ },
+ {
+  "trace": "t11",
+  "point": "2",
+  "arm": "S4b",
+  "a_alloc": 1292.6666666666717,
+  "d_alloc": 1273.2000000000014,
+  "dpct": -1.505930892212759,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 6,
+  "d_flaps": 12,
+  "a_acts": 16,
+  "d_acts": 16,
+  "sensitive": true
+ },
+ {
+  "trace": "t12",
+  "point": "2",
+  "arm": "S4p",
+  "a_alloc": 1433.0333333333263,
+  "d_alloc": 1432.0333333333265,
+  "dpct": -0.06978204740525351,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 6,
+  "d_flaps": 6,
+  "a_acts": 9,
+  "d_acts": 9,
+  "sensitive": false
+ },
+ {
+  "trace": "t12",
+  "point": "2",
+  "arm": "S4b",
+  "a_alloc": 1443.433333333333,
+  "d_alloc": 1440.6333333333328,
+  "dpct": -0.19398194120501255,
+  "a_viol": [],
+  "d_viol": [],
+  "a_flaps": 6,
+  "d_flaps": 6,
+  "a_acts": 12,
+  "d_acts": 13,
+  "sensitive": false
+ }
+]

@@ -1,0 +1,304 @@
+[00:53:08 +     0s] === phase B4on (B4, R38 on)
+[00:53:49 +    41s] sim B4_on_2.0_300: lib risk 0.0007 cost 1415.5 (41s, 25.6 ms/trace)
+[00:54:24 +    77s] sim B4_on_2.0_600: lib risk 0.0006 cost 1418.1 (35s, 21.9 ms/trace)
+[00:55:00 +   112s] sim B4_on_2.0_900: lib risk 0.0007 cost 1419.4 (36s, 22.0 ms/trace)
+[00:55:35 +   148s] sim B4_on_2.5_300: lib risk 0.0019 cost 1384.8 (35s, 21.8 ms/trace)
+[00:56:18 +   191s] sim B4_on_2.5_600: lib risk 0.0016 cost 1390.0 (43s, 26.8 ms/trace)
+[00:57:12 +   245s] sim B4_on_2.5_900: lib risk 0.0016 cost 1392.9 (54s, 33.6 ms/trace)
+[00:57:56 +   288s] sim B4_on_3.0_300: lib risk 0.0098 cost 1346.8 (43s, 26.9 ms/trace)
+[00:58:31 +   323s] sim B4_on_3.0_600: lib risk 0.0077 cost 1355.2 (35s, 21.5 ms/trace)
+[00:59:21 +   374s] sim B4_on_3.0_900: lib risk 0.0073 cost 1360.3 (50s, 31.2 ms/trace)
+[01:00:09 +   422s] sim B4_on_3.5_300: lib risk 0.0266 cost 1298.4 (48s, 29.8 ms/trace)
+[01:01:16 +   488s] sim B4_on_3.5_600: lib risk 0.0221 cost 1310.4 (66s, 41.1 ms/trace)
+[01:02:07 +   540s] sim B4_on_3.5_900: lib risk 0.0210 cost 1317.9 (52s, 32.0 ms/trace)
+[01:03:00 +   593s] sim B4_on_4.0_300: lib risk 0.0592 cost 1248.6 (53s, 32.7 ms/trace)
+[01:03:37 +   630s] sim B4_on_4.0_600: lib risk 0.0496 cost 1264.6 (37s, 23.2 ms/trace)
+[01:04:42 +   695s] sim B4_on_4.0_900: lib risk 0.0468 cost 1275.2 (65s, 40.2 ms/trace)
+[01:05:48 +   761s] sim B4_on_4.5_300: lib risk 0.1260 cost 1184.7 (66s, 40.8 ms/trace)
+[01:07:02 +     0s] === phase B4on (B4, R38 on)
+[01:08:03 +    61s] sim B4_on_4.5_600: lib risk 0.1084 cost 1205.1 (61s, 37.5 ms/trace)
+[01:08:47 +   104s] sim B4_on_4.5_900: lib risk 0.1034 cost 1218.7 (44s, 27.0 ms/trace)
+[01:09:33 +   150s] sim B4_on_5.0_300: lib risk 0.2598 cost 1109.3 (46s, 28.5 ms/trace)
+[01:10:16 +   194s] sim B4_on_5.0_600: lib risk 0.2241 cost 1133.2 (43s, 26.8 ms/trace)
+[01:11:14 +   252s] sim B4_on_5.0_900: lib risk 0.2113 cost 1150.1 (58s, 36.2 ms/trace)
+[01:12:21 +   319s] sim B4_on_2.75_300: lib risk 0.0044 cost 1367.4 (67s, 41.5 ms/trace)
+[01:13:18 +   375s] sim B4_on_3.25_300: lib risk 0.0148 cost 1327.9 (56s, 34.8 ms/trace)
+[01:13:18 +   375s]   B4on target 0.02 seed 0: pick [3.25, 300] cal 0.0136/1313.5 ho 0.0152/1337.0
+[01:13:58 +   415s] sim B4_on_3.25_600: lib risk 0.0120 cost 1338.1 (40s, 24.7 ms/trace)
+[01:14:59 +   477s] sim B4_on_3.75_600: lib risk 0.0312 cost 1293.4 (62s, 38.3 ms/trace)
+[01:14:59 +   477s]   B4on target 0.02 seed 1: pick [3.5, 600] cal 0.0197/1326.0 ho 0.0219/1312.3
+[01:14:59 +   477s]   B4on target 0.02 seed 2: pick [3.25, 300] cal 0.0150/1321.3 ho 0.0151/1326.7
+[01:14:59 +   477s]   B4on target 0.02 seed 3: pick [3.25, 300] cal 0.0141/1330.6 ho 0.0160/1328.1
+[01:14:59 +   477s]   B4on target 0.02 seed 4: pick [3.25, 300] cal 0.0126/1345.7 ho 0.0163/1322.7
+[01:14:59 +   477s]   B4on target 0.02 seed 5: pick [3.25, 300] cal 0.0157/1322.3 ho 0.0133/1329.1
+[01:15:44 +   522s] sim B4_on_2.25_300: lib risk 0.0010 cost 1400.9 (45s, 27.8 ms/trace)
+[01:15:44 +   522s]   B4on target 0.005 seed 0: pick [2.75, 300] cal 0.0034/1353.3 ho 0.0048/1374.4
+[01:15:44 +   522s]   B4on target 0.005 seed 1: pick [2.75, 300] cal 0.0033/1379.9 ho 0.0051/1367.5
+[01:15:44 +   522s]   B4on target 0.005 seed 2: pick [2.5, 300] cal 0.0024/1378.8 ho 0.0016/1385.4
+[01:15:44 +   522s]   B4on target 0.005 seed 3: pick [2.75, 300] cal 0.0038/1371.0 ho 0.0048/1366.8
+[01:15:44 +   522s]   B4on target 0.005 seed 4: pick [2.75, 300] cal 0.0040/1380.5 ho 0.0051/1363.7
+[01:15:44 +   522s]   B4on target 0.005 seed 5: pick [2.5, 300] cal 0.0029/1383.3 ho 0.0015/1385.2
+[01:15:44 +   522s] === phase B5on (B5, R38 on)
+[01:16:51 +   589s] sim B5_on_2.0_L1: lib risk 0.0005 cost 1418.6 (67s, 41.5 ms/trace)
+[01:17:58 +   655s] sim B5_on_2.0_L2: lib risk 0.0005 cost 1418.7 (66s, 41.1 ms/trace)
+[01:19:05 +   722s] sim B5_on_2.0_L4: lib risk 0.0004 cost 1420.2 (67s, 41.5 ms/trace)
+[01:19:40 +   758s] sim B5_on_2.5_L1: lib risk 0.0014 cost 1393.1 (36s, 22.1 ms/trace)
+[01:20:16 +   793s] sim B5_on_2.5_L2: lib risk 0.0014 cost 1393.5 (35s, 22.0 ms/trace)
+[01:20:55 +   832s] sim B5_on_2.5_L4: lib risk 0.0014 cost 1395.2 (39s, 24.0 ms/trace)
+[01:21:30 +   867s] sim B5_on_3.0_L1: lib risk 0.0059 cost 1359.5 (35s, 21.7 ms/trace)
+[01:22:21 +   919s] sim B5_on_3.0_L2: lib risk 0.0056 cost 1360.1 (52s, 32.0 ms/trace)
+[01:23:28 +   986s] sim B5_on_3.0_L4: lib risk 0.0052 cost 1362.8 (67s, 41.4 ms/trace)
+[01:24:35 +  1053s] sim B5_on_3.5_L1: lib risk 0.0171 cost 1320.0 (67s, 41.4 ms/trace)
+[01:25:42 +  1119s] sim B5_on_3.5_L2: lib risk 0.0168 cost 1320.7 (67s, 41.2 ms/trace)
+[01:26:49 +  1186s] sim B5_on_3.5_L4: lib risk 0.0159 cost 1324.3 (67s, 41.7 ms/trace)
+[01:27:55 +  1253s] sim B5_on_4.0_L1: lib risk 0.0402 cost 1270.6 (66s, 41.1 ms/trace)
+[01:29:01 +  1318s] sim B5_on_4.0_L2: lib risk 0.0395 cost 1271.4 (66s, 40.6 ms/trace)
+[01:29:58 +  1376s] sim B5_on_4.0_L4: lib risk 0.0378 cost 1275.8 (57s, 35.4 ms/trace)
+[01:30:34 +  1412s] sim B5_on_4.5_L1: lib risk 0.0907 cost 1216.7 (36s, 22.5 ms/trace)
+[01:31:40 +  1478s] sim B5_on_4.5_L2: lib risk 0.0890 cost 1217.7 (66s, 40.9 ms/trace)
+[01:32:31 +  1529s] sim B5_on_4.5_L4: lib risk 0.0841 cost 1222.7 (51s, 31.3 ms/trace)
+[01:33:07 +  1564s] sim B5_on_5.0_L1: lib risk 0.2007 cost 1147.7 (36s, 22.1 ms/trace)
+[01:34:04 +  1622s] sim B5_on_5.0_L2: lib risk 0.1967 cost 1149.2 (57s, 35.5 ms/trace)
+[01:35:02 +  1679s] sim B5_on_5.0_L4: lib risk 0.1863 cost 1156.5 (58s, 35.6 ms/trace)
+[01:35:57 +  1734s] sim B5_on_3.25_L1: lib risk 0.0093 cost 1343.7 (55s, 34.1 ms/trace)
+[01:36:58 +  1796s] sim B5_on_3.75_L1: lib risk 0.0246 cost 1299.5 (61s, 38.0 ms/trace)
+[01:36:58 +  1796s]   B5on target 0.02 seed 0: pick [3.5, 'L1'] cal 0.0156/1305.7 ho 0.0179/1329.1
+[01:36:58 +  1796s]   B5on target 0.02 seed 1: pick [3.5, 'L1'] cal 0.0161/1336.3 ho 0.0165/1321.7
+[01:36:58 +  1796s]   B5on target 0.02 seed 2: pick [3.5, 'L1'] cal 0.0161/1312.0 ho 0.0170/1318.9
+[01:36:58 +  1796s]   B5on target 0.02 seed 3: pick [3.5, 'L1'] cal 0.0179/1321.2 ho 0.0179/1320.6
+[01:36:58 +  1796s]   B5on target 0.02 seed 4: pick [3.5, 'L1'] cal 0.0163/1338.0 ho 0.0184/1314.2
+[01:36:58 +  1796s]   B5on target 0.02 seed 5: pick [3.5, 'L1'] cal 0.0184/1315.0 ho 0.0157/1321.1
+[01:37:48 +  1845s] sim B5_on_2.75_L4: lib risk 0.0024 cost 1381.3 (50s, 30.7 ms/trace)
+[01:38:43 +  1901s] sim B5_on_3.25_L4: lib risk 0.0084 cost 1346.2 (55s, 34.2 ms/trace)
+[01:38:43 +  1901s]   B5on target 0.005 seed 0: pick [3.0, 'L4'] cal 0.0045/1348.7 ho 0.0053/1369.7
+[01:39:23 +  1940s] sim B5_on_2.75_L1: lib risk 0.0026 cost 1379.3 (40s, 24.5 ms/trace)
+[01:39:23 +  1940s]   B5on target 0.005 seed 1: pick [3.0, 'L1'] cal 0.0050/1372.3 ho 0.0065/1360.2
+[01:40:14 +  1992s] sim B5_on_2.25_L1: lib risk 0.0008 cost 1409.0 (51s, 31.8 ms/trace)
+[01:40:14 +  1992s]   B5on target 0.005 seed 2: pick [2.75, 'L1'] cal 0.0035/1372.3 ho 0.0025/1379.8
+[01:40:14 +  1992s]   B5on target 0.005 seed 3: pick [2.75, 'L1'] cal 0.0027/1382.3 ho 0.0033/1378.1
+[01:41:21 +  2059s] sim B5_on_2.75_L2: lib risk 0.0026 cost 1379.5 (67s, 41.7 ms/trace)
+[01:42:28 +  2125s] sim B5_on_3.25_L2: lib risk 0.0091 cost 1344.2 (66s, 41.0 ms/trace)
+[01:42:28 +  2125s]   B5on target 0.005 seed 4: pick [3.0, 'L2'] cal 0.0047/1374.0 ho 0.0062/1356.3
+[01:42:28 +  2125s]   B5on target 0.005 seed 5: pick [2.75, 'L1'] cal 0.0034/1377.5 ho 0.0020/1379.8
+[01:42:28 +  2125s] === phase B6b6 (B6b6, R38 -)
+[01:43:10 +  2167s] sim B6b6_-_0.4: lib risk 0.0074 cost 1421.4 (42s, 26.1 ms/trace)
+[01:43:52 +  2210s] sim B6b6_-_0.45: lib risk 0.0075 cost 1413.2 (42s, 26.1 ms/trace)
+[01:44:34 +  2252s] sim B6b6_-_0.5: lib risk 0.0076 cost 1397.8 (42s, 26.2 ms/trace)
+[01:45:11 +  2289s] sim B6b6_-_0.55: lib risk 0.0078 cost 1384.0 (37s, 22.9 ms/trace)
+[01:45:44 +  2322s] sim B6b6_-_0.6: lib risk 0.0086 cost 1366.9 (33s, 20.2 ms/trace)
+[01:46:21 +  2359s] sim B6b6_-_0.65: lib risk 0.0095 cost 1351.6 (37s, 23.2 ms/trace)
+[01:47:04 +  2401s] sim B6b6_-_0.7: lib risk 0.0120 cost 1327.5 (42s, 26.2 ms/trace)
+[01:47:44 +  2441s] sim B6b6_-_0.75: lib risk 0.0146 cost 1310.1 (40s, 24.8 ms/trace)
+[01:48:26 +  2484s] sim B6b6_-_0.8: lib risk 0.0219 cost 1280.7 (42s, 26.3 ms/trace)
+[01:49:09 +  2527s] sim B6b6_-_0.85: lib risk 0.0312 cost 1258.9 (43s, 26.5 ms/trace)
+[01:49:51 +  2569s] sim B6b6_-_0.9: lib risk 0.0462 cost 1230.0 (42s, 26.1 ms/trace)
+[01:50:27 +  2605s] sim B6b6_-_0.95: lib risk 0.0703 cost 1199.9 (36s, 22.1 ms/trace)
+[01:50:52 +  2629s] sim B6b6_-_0.725: lib risk 0.0133 cost 1319.3 (25s, 15.3 ms/trace)
+[01:51:19 +  2657s] sim B6b6_-_0.775: lib risk 0.0163 cost 1298.9 (27s, 16.9 ms/trace)
+[01:51:19 +  2657s]   B6b6 target 0.02 seed 0: pick [0.775] cal 0.0157/1286.2 ho 0.0158/1308.0
+[01:51:19 +  2657s]   B6b6 target 0.02 seed 1: pick [0.775] cal 0.0151/1318.3 ho 0.0152/1300.9
+[01:51:19 +  2657s]   B6b6 target 0.02 seed 2: pick [0.775] cal 0.0162/1292.8 ho 0.0159/1295.3
+[01:51:19 +  2657s]   B6b6 target 0.02 seed 3: pick [0.775] cal 0.0159/1297.4 ho 0.0178/1300.6
+[01:51:19 +  2657s]   B6b6 target 0.02 seed 4: pick [0.775] cal 0.0148/1318.3 ho 0.0171/1294.0
+[01:51:19 +  2657s]   B6b6 target 0.02 seed 5: pick [0.775] cal 0.0155/1295.3 ho 0.0163/1300.4
+[01:51:43 +  2681s] sim B6b6_-_0.375: lib risk 0.0073 cost 1428.4 (24s, 15.1 ms/trace)
+[01:52:06 +  2704s] sim B6b6_-_0.425: lib risk 0.0075 cost 1418.7 (22s, 13.9 ms/trace)
+[01:52:06 +  2704s]   B6b6 target 0.005 seed 0: pick [0.4] cal 0.0066/1409.3 ho 0.0072/1424.6 INFEASIBLE
+[01:52:06 +  2704s]   B6b6 target 0.005 seed 1: pick [0.4] cal 0.0078/1425.1 ho 0.0068/1420.2 INFEASIBLE
+[01:52:48 +  2746s] sim B6b6_-_0.475: lib risk 0.0075 cost 1407.5 (42s, 26.2 ms/trace)
+[01:52:48 +  2746s]   B6b6 target 0.005 seed 2: pick [0.45] cal 0.0072/1409.4 ho 0.0075/1413.8 INFEASIBLE
+[01:52:48 +  2746s]   B6b6 target 0.005 seed 3: pick [0.45] cal 0.0078/1417.6 ho 0.0078/1412.0 INFEASIBLE
+[01:52:48 +  2746s]   B6b6 target 0.005 seed 4: pick [0.4] cal 0.0067/1425.0 ho 0.0077/1421.4 INFEASIBLE
+[01:52:48 +  2746s]   B6b6 target 0.005 seed 5: pick [0.45] cal 0.0065/1414.8 ho 0.0077/1413.4 INFEASIBLE
+[01:52:48 +  2746s] === phase B4off (B4, R38 off)
+[01:53:33 +  2791s] sim B4_off_2.0_300: lib risk 0.0005 cost 1415.5 (45s, 27.7 ms/trace)
+[01:54:41 +  2858s] sim B4_off_2.0_600: lib risk 0.0004 cost 1418.1 (67s, 41.8 ms/trace)
+[01:55:48 +  2925s] sim B4_off_2.0_900: lib risk 0.0004 cost 1419.4 (67s, 41.6 ms/trace)
+[01:56:46 +  2984s] sim B4_off_2.5_300: lib risk 0.0004 cost 1384.8 (59s, 36.4 ms/trace)
+[01:57:36 +  3033s] sim B4_off_2.5_600: lib risk 0.0004 cost 1390.0 (49s, 30.4 ms/trace)
+[01:58:32 +  3090s] sim B4_off_2.5_900: lib risk 0.0004 cost 1392.9 (56s, 35.0 ms/trace)
+[01:59:14 +  3132s] sim B4_off_3.0_300: lib risk 0.0029 cost 1346.8 (42s, 26.1 ms/trace)
+[02:00:14 +  3192s] sim B4_off_3.0_600: lib risk 0.0026 cost 1355.1 (60s, 37.0 ms/trace)
+[02:01:21 +  3259s] sim B4_off_3.0_900: lib risk 0.0025 cost 1360.3 (67s, 41.6 ms/trace)
+[02:02:18 +  3315s] sim B4_off_3.5_300: lib risk 0.0112 cost 1298.2 (56s, 34.9 ms/trace)
+[02:03:10 +  3367s] sim B4_off_3.5_600: lib risk 0.0104 cost 1310.4 (52s, 32.3 ms/trace)
+[02:04:16 +  3434s] sim B4_off_3.5_900: lib risk 0.0101 cost 1317.9 (67s, 41.2 ms/trace)
+[02:05:22 +  3499s] sim B4_off_4.0_300: lib risk 0.0341 cost 1248.4 (66s, 40.7 ms/trace)
+[02:06:23 +  3560s] sim B4_off_4.0_600: lib risk 0.0308 cost 1264.5 (61s, 37.7 ms/trace)
+[02:07:02 +  3600s] sim B4_off_4.0_900: lib risk 0.0302 cost 1275.1 (39s, 24.4 ms/trace)
+[02:07:40 +  3638s] sim B4_off_4.5_300: lib risk 0.0974 cost 1184.6 (38s, 23.6 ms/trace)
+[02:08:47 +  3704s] sim B4_off_4.5_600: lib risk 0.0856 cost 1205.1 (66s, 41.1 ms/trace)
+[02:09:52 +  3770s] sim B4_off_4.5_900: lib risk 0.0836 cost 1218.7 (65s, 40.5 ms/trace)
+[02:10:49 +  3827s] sim B4_off_5.0_300: lib risk 0.2342 cost 1109.3 (57s, 35.3 ms/trace)
+[02:11:31 +  3869s] sim B4_off_5.0_600: lib risk 0.2001 cost 1133.2 (42s, 26.1 ms/trace)
+[02:12:18 +  3916s] sim B4_off_5.0_900: lib risk 0.1908 cost 1150.1 (47s, 29.2 ms/trace)
+[02:13:12 +  3970s] sim B4_off_3.25_300: lib risk 0.0052 cost 1327.8 (54s, 33.2 ms/trace)
+[02:14:14 +  4032s] sim B4_off_3.75_300: lib risk 0.0172 cost 1279.2 (62s, 38.5 ms/trace)
+[02:14:14 +  4032s]   B4off target 0.02 seed 0: pick [3.75, 300] cal 0.0166/1267.3 ho 0.0176/1289.6
+[02:14:14 +  4032s]   B4off target 0.02 seed 1: pick [3.75, 300] cal 0.0146/1299.2 ho 0.0180/1282.3
+[02:14:14 +  4032s]   B4off target 0.02 seed 2: pick [3.75, 300] cal 0.0142/1273.6 ho 0.0180/1276.8
+[02:14:14 +  4032s]   B4off target 0.02 seed 3: pick [3.75, 300] cal 0.0156/1278.6 ho 0.0200/1280.7
+[02:14:14 +  4032s]   B4off target 0.02 seed 4: pick [3.75, 300] cal 0.0159/1300.1 ho 0.0188/1272.8
+[02:14:14 +  4032s]   B4off target 0.02 seed 5: pick [3.75, 300] cal 0.0191/1271.2 ho 0.0148/1281.4
+[02:15:01 +  4079s] sim B4_off_2.75_300: lib risk 0.0013 cost 1367.4 (47s, 29.1 ms/trace)
+[02:15:01 +  4079s]   B4off target 0.005 seed 0: pick [3.25, 300] cal 0.0043/1313.4 ho 0.0060/1336.9
+[02:15:01 +  4079s]   B4off target 0.005 seed 1: pick [3.0, 300] cal 0.0022/1361.4 ho 0.0032/1348.2
+[02:15:01 +  4079s]   B4off target 0.005 seed 2: pick [3.0, 300] cal 0.0030/1339.2 ho 0.0027/1346.9
+[02:15:01 +  4079s]   B4off target 0.005 seed 3: pick [3.0, 300] cal 0.0017/1349.0 ho 0.0034/1347.1
+[02:15:01 +  4079s]   B4off target 0.005 seed 4: pick [3.25, 300] cal 0.0047/1345.6 ho 0.0053/1322.5
+[02:16:03 +  4141s] sim B4_off_2.25_300: lib risk 0.0005 cost 1400.9 (62s, 38.4 ms/trace)
+[02:16:03 +  4141s]   B4off target 0.005 seed 5: pick [2.75, 300] cal 0.0026/1363.7 ho 0.0005/1368.2
+[02:16:03 +  4141s] === phase B5off (B5, R38 off)
+[02:17:12 +  4210s] sim B5_off_2.0_L1: lib risk 0.0003 cost 1418.6 (69s, 42.7 ms/trace)
+[02:18:16 +  4273s] sim B5_off_2.0_L2: lib risk 0.0003 cost 1418.7 (63s, 39.3 ms/trace)
+[02:19:22 +  4340s] sim B5_off_2.0_L4: lib risk 0.0003 cost 1420.2 (66s, 41.0 ms/trace)
+[02:20:02 +  4379s] sim B5_off_2.5_L1: lib risk 0.0005 cost 1393.1 (40s, 24.6 ms/trace)
+[02:21:09 +  4446s] sim B5_off_2.5_L2: lib risk 0.0005 cost 1393.5 (67s, 41.4 ms/trace)
+[02:22:15 +  4513s] sim B5_off_2.5_L4: lib risk 0.0005 cost 1395.2 (67s, 41.3 ms/trace)
+[02:22:58 +  4555s] sim B5_off_3.0_L1: lib risk 0.0014 cost 1359.4 (43s, 26.5 ms/trace)
+[02:23:55 +  4612s] sim B5_off_3.0_L2: lib risk 0.0014 cost 1360.1 (57s, 35.2 ms/trace)
+[02:24:42 +  4660s] sim B5_off_3.0_L4: lib risk 0.0013 cost 1362.8 (47s, 29.3 ms/trace)
+[02:25:21 +  4699s] sim B5_off_3.5_L1: lib risk 0.0057 cost 1319.9 (39s, 24.2 ms/trace)
+[02:26:28 +  4765s] sim B5_off_3.5_L2: lib risk 0.0055 cost 1320.6 (66s, 41.1 ms/trace)
+[02:27:29 +  4826s] sim B5_off_3.5_L4: lib risk 0.0051 cost 1324.2 (61s, 37.8 ms/trace)
+[02:28:03 +  4861s] sim B5_off_4.0_L1: lib risk 0.0219 cost 1270.5 (35s, 21.5 ms/trace)
+[02:28:49 +  4907s] sim B5_off_4.0_L2: lib risk 0.0210 cost 1271.3 (46s, 28.3 ms/trace)
+[02:29:43 +  4960s] sim B5_off_4.0_L4: lib risk 0.0191 cost 1275.6 (54s, 33.2 ms/trace)
+[02:30:39 +  5017s] sim B5_off_4.5_L1: lib risk 0.0670 cost 1216.6 (57s, 35.2 ms/trace)
+[02:31:38 +  5076s] sim B5_off_4.5_L2: lib risk 0.0651 cost 1217.6 (59s, 36.4 ms/trace)
+[02:32:39 +  5137s] sim B5_off_4.5_L4: lib risk 0.0600 cost 1222.6 (61s, 38.0 ms/trace)
+[02:33:26 +  5183s] sim B5_off_5.0_L1: lib risk 0.1752 cost 1147.7 (46s, 28.7 ms/trace)
+[02:34:34 +  5251s] sim B5_off_5.0_L2: lib risk 0.1709 cost 1149.3 (68s, 42.0 ms/trace)
+[02:35:39 +  5317s] sim B5_off_5.0_L4: lib risk 0.1602 cost 1156.5 (66s, 40.6 ms/trace)
+[02:36:14 +  5352s] sim B5_off_3.75_L4: lib risk 0.0091 cost 1303.1 (35s, 21.7 ms/trace)
+[02:36:57 +  5394s] sim B5_off_4.25_L4: lib risk 0.0334 cost 1254.7 (42s, 26.2 ms/trace)
+[02:36:57 +  5394s]   B5off target 0.02 seed 0: pick [4.0, 'L4'] cal 0.0164/1263.4 ho 0.0192/1283.8
+[02:38:03 +  5461s] sim B5_off_3.75_L2: lib risk 0.0103 cost 1299.9 (66s, 41.2 ms/trace)
+[02:39:09 +  5527s] sim B5_off_4.25_L2: lib risk 0.0368 cost 1251.0 (66s, 41.0 ms/trace)
+[02:39:09 +  5527s]   B5off target 0.02 seed 1: pick [4.0, 'L2'] cal 0.0196/1290.2 ho 0.0198/1272.9
+[02:39:09 +  5527s]   B5off target 0.02 seed 2: pick [4.0, 'L4'] cal 0.0191/1271.3 ho 0.0185/1273.0
+[02:39:09 +  5527s]   B5off target 0.02 seed 3: pick [4.0, 'L2'] cal 0.0197/1269.7 ho 0.0237/1273.1
+[02:40:05 +  5582s] sim B5_off_3.75_L1: lib risk 0.0104 cost 1299.4 (55s, 34.1 ms/trace)
+[02:41:11 +  5649s] sim B5_off_4.25_L1: lib risk 0.0383 cost 1250.2 (67s, 41.2 ms/trace)
+[02:41:11 +  5649s]   B5off target 0.02 seed 4: pick [4.0, 'L1'] cal 0.0177/1291.2 ho 0.0255/1265.4
+[02:41:59 +  5696s] sim B5_off_3.25_L1: lib risk 0.0026 cost 1343.6 (48s, 29.6 ms/trace)
+[02:41:59 +  5696s]   B5off target 0.02 seed 5: pick [3.75, 'L1'] cal 0.0106/1293.3 ho 0.0087/1300.9
+[02:41:59 +  5697s]   B5off target 0.005 seed 0: pick [3.5, 'L1'] cal 0.0049/1305.6 ho 0.0065/1329.0
+[02:43:02 +  5760s] sim B5_off_2.75_L1: lib risk 0.0008 cost 1379.3 (63s, 39.2 ms/trace)
+[02:43:02 +  5760s]   B5off target 0.005 seed 1: pick [3.25, 'L1'] cal 0.0025/1357.8 ho 0.0027/1344.6
+[02:43:02 +  5760s]   B5off target 0.005 seed 2: pick [3.25, 'L1'] cal 0.0027/1336.0 ho 0.0023/1343.4
+[02:43:53 +  5811s] sim B5_off_3.25_L4: lib risk 0.0023 cost 1346.1 (51s, 31.6 ms/trace)
+[02:43:53 +  5811s]   B5off target 0.005 seed 3: pick [3.5, 'L4'] cal 0.0048/1325.2 ho 0.0057/1324.8
+[02:44:51 +  5868s] sim B5_off_3.25_L2: lib risk 0.0025 cost 1344.1 (57s, 35.6 ms/trace)
+[02:44:51 +  5868s]   B5off target 0.005 seed 4: pick [3.5, 'L2'] cal 0.0047/1338.3 ho 0.0062/1315.0
+[02:44:51 +  5868s]   B5off target 0.005 seed 5: pick [3.25, 'L1'] cal 0.0045/1340.2 ho 0.0016/1344.2
+[02:44:51 +  5868s] === phase Son (S, R38 on)
+[02:46:46 +  5984s] sim S_on_1.5: lib risk 0.0930 cost 1250.3 (116s, 71.5 ms/trace)
+[02:47:59 +  6057s] sim S_on_2.0: lib risk 0.0751 cost 1286.5 (73s, 45.0 ms/trace)
+[02:49:01 +  6119s] sim S_on_2.5: lib risk 0.0656 cost 1314.9 (62s, 38.3 ms/trace)
+[02:50:07 +  6185s] sim S_on_3.0: lib risk 0.0524 cost 1336.7 (66s, 41.1 ms/trace)
+[02:51:17 +  6255s] sim S_on_3.5: lib risk 0.0387 cost 1358.4 (70s, 43.3 ms/trace)
+[02:52:17 +  6315s] sim S_on_4.0: lib risk 0.0323 cost 1376.9 (60s, 37.0 ms/trace)
+[02:52:58 +  6355s] sim S_on_5.0: lib risk 0.0154 cost 1405.9 (41s, 25.3 ms/trace)
+[02:53:54 +  6411s] sim S_on_6.0: lib risk 0.0075 cost 1422.8 (56s, 34.6 ms/trace)
+[02:54:56 +  6474s] sim S_on_4.75: lib risk 0.0200 cost 1400.4 (63s, 38.7 ms/trace)
+[02:55:59 +  6537s] sim S_on_5.25: lib risk 0.0143 cost 1410.0 (63s, 38.9 ms/trace)
+[02:55:59 +  6537s]   Son target 0.02 seed 0: pick [5.0] cal 0.0173/1395.1 ho 0.0153/1411.1
+[02:57:02 +  6600s] sim S_on_5.75: lib risk 0.0107 cost 1419.1 (63s, 38.9 ms/trace)
+[02:58:05 +  6663s] sim S_on_6.25: lib risk 0.0047 cost 1427.1 (63s, 39.1 ms/trace)
+[02:58:05 +  6663s]   Son target 0.02 seed 1: pick [5.75] cal 0.0148/1425.1 ho 0.0096/1418.8
+[02:58:05 +  6663s]   Son target 0.02 seed 2: pick [4.75] cal 0.0191/1396.1 ho 0.0194/1400.4
+[02:58:05 +  6663s]   Son target 0.02 seed 3: pick [4.75] cal 0.0196/1403.4 ho 0.0187/1399.9
+[02:58:05 +  6663s]   Son target 0.02 seed 4: pick [5.0] cal 0.0151/1411.9 ho 0.0160/1404.4
+[02:58:05 +  6663s]   Son target 0.02 seed 5: pick [5.0] cal 0.0168/1404.4 ho 0.0138/1406.3
+[02:58:05 +  6663s]   Son target 0.005 seed 0: pick [6.25] cal 0.0059/1418.4 ho 0.0041/1430.4 INFEASIBLE
+[02:58:05 +  6663s]   Son target 0.005 seed 1: pick [6.25] cal 0.0058/1431.9 ho 0.0042/1426.8 INFEASIBLE
+[02:58:05 +  6663s]   Son target 0.005 seed 2: pick [6.25] cal 0.0049/1424.9 ho 0.0042/1427.2
+[02:58:05 +  6663s]   Son target 0.005 seed 3: pick [6.25] cal 0.0039/1429.2 ho 0.0044/1426.6
+[02:58:05 +  6663s]   Son target 0.005 seed 4: pick [6.25] cal 0.0052/1430.9 ho 0.0048/1426.3 INFEASIBLE
+[02:58:05 +  6663s]   Son target 0.005 seed 5: pick [6.25] cal 0.0046/1427.6 ho 0.0044/1427.2
+[02:58:05 +  6663s] === phase B6on (B6, R38 on)
+[02:59:00 +  6717s] sim B6_on_0.4: lib risk 0.0006 cost 1418.7 (55s, 33.8 ms/trace)
+[02:59:54 +  6772s] sim B6_on_0.45: lib risk 0.0008 cost 1408.2 (54s, 33.7 ms/trace)
+[03:00:49 +  6826s] sim B6_on_0.5: lib risk 0.0016 cost 1394.5 (55s, 33.8 ms/trace)
+[03:01:43 +  6881s] sim B6_on_0.55: lib risk 0.0031 cost 1380.1 (54s, 33.6 ms/trace)
+[03:02:37 +  6935s] sim B6_on_0.6: lib risk 0.0072 cost 1358.0 (54s, 33.5 ms/trace)
+[03:03:31 +  6989s] sim B6_on_0.65: lib risk 0.0106 cost 1342.4 (54s, 33.6 ms/trace)
+[03:04:26 +  7043s] sim B6_on_0.7: lib risk 0.0198 cost 1319.6 (54s, 33.5 ms/trace)
+[03:05:20 +  7097s] sim B6_on_0.75: lib risk 0.0295 cost 1298.6 (54s, 33.5 ms/trace)
+[03:06:13 +  7151s] sim B6_on_0.8: lib risk 0.0467 cost 1267.2 (54s, 33.4 ms/trace)
+[03:07:07 +  7205s] sim B6_on_0.85: lib risk 0.0620 cost 1243.9 (54s, 33.4 ms/trace)
+[03:07:56 +  7253s] sim B6_on_0.9: lib risk 0.0964 cost 1208.5 (48s, 29.8 ms/trace)
+[03:08:31 +  7288s] sim B6_on_0.95: lib risk 0.1329 cost 1183.9 (35s, 21.7 ms/trace)
+[03:09:05 +  7323s] sim B6_on_0.675: lib risk 0.0148 cost 1330.7 (35s, 21.5 ms/trace)
+[03:09:41 +  7358s] sim B6_on_0.725: lib risk 0.0232 cost 1313.0 (35s, 21.9 ms/trace)
+[03:09:41 +  7358s]   B6on target 0.02 seed 0: pick [0.7] cal 0.0185/1305.4 ho 0.0199/1328.3
+[03:09:41 +  7358s]   B6on target 0.02 seed 1: pick [0.7] cal 0.0193/1336.2 ho 0.0182/1321.9
+[03:09:41 +  7358s]   B6on target 0.02 seed 2: pick [0.7] cal 0.0198/1312.4 ho 0.0192/1318.0
+[03:09:41 +  7358s]   B6on target 0.02 seed 3: pick [0.7] cal 0.0191/1318.5 ho 0.0208/1321.0
+[03:09:41 +  7358s]   B6on target 0.02 seed 4: pick [0.7] cal 0.0198/1337.6 ho 0.0213/1315.4
+[03:10:35 +  7413s] sim B6_on_0.625: lib risk 0.0076 cost 1353.5 (55s, 33.9 ms/trace)
+[03:10:35 +  7413s]   B6on target 0.02 seed 5: pick [0.675] cal 0.0152/1326.8 ho 0.0138/1331.5
+[03:11:30 +  7468s] sim B6_on_0.525: lib risk 0.0021 cost 1388.7 (55s, 33.9 ms/trace)
+[03:12:06 +  7503s] sim B6_on_0.575: lib risk 0.0047 cost 1370.7 (36s, 22.1 ms/trace)
+[03:12:06 +  7503s]   B6on target 0.005 seed 0: pick [0.575] cal 0.0039/1356.0 ho 0.0047/1378.0
+[03:12:06 +  7503s]   B6on target 0.005 seed 1: pick [0.575] cal 0.0048/1382.6 ho 0.0051/1370.5
+[03:12:06 +  7503s]   B6on target 0.005 seed 2: pick [0.55] cal 0.0037/1373.2 ho 0.0027/1380.5
+[03:12:06 +  7503s]   B6on target 0.005 seed 3: pick [0.575] cal 0.0046/1372.4 ho 0.0054/1370.3
+[03:12:06 +  7503s]   B6on target 0.005 seed 4: pick [0.575] cal 0.0041/1383.9 ho 0.0054/1368.0
+[03:12:06 +  7503s]   B6on target 0.005 seed 5: pick [0.55] cal 0.0042/1379.2 ho 0.0026/1380.3
+[03:12:06 +  7503s] === phase B6off (B6, R38 off)
+[03:12:47 +  7545s] sim B6_off_0.4: lib risk 0.0004 cost 1418.7 (41s, 25.5 ms/trace)
+[03:13:41 +  7599s] sim B6_off_0.45: lib risk 0.0004 cost 1408.2 (55s, 33.8 ms/trace)
+[03:14:17 +  7634s] sim B6_off_0.5: lib risk 0.0005 cost 1394.5 (35s, 21.8 ms/trace)
+[03:14:51 +  7669s] sim B6_off_0.55: lib risk 0.0006 cost 1380.1 (35s, 21.4 ms/trace)
+[03:15:26 +  7703s] sim B6_off_0.6: lib risk 0.0014 cost 1358.0 (35s, 21.4 ms/trace)
+[03:16:18 +  7756s] sim B6_off_0.65: lib risk 0.0025 cost 1342.3 (53s, 32.6 ms/trace)
+[03:17:13 +  7810s] sim B6_off_0.7: lib risk 0.0055 cost 1319.5 (54s, 33.5 ms/trace)
+[03:17:57 +  7855s] sim B6_off_0.75: lib risk 0.0102 cost 1298.5 (45s, 27.6 ms/trace)
+[03:18:31 +  7889s] sim B6_off_0.8: lib risk 0.0218 cost 1267.1 (34s, 21.2 ms/trace)
+[03:19:06 +  7923s] sim B6_off_0.85: lib risk 0.0349 cost 1243.7 (34s, 21.1 ms/trace)
+[03:19:40 +  7957s] sim B6_off_0.9: lib risk 0.0644 cost 1208.5 (34s, 21.1 ms/trace)
+[03:20:14 +  7992s] sim B6_off_0.95: lib risk 0.0993 cost 1183.8 (35s, 21.4 ms/trace)
+[03:20:48 +  8026s] sim B6_off_0.725: lib risk 0.0063 cost 1312.9 (34s, 21.2 ms/trace)
+[03:21:23 +  8060s] sim B6_off_0.775: lib risk 0.0130 cost 1286.4 (34s, 21.3 ms/trace)
+[03:21:23 +  8060s]   B6off target 0.02 seed 0: pick [0.775] cal 0.0127/1273.9 ho 0.0137/1295.7
+[03:21:23 +  8060s]   B6off target 0.02 seed 1: pick [0.775] cal 0.0113/1304.7 ho 0.0120/1288.2
+[03:21:23 +  8060s]   B6off target 0.02 seed 2: pick [0.775] cal 0.0128/1281.0 ho 0.0122/1283.3
+[03:21:23 +  8060s]   B6off target 0.02 seed 3: pick [0.775] cal 0.0112/1285.1 ho 0.0145/1288.0
+[03:21:23 +  8060s]   B6off target 0.02 seed 4: pick [0.775] cal 0.0132/1306.0 ho 0.0135/1281.5
+[03:21:23 +  8060s]   B6off target 0.02 seed 5: pick [0.775] cal 0.0138/1281.5 ho 0.0105/1288.2
+[03:22:07 +  8105s] sim B6_off_0.625: lib risk 0.0015 cost 1353.5 (44s, 27.5 ms/trace)
+[03:23:02 +  8159s] sim B6_off_0.675: lib risk 0.0035 cost 1330.6 (54s, 33.7 ms/trace)
+[03:23:02 +  8159s]   B6off target 0.005 seed 0: pick [0.675] cal 0.0029/1316.5 ho 0.0041/1338.7
+[03:23:02 +  8159s]   B6off target 0.005 seed 1: pick [0.675] cal 0.0043/1345.8 ho 0.0028/1331.8
+[03:23:02 +  8159s]   B6off target 0.005 seed 2: pick [0.675] cal 0.0044/1324.2 ho 0.0028/1329.1
+[03:23:02 +  8159s]   B6off target 0.005 seed 3: pick [0.7] cal 0.0049/1318.4 ho 0.0060/1320.9
+[03:23:02 +  8159s]   B6off target 0.005 seed 4: pick [0.675] cal 0.0031/1347.6 ho 0.0039/1326.5
+[03:23:02 +  8159s]   B6off target 0.005 seed 5: pick [0.65] cal 0.0042/1339.1 ho 0.0020/1342.8
+[03:23:02 +  8159s] === phase Soff (S, R38 off)
+[03:23:43 +  8200s] sim S_off_1.5: lib risk 0.0429 cost 1249.9 (41s, 25.3 ms/trace)
+[03:24:20 +  8238s] sim S_off_2.0: lib risk 0.0215 cost 1286.0 (38s, 23.3 ms/trace)
+[03:24:59 +  8276s] sim S_off_2.5: lib risk 0.0124 cost 1314.4 (39s, 23.9 ms/trace)
+[03:25:37 +  8314s] sim S_off_3.0: lib risk 0.0053 cost 1336.3 (38s, 23.6 ms/trace)
+[03:26:16 +  8353s] sim S_off_3.5: lib risk 0.0017 cost 1358.1 (39s, 24.0 ms/trace)
+[03:26:55 +  8392s] sim S_off_4.0: lib risk 0.0011 cost 1376.7 (39s, 24.1 ms/trace)
+[03:27:34 +  8432s] sim S_off_5.0: lib risk 0.0005 cost 1405.8 (39s, 24.4 ms/trace)
+[03:28:30 +  8488s] sim S_off_6.0: lib risk 0.0000 cost 1422.8 (56s, 34.7 ms/trace)
+[03:29:30 +  8548s] sim S_off_2.25: lib risk 0.0158 cost 1299.5 (60s, 37.4 ms/trace)
+[03:30:31 +  8609s] sim S_off_2.75: lib risk 0.0083 cost 1324.0 (61s, 37.6 ms/trace)
+[03:30:31 +  8609s]   Soff target 0.02 seed 0: pick [2.25] cal 0.0155/1285.8 ho 0.0158/1309.0
+[03:30:31 +  8609s]   Soff target 0.02 seed 1: pick [2.25] cal 0.0158/1316.8 ho 0.0164/1303.0
+[03:30:31 +  8609s]   Soff target 0.02 seed 2: pick [2.25] cal 0.0168/1296.6 ho 0.0152/1296.8
+[03:30:31 +  8609s]   Soff target 0.02 seed 3: pick [2.25] cal 0.0136/1296.9 ho 0.0172/1302.1
+[03:30:31 +  8609s]   Soff target 0.02 seed 4: pick [2.25] cal 0.0147/1315.6 ho 0.0190/1296.1
+[03:30:31 +  8609s]   Soff target 0.02 seed 5: pick [2.5] cal 0.0176/1309.9 ho 0.0094/1315.0
+[03:31:29 +  8667s] sim S_off_3.25: lib risk 0.0031 cost 1347.9 (58s, 35.9 ms/trace)
+[03:32:08 +  8705s] sim S_off_3.75: lib risk 0.0012 cost 1369.4 (39s, 24.0 ms/trace)
+[03:32:08 +  8705s]   Soff target 0.005 seed 0: pick [3.25] cal 0.0042/1336.2 ho 0.0026/1356.0
+[03:32:08 +  8705s]   Soff target 0.005 seed 1: pick [3.25] cal 0.0027/1362.5 ho 0.0034/1350.1
+[03:32:08 +  8705s]   Soff target 0.005 seed 2: pick [3.0] cal 0.0048/1331.7 ho 0.0052/1334.9
+[03:32:08 +  8705s]   Soff target 0.005 seed 3: pick [3.25] cal 0.0036/1348.1 ho 0.0037/1348.8
+[03:32:08 +  8705s]   Soff target 0.005 seed 4: pick [3.25] cal 0.0028/1361.3 ho 0.0032/1343.9
+[03:32:08 +  8705s]   Soff target 0.005 seed 5: pick [3.25] cal 0.0032/1343.9 ho 0.0025/1348.0
+[03:32:08 +  8705s] done

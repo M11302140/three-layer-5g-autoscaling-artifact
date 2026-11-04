@@ -1,0 +1,17 @@
+@inproceedings{10.1145/3615453.3616509,
+author = {P\'{e}rez, Pablo Fern\'{a}ndez and Fiandrino, Claudio and Widmer, Joerg},
+title = {Characterizing and Modeling Mobile Networks User Traffic at Millisecond Level},
+year = {2023},
+isbn = {9798400703409},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3615453.3616509},
+doi = {10.1145/3615453.3616509},
+abstract = {The availability of datasets has been instrumental to drive advances in several disciplines like computer vision, image processing, and natural language processing. However, in the context of mobile traffic, data is often not available because of diverse reasons including data sensitivity, legal considerations and business competition. The lack of dataset availability restrains the research advance at large.In this paper, we make a twofold contribution. On the one hand, we make available a large dataset of mobile traffic from multiple Base Stations (BSs). The key distinct feature of the dataset is in the nature of the data, which is based on real LTE traffic information decoded from control channel information at the millisecond level. On the other hand, we carry out an in-depth characterization of user traffic and study how widely adopted probability distributions for mobile traffic do apply at short-term scales. Our analysis shows that mobile data traffic exhibits self-similarity and the number of Radio Resource Control (RRC) connected users exhibits a bi-modal distribution. Overall, our contribution key to verify and reproduce research outcomes as well as driving advances of Artificial Intelligence (AI)/Machine Learning (ML) applied to mobile networks.},
+booktitle = {Proceedings of the 17th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation \& Characterization},
+pages = {64–71},
+numpages = {8},
+keywords = {mobile traffic characterization, network measurements, Mobile networks, datasets},
+location = {Madrid, Spain},
+series = {WiNTECH '23}
+}

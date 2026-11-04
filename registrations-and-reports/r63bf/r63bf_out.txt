@@ -1,0 +1,221 @@
+== B1
+{'trace': 't3', 'arm': 'S4a', 'registered': 3, 'v8sim11': 3, 'meas_total': 7, 'n': 3, 'runs': ['r360', 'r372', 'r377'], 'measured': 2.33, 'reg_over_meas': '1.29', 'v11_over_meas': '1.29', 'meas_over_reg': '0.78', 'meas_over_v11': '0.78'}
+{'trace': 't3', 'arm': 'S4b', 'registered': 3, 'v8sim11': 5, 'meas_total': 14, 'n': 3, 'runs': ['r363', 'r369', 'r374'], 'measured': 4.67, 'reg_over_meas': '0.64', 'v11_over_meas': '1.07', 'meas_over_reg': '1.56', 'meas_over_v11': '0.93'}
+{'trace': 't3', 'arm': 'v6', 'registered': 3, 'v8sim11': 5, 'meas_total': 17, 'n': 3, 'runs': ['r361', 'r367', 'r378'], 'measured': 5.67, 'reg_over_meas': '0.53', 'v11_over_meas': '0.88', 'meas_over_reg': '1.89', 'meas_over_v11': '1.13'}
+{'trace': 't4', 'arm': 'S4a', 'registered': 0, 'v8sim11': 2, 'meas_total': 3, 'n': 3, 'runs': ['r300', 'r312', 'r317'], 'measured': 1.0, 'reg_over_meas': '0.00', 'v11_over_meas': '2.00', 'meas_over_reg': '∞', 'meas_over_v11': '0.50'}
+{'trace': 't4', 'arm': 'S4b', 'registered': 1, 'v8sim11': 4, 'meas_total': 10, 'n': 3, 'runs': ['r303', 'r314', 'r322'], 'measured': 3.33, 'reg_over_meas': '0.30', 'v11_over_meas': '1.20', 'meas_over_reg': '3.33', 'meas_over_v11': '0.83'}
+{'trace': 't4', 'arm': 'v6', 'registered': 3, 'v8sim11': 2, 'meas_total': 5, 'n': 3, 'runs': ['r301', 'r318', 'r321'], 'measured': 1.67, 'reg_over_meas': '1.80', 'v11_over_meas': '1.20', 'meas_over_reg': '0.56', 'meas_over_v11': '0.83'}
+{'trace': 't6', 'arm': 'S4a', 'registered': 0, 'v8sim11': 3, 'meas_total': 0, 'n': 3, 'runs': ['r402', 'r414', 'r419'], 'measured': 0.0, 'reg_over_meas': 'n/a', 'v11_over_meas': '∞', 'meas_over_reg': 'n/a', 'meas_over_v11': '0.00'}
+{'trace': 't6', 'arm': 'S4b', 'registered': 0, 'v8sim11': 5, 'meas_total': 0, 'n': 3, 'runs': ['r405', 'r411', 'r416'], 'measured': 0.0, 'reg_over_meas': 'n/a', 'v11_over_meas': '∞', 'meas_over_reg': 'n/a', 'meas_over_v11': '0.00'}
+{'trace': 't6', 'arm': 'v6', 'registered': 2, 'v8sim11': 2, 'meas_total': 5, 'n': 3, 'runs': ['r403', 'r409', 'r420'], 'measured': 1.67, 'reg_over_meas': '1.20', 'v11_over_meas': '1.20', 'meas_over_reg': '0.83', 'meas_over_v11': '0.83'}
+{'trace': 't7', 'arm': 'S4a', 'registered': 0, 'v8sim11': 0, 'meas_total': 1, 'n': 3, 'runs': ['r430', 'r442', 'r447'], 'measured': 0.33, 'reg_over_meas': '0.00', 'v11_over_meas': '0.00', 'meas_over_reg': '∞', 'meas_over_v11': '∞'}
+{'trace': 't7', 'arm': 'S4b', 'registered': 0, 'v8sim11': 0, 'meas_total': 0, 'n': 3, 'runs': ['r433', 'r439', 'r444'], 'measured': 0.0, 'reg_over_meas': 'n/a', 'v11_over_meas': 'n/a', 'meas_over_reg': 'n/a', 'meas_over_v11': 'n/a'}
+{'trace': 't7', 'arm': 'v6', 'registered': 0, 'v8sim11': 1, 'meas_total': 0, 'n': 3, 'runs': ['r431', 'r437', 'r448'], 'measured': 0.0, 'reg_over_meas': 'n/a', 'v11_over_meas': '∞', 'meas_over_reg': 'n/a', 'meas_over_v11': '0.00'}
+r381 [('r381', '56')]
+== B2 n_runs 84 {'t4': 20, 't5': 7, 't3': 19, 't6': 19, 't7': 19} violating minutes 117 eupf_cov unparsable 0
+t3 {'fleet': 47, 'other': 8, 'placement': 16} 71
+t4 {'fleet': 14, 'placement': 16, 'other': 2} 32
+t5 {} 0
+t6 {'placement': 11, 'other': 1} 12
+t7 {'placement': 1, 'other': 1} 2
+all {'fleet': 61, 'placement': 44, 'other': 12} 117
+old x new {('capacity', 'fleet'): 53, ('tail', 'fleet'): 4, ('tail', 'placement'): 6, ('capacity', 'placement'): 30, ('nodist', 'fleet'): 1, ('type2', 'placement'): 8, ('non-slot', 'other'): 12, ('type2', 'fleet'): 3}
+fleet layers (up,vy,wk) {(True, True, False): 26, (False, True, False): 3, (True, False, False): 26, (True, True, True): 6}
+wk shortage without slot shortage: 0
+vy exact-cap 16.55 differs from 16: [('r360', 3, 2, 33), ('r361', 3, 2, 33), ('r362', 3, 2, 33), ('r363', 3, 2, 33), ('r364', 3, 2, 33), ('r367', 3, 2, 33), ('r369', 3, 2, 33), ('r371', 3, 2, 33), ('r372', 3, 2, 33), ('r373', 3, 2, 33), ('r374', 3, 2, 33), ('r375', 3, 2, 33), ('r377', 3, 2, 33), ('r378', 3, 2, 33), ('r380', 3, 2, 33), ('r382', 3, 2, 33), ('r383', 3, 2, 33)]
+sensitivity active_ue: {'t4': {'fleet': 14, 'placement': 16, 'other': 2}, 'all': {'fleet': 61, 'placement': 44, 'other': 12}, 't3': {'fleet': 47, 'other': 8, 'placement': 16}, 't6': {'placement': 11, 'other': 1}, 't7': {'placement': 1, 'other': 1}}
+== fleet minutes detail
+  r301 t4 HHRO min 20 capacity tgt 37 act 37 cov 7/8 vy 2 wk 4 up/vy/wk True True False
+  r301 t4 HHRO min 21 tail tgt 34 act 34 cov 8/8 vy 2 wk 4 up/vy/wk False True False
+  r303 t4 S4b min 20 capacity tgt 37 act 37 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r310 t4 B5c1_slo min 20 capacity tgt 37 act 37 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r314 t4 S4b min 20 capacity tgt 37 act 37 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r315 t4 B5c1_slo min 20 nodist tgt 37 act 37 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r318 t4 HHRO min 20 capacity tgt 37 act 37 cov 7/8 vy 2 wk 4 up/vy/wk True True False
+  r319 t4 B5c1_slo min 20 type2 tgt 37 act 37 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r321 t4 HHRO min 20 capacity tgt 37 act 37 cov 7/8 vy 2 wk 4 up/vy/wk True True False
+  r321 t4 HHRO min 21 capacity tgt 34 act 34 cov 7/8 vy 2 wk 4 up/vy/wk False True False
+  r322 t4 S4b min 20 capacity tgt 37 act 37 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r360 t3 S4a min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r360 t3 S4a min 4 tail tgt 40 act 40 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r361 t3 HHRO min 3 type2 tgt 33 act 33 cov 6/8 vy 2 wk 3 up/vy/wk True True True
+  r361 t3 HHRO min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r361 t3 HHRO min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r362 t3 B4c2_slo min 3 capacity tgt 33 act 32 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r362 t3 B4c2_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r362 t3 B4c2_slo min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r363 t3 S4b min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r363 t3 S4b min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r363 t3 S4b min 5 capacity tgt 36 act 36 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r364 t3 B5c1_slo min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r364 t3 B5c1_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r365 t3 B6c4_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r365 t3 B6c4_slo min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r367 t3 HHRO min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 3 up/vy/wk True True True
+  r367 t3 HHRO min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r367 t3 HHRO min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r369 t3 S4b min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r369 t3 S4b min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r369 t3 S4b min 5 capacity tgt 36 act 36 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r371 t3 B6c4_slo min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r372 t3 S4a min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r372 t3 S4a min 4 tail tgt 40 act 40 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r373 t3 B4c2_slo min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r373 t3 B4c2_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r373 t3 B4c2_slo min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r374 t3 S4b min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 3 up/vy/wk True True True
+  r374 t3 S4b min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r374 t3 S4b min 5 capacity tgt 36 act 36 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r375 t3 B5c1_slo min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 3 up/vy/wk True True True
+  r375 t3 B5c1_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r375 t3 B5c1_slo min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r377 t3 S4a min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r377 t3 S4a min 4 tail tgt 40 act 40 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r378 t3 HHRO min 3 capacity tgt 33 act 33 cov 6/8 vy 2 wk 3 up/vy/wk True True True
+  r378 t3 HHRO min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r378 t3 HHRO min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r380 t3 B5c1_slo min 3 type2 tgt 33 act 32 cov 6/8 vy 2 wk 3 up/vy/wk True True True
+  r380 t3 B5c1_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r380 t3 B5c1_slo min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r381 t4 HHRO min 20 capacity tgt 37 act 37 cov 7/8 vy 2 wk 4 up/vy/wk True True False
+  r381 t4 HHRO min 21 capacity tgt 34 act 34 cov 7/8 vy 2 wk 4 up/vy/wk False True False
+  r381 t4 HHRO min 52 capacity tgt 38 act 38 cov 7/8 vy 3 wk 4 up/vy/wk True False False
+  r382 t3 B4c2_slo min 3 capacity tgt 33 act 32 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r382 t3 B4c2_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r382 t3 B4c2_slo min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+  r383 t3 B6c4_slo min 3 capacity tgt 33 act 32 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r383 t3 B6c4_slo min 4 capacity tgt 40 act 40 cov 6/8 vy 2 wk 4 up/vy/wk True True False
+  r383 t3 B6c4_slo min 5 capacity tgt 36 act 36 cov 6/8 vy 3 wk 4 up/vy/wk True False False
+== C
+{'trace': 't6', 'arm': 'S4a', 'n': 3, 'runs': ['r402', 'r414', 'r419'], 'burned': 687.0, 'burned_runs': [689, 683, 689], 'burned_wk': 483.3, 'burned_vy': 203.7, 'alloc_vm': 1435.0, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 4.33, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 6.33, 'relief_calls': 21.0}
+{'trace': 't6', 'arm': 'S4b', 'n': 3, 'runs': ['r405', 'r411', 'r416'], 'burned': 654.0, 'burned_runs': [648, 652, 662], 'burned_wk': 457.7, 'burned_vy': 196.3, 'alloc_vm': 1390.3, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 0.0, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 4.0, 'relief_calls': 21.33}
+{'trace': 't6', 'arm': 'v6', 'n': 3, 'runs': ['r403', 'r409', 'r420'], 'burned': 647.3, 'burned_runs': [638, 647, 657], 'burned_wk': 470.3, 'burned_vy': 177.0, 'alloc_vm': 1349.3, 'viol_min': 5, 'n_ops': 3, 'drain_moves': 4.0, 'relief_moves': 0.0, 'hotslot_moves': 0.67, 'drains': 3.67, 'relief_calls': 21.33}
+{'trace': 't6', 'arm': 'B4c2', 'n': 3, 'runs': ['r404', 'r410', 'r415'], 'burned': 712.7, 'burned_runs': [713, 732, 693], 'burned_wk': 504.0, 'burned_vy': 209.0, 'alloc_vm': 1455.7, 'viol_min': 5, 'n_ops': 3, 'drain_moves': 1.0, 'relief_moves': 0.0, 'hotslot_moves': 0.33, 'drains': 0.67, 'relief_calls': 22.0}
+{'trace': 't6', 'arm': 'B5c1', 'n': 3, 'runs': ['r406', 'r412', 'r417'], 'burned': 683.0, 'burned_runs': [692, 673, 684], 'burned_wk': 485.3, 'burned_vy': 197.7, 'alloc_vm': 1433.0, 'viol_min': 2, 'n_ops': 3, 'drain_moves': 1.33, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 1.67, 'relief_calls': 21.33}
+{'trace': 't6', 'arm': 'B6', 'n': 3, 'runs': ['r407', 'r413', 'r418'], 'burned': 714.7, 'burned_runs': [733, 706, 705], 'burned_wk': 513.3, 'burned_vy': 201.3, 'alloc_vm': 1447.3, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 0.0, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 0.0, 'relief_calls': 21.67}
+{'trace': 't6', 'arm': 'B1', 'n': 1, 'runs': ['r408'], 'burned': 730.0, 'burned_runs': [730], 'burned_wk': 521.0, 'burned_vy': 209.0, 'alloc_vm': 1464.0, 'viol_min': 0, 'n_ops': 1, 'drain_moves': 0.0, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 0.0, 'relief_calls': 22.0}
+{'trace': 't7', 'arm': 'S4a', 'n': 3, 'runs': ['r430', 'r442', 'r447'], 'burned': 667.7, 'burned_runs': [663, 660, 680], 'burned_wk': 470.7, 'burned_vy': 197.0, 'alloc_vm': 1427.0, 'viol_min': 1, 'n_ops': 3, 'drain_moves': 5.0, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 8.33, 'relief_calls': 21.33}
+{'trace': 't7', 'arm': 'S4b', 'n': 3, 'runs': ['r433', 'r439', 'r444'], 'burned': 644.3, 'burned_runs': [645, 640, 648], 'burned_wk': 447.3, 'burned_vy': 197.0, 'alloc_vm': 1387.3, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 3.0, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 6.33, 'relief_calls': 21.33}
+{'trace': 't7', 'arm': 'v6', 'n': 3, 'runs': ['r431', 'r437', 'r448'], 'burned': 641.7, 'burned_runs': [638, 648, 639], 'burned_wk': 463.0, 'burned_vy': 179.3, 'alloc_vm': 1353.0, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 6.0, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 5.0, 'relief_calls': 20.67}
+{'trace': 't7', 'arm': 'B4c2', 'n': 3, 'runs': ['r432', 'r438', 'r443'], 'burned': 715.7, 'burned_runs': [705, 722, 720], 'burned_wk': 521.0, 'burned_vy': 194.7, 'alloc_vm': 1440.7, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 1.67, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 1.67, 'relief_calls': 21.67}
+{'trace': 't7', 'arm': 'B5c1', 'n': 3, 'runs': ['r434', 'r440', 'r445'], 'burned': 679.7, 'burned_runs': [684, 684, 671], 'burned_wk': 496.0, 'burned_vy': 183.7, 'alloc_vm': 1413.0, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 4.67, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 2.67, 'relief_calls': 21.0}
+{'trace': 't7', 'arm': 'B6', 'n': 3, 'runs': ['r435', 'r441', 'r446'], 'burned': 711.7, 'burned_runs': [710, 719, 706], 'burned_wk': 510.0, 'burned_vy': 201.7, 'alloc_vm': 1451.0, 'viol_min': 0, 'n_ops': 3, 'drain_moves': 1.33, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 1.67, 'relief_calls': 20.33}
+{'trace': 't7', 'arm': 'B1', 'n': 1, 'runs': ['r436'], 'burned': 733.0, 'burned_runs': [733], 'burned_wk': 526.0, 'burned_vy': 207.0, 'alloc_vm': 1464.0, 'viol_min': 1, 'n_ops': 1, 'drain_moves': 0.0, 'relief_moves': 0.0, 'hotslot_moves': 0.0, 'drains': 0.0, 'relief_calls': 21.0}
+== D {
+ "v8sim10_CAL_2026-10-05.txt": {
+  "n_stamps": 6,
+  "last_s": 528
+ },
+ "v8sim10_CAL_nosensor_2026-10-10.txt": {
+  "n_stamps": 6,
+  "last_s": 1233
+ },
+ "v8sim10_FULL_2026-10-06.txt": {
+  "n_stamps": 30,
+  "last_s": 5091
+ },
+ "FULL_part_a_6split_s": 4442,
+ "abl_header": "nproc 2, pid 163667, affinity [13, 14], lib 1615, targets (0.02, 0.005), seeds [0, 1, 2, 3, 4, 5], cal 300, grid 6×7 (1-D [1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5]), refine ±0.25",
+ "abl_done": "total 2.55 h → /home/user/experiment/qsim/abl/ablation_table.md",
+ "abl_e_split_s": [
+  148,
+  153,
+  146,
+  148,
+  147,
+  146,
+  146,
+  146,
+  146,
+  146,
+  147,
+  147
+ ],
+ "r62cf_phase_s": {
+  "B4on": 1356,
+  "B5on": 1604,
+  "B6b6": 620,
+  "B4off": 1395,
+  "B5off": 1728,
+  "Son": 794,
+  "B6on": 841,
+  "B6off": 656,
+  "Soff": 546
+ },
+ "r62cf_total_s": 9540
+}
+v6 formal groups [('HHRO t1', 'r108'), ('HHRO t1', 'r110'), ('HHRO t1', 'r112'), ('HHRO t1', 'r114'), ('HHRO t1', 'r119'), ('HHRO t2', 'r107'), ('HHRO t2', 'r109'), ('HHRO t2', 'r115'), ('HHRO t2', 'r117'), ('HHRO t2', 'r118')] trace_v7_rN.csv N<=119: 116
+== E
+{
+ "primary": {
+  "wk": {
+   "n": 72,
+   "p50": 51.721314787864685,
+   "p90": 61.96930723190307,
+   "p95": 63.702729928493504,
+   "p99": 67.40031656980516,
+   "max": 68.54896235466003,
+   "min": 44.25811171531677,
+   "mean": 53.84005406498909
+  },
+  "up": {
+   "n": 204,
+   "p50": 30.009998440742493,
+   "p90": 78.12526478767417,
+   "p95": 121.03860547542573,
+   "p99": 150.77677404880524,
+   "max": 163.02067613601685,
+   "min": 30.00602626800537,
+   "mean": 40.5338513862853
+  },
+  "vy": {
+   "n": 76,
+   "p50": 73.72436428070068,
+   "p90": 81.46093308925629,
+   "p95": 83.47374379634857,
+   "p99": 86.36922067403793,
+   "max": 87.746328830719,
+   "min": 59.77304434776306,
+   "mean": 73.49187519362098
+  }
+ },
+ "inflight": {
+  "wk": {
+   "n": 70,
+   "p50": 119.0,
+   "p90": 149.0,
+   "p95": 149.0,
+   "p99": 149.0,
+   "max": 149.0,
+   "min": 119.0,
+   "mean": 125.78571428571429
+  },
+  "up": {
+   "n": 198,
+   "p50": 30.0,
+   "p90": 59.0,
+   "p95": 60.0,
+   "p99": 60.0,
+   "max": 60.0,
+   "min": 28.0,
+   "mean": 40.31818181818182
+  },
+  "vy": {
+   "n": 76,
+   "p50": 120.0,
+   "p90": 179.0,
+   "p95": 180.0,
+   "p99": 180.0,
+   "max": 180.0,
+   "min": 89.0,
+   "mean": 136.01315789473685
+  }
+ }
+}
+== F4
+t3 {'minutes': 1140, 'p99_gt_1000': 54, 'viol_p99_only_all': 4, 'p99_900_1100': 1, 'p99_900_1000': 1, 'p99_900_1000_pass': 1}
+t4 {'minutes': 1200, 'p99_gt_1000': 18, 'viol_p99_only_all': 1}
+t5 {'minutes': 420}
+t6 {'minutes': 1140, 'p99_gt_1000': 2}
+t7 {'minutes': 1140}
+all {'minutes': 5040, 'p99_gt_1000': 74, 'viol_p99_only_all': 5, 'p99_900_1100': 1, 'p99_900_1000': 1, 'p99_900_1000_pass': 1}

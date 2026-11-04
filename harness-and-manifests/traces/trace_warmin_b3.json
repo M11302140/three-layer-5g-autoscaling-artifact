@@ -1,0 +1,1 @@
+{"pps_per_ue": 125000, "max_ue": 40, "ue": [6, 10, 14, 18, 22, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25, 25], "phases": [{"name": "warm-in", "start": 0, "end": 20}], "source": {"note": "09-27 B3(HPA-only)trace 2 warm-in:從峰值艦隊 8 槽/4 worker/3 VyOS 向下收斂(HPA 300 s 穩定窗 → 6 槽;idle worker 回收 → 3 worker);從 base 向上收斂會在斜坡上反應式熔毀(40-55% 損失 8 分鐘 → phantom session → 黑 UE 卡收斂閘)"}}

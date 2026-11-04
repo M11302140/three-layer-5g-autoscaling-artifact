@@ -1,0 +1,30 @@
+{
+ "stage": "P0",
+ "verdict": "PASS (P5 budget does not fit: full-baseline campaign commitment stopped, protocol choice pending user)",
+ "time": "2026-10-26 07:38:47",
+ "conditions": {
+  "1_sources_found": {
+   "status": "PASS",
+   "detail": "Go toolchain provided by the user (/home/user/sdk/go1.26, go1.26.4); remaining limits recorded: per-UE agent moves not archived per run (P1 uses prom upf_sessions 15 s), B2+E/B3+E manifests to be added in P4"
+  },
+  "2_frozen_and_compat": {
+   "status": "PASS",
+   "detail": "frozen sha256 = HEAD; Python reproduction exact; Go TestDecisionEquivalenceDump in worktree s7r@1bd509b vs frozen nest2: EQUIV GATE PASS (48 scenarios, rule of p2/equiv_gate.sh), out/P0/go_equiv_compare.txt"
+  },
+  "3_disjoint": {
+   "status": "PASS",
+   "detail": "out/P0/splits_check.txt: per fold fit/cal/val pairwise disjoint by (loc,date), outer == frozen grouped_split, dev loc-days not in library; sealed dates 2026-10-26..27 disjoint from library and dev"
+  },
+  "4_resources": {
+   "status": "PASS",
+   "detail": "repo_map.json resources; run p50 106.8 / p90 112.0 min (last 20 ok runs); probes ~14.5 min"
+  },
+  "5_budget_account": {
+   "status": "PASS (account produced) / DOES NOT FIT",
+   "detail": "out/P0/budget.json: 106.1 h at mean (111.1 h at p90) vs 96 h window -> full-baseline campaign commitment stopped per §12; needs user decision"
+  }
+ },
+ "next_stage_allowed": true,
+ "independent_review": "not yet independently reviewed",
+ "time_update": "2026-10-26 07:43:40"
+}

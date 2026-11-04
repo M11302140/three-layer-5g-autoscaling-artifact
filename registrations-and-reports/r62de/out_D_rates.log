@@ -1,0 +1,59 @@
+[2026-10-21 01:47:55] [D_rates] start: lib /home/user/experiment/qsim/prior_traces.json n 1615 groups 125 h {'up': 30, 'vy': 150, 'wk': 120} win {'up': 60, 'vy': 180, 'wk': 180} d {'up': 150, 'vy': 60, 'wk': 90} rates True refine True; pid 2173983 affinity [13, 14]
+[2026-10-21 01:48:10] [D_rates]     point 1.0/1.5: 15s
+[2026-10-21 01:48:26] [D_rates]     point 1.0/2.0: 15s
+[2026-10-21 01:48:41] [D_rates]     point 1.0/2.5: 16s
+[2026-10-21 01:48:57] [D_rates]     point 1.0/3.0: 16s
+[2026-10-21 01:49:09] [D_rates]     point 1.0/3.5: 13s
+[2026-10-21 01:49:18] [D_rates]     point 1.0/4.0: 8s
+[2026-10-21 01:49:26] [D_rates]     point 1.0/4.5: 8s
+[2026-10-21 01:49:34] [D_rates]     point 1.5/1.5: 8s
+[2026-10-21 01:49:42] [D_rates]     point 1.5/2.0: 8s
+[2026-10-21 01:49:52] [D_rates]     point 1.5/2.5: 10s
+[2026-10-21 01:50:00] [D_rates]     point 1.5/3.0: 8s
+[2026-10-21 01:50:10] [D_rates]     point 1.5/3.5: 10s
+[2026-10-21 01:50:26] [D_rates]     point 1.5/4.0: 16s
+[2026-10-21 01:50:40] [D_rates]     point 1.5/4.5: 14s
+[2026-10-21 01:50:56] [D_rates]     point 2.0/1.5: 15s
+[2026-10-21 01:51:11] [D_rates]     point 2.0/2.0: 15s
+[2026-10-21 01:51:27] [D_rates]     point 2.0/2.5: 16s
+[2026-10-21 01:51:42] [D_rates]     point 2.0/3.0: 16s
+[2026-10-21 01:51:58] [D_rates]     point 2.0/3.5: 15s
+[2026-10-21 01:52:11] [D_rates]     point 2.0/4.0: 13s
+[2026-10-21 01:52:19] [D_rates]     point 2.0/4.5: 8s
+[2026-10-21 01:52:27] [D_rates]     point 2.5/1.5: 8s
+[2026-10-21 01:52:40] [D_rates]     point 2.5/2.0: 13s
+[2026-10-21 01:52:56] [D_rates]     point 2.5/2.5: 16s
+[2026-10-21 01:53:09] [D_rates]     point 2.5/3.0: 13s
+[2026-10-21 01:53:24] [D_rates]     point 2.5/3.5: 14s
+[2026-10-21 01:53:32] [D_rates]     point 2.5/4.0: 9s
+[2026-10-21 01:53:41] [D_rates]     point 2.5/4.5: 8s
+[2026-10-21 01:53:49] [D_rates]     point 3.0/1.5: 8s
+[2026-10-21 01:53:57] [D_rates]     point 3.0/2.0: 8s
+[2026-10-21 01:54:05] [D_rates]     point 3.0/2.5: 8s
+[2026-10-21 01:54:13] [D_rates]     point 3.0/3.0: 8s
+[2026-10-21 01:54:21] [D_rates]     point 3.0/3.5: 8s
+[2026-10-21 01:54:35] [D_rates]     point 3.0/4.0: 14s
+[2026-10-21 01:54:49] [D_rates]     point 3.0/4.5: 15s
+[2026-10-21 01:55:05] [D_rates]     point 3.5/1.5: 15s
+[2026-10-21 01:55:20] [D_rates]     point 3.5/2.0: 16s
+[2026-10-21 01:55:36] [D_rates]     point 3.5/2.5: 16s
+[2026-10-21 01:55:45] [D_rates]     point 3.5/3.0: 9s
+[2026-10-21 01:55:57] [D_rates]     point 3.5/3.5: 12s
+[2026-10-21 01:56:13] [D_rates]     point 3.5/4.0: 16s
+[2026-10-21 01:56:28] [D_rates]     point 3.5/4.5: 16s
+[2026-10-21 01:56:28] [D_rates] coarse grid done: 520s
+[2026-10-21 01:56:56] [D_rates]   target 0.02 split0: λ 3.25/3.75 cal 0.0198 alloc 1356.9 | ho n 638 risk 0.0179 alloc_vm 1371.4 (disp 1375.1)
+[2026-10-21 01:57:12] [D_rates]   target 0.02 split1: λ 3.25/3.25 cal 0.0183 alloc 1368.0 | ho n 630 risk 0.0224 alloc_vm 1351.4 (disp 1355.8)
+[2026-10-21 01:57:22] [D_rates]   target 0.02 split2: λ 3.0/3.0 cal 0.0195 alloc 1337.8 | ho n 645 risk 0.0226 alloc_vm 1336.0 (disp 1341.5)
+[2026-10-21 01:57:42] [D_rates]   target 0.02 split3: λ 3.5/3.5 cal 0.0199 alloc 1365.3 | ho n 634 risk 0.0205 alloc_vm 1359.8 (disp 1363.9)
+[2026-10-21 01:58:09] [D_rates]   target 0.02 split4: λ 2.75/3.25 cal 0.0196 alloc 1362.0 | ho n 629 risk 0.0229 alloc_vm 1340.3 (disp 1345.7)
+[2026-10-21 01:58:25] [D_rates]   target 0.02 split5: λ 2.5/3.5 cal 0.0200 alloc 1348.8 | ho n 639 risk 0.0206 alloc_vm 1348.6 (disp 1353.6)
+[2026-10-21 01:58:25] [D_rates]   target 0.005 split0: INFEASIBLE (min cal risk 0.0188 at (3.5, 4.5))
+[2026-10-21 01:58:25] [D_rates]   target 0.005 split1: INFEASIBLE (min cal risk 0.0157 at (3.5, 4.5))
+[2026-10-21 01:58:25] [D_rates]   target 0.005 split2: INFEASIBLE (min cal risk 0.0156 at (3.5, 4.5))
+[2026-10-21 01:58:25] [D_rates]   target 0.005 split3: INFEASIBLE (min cal risk 0.0184 at (3.5, 4.5))
+[2026-10-21 01:58:25] [D_rates]   target 0.005 split4: INFEASIBLE (min cal risk 0.0159 at (3.5, 4.5))
+[2026-10-21 01:58:25] [D_rates]   target 0.005 split5: INFEASIBLE (min cal risk 0.0162 at (3.5, 4.5))
+[2026-10-21 01:58:25] [D_rates] SUMMARY target 0.02: λ 3.04±0.34/3.38±0.24 cal 0.0195 ho risk 0.0212±0.0017 alloc_vm 1351.3±11.8 (disp 1355.9) n 6 infeasible 0
+[2026-10-21 01:58:25] [D_rates] SUMMARY target 0.005: all splits infeasible
+[2026-10-21 01:58:25] [D_rates] DONE 637s (sim 629s, 82340 trace-sims) libstats {'n': 1615, 'groups': 125, 'rise1': [7.0, 9.0, 14.0], 'rise10': [11.0, 16.0, 23.0]}

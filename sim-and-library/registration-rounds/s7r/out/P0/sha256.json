@@ -1,0 +1,17 @@
+{
+ "out/P0/REPORT.md": "3ebd2496b3a9153d18b8fc3250f1550b55c5d7e3972884586bc262735196e695",
+ "out/P0/budget.json": "0a82da60fe009f99f0973ff4c5ab70cbae88ed4d14ded19afc6af8f6393a1981",
+ "out/P0/daemon_git_status.txt": "f65e28654decf5d3133194574e947d6ff5646eb13d36074db8ca839424d3dc3a",
+ "out/P0/frozen_sha256.txt": "0f15a32beee374afd9ede96fd337659c8c2406595188e62e9a6c1849e2ad253d",
+ "out/P0/gate.json": "fb01c396bbcd8706c24b13a132ac7c9663fc872642dc0328963fa6d13c9700f3",
+ "out/P0/go_equiv_compare.txt": "c3e596bc82b2356673a683d18f02ebc429bfd2e2d87fa302c5b08d286f39e61a",
+ "out/P0/home_git_status.txt": "19b803c361a6a9b26b152c31a27eb4aff87e5fa2fc061fecbb3f338cbcc01084",
+ "out/P0/reproduce_t8.txt": "5f2ef05cd14ae86e6a30d53ac5744ca8225cd8ba31184ae93573f125df7f5078",
+ "out/P0/sha256.json": "39c55218e640f0f8eec74fb5b21e3fd70242dae0b2856df7f4a3a0aba43157dc",
+ "out/P0/splits.json": "461bc225f7731e0c0b20333fee661f934a42938452ec419de1301f016a8e8827",
+ "out/P0/splits_check.txt": "baa58870349288b0bf958d95f7de755648650235a2253622fd3e2b2372b5d9ed",
+ "repo_map.json": "d491ae30b00d36c5a6a3e38a48ce3688a725f7be07fc138fa42cb1031c2fc475",
+ "protocol.json": "18de0b42332c548ab3c4c67aa688b80c7ddc2cec29f2e06fc4f88abbc8f181b2",
+ "splits.py": "30c0eb6daa1c6223dc70af7d74d7c42b60c305cd9176548b3b92bb9097b82845",
+ "go_equiv_compare.py": "0d449712339a1d853c3a24e8b89fad24550d9ed214a3cca975eb03a3b1465663"
+}

@@ -1,0 +1,5 @@
+(1) sim_s7 (rules off) vs v8sim10.sim_nest2: 120 cases -> IDENTICAL
+(2) CtlS7 (rules off) vs v8sim11.run('S'): 12 cases -> IDENTICAL
+(3) traces changed (of 20): R1 B=5 3, R2 w=1600 19; per-slot B=5,w=100 (of 6) 2
+sanity: P(R_up>2 | D=20) 0.290, P(R_wk>2 | D=20) 0.412, E_T(D=20,h=2) 426s, E_T(D=20,h=10) 1208s
+
